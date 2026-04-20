@@ -1,0 +1,1877 @@
+Fetching 122639: Parag Parikh Flexi Cap Fund...
+  ok NAV:91.99 1Y:7.0 3Y:18.9 cons:98
+Fetching 118955: HDFC Flexi Cap Fund...
+  ok NAV:2191.73 1Y:6.4 3Y:21.5 cons:91
+Fetching 118825: Mirae Asset Large Cap Fund...
+  ok NAV:125.24 1Y:4.8 3Y:13.4 cons:94
+Fetching 118778: Nippon India Small Cap Fund...
+  ok NAV:188.77 1Y:9.6 3Y:22.2 cons:90
+Fetching 120828: quant Small Cap Fund...
+  ok NAV:271.90 1Y:6.3 3Y:21.4 cons:72
+Fetching 125497: SBI Small Cap Fund...
+  ok NAV:190.52 1Y:3.8 3Y:15.3 cons:91
+Fetching 127042: Motilal Oswal Midcap Fund...
+  ok NAV:106.89 1Y:2.9 3Y:23.5 cons:82
+Fetching 120377: ICICI Prudential Balanced Advantage Fund...
+  ok NAV:86.35 1Y:9.6 3Y:13.9 cons:93
+Fetching 120716: UTI Nifty 50 Index Fund...
+  ok NAV:170.23 1Y:3.1 3Y:12.4 cons:88
+Fetching 135781: Mirae Asset ELSS Tax Saver Fund...
+  ok NAV:55.48 1Y:9.1 3Y:17.7 cons:93
+Fetching 120503: Axis ELSS Tax Saver Fund...
+  ok NAV:105.98 1Y:2.3 3Y:14.7 cons:89
+Fetching 150346: WhiteOak Capital Flexi Cap Fund...
+  ok NAV:17.98 1Y:7.4 3Y:20.5 cons:100
+Fetching 120348: Invesco India Contra Fund...
+  ok NAV:153.55 1Y:4.0 3Y:20.3 cons:96
+Fetching 119581: Sundaram Mid Cap Fund...
+  ok NAV:1559.26 1Y:14.5 3Y:25.7 cons:81
+Fetching 148595: DSP Value Fund...
+  ok NAV:24.05 1Y:17.9 3Y:20.5 cons:100
+Fetching 118617: Edelweiss Large Cap Fund...
+  ok NAV:95.79 1Y:5.0 3Y:15.5 cons:91
+Fetching 135800: Tata Digital India Fund...
+  ok NAV:48.33 1Y:-1.5 3Y:12.5 cons:98
+Fetching 129220: L&T Emerging Businesses Fund...
+  ok NAV:51.22 1Y:7.6 3Y:29.4 cons:74
+Fetching 119062: HDFC Hybrid Equity Fund...
+  ok NAV:124.02 1Y:1.1 3Y:10.6 cons:78
+Fetching 118989: HDFC Mid-Cap Opportunities Fund...
+  ok NAV:220.06 1Y:15.0 3Y:25.3 cons:88
+Fetching 133839: PGIM India Flexi Cap Fund...
+  ok NAV:41.72 1Y:5.5 3Y:14.2 cons:92
+[
+  {
+    "id": "122639",
+    "name": "Parag Parikh Flexi Cap Fund",
+    "amc": "PPFAS",
+    "category": "Flexi Cap",
+    "aum_cr": 78420,
+    "expense_ratio": 0.63,
+    "inception_date": "2013-05-28",
+    "nav": 91.99,
+    "returns": {
+      "1y": 7.0,
+      "3y": 18.9,
+      "5y": 17.4
+    },
+    "category_avg_returns": {
+      "1y": 11.0,
+      "3y": 15.3,
+      "5y": 17.8
+    },
+    "rolling_consistency_3y_pct": 98,
+    "max_drawdown_5y_pct": -17.9,
+    "recovery_months": 10,
+    "manager": {
+      "name": "Rajeev Thakkar",
+      "tenure_years": 11.5,
+      "funds_managed": 4,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Rajeev Thakkar",
+        "tenure_years": 11.5,
+        "funds_managed": 4,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Flexi Cap",
+      "actual": "Quality-Value",
+      "r_squared": 0.78,
+      "match": "moderate",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 48.2,
+      "num_stocks": 31,
+      "top_sector_pct": 28.4
+    },
+    "nav_history_3y": [
+      58.34,
+      59.63,
+      61.6,
+      61.32,
+      62.84,
+      62.81,
+      67.01,
+      70.24,
+      71.97,
+      74.79,
+      74.87,
+      76.96,
+      77.77,
+      81.94,
+      84.9,
+      85.89,
+      88.62,
+      85.98,
+      86.76,
+      87.67,
+      87.43,
+      83.49,
+      85.84,
+      87.41,
+      89.78,
+      92.9,
+      92.16,
+      91.07,
+      92.1,
+      94.41,
+      95.0,
+      95.17,
+      93.52,
+      91.95,
+      85.68,
+      91.99
+    ]
+  },
+  {
+    "id": "118955",
+    "name": "HDFC Flexi Cap Fund",
+    "amc": "HDFC",
+    "category": "Flexi Cap",
+    "aum_cr": 64210,
+    "expense_ratio": 0.78,
+    "inception_date": "2013-01-01",
+    "nav": 2191.73,
+    "returns": {
+      "1y": 6.4,
+      "3y": 21.5,
+      "5y": 21.2
+    },
+    "category_avg_returns": {
+      "1y": 11.0,
+      "3y": 15.3,
+      "5y": 17.8
+    },
+    "rolling_consistency_3y_pct": 91,
+    "max_drawdown_5y_pct": -13.3,
+    "recovery_months": 1,
+    "manager": {
+      "name": "Roshi Jain",
+      "tenure_years": 3.2,
+      "funds_managed": 2,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Roshi Jain",
+        "tenure_years": 3.2,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Flexi Cap",
+      "actual": "Value",
+      "r_squared": 0.88,
+      "match": "strict",
+      "basis": "Value"
+    },
+    "concentration": {
+      "top_10_pct": 52.4,
+      "num_stocks": 48,
+      "top_sector_pct": 32.1
+    },
+    "nav_history_3y": [
+      1289.45,
+      1353.1,
+      1413.56,
+      1414.92,
+      1442.5,
+      1409.17,
+      1514.03,
+      1629.7,
+      1667.19,
+      1718.93,
+      1740.46,
+      1798.29,
+      1837.41,
+      1958.08,
+      2023.96,
+      2059.76,
+      2121.39,
+      2043.15,
+      2051.04,
+      2026.15,
+      1977.71,
+      1891.69,
+      2014.47,
+      2097.09,
+      2125.73,
+      2184.46,
+      2153.32,
+      2155.55,
+      2192.76,
+      2266.13,
+      2278.25,
+      2272.57,
+      2243.71,
+      2261.53,
+      1996.49,
+      2191.73
+    ]
+  },
+  {
+    "id": "118825",
+    "name": "Mirae Asset Large Cap Fund",
+    "amc": "Mirae Asset",
+    "category": "Large Cap",
+    "aum_cr": 38950,
+    "expense_ratio": 0.54,
+    "inception_date": "2013-01-02",
+    "nav": 125.24,
+    "returns": {
+      "1y": 4.8,
+      "3y": 13.4,
+      "5y": 12.4
+    },
+    "category_avg_returns": {
+      "1y": 10.8,
+      "3y": 13.1,
+      "5y": 14.9
+    },
+    "rolling_consistency_3y_pct": 94,
+    "max_drawdown_5y_pct": -17.4,
+    "recovery_months": 5,
+    "manager": {
+      "name": "Gaurav Khandelwal",
+      "tenure_years": 2.1,
+      "funds_managed": 3,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Gaurav Khandelwal",
+        "tenure_years": 2.1,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Large Cap",
+      "actual": "Blend",
+      "r_squared": 0.91,
+      "match": "strict",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 54.1,
+      "num_stocks": 62,
+      "top_sector_pct": 29.8
+    },
+    "nav_history_3y": [
+      90.08,
+      93.77,
+      96.48,
+      95.73,
+      97.24,
+      93.99,
+      99.36,
+      105.33,
+      105.69,
+      106.18,
+      107.34,
+      109.97,
+      110.33,
+      118.42,
+      124.17,
+      125.9,
+      129.11,
+      121.08,
+      122.0,
+      119.86,
+      117.2,
+      110.23,
+      117.61,
+      121.31,
+      124.7,
+      128.49,
+      126.54,
+      125.23,
+      125.97,
+      131.02,
+      133.57,
+      133.38,
+      128.68,
+      128.43,
+      113.12,
+      125.24
+    ]
+  },
+  {
+    "id": "118778",
+    "name": "Nippon India Small Cap Fund",
+    "amc": "Nippon India",
+    "category": "Small Cap",
+    "aum_cr": 52180,
+    "expense_ratio": 0.73,
+    "inception_date": "2013-01-02",
+    "nav": 188.77,
+    "returns": {
+      "1y": 9.6,
+      "3y": 22.2,
+      "5y": 23.9
+    },
+    "category_avg_returns": {
+      "1y": 19.4,
+      "3y": 22.8,
+      "5y": 25.1
+    },
+    "rolling_consistency_3y_pct": 90,
+    "max_drawdown_5y_pct": -24.2,
+    "recovery_months": 13,
+    "manager": {
+      "name": "Samir Rachh",
+      "tenure_years": 8.7,
+      "funds_managed": 2,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Samir Rachh",
+        "tenure_years": 8.7,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Growth",
+      "r_squared": 0.87,
+      "match": "strict",
+      "basis": "Growth"
+    },
+    "concentration": {
+      "top_10_pct": 22.4,
+      "num_stocks": 142,
+      "top_sector_pct": 19.6
+    },
+    "nav_history_3y": [
+      112.62,
+      120.17,
+      127.65,
+      133.78,
+      135.52,
+      133.78,
+      145.07,
+      153.36,
+      159.03,
+      158.04,
+      156.68,
+      171.3,
+      173.58,
+      188.63,
+      200.26,
+      200.43,
+      202.86,
+      196.92,
+      196.33,
+      194.86,
+      176.9,
+      155.84,
+      167.53,
+      172.75,
+      185.63,
+      194.16,
+      189.88,
+      184.38,
+      186.05,
+      192.23,
+      189.33,
+      187.02,
+      179.18,
+      182.55,
+      165.18,
+      188.77
+    ]
+  },
+  {
+    "id": "120828",
+    "name": "quant Small Cap Fund",
+    "amc": "Quant",
+    "category": "Small Cap",
+    "aum_cr": 21430,
+    "expense_ratio": 0.68,
+    "inception_date": "2013-01-07",
+    "nav": 271.9,
+    "returns": {
+      "1y": 6.3,
+      "3y": 21.4,
+      "5y": 24.1
+    },
+    "category_avg_returns": {
+      "1y": 19.4,
+      "3y": 22.8,
+      "5y": 25.1
+    },
+    "rolling_consistency_3y_pct": 72,
+    "max_drawdown_5y_pct": -25.2,
+    "recovery_months": 5,
+    "manager": {
+      "name": "Ankit Pande",
+      "tenure_years": 4.3,
+      "funds_managed": 6,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Ankit Pande",
+        "tenure_years": 4.3,
+        "funds_managed": 6,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Momentum",
+      "r_squared": 0.58,
+      "match": "drifted",
+      "basis": "Momentum"
+    },
+    "concentration": {
+      "top_10_pct": 38.7,
+      "num_stocks": 78,
+      "top_sector_pct": 24.3
+    },
+    "nav_history_3y": [
+      162.39,
+      171.13,
+      185.51,
+      193.21,
+      195.98,
+      190.32,
+      210.33,
+      227.2,
+      252.39,
+      254.02,
+      246.61,
+      271.11,
+      270.03,
+      286.64,
+      298.31,
+      300.15,
+      304.48,
+      291.61,
+      291.98,
+      280.59,
+      260.34,
+      232.73,
+      248.44,
+      256.44,
+      272.58,
+      283.82,
+      278.83,
+      268.99,
+      272.46,
+      284.12,
+      280.15,
+      276.77,
+      256.28,
+      258.43,
+      239.93,
+      271.9
+    ]
+  },
+  {
+    "id": "125497",
+    "name": "SBI Small Cap Fund",
+    "amc": "SBI",
+    "category": "Small Cap",
+    "aum_cr": 28740,
+    "expense_ratio": 0.71,
+    "inception_date": "2013-11-18",
+    "nav": 190.52,
+    "returns": {
+      "1y": 3.8,
+      "3y": 15.3,
+      "5y": 16.9
+    },
+    "category_avg_returns": {
+      "1y": 19.4,
+      "3y": 22.8,
+      "5y": 25.1
+    },
+    "rolling_consistency_3y_pct": 91,
+    "max_drawdown_5y_pct": -22.4,
+    "recovery_months": 13,
+    "manager": {
+      "name": "R. Srinivasan",
+      "tenure_years": 9.2,
+      "funds_managed": 3,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "R. Srinivasan",
+        "tenure_years": 9.2,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Quality",
+      "r_squared": 0.79,
+      "match": "moderate",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 34.2,
+      "num_stocks": 56,
+      "top_sector_pct": 22.7
+    },
+    "nav_history_3y": [
+      132.29,
+      138.09,
+      146.16,
+      150.23,
+      151.25,
+      147.56,
+      157.43,
+      161.24,
+      167.09,
+      169.96,
+      167.81,
+      181.43,
+      183.56,
+      197.88,
+      208.44,
+      208.42,
+      213.85,
+      204.71,
+      203.23,
+      202.03,
+      185.89,
+      167.28,
+      178.56,
+      181.85,
+      192.68,
+      200.32,
+      197.49,
+      193.75,
+      193.88,
+      199.82,
+      194.98,
+      193.77,
+      183.3,
+      184.76,
+      169.37,
+      190.52
+    ]
+  },
+  {
+    "id": "127042",
+    "name": "Motilal Oswal Midcap Fund",
+    "amc": "Motilal Oswal",
+    "category": "Mid Cap",
+    "aum_cr": 18960,
+    "expense_ratio": 0.72,
+    "inception_date": "2014-02-25",
+    "nav": 106.89,
+    "returns": {
+      "1y": 2.9,
+      "3y": 23.5,
+      "5y": 25.2
+    },
+    "category_avg_returns": {
+      "1y": 16.2,
+      "3y": 19.4,
+      "5y": 22.1
+    },
+    "rolling_consistency_3y_pct": 82,
+    "max_drawdown_5y_pct": -28.9,
+    "recovery_months": 1,
+    "manager": {
+      "name": "Niket Shah",
+      "tenure_years": 3.8,
+      "funds_managed": 3,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Niket Shah",
+        "tenure_years": 3.8,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Quality-Growth",
+      "r_squared": 0.83,
+      "match": "moderate",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 58.4,
+      "num_stocks": 26,
+      "top_sector_pct": 31.2
+    },
+    "nav_history_3y": [
+      62.56,
+      65.28,
+      66.43,
+      70.2,
+      70.37,
+      69.75,
+      76.3,
+      80.75,
+      83.6,
+      86.61,
+      89.54,
+      93.84,
+      94.34,
+      108.31,
+      113.85,
+      115.78,
+      122.24,
+      117.15,
+      123.46,
+      128.27,
+      109.65,
+      101.21,
+      105.8,
+      108.16,
+      114.07,
+      119.8,
+      116.79,
+      116.93,
+      113.28,
+      119.45,
+      118.86,
+      113.7,
+      105.87,
+      102.5,
+      92.96,
+      106.89
+    ]
+  },
+  {
+    "id": "120377",
+    "name": "ICICI Prudential Balanced Advantage Fund",
+    "amc": "ICICI Prudential",
+    "category": "Hybrid",
+    "aum_cr": 58420,
+    "expense_ratio": 0.88,
+    "inception_date": "2013-01-02",
+    "nav": 86.35,
+    "returns": {
+      "1y": 9.6,
+      "3y": 13.9,
+      "5y": 12.5
+    },
+    "category_avg_returns": {
+      "1y": 9.8,
+      "3y": 11.4,
+      "5y": 12.6
+    },
+    "rolling_consistency_3y_pct": 93,
+    "max_drawdown_5y_pct": -8.2,
+    "recovery_months": 1,
+    "manager": {
+      "name": "Sankaran Naren",
+      "tenure_years": 7.8,
+      "funds_managed": 6,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Sankaran Naren",
+        "tenure_years": 7.8,
+        "funds_managed": 6,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Ihab Dalwai",
+        "tenure_years": 5.2,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Hybrid",
+      "actual": "Dynamic Asset",
+      "r_squared": 0.84,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 38.4,
+      "num_stocks": 84,
+      "top_sector_pct": 24.1
+    },
+    "nav_history_3y": [
+      60.0,
+      61.27,
+      62.49,
+      62.76,
+      63.71,
+      63.43,
+      65.77,
+      68.08,
+      68.92,
+      70.29,
+      71.34,
+      72.06,
+      72.29,
+      74.69,
+      77.1,
+      78.18,
+      79.32,
+      77.24,
+      77.16,
+      76.92,
+      76.78,
+      74.67,
+      77.24,
+      79.69,
+      81.14,
+      82.78,
+      82.2,
+      82.69,
+      83.46,
+      85.29,
+      86.44,
+      86.82,
+      85.77,
+      86.18,
+      80.41,
+      86.35
+    ]
+  },
+  {
+    "id": "120716",
+    "name": "UTI Nifty 50 Index Fund",
+    "amc": "UTI",
+    "category": "Index",
+    "aum_cr": 19840,
+    "expense_ratio": 0.2,
+    "inception_date": "2013-01-02",
+    "nav": 170.23,
+    "returns": {
+      "1y": 3.1,
+      "3y": 12.4,
+      "5y": 11.8
+    },
+    "category_avg_returns": {
+      "1y": 11.0,
+      "3y": 13.2,
+      "5y": 14.8
+    },
+    "rolling_consistency_3y_pct": 88,
+    "max_drawdown_5y_pct": -16.6,
+    "recovery_months": 5,
+    "manager": {
+      "name": "Sharwan Kumar Goyal",
+      "tenure_years": 6.4,
+      "funds_managed": 8,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Sharwan Kumar Goyal",
+        "tenure_years": 6.4,
+        "funds_managed": 8,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Index",
+      "actual": "Index",
+      "r_squared": 0.99,
+      "match": "strict",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 58.2,
+      "num_stocks": 50,
+      "top_sector_pct": 35.4
+    },
+    "nav_history_3y": [
+      126.3,
+      130.93,
+      134.92,
+      131.8,
+      134.4,
+      130.68,
+      137.96,
+      148.88,
+      148.88,
+      150.82,
+      153.14,
+      155.02,
+      155.03,
+      165.45,
+      172.01,
+      174.31,
+      178.25,
+      167.31,
+      166.85,
+      163.46,
+      162.7,
+      153.28,
+      162.91,
+      168.56,
+      171.77,
+      177.51,
+      172.58,
+      170.47,
+      171.75,
+      179.65,
+      183.09,
+      182.55,
+      176.97,
+      176.04,
+      156.12,
+      170.23
+    ]
+  },
+  {
+    "id": "135781",
+    "name": "Mirae Asset ELSS Tax Saver Fund",
+    "amc": "Mirae Asset",
+    "category": "ELSS",
+    "aum_cr": 24680,
+    "expense_ratio": 0.58,
+    "inception_date": "2015-12-29",
+    "nav": 55.48,
+    "returns": {
+      "1y": 9.1,
+      "3y": 17.7,
+      "5y": 15.3
+    },
+    "category_avg_returns": {
+      "1y": 13.2,
+      "3y": 16.1,
+      "5y": 18.4
+    },
+    "rolling_consistency_3y_pct": 93,
+    "max_drawdown_5y_pct": -17.9,
+    "recovery_months": 11,
+    "manager": {
+      "name": "Neelesh Surana",
+      "tenure_years": 10.3,
+      "funds_managed": 5,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Neelesh Surana",
+        "tenure_years": 10.3,
+        "funds_managed": 5,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "ELSS",
+      "actual": "Blend",
+      "r_squared": 0.89,
+      "match": "strict",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 41.2,
+      "num_stocks": 72,
+      "top_sector_pct": 26.4
+    },
+    "nav_history_3y": [
+      35.95,
+      37.57,
+      39.2,
+      39.38,
+      39.9,
+      38.56,
+      41.14,
+      44.35,
+      45.1,
+      45.64,
+      45.61,
+      47.7,
+      47.95,
+      51.52,
+      54.19,
+      55.04,
+      55.83,
+      52.5,
+      53.22,
+      52.51,
+      50.23,
+      46.79,
+      50.0,
+      51.87,
+      53.76,
+      55.95,
+      55.1,
+      54.05,
+      54.9,
+      57.55,
+      58.13,
+      58.14,
+      56.12,
+      56.49,
+      49.63,
+      55.48
+    ]
+  },
+  {
+    "id": "120503",
+    "name": "Axis ELSS Tax Saver Fund",
+    "amc": "Axis",
+    "category": "ELSS",
+    "aum_cr": 34120,
+    "expense_ratio": 0.78,
+    "inception_date": "2013-01-02",
+    "nav": 105.98,
+    "returns": {
+      "1y": 2.3,
+      "3y": 14.7,
+      "5y": 9.8
+    },
+    "category_avg_returns": {
+      "1y": 13.2,
+      "3y": 16.1,
+      "5y": 18.4
+    },
+    "rolling_consistency_3y_pct": 89,
+    "max_drawdown_5y_pct": -28.0,
+    "recovery_months": 18,
+    "manager": {
+      "name": "Shreyash Devalkar",
+      "tenure_years": 2.6,
+      "funds_managed": 4,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Shreyash Devalkar",
+        "tenure_years": 2.6,
+        "funds_managed": 4,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "ELSS",
+      "actual": "Growth",
+      "r_squared": 0.72,
+      "match": "moderate",
+      "basis": "Growth"
+    },
+    "concentration": {
+      "top_10_pct": 56.7,
+      "num_stocks": 42,
+      "top_sector_pct": 33.1
+    },
+    "nav_history_3y": [
+      75.58,
+      79.08,
+      79.7,
+      78.33,
+      80.26,
+      78.79,
+      84.26,
+      88.62,
+      87.69,
+      90.0,
+      94.73,
+      96.33,
+      95.34,
+      102.62,
+      107.25,
+      108.82,
+      112.33,
+      105.22,
+      105.22,
+      104.84,
+      101.38,
+      94.95,
+      101.51,
+      104.65,
+      106.98,
+      110.68,
+      108.43,
+      107.12,
+      107.31,
+      111.09,
+      111.83,
+      110.24,
+      107.19,
+      108.93,
+      96.28,
+      105.98
+    ]
+  },
+  {
+    "id": "150346",
+    "name": "WhiteOak Capital Flexi Cap Fund",
+    "amc": "WhiteOak",
+    "category": "Flexi Cap",
+    "aum_cr": 2840,
+    "expense_ratio": 0.62,
+    "inception_date": "2022-08-03",
+    "nav": 17.98,
+    "returns": {
+      "1y": 7.4,
+      "3y": 20.5,
+      "5y": null
+    },
+    "category_avg_returns": {
+      "1y": 11.0,
+      "3y": 15.3,
+      "5y": 17.8
+    },
+    "rolling_consistency_3y_pct": 100,
+    "max_drawdown_5y_pct": -15.6,
+    "recovery_months": 4,
+    "manager": {
+      "name": "Ramesh Mantri",
+      "tenure_years": 1.7,
+      "funds_managed": 3,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Ramesh Mantri",
+        "tenure_years": 1.7,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Flexi Cap",
+      "actual": "Quality",
+      "r_squared": 0.82,
+      "match": "moderate",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 36.8,
+      "num_stocks": 62,
+      "top_sector_pct": 24.2
+    },
+    "nav_history_3y": [
+      11.08,
+      11.62,
+      12.2,
+      12.38,
+      12.51,
+      12.33,
+      13.22,
+      14.01,
+      14.15,
+      14.51,
+      14.57,
+      15.12,
+      15.15,
+      16.29,
+      16.97,
+      17.38,
+      17.98,
+      17.22,
+      17.55,
+      17.57,
+      16.58,
+      15.37,
+      16.46,
+      16.98,
+      17.64,
+      18.3,
+      17.98,
+      17.76,
+      17.89,
+      18.65,
+      18.96,
+      18.64,
+      18.08,
+      17.92,
+      16.19,
+      17.98
+    ]
+  },
+  {
+    "id": "120348",
+    "name": "Invesco India Contra Fund",
+    "amc": "Invesco",
+    "category": "Flexi Cap",
+    "aum_cr": 13420,
+    "expense_ratio": 0.64,
+    "inception_date": "2013-01-02",
+    "nav": 153.55,
+    "returns": {
+      "1y": 4.0,
+      "3y": 20.3,
+      "5y": 17.3
+    },
+    "category_avg_returns": {
+      "1y": 11.0,
+      "3y": 15.3,
+      "5y": 17.8
+    },
+    "rolling_consistency_3y_pct": 96,
+    "max_drawdown_5y_pct": -18.6,
+    "recovery_months": 14,
+    "manager": {
+      "name": "Taher Badshah",
+      "tenure_years": 6.8,
+      "funds_managed": 2,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Taher Badshah",
+        "tenure_years": 6.8,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Contra",
+      "actual": "Value",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Value"
+    },
+    "concentration": {
+      "top_10_pct": 42.4,
+      "num_stocks": 54,
+      "top_sector_pct": 26.8
+    },
+    "nav_history_3y": [
+      93.92,
+      98.09,
+      101.99,
+      103.11,
+      105.58,
+      101.92,
+      110.2,
+      118.62,
+      121.58,
+      125.05,
+      125.53,
+      132.72,
+      135.65,
+      145.32,
+      154.78,
+      158.98,
+      163.77,
+      155.38,
+      156.4,
+      156.16,
+      146.45,
+      135.1,
+      144.77,
+      149.98,
+      154.5,
+      160.54,
+      159.17,
+      155.3,
+      155.5,
+      161.69,
+      163.58,
+      162.81,
+      156.32,
+      155.84,
+      137.65,
+      153.55
+    ]
+  },
+  {
+    "id": "119581",
+    "name": "Sundaram Mid Cap Fund",
+    "amc": "Sundaram",
+    "category": "Mid Cap",
+    "aum_cr": 9240,
+    "expense_ratio": 0.91,
+    "inception_date": "2013-01-02",
+    "nav": 1559.26,
+    "returns": {
+      "1y": 14.5,
+      "3y": 25.7,
+      "5y": 21.2
+    },
+    "category_avg_returns": {
+      "1y": 16.2,
+      "3y": 19.4,
+      "5y": 22.1
+    },
+    "rolling_consistency_3y_pct": 81,
+    "max_drawdown_5y_pct": -20.7,
+    "recovery_months": 8,
+    "manager": {
+      "name": "S. Bharath",
+      "tenure_years": 0.6,
+      "funds_managed": 4,
+      "changed_last_12mo": true
+    },
+    "managers": [
+      {
+        "name": "S. Bharath",
+        "tenure_years": 0.6,
+        "funds_managed": 4,
+        "changed_last_12mo": true
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.78,
+      "match": "moderate",
+      "basis": "Growth"
+    },
+    "concentration": {
+      "top_10_pct": 34.8,
+      "num_stocks": 72,
+      "top_sector_pct": 24.6
+    },
+    "nav_history_3y": [
+      832.7,
+      884.06,
+      930.6,
+      962.67,
+      985.98,
+      958.17,
+      1053.83,
+      1126.47,
+      1159.17,
+      1180.3,
+      1186.62,
+      1245.85,
+      1283.5,
+      1383.39,
+      1465.82,
+      1499.72,
+      1552.45,
+      1470.14,
+      1477.72,
+      1499.65,
+      1382.02,
+      1240.51,
+      1345.07,
+      1386.81,
+      1465.75,
+      1520.93,
+      1499.13,
+      1486.1,
+      1494.58,
+      1572.9,
+      1582.91,
+      1574.07,
+      1527.45,
+      1561.88,
+      1392.79,
+      1559.26
+    ]
+  },
+  {
+    "id": "148595",
+    "name": "DSP Value Fund",
+    "amc": "DSP",
+    "category": "Flexi Cap",
+    "aum_cr": 1240,
+    "expense_ratio": 0.89,
+    "inception_date": "2020-12-11",
+    "nav": 24.05,
+    "returns": {
+      "1y": 17.9,
+      "3y": 20.5,
+      "5y": 16.0
+    },
+    "category_avg_returns": {
+      "1y": 11.0,
+      "3y": 15.3,
+      "5y": 17.8
+    },
+    "rolling_consistency_3y_pct": 100,
+    "max_drawdown_5y_pct": -16.5,
+    "recovery_months": 5,
+    "manager": {
+      "name": "Aparna Karnik",
+      "tenure_years": 3.1,
+      "funds_managed": 2,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Aparna Karnik",
+        "tenure_years": 3.1,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Flexi Cap",
+      "actual": "Value",
+      "r_squared": 0.91,
+      "match": "strict",
+      "basis": "Value"
+    },
+    "concentration": {
+      "top_10_pct": 46.2,
+      "num_stocks": 38,
+      "top_sector_pct": 28.9
+    },
+    "nav_history_3y": [
+      14.14,
+      14.72,
+      15.41,
+      15.36,
+      15.43,
+      15.15,
+      16.5,
+      17.5,
+      18.05,
+      18.55,
+      18.76,
+      18.89,
+      19.22,
+      20.09,
+      21.29,
+      21.87,
+      22.28,
+      21.2,
+      21.4,
+      21.32,
+      20.43,
+      20.02,
+      20.67,
+      20.81,
+      21.73,
+      22.3,
+      22.12,
+      22.1,
+      22.82,
+      23.53,
+      23.61,
+      23.96,
+      24.16,
+      24.06,
+      22.42,
+      24.05
+    ]
+  },
+  {
+    "id": "118617",
+    "name": "Edelweiss Large Cap Fund",
+    "amc": "Edelweiss",
+    "category": "Large Cap",
+    "aum_cr": 3420,
+    "expense_ratio": 0.42,
+    "inception_date": "2013-01-08",
+    "nav": 95.79,
+    "returns": {
+      "1y": 5.0,
+      "3y": 15.5,
+      "5y": 14.2
+    },
+    "category_avg_returns": {
+      "1y": 10.8,
+      "3y": 13.1,
+      "5y": 14.9
+    },
+    "rolling_consistency_3y_pct": 91,
+    "max_drawdown_5y_pct": -17.3,
+    "recovery_months": 5,
+    "manager": {
+      "name": "Trideep Bhattacharya",
+      "tenure_years": 3.4,
+      "funds_managed": 5,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Trideep Bhattacharya",
+        "tenure_years": 3.4,
+        "funds_managed": 5,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Large Cap",
+      "actual": "Blend",
+      "r_squared": 0.68,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 44.8,
+      "num_stocks": 58,
+      "top_sector_pct": 28.3
+    },
+    "nav_history_3y": [
+      65.71,
+      68.59,
+      71.03,
+      69.84,
+      71.47,
+      69.72,
+      74.03,
+      79.4,
+      80.26,
+      82.32,
+      83.91,
+      86.29,
+      86.6,
+      92.4,
+      96.51,
+      98.31,
+      100.34,
+      94.06,
+      93.37,
+      92.43,
+      90.43,
+      84.29,
+      90.17,
+      93.0,
+      95.05,
+      98.16,
+      94.96,
+      94.02,
+      95.31,
+      99.13,
+      100.69,
+      100.62,
+      98.23,
+      99.29,
+      87.82,
+      95.79
+    ]
+  },
+  {
+    "id": "135800",
+    "name": "Tata Digital India Fund",
+    "amc": "Tata",
+    "category": "Others",
+    "aum_cr": 11240,
+    "expense_ratio": 0.34,
+    "inception_date": "2015-12-29",
+    "nav": 48.33,
+    "returns": {
+      "1y": -1.5,
+      "3y": 12.5,
+      "5y": 10.8
+    },
+    "category_avg_returns": {
+      "1y": 14.2,
+      "3y": 10.8,
+      "5y": 21.2
+    },
+    "rolling_consistency_3y_pct": 98,
+    "max_drawdown_5y_pct": -33.3,
+    "recovery_months": 1,
+    "manager": {
+      "name": "Meeta Shetty",
+      "tenure_years": 4.2,
+      "funds_managed": 3,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Meeta Shetty",
+        "tenure_years": 4.2,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Sectoral",
+      "actual": "Growth",
+      "r_squared": 0.54,
+      "match": "drifted",
+      "basis": "Growth"
+    },
+    "concentration": {
+      "top_10_pct": 72.4,
+      "num_stocks": 28,
+      "top_sector_pct": 78.4
+    },
+    "nav_history_3y": [
+      37.02,
+      38.18,
+      38.91,
+      40.32,
+      41.1,
+      40.13,
+      43.72,
+      47.14,
+      48.99,
+      50.57,
+      48.44,
+      47.43,
+      46.57,
+      51.88,
+      57.48,
+      60.43,
+      59.98,
+      58.32,
+      61.79,
+      62.4,
+      59.43,
+      52.56,
+      51.9,
+      51.76,
+      54.7,
+      56.92,
+      53.52,
+      53.46,
+      52.06,
+      54.92,
+      56.31,
+      57.03,
+      55.95,
+      46.82,
+      43.87,
+      48.33
+    ]
+  },
+  {
+    "id": "129220",
+    "name": "L&T Emerging Businesses Fund",
+    "amc": "L&T",
+    "category": "Small Cap",
+    "aum_cr": 14820,
+    "expense_ratio": 0.74,
+    "inception_date": "2014-05-15",
+    "nav": 51.22,
+    "returns": {
+      "1y": 7.6,
+      "3y": 29.4,
+      "5y": 12.9
+    },
+    "category_avg_returns": {
+      "1y": 19.4,
+      "3y": 22.8,
+      "5y": 25.1
+    },
+    "rolling_consistency_3y_pct": 74,
+    "max_drawdown_5y_pct": -21.4,
+    "recovery_months": 5,
+    "manager": {
+      "name": "Venugopal Manghat",
+      "tenure_years": 7.2,
+      "funds_managed": 2,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Venugopal Manghat",
+        "tenure_years": 7.2,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.82,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 28.4,
+      "num_stocks": 112,
+      "top_sector_pct": 22.4
+    },
+    "nav_history_3y": [
+      23.91,
+      24.77,
+      22.99,
+      15.88,
+      17.69,
+      17.39,
+      19.52,
+      20.12,
+      22.32,
+      23.4,
+      23.21,
+      26.29,
+      27.91,
+      27.83,
+      31.05,
+      32.12,
+      34.2,
+      37.39,
+      39.82,
+      42.9,
+      42.95,
+      45.73,
+      45.99,
+      46.94,
+      50.05,
+      49.83,
+      45.95,
+      48.47,
+      48.44,
+      45.67,
+      44.07,
+      47.96,
+      50.48,
+      50.57,
+      51.19,
+      51.22
+    ]
+  },
+  {
+    "id": "119062",
+    "name": "HDFC Hybrid Equity Fund",
+    "amc": "HDFC",
+    "category": "Hybrid",
+    "aum_cr": 22340,
+    "expense_ratio": 0.94,
+    "inception_date": "2013-01-01",
+    "nav": 124.02,
+    "returns": {
+      "1y": 1.1,
+      "3y": 10.6,
+      "5y": 12.0
+    },
+    "category_avg_returns": {
+      "1y": 9.8,
+      "3y": 11.4,
+      "5y": 12.6
+    },
+    "rolling_consistency_3y_pct": 78,
+    "max_drawdown_5y_pct": -12.6,
+    "recovery_months": 1,
+    "manager": {
+      "name": "Chirag Setalvad",
+      "tenure_years": 12.4,
+      "funds_managed": 3,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Chirag Setalvad",
+        "tenure_years": 12.4,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Hybrid",
+      "actual": "Value",
+      "r_squared": 0.76,
+      "match": "moderate",
+      "basis": "Value"
+    },
+    "concentration": {
+      "top_10_pct": 42.8,
+      "num_stocks": 56,
+      "top_sector_pct": 27.6
+    },
+    "nav_history_3y": [
+      95.77,
+      98.74,
+      101.66,
+      100.3,
+      101.77,
+      99.31,
+      102.61,
+      108.34,
+      109.91,
+      111.21,
+      111.93,
+      114.6,
+      115.69,
+      121.14,
+      124.52,
+      125.28,
+      126.62,
+      123.18,
+      124.06,
+      123.15,
+      120.53,
+      114.54,
+      120.74,
+      124.26,
+      127.86,
+      130.32,
+      128.8,
+      126.18,
+      127.2,
+      130.86,
+      131.59,
+      131.28,
+      128.01,
+      128.45,
+      115.33,
+      124.02
+    ]
+  },
+  {
+    "id": "118989",
+    "name": "HDFC Mid-Cap Opportunities Fund",
+    "amc": "HDFC",
+    "category": "Mid Cap",
+    "aum_cr": 42180,
+    "expense_ratio": 0.67,
+    "inception_date": "2013-01-01",
+    "nav": 220.06,
+    "returns": {
+      "1y": 15.0,
+      "3y": 25.3,
+      "5y": 22.9
+    },
+    "category_avg_returns": {
+      "1y": 16.2,
+      "3y": 19.4,
+      "5y": 22.1
+    },
+    "rolling_consistency_3y_pct": 88,
+    "max_drawdown_5y_pct": -17.0,
+    "recovery_months": 2,
+    "manager": {
+      "name": "Pankaj Tibrewal",
+      "tenure_years": 0.8,
+      "funds_managed": 2,
+      "changed_last_12mo": true
+    },
+    "managers": [
+      {
+        "name": "Pankaj Tibrewal",
+        "tenure_years": 0.8,
+        "funds_managed": 2,
+        "changed_last_12mo": true
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.86,
+      "match": "strict",
+      "basis": "Growth"
+    },
+    "concentration": {
+      "top_10_pct": 29.8,
+      "num_stocks": 68,
+      "top_sector_pct": 21.4
+    },
+    "nav_history_3y": [
+      119.81,
+      129.31,
+      136.64,
+      140.43,
+      143.71,
+      140.04,
+      151.3,
+      161.48,
+      168.97,
+      171.37,
+      171.26,
+      178.67,
+      183.22,
+      196.37,
+      208.75,
+      207.47,
+      213.17,
+      204.58,
+      205.51,
+      209.08,
+      195.31,
+      178.63,
+      190.72,
+      195.45,
+      206.9,
+      216.47,
+      213.54,
+      209.34,
+      211.77,
+      221.52,
+      226.07,
+      224.75,
+      221.44,
+      223.96,
+      199.42,
+      220.06
+    ]
+  },
+  {
+    "id": "133839",
+    "name": "PGIM India Flexi Cap Fund",
+    "amc": "PGIM India",
+    "category": "Flexi Cap",
+    "aum_cr": 8640,
+    "expense_ratio": 0.42,
+    "inception_date": "2015-03-09",
+    "nav": 41.72,
+    "returns": {
+      "1y": 5.5,
+      "3y": 14.2,
+      "5y": 13.0
+    },
+    "category_avg_returns": {
+      "1y": 11.0,
+      "3y": 15.3,
+      "5y": 17.8
+    },
+    "rolling_consistency_3y_pct": 92,
+    "max_drawdown_5y_pct": -22.6,
+    "recovery_months": 12,
+    "manager": {
+      "name": "Aniruddha Naha",
+      "tenure_years": 4.1,
+      "funds_managed": 2,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Aniruddha Naha",
+        "tenure_years": 4.1,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Flexi Cap",
+      "actual": "Quality-Growth",
+      "r_squared": 0.8,
+      "match": "moderate",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 40.2,
+      "num_stocks": 45,
+      "top_sector_pct": 26.1
+    },
+    "nav_history_3y": [
+      30.09,
+      31.16,
+      31.84,
+      31.67,
+      31.8,
+      30.92,
+      32.88,
+      34.83,
+      34.66,
+      35.46,
+      35.86,
+      36.94,
+      36.3,
+      39.45,
+      40.74,
+      41.79,
+      42.95,
+      40.4,
+      40.69,
+      40.78,
+      39.06,
+      36.16,
+      38.79,
+      40.11,
+      41.1,
+      42.93,
+      42.29,
+      41.96,
+      41.91,
+      43.65,
+      43.88,
+      43.28,
+      41.78,
+      41.95,
+      37.76,
+      41.72
+    ]
+  }
+]
