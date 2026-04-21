@@ -1,45 +1,3 @@
-Fetching 122639: Parag Parikh Flexi Cap Fund...
-  ok NAV:91.99 1Y:7.0 3Y:18.9 cons:98
-Fetching 118955: HDFC Flexi Cap Fund...
-  ok NAV:2191.73 1Y:6.4 3Y:21.5 cons:91
-Fetching 118825: Mirae Asset Large Cap Fund...
-  ok NAV:125.24 1Y:4.8 3Y:13.4 cons:94
-Fetching 118778: Nippon India Small Cap Fund...
-  ok NAV:188.77 1Y:9.6 3Y:22.2 cons:90
-Fetching 120828: quant Small Cap Fund...
-  ok NAV:271.90 1Y:6.3 3Y:21.4 cons:72
-Fetching 125497: SBI Small Cap Fund...
-  ok NAV:190.52 1Y:3.8 3Y:15.3 cons:91
-Fetching 127042: Motilal Oswal Midcap Fund...
-  ok NAV:106.89 1Y:2.9 3Y:23.5 cons:82
-Fetching 120377: ICICI Prudential Balanced Advantage Fund...
-  ok NAV:86.35 1Y:9.6 3Y:13.9 cons:93
-Fetching 120716: UTI Nifty 50 Index Fund...
-  ok NAV:170.23 1Y:3.1 3Y:12.4 cons:88
-Fetching 135781: Mirae Asset ELSS Tax Saver Fund...
-  ok NAV:55.48 1Y:9.1 3Y:17.7 cons:93
-Fetching 120503: Axis ELSS Tax Saver Fund...
-  ok NAV:105.98 1Y:2.3 3Y:14.7 cons:89
-Fetching 150346: WhiteOak Capital Flexi Cap Fund...
-  ok NAV:17.98 1Y:7.4 3Y:20.5 cons:100
-Fetching 120348: Invesco India Contra Fund...
-  ok NAV:153.55 1Y:4.0 3Y:20.3 cons:96
-Fetching 119581: Sundaram Mid Cap Fund...
-  ok NAV:1559.26 1Y:14.5 3Y:25.7 cons:81
-Fetching 148595: DSP Value Fund...
-  ok NAV:24.05 1Y:17.9 3Y:20.5 cons:100
-Fetching 118617: Edelweiss Large Cap Fund...
-  ok NAV:95.79 1Y:5.0 3Y:15.5 cons:91
-Fetching 135800: Tata Digital India Fund...
-  ok NAV:48.33 1Y:-1.5 3Y:12.5 cons:98
-Fetching 129220: L&T Emerging Businesses Fund...
-  ok NAV:51.22 1Y:7.6 3Y:29.4 cons:74
-Fetching 119062: HDFC Hybrid Equity Fund...
-  ok NAV:124.02 1Y:1.1 3Y:10.6 cons:78
-Fetching 118989: HDFC Mid-Cap Opportunities Fund...
-  ok NAV:220.06 1Y:15.0 3Y:25.3 cons:88
-Fetching 133839: PGIM India Flexi Cap Fund...
-  ok NAV:41.72 1Y:5.5 3Y:14.2 cons:92
 [
   {
     "id": "122639",
@@ -49,11 +7,11 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 78420,
     "expense_ratio": 0.63,
     "inception_date": "2013-05-28",
-    "nav": 91.99,
+    "nav": 91.67,
     "returns": {
-      "1y": 7.0,
-      "3y": 18.9,
-      "5y": 17.4
+      "1y": 6.6,
+      "3y": 18.8,
+      "5y": 17.5
     },
     "category_avg_returns": {
       "1y": 11.0,
@@ -125,7 +83,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       93.52,
       91.95,
       85.68,
-      91.99
+      91.67
     ]
   },
   {
@@ -136,11 +94,11 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 64210,
     "expense_ratio": 0.78,
     "inception_date": "2013-01-01",
-    "nav": 2191.73,
+    "nav": 2192.76,
     "returns": {
       "1y": 6.4,
-      "3y": 21.5,
-      "5y": 21.2
+      "3y": 21.6,
+      "5y": 21.7
     },
     "category_avg_returns": {
       "1y": 11.0,
@@ -212,7 +170,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       2243.71,
       2261.53,
       1996.49,
-      2191.73
+      2192.76
     ]
   },
   {
@@ -223,11 +181,11 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 38950,
     "expense_ratio": 0.54,
     "inception_date": "2013-01-02",
-    "nav": 125.24,
+    "nav": 125.22,
     "returns": {
-      "1y": 4.8,
-      "3y": 13.4,
-      "5y": 12.4
+      "1y": 4.7,
+      "3y": 13.6,
+      "5y": 12.7
     },
     "category_avg_returns": {
       "1y": 10.8,
@@ -299,7 +257,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       128.68,
       128.43,
       113.12,
-      125.24
+      125.22
     ]
   },
   {
@@ -310,11 +268,11 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 52180,
     "expense_ratio": 0.73,
     "inception_date": "2013-01-02",
-    "nav": 188.77,
+    "nav": 189.35,
     "returns": {
-      "1y": 9.6,
-      "3y": 22.2,
-      "5y": 23.9
+      "1y": 9.9,
+      "3y": 22.3,
+      "5y": 24.2
     },
     "category_avg_returns": {
       "1y": 19.4,
@@ -323,7 +281,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     },
     "rolling_consistency_3y_pct": 90,
     "max_drawdown_5y_pct": -24.2,
-    "recovery_months": 13,
+    "recovery_months": 14,
     "manager": {
       "name": "Samir Rachh",
       "tenure_years": 8.7,
@@ -386,7 +344,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       179.18,
       182.55,
       165.18,
-      188.77
+      189.35
     ]
   },
   {
@@ -397,11 +355,11 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 21430,
     "expense_ratio": 0.68,
     "inception_date": "2013-01-07",
-    "nav": 271.9,
+    "nav": 271.21,
     "returns": {
-      "1y": 6.3,
-      "3y": 21.4,
-      "5y": 24.1
+      "1y": 6.0,
+      "3y": 21.3,
+      "5y": 24.0
     },
     "category_avg_returns": {
       "1y": 19.4,
@@ -473,7 +431,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       256.28,
       258.43,
       239.93,
-      271.9
+      271.21
     ]
   },
   {
@@ -484,11 +442,11 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 28740,
     "expense_ratio": 0.71,
     "inception_date": "2013-11-18",
-    "nav": 190.52,
+    "nav": 191.06,
     "returns": {
-      "1y": 3.8,
-      "3y": 15.3,
-      "5y": 16.9
+      "1y": 4.1,
+      "3y": 15.1,
+      "5y": 17.0
     },
     "category_avg_returns": {
       "1y": 19.4,
@@ -497,7 +455,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     },
     "rolling_consistency_3y_pct": 91,
     "max_drawdown_5y_pct": -22.4,
-    "recovery_months": 13,
+    "recovery_months": 14,
     "manager": {
       "name": "R. Srinivasan",
       "tenure_years": 9.2,
@@ -560,7 +518,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       183.3,
       184.76,
       169.37,
-      190.52
+      191.06
     ]
   },
   {
@@ -571,11 +529,11 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 18960,
     "expense_ratio": 0.72,
     "inception_date": "2014-02-25",
-    "nav": 106.89,
+    "nav": 106.52,
     "returns": {
-      "1y": 2.9,
-      "3y": 23.5,
-      "5y": 25.2
+      "1y": 2.5,
+      "3y": 23.8,
+      "5y": 25.5
     },
     "category_avg_returns": {
       "1y": 16.2,
@@ -647,7 +605,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       105.87,
       102.5,
       92.96,
-      106.89
+      106.52
     ]
   },
   {
@@ -658,11 +616,11 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 58420,
     "expense_ratio": 0.88,
     "inception_date": "2013-01-02",
-    "nav": 86.35,
+    "nav": 86.29,
     "returns": {
-      "1y": 9.6,
-      "3y": 13.9,
-      "5y": 12.5
+      "1y": 9.5,
+      "3y": 14.0,
+      "5y": 12.6
     },
     "category_avg_returns": {
       "1y": 9.8,
@@ -740,7 +698,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       85.77,
       86.18,
       80.41,
-      86.35
+      86.29
     ]
   },
   {
@@ -751,11 +709,11 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 19840,
     "expense_ratio": 0.2,
     "inception_date": "2013-01-02",
-    "nav": 170.23,
+    "nav": 170.31,
     "returns": {
       "1y": 3.1,
-      "3y": 12.4,
-      "5y": 11.8
+      "3y": 12.5,
+      "5y": 12.3
     },
     "category_avg_returns": {
       "1y": 11.0,
@@ -827,7 +785,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       176.97,
       176.04,
       156.12,
-      170.23
+      170.31
     ]
   },
   {
@@ -838,11 +796,11 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 24680,
     "expense_ratio": 0.58,
     "inception_date": "2015-12-29",
-    "nav": 55.48,
+    "nav": 55.44,
     "returns": {
-      "1y": 9.1,
-      "3y": 17.7,
-      "5y": 15.3
+      "1y": 9.0,
+      "3y": 17.8,
+      "5y": 15.6
     },
     "category_avg_returns": {
       "1y": 13.2,
@@ -914,7 +872,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       56.12,
       56.49,
       49.63,
-      55.48
+      55.44
     ]
   },
   {
@@ -925,11 +883,11 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 34120,
     "expense_ratio": 0.78,
     "inception_date": "2013-01-02",
-    "nav": 105.98,
+    "nav": 106.21,
     "returns": {
-      "1y": 2.3,
-      "3y": 14.7,
-      "5y": 9.8
+      "1y": 2.5,
+      "3y": 14.9,
+      "5y": 10.3
     },
     "category_avg_returns": {
       "1y": 13.2,
@@ -1001,7 +959,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       107.19,
       108.93,
       96.28,
-      105.98
+      106.21
     ]
   },
   {
@@ -1012,10 +970,10 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 2840,
     "expense_ratio": 0.62,
     "inception_date": "2022-08-03",
-    "nav": 17.98,
+    "nav": 17.95,
     "returns": {
-      "1y": 7.4,
-      "3y": 20.5,
+      "1y": 7.1,
+      "3y": 20.6,
       "5y": null
     },
     "category_avg_returns": {
@@ -1088,7 +1046,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       18.08,
       17.92,
       16.19,
-      17.98
+      17.95
     ]
   },
   {
@@ -1099,11 +1057,11 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 13420,
     "expense_ratio": 0.64,
     "inception_date": "2013-01-02",
-    "nav": 153.55,
+    "nav": 153.01,
     "returns": {
-      "1y": 4.0,
-      "3y": 20.3,
-      "5y": 17.3
+      "1y": 3.6,
+      "3y": 20.4,
+      "5y": 17.7
     },
     "category_avg_returns": {
       "1y": 11.0,
@@ -1175,7 +1133,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       156.32,
       155.84,
       137.65,
-      153.55
+      153.01
     ]
   },
   {
@@ -1186,11 +1144,11 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 9240,
     "expense_ratio": 0.91,
     "inception_date": "2013-01-02",
-    "nav": 1559.26,
+    "nav": 1561.99,
     "returns": {
-      "1y": 14.5,
-      "3y": 25.7,
-      "5y": 21.2
+      "1y": 14.6,
+      "3y": 26.0,
+      "5y": 21.6
     },
     "category_avg_returns": {
       "1y": 16.2,
@@ -1262,7 +1220,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       1527.45,
       1561.88,
       1392.79,
-      1559.26
+      1561.99
     ]
   },
   {
@@ -1362,9 +1320,9 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "inception_date": "2013-01-08",
     "nav": 95.79,
     "returns": {
-      "1y": 5.0,
-      "3y": 15.5,
-      "5y": 14.2
+      "1y": 4.9,
+      "3y": 15.6,
+      "5y": 14.7
     },
     "category_avg_returns": {
       "1y": 10.8,
@@ -1447,11 +1405,11 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 11240,
     "expense_ratio": 0.34,
     "inception_date": "2015-12-29",
-    "nav": 48.33,
+    "nav": 48.06,
     "returns": {
-      "1y": -1.5,
-      "3y": 12.5,
-      "5y": 10.8
+      "1y": -2.0,
+      "3y": 12.7,
+      "5y": 11.0
     },
     "category_avg_returns": {
       "1y": 14.2,
@@ -1523,7 +1481,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       55.95,
       46.82,
       43.87,
-      48.33
+      48.06
     ]
   },
   {
@@ -1621,11 +1579,11 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 22340,
     "expense_ratio": 0.94,
     "inception_date": "2013-01-01",
-    "nav": 124.02,
+    "nav": 123.9,
     "returns": {
-      "1y": 1.1,
-      "3y": 10.6,
-      "5y": 12.0
+      "1y": 1.0,
+      "3y": 10.5,
+      "5y": 12.3
     },
     "category_avg_returns": {
       "1y": 9.8,
@@ -1697,7 +1655,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       128.01,
       128.45,
       115.33,
-      124.02
+      123.9
     ]
   },
   {
@@ -1708,11 +1666,11 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 42180,
     "expense_ratio": 0.67,
     "inception_date": "2013-01-01",
-    "nav": 220.06,
+    "nav": 219.67,
     "returns": {
-      "1y": 15.0,
-      "3y": 25.3,
-      "5y": 22.9
+      "1y": 14.6,
+      "3y": 25.6,
+      "5y": 23.2
     },
     "category_avg_returns": {
       "1y": 16.2,
@@ -1784,7 +1742,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       221.44,
       223.96,
       199.42,
-      220.06
+      219.67
     ]
   },
   {
@@ -1795,11 +1753,11 @@ Fetching 133839: PGIM India Flexi Cap Fund...
     "aum_cr": 8640,
     "expense_ratio": 0.42,
     "inception_date": "2015-03-09",
-    "nav": 41.72,
+    "nav": 41.82,
     "returns": {
-      "1y": 5.5,
-      "3y": 14.2,
-      "5y": 13.0
+      "1y": 5.7,
+      "3y": 14.6,
+      "5y": 13.4
     },
     "category_avg_returns": {
       "1y": 11.0,
@@ -1871,7 +1829,7 @@ Fetching 133839: PGIM India Flexi Cap Fund...
       41.78,
       41.95,
       37.76,
-      41.72
+      41.82
     ]
   }
 ]
