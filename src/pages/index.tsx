@@ -152,11 +152,11 @@ export default function Home() {
             </div>
             <h2 className="reveal d1">Treat mutual funds like you&apos;d treat stocks.</h2>
             <p className="reveal d2">
-              No login. No buy button. Open a table, filter for what matters, read the footnotes. Leave your email if you&apos;d like a note when we add something new.
+              Top small-cap fund: 33% a year. Bottom one: 16%. Same category, same five years. Picking the right fund matters more than picking the right category. We give you the data to do it.
             </p>
             <div className="l-cta-row reveal d3">
               <Link href="/screener" className="l-btn-primary">
-                Open the screener <span className="arr">→</span>
+                Find your fund.
               </Link>
               <Link href="#how" className="l-btn-ghost">Read how it works</Link>
             </div>
