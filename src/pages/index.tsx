@@ -55,15 +55,11 @@ export default function Home() {
         {/* Hero */}
         <header className="l-hero">
           <div className="l-wrap">
-            <div className="l-eyebrow reveal on">
-              <span className="dot" />
-              A mutual fund screener for India
-            </div>
             <h1 className="l-hero-h reveal on d1">
-              Choose a mutual fund the way an <em>analyst would.</em>
+              A smarter way to invest in mutual funds.
             </h1>
             <p className="l-hero-sub reveal on d2">
-              Filter 1,400+ Indian schemes on rolling consistency, drawdown behaviour, style integrity and manager continuity.
+              Historically, a top performing scheme can outperform a bottom performing scheme by as much as X% in the same category. Evaluate where you invest with the right data in your hand.
             </p>
             <div className="l-cta-row reveal on d3">
               <Link href="/screener" className="l-btn-primary">
