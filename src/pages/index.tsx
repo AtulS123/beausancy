@@ -35,6 +35,9 @@ export default function Home() {
 
       <div className="landing-body">
 
+        {/* Test banner */}
+        <div style={{background:'red',color:'white',textAlign:'center',padding:'8px',fontWeight:'bold'}}>atul</div>
+
         {/* Navigation */}
         <nav className="l-nav">
           <div className="l-nav-inner">
