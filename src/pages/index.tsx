@@ -62,7 +62,7 @@ export default function Home() {
               A smarter way to invest in mutual funds.
             </h1>
             <p className="l-hero-sub reveal on d2">
-              Historically, a top performing scheme can outperform a bottom performing scheme by as much as X% in the same category. Evaluate where you invest with the right data in your hand.
+              Top small-cap fund: 33% a year. Bottom one: 16%. Same category, same five years. Picking the right fund matters as much as picking the right category. We give you the data to do it.
             </p>
             <div className="l-cta-row reveal on d3">
               <Link href="/screener" className="l-btn-primary">
