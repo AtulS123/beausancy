@@ -1323,8 +1323,8 @@ h2.l-s-h {
 }
 .l-final p { color: #a3a3a8; margin: 0 auto 36px; max-width: 520px; font-size: 15.5px; line-height: 1.55; }
 .l-final .l-cta-row { justify-content: center; margin-bottom: 36px; }
-.l-final .l-btn-primary { background: #fafaf9; color: #0b0b0c; }
-.l-final .l-btn-primary:hover { background: #fff; }
+.l-final .l-btn-primary { background: #0b0b0c; color: #fafaf9; }
+.l-final .l-btn-primary:hover { background: #111113; }
 .l-final .l-btn-ghost { color: #a3a3a8; }
 .l-final .l-btn-ghost:hover { color: #fafaf9; }
 
