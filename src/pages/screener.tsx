@@ -238,9 +238,20 @@ export default function Screener() {
     accent: "emerald", density: "normal", tableFontSize: 12,
     sparklines: true, zebra: false, railWidth: 320
   });
+  const [funds, setFunds] = useState<Fund[]>([]);
+  const [fundsLoading, setFundsLoading] = useState(true);
   const [toast, showToast] = useToast();
   const searchRef = useRef<HTMLInputElement>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout>>();
+
+  // Fetch funds from API
+  useEffect(() => {
+    fetch("/api/funds")
+      .then(r => r.json())
+      .then(data => setFunds(data.funds ?? []))
+      .catch(() => setFunds(MOCK_FUNDS))
+      .finally(() => setFundsLoading(false));
+  }, []);
 
   // Initialize from URL on mount
   useEffect(() => {
@@ -307,10 +318,10 @@ export default function Screener() {
   const reset = useCallback(() => setFilters(FILTER_DEFAULTS), []);
   const updateTweaks = (patch: Partial<TweaksState>) => setTweaks(t => ({ ...t, ...patch }));
 
-  const total = MOCK_FUNDS.length;
+  const total = funds.length;
   const filtered = useMemo(
-    () => MOCK_FUNDS.filter(f => matches(f, filters, searchQ)),
-    [filters, searchQ]
+    () => funds.filter(f => matches(f, filters, searchQ)),
+    [funds, filters, searchQ]
   );
   const sorted = useMemo(() => sortFunds(filtered, sort), [filtered, sort]);
 
@@ -490,7 +501,7 @@ export default function Screener() {
                 <span>sort: {labelFor(sort.col)} {sort.dir}</span>
               </div>
               <div className="l" style={{gap:12}}>
-                <span>Mock data · 25 funds</span>
+                <span>{fundsLoading ? "Loading…" : `${total} funds`}</span>
                 <span>·</span>
                 <span>Rolling windows computed over last 7y</span>
               </div>
