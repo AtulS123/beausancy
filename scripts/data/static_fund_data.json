@@ -1,0 +1,1411 @@
+{
+  "_meta": {
+    "description": "Static fund data maintained manually. Update monthly after AMC factsheets are published (typically by the 10th of each month).",
+    "last_updated": "2026-05-04",
+    "fields": {
+      "aum_cr": "AUM in crores -- source: AMFI monthly AAUM report or fund factsheet",
+      "expense_ratio": "Direct plan TER (%) -- source: AMC website or SEBI TER disclosure",
+      "managers": "Fund manager list -- source: AMC factsheet or website",
+      "style": "Investment style -- source: AMC factsheet / Morningstar style box",
+      "concentration": "Portfolio concentration -- source: AMC monthly factsheet"
+    }
+  },
+  "122639": {
+    "aum_cr": 78420,
+    "expense_ratio": 0.63,
+    "managers": [
+      {
+        "name": "Rajeev Thakkar",
+        "tenure_years": 11.5,
+        "funds_managed": 4,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Flexi Cap",
+      "actual": "Quality-Value",
+      "r_squared": 0.78,
+      "match": "moderate",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 48.2,
+      "num_stocks": 31,
+      "top_sector_pct": 28.4
+    }
+  },
+  "118955": {
+    "aum_cr": 64210,
+    "expense_ratio": 0.78,
+    "managers": [
+      {
+        "name": "Roshi Jain",
+        "tenure_years": 3.2,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Flexi Cap",
+      "actual": "Value",
+      "r_squared": 0.88,
+      "match": "strict",
+      "basis": "Value"
+    },
+    "concentration": {
+      "top_10_pct": 52.4,
+      "num_stocks": 48,
+      "top_sector_pct": 32.1
+    }
+  },
+  "118825": {
+    "aum_cr": 38950,
+    "expense_ratio": 0.54,
+    "managers": [
+      {
+        "name": "Gaurav Khandelwal",
+        "tenure_years": 2.1,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Large Cap",
+      "actual": "Blend",
+      "r_squared": 0.91,
+      "match": "strict",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 54.1,
+      "num_stocks": 62,
+      "top_sector_pct": 29.8
+    }
+  },
+  "118778": {
+    "aum_cr": 52180,
+    "expense_ratio": 0.73,
+    "managers": [
+      {
+        "name": "Samir Rachh",
+        "tenure_years": 8.7,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Growth",
+      "r_squared": 0.87,
+      "match": "strict",
+      "basis": "Growth"
+    },
+    "concentration": {
+      "top_10_pct": 22.4,
+      "num_stocks": 142,
+      "top_sector_pct": 19.6
+    }
+  },
+  "120828": {
+    "aum_cr": 21430,
+    "expense_ratio": 0.68,
+    "managers": [
+      {
+        "name": "Ankit Pande",
+        "tenure_years": 4.3,
+        "funds_managed": 6,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Momentum",
+      "r_squared": 0.58,
+      "match": "drifted",
+      "basis": "Momentum"
+    },
+    "concentration": {
+      "top_10_pct": 38.7,
+      "num_stocks": 78,
+      "top_sector_pct": 24.3
+    }
+  },
+  "125497": {
+    "aum_cr": 28740,
+    "expense_ratio": 0.71,
+    "managers": [
+      {
+        "name": "R. Srinivasan",
+        "tenure_years": 9.2,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Quality",
+      "r_squared": 0.79,
+      "match": "moderate",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 34.2,
+      "num_stocks": 56,
+      "top_sector_pct": 22.7
+    }
+  },
+  "127042": {
+    "aum_cr": 18960,
+    "expense_ratio": 0.72,
+    "managers": [
+      {
+        "name": "Niket Shah",
+        "tenure_years": 3.8,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Quality-Growth",
+      "r_squared": 0.83,
+      "match": "moderate",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 58.4,
+      "num_stocks": 26,
+      "top_sector_pct": 31.2
+    }
+  },
+  "120377": {
+    "aum_cr": 58420,
+    "expense_ratio": 0.88,
+    "managers": [
+      {
+        "name": "Sankaran Naren",
+        "tenure_years": 7.8,
+        "funds_managed": 6,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Ihab Dalwai",
+        "tenure_years": 5.2,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Hybrid",
+      "actual": "Dynamic Asset",
+      "r_squared": 0.84,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 38.4,
+      "num_stocks": 84,
+      "top_sector_pct": 24.1
+    }
+  },
+  "120716": {
+    "aum_cr": 19840,
+    "expense_ratio": 0.2,
+    "managers": [
+      {
+        "name": "Sharwan Kumar Goyal",
+        "tenure_years": 6.4,
+        "funds_managed": 8,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Index",
+      "actual": "Index",
+      "r_squared": 0.99,
+      "match": "strict",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 58.2,
+      "num_stocks": 50,
+      "top_sector_pct": 35.4
+    }
+  },
+  "135781": {
+    "aum_cr": 24680,
+    "expense_ratio": 0.58,
+    "managers": [
+      {
+        "name": "Neelesh Surana",
+        "tenure_years": 10.3,
+        "funds_managed": 5,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "ELSS",
+      "actual": "Blend",
+      "r_squared": 0.89,
+      "match": "strict",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 41.2,
+      "num_stocks": 72,
+      "top_sector_pct": 26.4
+    }
+  },
+  "120503": {
+    "aum_cr": 34120,
+    "expense_ratio": 0.78,
+    "managers": [
+      {
+        "name": "Shreyash Devalkar",
+        "tenure_years": 2.6,
+        "funds_managed": 4,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "ELSS",
+      "actual": "Growth",
+      "r_squared": 0.72,
+      "match": "moderate",
+      "basis": "Growth"
+    },
+    "concentration": {
+      "top_10_pct": 56.7,
+      "num_stocks": 42,
+      "top_sector_pct": 33.1
+    }
+  },
+  "150346": {
+    "aum_cr": 2840,
+    "expense_ratio": 0.62,
+    "managers": [
+      {
+        "name": "Ramesh Mantri",
+        "tenure_years": 1.7,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Flexi Cap",
+      "actual": "Quality",
+      "r_squared": 0.82,
+      "match": "moderate",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 36.8,
+      "num_stocks": 62,
+      "top_sector_pct": 24.2
+    }
+  },
+  "120348": {
+    "aum_cr": 13420,
+    "expense_ratio": 0.64,
+    "managers": [
+      {
+        "name": "Taher Badshah",
+        "tenure_years": 6.8,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Contra",
+      "actual": "Value",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Value"
+    },
+    "concentration": {
+      "top_10_pct": 42.4,
+      "num_stocks": 54,
+      "top_sector_pct": 26.8
+    }
+  },
+  "119581": {
+    "aum_cr": 9240,
+    "expense_ratio": 0.91,
+    "managers": [
+      {
+        "name": "S. Bharath",
+        "tenure_years": 0.6,
+        "funds_managed": 4,
+        "changed_last_12mo": true
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.78,
+      "match": "moderate",
+      "basis": "Growth"
+    },
+    "concentration": {
+      "top_10_pct": 34.8,
+      "num_stocks": 72,
+      "top_sector_pct": 24.6
+    }
+  },
+  "148595": {
+    "aum_cr": 1240,
+    "expense_ratio": 0.89,
+    "managers": [
+      {
+        "name": "Aparna Karnik",
+        "tenure_years": 3.1,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Flexi Cap",
+      "actual": "Value",
+      "r_squared": 0.91,
+      "match": "strict",
+      "basis": "Value"
+    },
+    "concentration": {
+      "top_10_pct": 46.2,
+      "num_stocks": 38,
+      "top_sector_pct": 28.9
+    }
+  },
+  "118617": {
+    "aum_cr": 3420,
+    "expense_ratio": 0.42,
+    "managers": [
+      {
+        "name": "Trideep Bhattacharya",
+        "tenure_years": 3.4,
+        "funds_managed": 5,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Large Cap",
+      "actual": "Blend",
+      "r_squared": 0.68,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 44.8,
+      "num_stocks": 58,
+      "top_sector_pct": 28.3
+    }
+  },
+  "135800": {
+    "aum_cr": 11240,
+    "expense_ratio": 0.34,
+    "managers": [
+      {
+        "name": "Meeta Shetty",
+        "tenure_years": 4.2,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Sectoral",
+      "actual": "Growth",
+      "r_squared": 0.54,
+      "match": "drifted",
+      "basis": "Growth"
+    },
+    "concentration": {
+      "top_10_pct": 72.4,
+      "num_stocks": 28,
+      "top_sector_pct": 78.4
+    }
+  },
+  "129220": {
+    "aum_cr": 14820,
+    "expense_ratio": 0.74,
+    "managers": [
+      {
+        "name": "Venugopal Manghat",
+        "tenure_years": 7.2,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.82,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 28.4,
+      "num_stocks": 112,
+      "top_sector_pct": 22.4
+    }
+  },
+  "119062": {
+    "aum_cr": 22340,
+    "expense_ratio": 0.94,
+    "managers": [
+      {
+        "name": "Chirag Setalvad",
+        "tenure_years": 12.4,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Hybrid",
+      "actual": "Value",
+      "r_squared": 0.76,
+      "match": "moderate",
+      "basis": "Value"
+    },
+    "concentration": {
+      "top_10_pct": 42.8,
+      "num_stocks": 56,
+      "top_sector_pct": 27.6
+    }
+  },
+  "118989": {
+    "aum_cr": 42180,
+    "expense_ratio": 0.67,
+    "managers": [
+      {
+        "name": "Pankaj Tibrewal",
+        "tenure_years": 0.8,
+        "funds_managed": 2,
+        "changed_last_12mo": true
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.86,
+      "match": "strict",
+      "basis": "Growth"
+    },
+    "concentration": {
+      "top_10_pct": 29.8,
+      "num_stocks": 68,
+      "top_sector_pct": 21.4
+    }
+  },
+  "133839": {
+    "aum_cr": 8640,
+    "expense_ratio": 0.42,
+    "managers": [
+      {
+        "name": "Aniruddha Naha",
+        "tenure_years": 4.1,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Flexi Cap",
+      "actual": "Quality-Growth",
+      "r_squared": 0.8,
+      "match": "moderate",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 40.2,
+      "num_stocks": 45,
+      "top_sector_pct": 26.1
+    }
+  },
+  "152358": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Kenneth Andrade",
+        "tenure_years": 1.3,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Focused",
+      "actual": "Quality",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "152584": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Mihir Vora",
+        "tenure_years": 1.0,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Flexi Cap",
+      "actual": "Blend",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "152939": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Mihir Vora",
+        "tenure_years": 0.5,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Growth",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Growth"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "153543": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Satyanarayana Seshadri",
+        "tenure_years": 0.9,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Flexi Cap",
+      "actual": "Blend",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "153738": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Deepak Shenoy",
+        "tenure_years": 0.7,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Flexi Cap",
+      "actual": "Momentum",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Momentum"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "153859": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Rahul Singh",
+        "tenure_years": 0.5,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Flexi Cap",
+      "actual": "Blend",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "153872": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Unknown",
+        "tenure_years": 0.5,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Flexi Cap",
+      "actual": "Blend",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "154043": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Sunil Singhania",
+        "tenure_years": 0.4,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Flexi Cap",
+      "actual": "Quality",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "154215": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Sunil Singhania",
+        "tenure_years": 0.3,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Quality",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "119556": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Dhaval Joshi",
+        "tenure_years": 3.0,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Growth",
+      "r_squared": 0.88,
+      "match": "strict",
+      "basis": "Growth"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "125354": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Anupam Tiwari",
+        "tenure_years": 4.2,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Quality-Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "153612": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Unknown",
+        "tenure_years": 0.5,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "147946": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Manish Gunwani",
+        "tenure_years": 2.1,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.82,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "145678": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Unknown",
+        "tenure_years": 2.5,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.78,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "152128": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Unknown",
+        "tenure_years": 1.2,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "146130": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Shridatta Bhandwaldar",
+        "tenure_years": 3.8,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Quality-Growth",
+      "r_squared": 0.83,
+      "match": "strict",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "119212": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Vinit Sambre",
+        "tenure_years": 11.0,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Quality",
+      "r_squared": 0.86,
+      "match": "strict",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "146196": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Unknown",
+        "tenure_years": 2.0,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Growth",
+      "r_squared": 0.8,
+      "match": "moderate",
+      "basis": "Growth"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "118525": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Akhil Kalluri",
+        "tenure_years": 2.5,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Growth",
+      "r_squared": 0.84,
+      "match": "strict",
+      "basis": "Growth"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "154063": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Unknown",
+        "tenure_years": 0.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "130503": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Dhruv Muchhal",
+        "tenure_years": 2.8,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.87,
+      "match": "strict",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "151130": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Unknown",
+        "tenure_years": 1.5,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "153912": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Unknown",
+        "tenure_years": 0.5,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "147919": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "George Thomas",
+        "tenure_years": 3.1,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Growth",
+      "r_squared": 0.79,
+      "match": "moderate",
+      "basis": "Growth"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "152614": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Unknown",
+        "tenure_years": 1.0,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "120164": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Arjun Khanna",
+        "tenure_years": 2.0,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Growth"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "152004": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Unknown",
+        "tenure_years": 1.0,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "150915": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Unknown",
+        "tenure_years": 1.8,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "153196": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Unknown",
+        "tenure_years": 0.8,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "152237": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Niket Shah",
+        "tenure_years": 1.0,
+        "funds_managed": 4,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Quality-Growth",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "149019": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Aniruddha Naha",
+        "tenure_years": 2.5,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Quality-Growth",
+      "r_squared": 0.81,
+      "match": "moderate",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "152107": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Unknown",
+        "tenure_years": 1.0,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Value",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Value"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "119589": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Rohit Seksaria",
+        "tenure_years": 3.5,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Growth",
+      "r_squared": 0.83,
+      "match": "strict",
+      "basis": "Growth"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "145206": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Chandraprakash Padiyar",
+        "tenure_years": 4.0,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Quality-Growth",
+      "r_squared": 0.84,
+      "match": "strict",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "154269": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Unknown",
+        "tenure_years": 0.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "148618": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Amit Premchandani",
+        "tenure_years": 3.2,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.86,
+      "match": "strict",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  },
+  "129649": {
+    "aum_cr": 0,
+    "expense_ratio": 0.0,
+    "managers": [
+      {
+        "name": "Vinay Paharia",
+        "tenure_years": 5.2,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Quality",
+      "r_squared": 0.8,
+      "match": "moderate",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 0.0,
+      "num_stocks": 0,
+      "top_sector_pct": 0.0
+    }
+  }
+}

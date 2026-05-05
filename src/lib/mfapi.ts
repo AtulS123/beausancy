@@ -70,6 +70,7 @@ export function normalizeCategory(apiCategory: string): string {
   if (c.includes("mid cap")) return "Mid Cap";
   if (c.includes("small cap")) return "Small Cap";
   if (c.includes("flexi cap") || c.includes("multi cap")) return "Flexi Cap";
+  if (c.includes("focused")) return "Focused";
   if (c.includes("elss")) return "ELSS";
   if (c.includes("hybrid") || c.includes("balanced") || c.includes("asset allocation")) return "Hybrid";
   if (c.includes("index") || c.includes("etf")) return "Index";
