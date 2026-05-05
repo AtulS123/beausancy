@@ -51,9 +51,9 @@ export const ALL_COLS: ColDef[] = [
   { id: "cons",     label: "Rolling cons.",  num: true,  w: 130, help: "Rolling 3Y consistency over the last 7 years: share of overlapping 3-year windows where the fund beat its category average. High = repeatable alpha, not one lucky year." },
   { id: "dd",       label: "Max DD",         num: true,  w: 78,  help: "Maximum drawdown over last 5 years — the worst peak-to-trough NAV fall. Tells you how ugly it got, not how often." },
   { id: "rec",      label: "Recov",          num: true,  w: 68,  help: "Recovery time in months: how long the fund took to climb back to its pre-drawdown peak NAV. Short recovery = the dip was fast; long recovery = sustained pain." },
-  { id: "mgr",      label: "Mgr tenure",     num: true,  w: 90,  help: "Years the current lead manager has been running this scheme. A fund's track record belongs to the manager, not the AMC — tenure ≥5y is meaningful, ≤3y means you're betting on a short sample." },
+  { id: "mgr",      label: "Manager",        num: false, w: 130, help: "Fund manager name and tenure (years running this scheme). A fund's track record belongs to the manager, not the AMC — tenure ≥5y is meaningful, ≤3y means you're betting on a short sample. Hover for LinkedIn search." },
   { id: "t10",      label: "Top-10 %",       num: true,  w: 80,  help: "% of portfolio in the top 10 stocks. >60% = concentrated conviction; <30% = broadly diversified. Concentrated funds can be great or disastrous depending on the manager." },
-  { id: "style",    label: "Style",          num: false, w: 70,  help: "Style integrity: does the fund actually invest like its declared category? Strict = tight adherence. Moderate = some drift. Drifted = the fund is effectively something else (e.g. a Flexi Cap running as momentum)." },
+  { id: "style",    label: "Style",          num: false, w: 90,  help: "Style integrity (R²): how closely the fund's actual holdings match its declared category. Strict (R²>0.85) = tight adherence. Mod (0.65–0.85) = some drift. Drift (<0.65) = effectively a different style. Hover a cell to see declared vs actual style and the factor basis (Value/Growth/Quality/Momentum/Low-Vol/Blend)." },
   { id: "spark",    label: "3Y trend",       num: false, w: 110, help: "Sparkline of NAV over the last 3 years. Visual shape only — use for pattern recognition, not precise reads." }
 ];
 
@@ -172,15 +172,27 @@ function Cell({ col, f }: CellProps) {
       return <td className="num"><span className="val">{f.recovery_months}</span><span className="delta">mo</span></td>;
     case "mgr": {
       const t = f.manager.tenure_years;
+      const name = f.manager.name;
+      const liUrl = `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(name + ' fund manager india')}`;
       return (
-        <td className="num tt">
-          <span className="val">{t.toFixed(1)}</span>
-          <span className="delta">yr{f.manager.changed_last_12mo ? ' ·' : ''}</span>
-          {f.manager.changed_last_12mo && <span className="warn-dot"> ⚠</span>}
+        <td className="tt" style={{verticalAlign:"middle"}}>
+          <span className="fund-name" style={{fontSize:"11.5px"}}>{name}</span>
+          <span className="fund-sub mono" style={{fontSize:"10px"}}>
+            {t.toFixed(1)} yr{f.manager.changed_last_12mo ? ' · ' : ''}
+            {f.manager.changed_last_12mo && <span style={{color:"var(--warn)"}}>⚠</span>}
+          </span>
           <div className="tt-body">
-            <div className="row"><span className="k">Manager</span><span className="v">{f.manager.name}</span></div>
+            <div className="row"><span className="k">Tenure</span><span className="v">{t.toFixed(1)} yr</span></div>
             <div className="row"><span className="k">Funds run</span><span className="v">{f.manager.funds_managed}</span></div>
-            {f.manager.changed_last_12mo && <div className="row"><span className="k" style={{color:"var(--warn)"}}>Changed</span><span className="v">&lt; 12 mo ago</span></div>}
+            {f.manager.changed_last_12mo && (
+              <div className="row"><span className="k" style={{color:"var(--warn)"}}>Changed</span><span className="v">&lt; 12 mo ago</span></div>
+            )}
+            <div style={{marginTop:6}}>
+              <a href={liUrl} target="_blank" rel="noopener noreferrer"
+                style={{color:"var(--accent)", fontSize:"10.5px", textDecoration:"none"}}>
+                Search LinkedIn ↗
+              </a>
+            </div>
           </div>
         </td>
       );
@@ -189,17 +201,51 @@ function Cell({ col, f }: CellProps) {
       return <td className="num"><span className="val">{f.concentration.top_10_pct.toFixed(1)}</span><span className="delta">%</span></td>;
     case "style": {
       const m = f.style.match;
+      const matchLabel: Record<string, string> = { strict: "Strict", moderate: "Mod", drifted: "Drift" };
+      const matchDesc: Record<string, string> = {
+        strict:   "R² > 0.85 — fund invests tightly within its declared style",
+        moderate: "R² 0.65–0.85 — some drift from declared category",
+        drifted:  "R² < 0.65 — fund is effectively a different style than declared",
+      };
+      const basisDesc: Record<string, string> = {
+        Value:    "Buys cheap stocks relative to earnings/book",
+        Growth:   "Targets high revenue/earnings growth companies",
+        Quality:  "Focuses on high-ROE, low-debt businesses",
+        Momentum: "Rides recent price winners",
+        "Low-Vol":"Prefers low-volatility, defensive stocks",
+        Blend:    "Mix of styles — no dominant factor",
+      };
       return (
         <td className="tt">
-          <span className={`style-dot ${m}`} />
-          <div className="tt-body" style={{left:"-60px"}}>
-            <div className="row"><span className="k">Declared</span><span className="v">{f.style.declared}</span></div>
-            <div className="row"><span className="k">Actual</span><span className="v">{f.style.actual}</span></div>
-            <div className="row"><span className="k">R²</span><span className="v">{f.style.r_squared.toFixed(2)}</span></div>
-            <div style={{marginTop:4, color:"var(--text-faint)", fontSize:"10.5px"}}>
-              {m === "strict" && "Tight style adherence"}
-              {m === "moderate" && "Some drift from declared"}
-              {m === "drifted" && "Significant style drift"}
+          <span style={{display:"inline-flex", alignItems:"center", gap:4}}>
+            <span className={`style-dot ${m}`} />
+            <span style={{fontSize:"10.5px", color:"var(--text-dim)"}}>{matchLabel[m] ?? m}</span>
+          </span>
+          <div className="tt-body" style={{left:"-80px", minWidth:220}}>
+            <div className="row">
+              <span className="k">Declared</span>
+              <span className="v">{f.style.declared}</span>
+            </div>
+            <div className="row">
+              <span className="k">Actual</span>
+              <span className="v">{f.style.actual}</span>
+            </div>
+            <div className="row">
+              <span className="k">R²</span>
+              <span className="v">{f.style.r_squared.toFixed(2)}</span>
+            </div>
+            <div style={{marginTop:5, padding:"5px 0 3px", borderTop:"1px solid var(--border)", fontSize:"10px", color:"var(--text-faint)", lineHeight:1.5}}>
+              <strong style={{color:"var(--text-dim)", display:"block", marginBottom:2}}>{matchLabel[m]}: </strong>
+              {matchDesc[m]}
+            </div>
+            {f.style.basis && basisDesc[f.style.basis] && (
+              <div style={{marginTop:4, fontSize:"10px", color:"var(--text-faint)", lineHeight:1.5}}>
+                <strong style={{color:"var(--text-dim)"}}>Basis ({f.style.basis}): </strong>
+                {basisDesc[f.style.basis]}
+              </div>
+            )}
+            <div style={{marginTop:4, fontSize:"9.5px", color:"var(--text-quiet)"}}>
+              R² measures how closely portfolio holdings align with a style factor index. Computed from latest portfolio disclosure.
             </div>
           </div>
         </td>
