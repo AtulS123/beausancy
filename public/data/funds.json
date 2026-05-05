@@ -33,22 +33,21 @@
       "top_sector_pct": 28.4
     },
     "inception_date": "2013-05-28",
-    "nav": 91.29,
+    "nav": 91.26,
     "returns": {
-      "1y": 4.4,
-      "3y": 17.7,
-      "5y": 16.8
+      "1y": 3.7,
+      "3y": 17.8,
+      "5y": 16.9
     },
     "category_avg_returns": {
-      "1y": 5.2,
+      "1y": 5.6,
       "3y": 18.2,
-      "5y": 16.4
+      "5y": 16.5
     },
-    "rolling_consistency_3y_pct": 98,
+    "rolling_consistency_3y_pct": 99,
     "max_drawdown_5y_pct": -17.9,
     "recovery_months": 10,
     "nav_history_3y": [
-      58.34,
       59.63,
       61.6,
       61.32,
@@ -83,7 +82,8 @@
       93.52,
       91.95,
       85.68,
-      91.29
+      91.29,
+      91.26
     ]
   },
   {
@@ -120,22 +120,21 @@
       "top_sector_pct": 32.1
     },
     "inception_date": "2013-01-01",
-    "nav": 2137.0,
+    "nav": 2149.49,
     "returns": {
-      "1y": 1.9,
-      "3y": 19.6,
-      "5y": 20.3
+      "1y": 2.7,
+      "3y": 19.8,
+      "5y": 20.6
     },
     "category_avg_returns": {
-      "1y": 5.2,
+      "1y": 5.6,
       "3y": 18.2,
-      "5y": 16.4
+      "5y": 16.5
     },
     "rolling_consistency_3y_pct": 89,
     "max_drawdown_5y_pct": -13.3,
     "recovery_months": 1,
     "nav_history_3y": [
-      1289.45,
       1353.1,
       1413.56,
       1414.92,
@@ -170,7 +169,8 @@
       2243.71,
       2261.53,
       1996.49,
-      2137.0
+      2137.0,
+      2149.49
     ]
   },
   {
@@ -207,22 +207,21 @@
       "top_sector_pct": 29.8
     },
     "inception_date": "2013-01-02",
-    "nav": 123.31,
+    "nav": 123.92,
     "returns": {
-      "1y": 1.6,
+      "1y": 2.1,
       "3y": 12.2,
-      "5y": 11.9
+      "5y": 12.2
     },
     "category_avg_returns": {
-      "1y": 1.5,
-      "3y": 13.1,
-      "5y": 12.9
+      "1y": 2.0,
+      "3y": 13.2,
+      "5y": 13.1
     },
     "rolling_consistency_3y_pct": 94,
     "max_drawdown_5y_pct": -17.4,
     "recovery_months": 5,
     "nav_history_3y": [
-      90.08,
       93.77,
       96.48,
       95.73,
@@ -257,7 +256,8 @@
       128.68,
       128.43,
       113.12,
-      123.31
+      123.31,
+      123.92
     ]
   },
   {
@@ -294,22 +294,21 @@
       "top_sector_pct": 19.6
     },
     "inception_date": "2013-01-02",
-    "nav": 192.08,
+    "nav": 194.29,
     "returns": {
-      "1y": 11.2,
-      "3y": 22.1,
+      "1y": 12.6,
+      "3y": 22.0,
       "5y": 23.4
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 88,
     "max_drawdown_5y_pct": -24.2,
     "recovery_months": 14,
     "nav_history_3y": [
-      112.62,
       120.17,
       127.65,
       133.78,
@@ -344,7 +343,8 @@
       179.18,
       182.55,
       165.18,
-      192.08
+      192.08,
+      194.29
     ]
   },
   {
@@ -381,22 +381,21 @@
       "top_sector_pct": 24.3
     },
     "inception_date": "2013-01-07",
-    "nav": 280.48,
+    "nav": 283.63,
     "returns": {
-      "1y": 9.4,
-      "3y": 21.3,
+      "1y": 10.8,
+      "3y": 21.6,
       "5y": 23.3
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 73,
     "max_drawdown_5y_pct": -25.2,
     "recovery_months": 5,
     "nav_history_3y": [
-      162.39,
       171.13,
       185.51,
       193.21,
@@ -431,7 +430,8 @@
       256.28,
       258.43,
       239.93,
-      280.48
+      280.48,
+      283.63
     ]
   },
   {
@@ -468,22 +468,21 @@
       "top_sector_pct": 22.7
     },
     "inception_date": "2013-11-18",
-    "nav": 193.41,
+    "nav": 195.45,
     "returns": {
-      "1y": 6.4,
-      "3y": 15.0,
+      "1y": 7.5,
+      "3y": 15.2,
       "5y": 16.4
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 91,
     "max_drawdown_5y_pct": -22.4,
     "recovery_months": 14,
     "nav_history_3y": [
-      132.29,
       138.09,
       146.16,
       150.23,
@@ -518,7 +517,8 @@
       183.3,
       184.76,
       169.37,
-      193.41
+      193.41,
+      195.45
     ]
   },
   {
@@ -555,22 +555,21 @@
       "top_sector_pct": 31.2
     },
     "inception_date": "2014-02-25",
-    "nav": 104.87,
+    "nav": 105.39,
     "returns": {
-      "1y": -3.0,
-      "3y": 22.1,
-      "5y": 24.1
+      "1y": -2.4,
+      "3y": 22.0,
+      "5y": 24.3
     },
     "category_avg_returns": {
-      "1y": 6.9,
-      "3y": 23.9,
-      "5y": 22.3
+      "1y": 7.8,
+      "3y": 23.7,
+      "5y": 22.6
     },
     "rolling_consistency_3y_pct": 82,
     "max_drawdown_5y_pct": -28.9,
     "recovery_months": 1,
     "nav_history_3y": [
-      62.56,
       65.28,
       66.43,
       70.2,
@@ -605,7 +604,8 @@
       105.87,
       102.5,
       92.96,
-      104.87
+      104.87,
+      105.39
     ]
   },
   {
@@ -648,22 +648,21 @@
       "top_sector_pct": 24.1
     },
     "inception_date": "2013-01-02",
-    "nav": 84.81,
+    "nav": 85.12,
     "returns": {
-      "1y": 6.4,
+      "1y": 6.6,
       "3y": 12.9,
-      "5y": 11.9
+      "5y": 12.0
     },
     "category_avg_returns": {
-      "1y": 2.1,
+      "1y": 2.2,
       "3y": 11.0,
-      "5y": 11.6
+      "5y": 11.7
     },
     "rolling_consistency_3y_pct": 94,
     "max_drawdown_5y_pct": -8.2,
     "recovery_months": 1,
     "nav_history_3y": [
-      60.0,
       61.27,
       62.49,
       62.76,
@@ -698,7 +697,8 @@
       85.77,
       86.18,
       80.41,
-      84.81
+      84.81,
+      85.12
     ]
   },
   {
@@ -735,22 +735,21 @@
       "top_sector_pct": 35.4
     },
     "inception_date": "2013-01-02",
-    "nav": 167.77,
+    "nav": 168.62,
     "returns": {
-      "1y": -0.5,
-      "3y": 10.9,
-      "5y": 11.4
+      "1y": -0.0,
+      "3y": 11.1,
+      "5y": 11.8
     },
     "category_avg_returns": {
-      "1y": -0.5,
-      "3y": 10.9,
-      "5y": 11.4
+      "1y": 0.0,
+      "3y": 11.1,
+      "5y": 11.8
     },
     "rolling_consistency_3y_pct": 89,
     "max_drawdown_5y_pct": -16.6,
     "recovery_months": 5,
     "nav_history_3y": [
-      126.3,
       130.93,
       134.92,
       131.8,
@@ -785,7 +784,8 @@
       176.97,
       176.04,
       156.12,
-      167.77
+      167.77,
+      168.62
     ]
   },
   {
@@ -822,22 +822,21 @@
       "top_sector_pct": 26.4
     },
     "inception_date": "2015-12-29",
-    "nav": 54.84,
+    "nav": 55.22,
     "returns": {
-      "1y": 5.7,
-      "3y": 16.4,
-      "5y": 14.7
+      "1y": 6.4,
+      "3y": 16.6,
+      "5y": 14.9
     },
     "category_avg_returns": {
-      "1y": 3.1,
-      "3y": 14.9,
-      "5y": 12.1
+      "1y": 3.8,
+      "3y": 15.0,
+      "5y": 12.3
     },
     "rolling_consistency_3y_pct": 93,
     "max_drawdown_5y_pct": -17.9,
     "recovery_months": 11,
     "nav_history_3y": [
-      35.95,
       37.57,
       39.2,
       39.38,
@@ -872,7 +871,8 @@
       56.12,
       56.49,
       49.63,
-      54.84
+      54.84,
+      55.22
     ]
   },
   {
@@ -909,22 +909,21 @@
       "top_sector_pct": 33.1
     },
     "inception_date": "2013-01-02",
-    "nav": 105.28,
+    "nav": 105.74,
     "returns": {
-      "1y": 0.6,
-      "3y": 13.5,
-      "5y": 9.5
+      "1y": 1.2,
+      "3y": 13.3,
+      "5y": 9.7
     },
     "category_avg_returns": {
-      "1y": 3.1,
-      "3y": 14.9,
-      "5y": 12.1
+      "1y": 3.8,
+      "3y": 15.0,
+      "5y": 12.3
     },
     "rolling_consistency_3y_pct": 89,
     "max_drawdown_5y_pct": -28.0,
     "recovery_months": 18,
     "nav_history_3y": [
-      75.58,
       79.08,
       79.7,
       78.33,
@@ -959,7 +958,8 @@
       107.19,
       108.93,
       96.28,
-      105.28
+      105.28,
+      105.74
     ]
   },
   {
@@ -996,22 +996,21 @@
       "top_sector_pct": 24.2
     },
     "inception_date": "2022-08-03",
-    "nav": 17.84,
+    "nav": 17.93,
     "returns": {
-      "1y": 5.1,
-      "3y": 19.3,
+      "1y": 5.8,
+      "3y": 19.2,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.2,
+      "1y": 5.6,
       "3y": 18.2,
-      "5y": 16.4
+      "5y": 16.5
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -15.6,
     "recovery_months": 4,
     "nav_history_3y": [
-      11.08,
       11.62,
       12.2,
       12.38,
@@ -1046,7 +1045,8 @@
       18.08,
       17.92,
       16.19,
-      17.84
+      17.84,
+      17.93
     ]
   },
   {
@@ -1083,22 +1083,21 @@
       "top_sector_pct": 26.8
     },
     "inception_date": "2013-01-02",
-    "nav": 150.96,
+    "nav": 152.18,
     "returns": {
-      "1y": 0.7,
-      "3y": 18.9,
-      "5y": 16.5
+      "1y": 1.8,
+      "3y": 19.1,
+      "5y": 16.8
     },
     "category_avg_returns": {
-      "1y": 5.2,
+      "1y": 5.6,
       "3y": 18.2,
-      "5y": 16.4
+      "5y": 16.5
     },
     "rolling_consistency_3y_pct": 95,
     "max_drawdown_5y_pct": -18.6,
     "recovery_months": 14,
     "nav_history_3y": [
-      93.92,
       98.09,
       101.99,
       103.11,
@@ -1133,7 +1132,8 @@
       156.32,
       155.84,
       137.65,
-      150.96
+      150.96,
+      152.18
     ]
   },
   {
@@ -1170,22 +1170,21 @@
       "top_sector_pct": 24.6
     },
     "inception_date": "2013-01-02",
-    "nav": 1556.52,
+    "nav": 1567.64,
     "returns": {
-      "1y": 12.2,
+      "1y": 13.8,
       "3y": 25.2,
-      "5y": 20.8
+      "5y": 21.2
     },
     "category_avg_returns": {
-      "1y": 6.9,
-      "3y": 23.9,
-      "5y": 22.3
+      "1y": 7.8,
+      "3y": 23.7,
+      "5y": 22.6
     },
     "rolling_consistency_3y_pct": 82,
     "max_drawdown_5y_pct": -20.7,
     "recovery_months": 8,
     "nav_history_3y": [
-      832.7,
       884.06,
       930.6,
       962.67,
@@ -1220,7 +1219,8 @@
       1527.45,
       1561.88,
       1392.79,
-      1556.52
+      1556.52,
+      1567.64
     ]
   },
   {
@@ -1257,16 +1257,16 @@
       "top_sector_pct": 28.9
     },
     "inception_date": "2020-12-11",
-    "nav": 24.13,
+    "nav": 24.01,
     "returns": {
-      "1y": 15.7,
-      "3y": 20.2,
-      "5y": 15.9
+      "1y": 15.4,
+      "3y": 19.9,
+      "5y": 15.8
     },
     "category_avg_returns": {
-      "1y": 5.2,
+      "1y": 5.6,
       "3y": 18.2,
-      "5y": 16.4
+      "5y": 16.5
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -16.5,
@@ -1307,7 +1307,7 @@
       24.16,
       24.06,
       22.42,
-      24.13
+      24.01
     ]
   },
   {
@@ -1344,22 +1344,21 @@
       "top_sector_pct": 28.3
     },
     "inception_date": "2013-01-08",
-    "nav": 94.31,
+    "nav": 94.7,
     "returns": {
-      "1y": 1.4,
-      "3y": 14.0,
-      "5y": 13.8
+      "1y": 2.0,
+      "3y": 14.2,
+      "5y": 14.1
     },
     "category_avg_returns": {
-      "1y": 1.5,
-      "3y": 13.1,
-      "5y": 12.9
+      "1y": 2.0,
+      "3y": 13.2,
+      "5y": 13.1
     },
-    "rolling_consistency_3y_pct": 91,
+    "rolling_consistency_3y_pct": 94,
     "max_drawdown_5y_pct": -17.3,
     "recovery_months": 5,
     "nav_history_3y": [
-      65.71,
       68.59,
       71.03,
       69.84,
@@ -1394,7 +1393,8 @@
       98.23,
       99.29,
       87.82,
-      94.31
+      94.31,
+      94.7
     ]
   },
   {
@@ -1431,22 +1431,21 @@
       "top_sector_pct": 78.4
     },
     "inception_date": "2015-12-29",
-    "nav": 45.98,
+    "nav": 45.85,
     "returns": {
-      "1y": -11.2,
-      "3y": 9.8,
-      "5y": 9.8
+      "1y": -11.5,
+      "3y": 9.6,
+      "5y": 9.7
     },
     "category_avg_returns": {
-      "1y": -11.2,
-      "3y": 9.8,
-      "5y": 9.8
+      "1y": -11.5,
+      "3y": 9.6,
+      "5y": 9.7
     },
     "rolling_consistency_3y_pct": 98,
     "max_drawdown_5y_pct": -33.3,
     "recovery_months": 1,
     "nav_history_3y": [
-      37.02,
       38.18,
       38.91,
       40.32,
@@ -1481,7 +1480,8 @@
       55.95,
       46.82,
       43.87,
-      45.98
+      45.98,
+      45.85
     ]
   },
   {
@@ -1525,9 +1525,9 @@
       "5y": 12.9
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 74,
     "max_drawdown_5y_pct": -21.4,
@@ -1605,22 +1605,21 @@
       "top_sector_pct": 27.6
     },
     "inception_date": "2013-01-01",
-    "nav": 121.38,
+    "nav": 121.83,
     "returns": {
-      "1y": -2.3,
+      "1y": -2.2,
       "3y": 9.1,
-      "5y": 11.2
+      "5y": 11.4
     },
     "category_avg_returns": {
-      "1y": 2.1,
+      "1y": 2.2,
       "3y": 11.0,
-      "5y": 11.6
+      "5y": 11.7
     },
     "rolling_consistency_3y_pct": 79,
     "max_drawdown_5y_pct": -12.6,
     "recovery_months": 1,
     "nav_history_3y": [
-      95.77,
       98.74,
       101.66,
       100.3,
@@ -1655,7 +1654,8 @@
       128.01,
       128.45,
       115.33,
-      121.38
+      121.38,
+      121.83
     ]
   },
   {
@@ -1692,22 +1692,21 @@
       "top_sector_pct": 21.4
     },
     "inception_date": "2013-01-01",
-    "nav": 217.72,
+    "nav": 218.53,
     "returns": {
-      "1y": 11.4,
-      "3y": 24.4,
-      "5y": 22.1
+      "1y": 12.0,
+      "3y": 24.0,
+      "5y": 22.2
     },
     "category_avg_returns": {
-      "1y": 6.9,
-      "3y": 23.9,
-      "5y": 22.3
+      "1y": 7.8,
+      "3y": 23.7,
+      "5y": 22.6
     },
     "rolling_consistency_3y_pct": 86,
     "max_drawdown_5y_pct": -17.0,
     "recovery_months": 2,
     "nav_history_3y": [
-      119.81,
       129.31,
       136.64,
       140.43,
@@ -1742,7 +1741,8 @@
       221.44,
       223.96,
       199.42,
-      217.72
+      217.72,
+      218.53
     ]
   },
   {
@@ -1779,22 +1779,21 @@
       "top_sector_pct": 26.1
     },
     "inception_date": "2015-03-09",
-    "nav": 41.41,
+    "nav": 41.66,
     "returns": {
-      "1y": 3.2,
-      "3y": 13.4,
-      "5y": 12.3
+      "1y": 3.8,
+      "3y": 13.2,
+      "5y": 12.5
     },
     "category_avg_returns": {
-      "1y": 5.2,
+      "1y": 5.6,
       "3y": 18.2,
-      "5y": 16.4
+      "5y": 16.5
     },
     "rolling_consistency_3y_pct": 92,
     "max_drawdown_5y_pct": -22.6,
     "recovery_months": 12,
     "nav_history_3y": [
-      30.09,
       31.16,
       31.84,
       31.67,
@@ -1829,7 +1828,8 @@
       41.78,
       41.95,
       37.76,
-      41.41
+      41.41,
+      41.66
     ]
   },
   {
@@ -1837,19 +1837,25 @@
     "name": "Abakkus Small Cap Fund",
     "amc": "Abakkus",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 453.38,
+    "expense_ratio": 2.02,
     "manager": {
       "name": "Sunil Singhania",
-      "tenure_years": 0.3,
+      "tenure_years": 0.2,
       "funds_managed": 3,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Sunil Singhania",
-        "tenure_years": 0.3,
+        "tenure_years": 0.2,
         "funds_managed": 3,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Sanjay Doshi",
+        "tenure_years": 0.7,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -1866,23 +1872,24 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2026-03-20",
-    "nav": 11.03,
+    "nav": 11.16,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -1.7,
     "recovery_months": 1,
     "nav_history_3y": [
       9.86,
-      11.03
+      11.03,
+      11.16
     ]
   },
   {
@@ -1890,8 +1897,8 @@
     "name": "Aditya Birla Sun Life Small Cap Fund",
     "amc": "ABSL",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 5200,
+    "expense_ratio": 0.87,
     "manager": {
       "name": "Dhaval Joshi",
       "tenure_years": 3.0,
@@ -1903,6 +1910,12 @@
         "name": "Dhaval Joshi",
         "tenure_years": 3.0,
         "funds_managed": 3,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Haresh Mehta",
+        "tenure_years": 3.0,
+        "funds_managed": 4,
         "changed_last_12mo": false
       }
     ],
@@ -1919,22 +1932,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2013-01-07",
-    "nav": 101.68,
+    "nav": 103.15,
     "returns": {
-      "1y": 16.0,
-      "3y": 20.6,
-      "5y": 16.3
+      "1y": 17.5,
+      "3y": 20.4,
+      "5y": 16.5
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 82,
     "max_drawdown_5y_pct": -26.2,
     "recovery_months": 14,
     "nav_history_3y": [
-      62.66,
       66.12,
       70.49,
       73.78,
@@ -1969,7 +1981,8 @@
       93.89,
       96.02,
       87.17,
-      101.68
+      101.68,
+      103.15
     ]
   },
   {
@@ -1977,19 +1990,31 @@
     "name": "Axis Small Cap Fund",
     "amc": "Axis",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 23918.65,
+    "expense_ratio": 0.65,
     "manager": {
       "name": "Anupam Tiwari",
-      "tenure_years": 4.2,
+      "tenure_years": 7.4,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Anupam Tiwari",
-        "tenure_years": 4.2,
+        "tenure_years": 7.4,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Tejas Sheth",
+        "tenure_years": 12.5,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Krishnaa Narayan",
+        "tenure_years": 16.7,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -2006,22 +2031,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2013-12-05",
-    "nav": 122.8,
+    "nav": 124.1,
     "returns": {
-      "1y": 9.6,
+      "1y": 11.2,
       "3y": 19.1,
-      "5y": 19.6
+      "5y": 19.7
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 95,
     "max_drawdown_5y_pct": -19.4,
     "recovery_months": 4,
     "nav_history_3y": [
-      77.13,
       81.28,
       84.04,
       86.99,
@@ -2056,7 +2080,8 @@
       116.75,
       118.52,
       108.18,
-      122.8
+      122.8,
+      124.1
     ]
   },
   {
@@ -2064,18 +2089,30 @@
     "name": "Bajaj Finserv Small Cap Fund",
     "amc": "Bajaj Finserv",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 1530.09,
+    "expense_ratio": 0.61,
     "manager": {
-      "name": "Unknown",
-      "tenure_years": 0.5,
+      "name": "Siddharth Chaudhary",
+      "tenure_years": 0.9,
       "funds_managed": 1,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Unknown",
-        "tenure_years": 0.5,
+        "name": "Siddharth Chaudhary",
+        "tenure_years": 0.9,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Nimesh Chandan",
+        "tenure_years": 4.5,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Sorbh Gupta",
+        "tenure_years": 0.1,
         "funds_managed": 1,
         "changed_last_12mo": false
       }
@@ -2093,16 +2130,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2025-07-22",
-    "nav": 10.07,
+    "nav": 10.16,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -16.2,
@@ -2117,7 +2154,8 @@
       9.21,
       9.44,
       8.49,
-      10.07
+      10.07,
+      10.16
     ]
   },
   {
@@ -2125,19 +2163,37 @@
     "name": "Bandhan Small Cap Fund",
     "amc": "Bandhan",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 20129.67,
+    "expense_ratio": 0.4,
     "manager": {
       "name": "Manish Gunwani",
-      "tenure_years": 2.1,
+      "tenure_years": 6.3,
       "funds_managed": 3,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Manish Gunwani",
-        "tenure_years": 2.1,
+        "tenure_years": 6.3,
         "funds_managed": 3,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Ritika Behera",
+        "tenure_years": 26.4,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Gaurav Satra",
+        "tenure_years": 0.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Kirthi Jain",
+        "tenure_years": 26.4,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -2154,22 +2210,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2020-02-26",
-    "nav": 52.16,
+    "nav": 52.75,
     "returns": {
-      "1y": 15.1,
+      "1y": 16.8,
       "3y": 32.2,
-      "5y": 24.7
+      "5y": 24.8
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -24.3,
     "recovery_months": 12,
     "nav_history_3y": [
-      23.86,
       25.6,
       27.22,
       28.81,
@@ -2204,7 +2259,8 @@
       48.85,
       49.19,
       44.63,
-      52.16
+      52.16,
+      52.75
     ]
   },
   {
@@ -2212,19 +2268,25 @@
     "name": "Bank of India Small Cap Fund",
     "amc": "Bank of India",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 1770.44,
+    "expense_ratio": 1.0,
     "manager": {
-      "name": "Unknown",
-      "tenure_years": 2.5,
+      "name": "Nav Bhardwaj",
+      "tenure_years": 7.4,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Unknown",
-        "tenure_years": 2.5,
+        "name": "Nav Bhardwaj",
+        "tenure_years": 7.4,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Alok Singh",
+        "tenure_years": 7.4,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -2241,22 +2303,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2018-12-27",
-    "nav": 54.92,
+    "nav": 55.46,
     "returns": {
-      "1y": 16.9,
-      "3y": 23.6,
-      "5y": 21.8
+      "1y": 17.7,
+      "3y": 23.7,
+      "5y": 21.9
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -27.1,
     "recovery_months": 14,
     "nav_history_3y": [
-      30.67,
       32.52,
       34.23,
       35.68,
@@ -2291,7 +2352,8 @@
       47.54,
       49.24,
       45.5,
-      54.92
+      54.92,
+      55.46
     ]
   },
   {
@@ -2299,19 +2361,25 @@
     "name": "Baroda BNP Paribas Small Cap Fund",
     "amc": "Baroda BNP Paribas",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 1066.16,
+    "expense_ratio": 1.53,
     "manager": {
-      "name": "Unknown",
-      "tenure_years": 1.2,
+      "name": "Himanshu Singh",
+      "tenure_years": 2.6,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Unknown",
-        "tenure_years": 1.2,
+        "name": "Himanshu Singh",
+        "tenure_years": 2.6,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Sanjay Chawla",
+        "tenure_years": 0.1,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -2328,16 +2396,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2023-11-01",
-    "nav": 13.5,
+    "nav": 13.73,
     "returns": {
-      "1y": 10.3,
+      "1y": 12.6,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -25.0,
@@ -2372,7 +2440,8 @@
       12.96,
       12.85,
       11.97,
-      13.5
+      13.5,
+      13.73
     ]
   },
   {
@@ -2380,19 +2449,25 @@
     "name": "Canara Robeco Small Cap Fund",
     "amc": "Canara Robeco",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 11602.93,
+    "expense_ratio": 0.56,
     "manager": {
       "name": "Shridatta Bhandwaldar",
-      "tenure_years": 3.8,
+      "tenure_years": 7.3,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Shridatta Bhandwaldar",
-        "tenure_years": 3.8,
+        "tenure_years": 7.3,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Pranav Gokhale",
+        "tenure_years": 38.4,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -2409,22 +2484,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2019-02-19",
-    "nav": 42.5,
+    "nav": 43.0,
     "returns": {
-      "1y": 9.4,
+      "1y": 10.6,
       "3y": 17.6,
-      "5y": 20.1
+      "5y": 20.2
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -23.6,
     "recovery_months": 14,
     "nav_history_3y": [
-      27.58,
       29.21,
       30.54,
       31.46,
@@ -2459,7 +2533,8 @@
       41.31,
       41.49,
       37.37,
-      42.5
+      42.5,
+      43.0
     ]
   },
   {
@@ -2467,8 +2542,8 @@
     "name": "DSP Small Cap Fund",
     "amc": "DSP",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 9800,
+    "expense_ratio": 0.7,
     "manager": {
       "name": "Vinit Sambre",
       "tenure_years": 11.0,
@@ -2480,6 +2555,12 @@
         "name": "Vinit Sambre",
         "tenure_years": 11.0,
         "funds_managed": 3,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Abhishek Ghosh",
+        "tenure_years": 2.5,
+        "funds_managed": 2,
         "changed_last_12mo": false
       }
     ],
@@ -2496,22 +2577,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2013-01-02",
-    "nav": 224.0,
+    "nav": 226.1,
     "returns": {
-      "1y": 20.5,
-      "3y": 21.9,
+      "1y": 21.5,
+      "3y": 22.1,
       "5y": 20.8
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 80,
     "max_drawdown_5y_pct": -24.1,
     "recovery_months": 14,
     "nav_history_3y": [
-      130.57,
       140.53,
       151.46,
       156.05,
@@ -2546,7 +2626,8 @@
       205.24,
       215.03,
       193.48,
-      224.0
+      224.0,
+      226.1
     ]
   },
   {
@@ -2554,19 +2635,31 @@
     "name": "Edelweiss Small Cap Fund",
     "amc": "Edelweiss",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 5107.67,
+    "expense_ratio": 0.55,
     "manager": {
-      "name": "Unknown",
-      "tenure_years": 2.0,
+      "name": "Raj Koradia",
+      "tenure_years": 3.1,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Unknown",
-        "tenure_years": 2.0,
+        "name": "Raj Koradia",
+        "tenure_years": 3.1,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Trideep Bhattacharya",
+        "tenure_years": 7.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Dhruv Bhatia",
+        "tenure_years": 18.0,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -2583,22 +2676,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2019-02-14",
-    "nav": 48.74,
+    "nav": 49.41,
     "returns": {
-      "1y": 11.3,
+      "1y": 13.1,
       "3y": 20.8,
-      "5y": 21.2
+      "5y": 21.3
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -22.9,
     "recovery_months": 14,
     "nav_history_3y": [
-      29.12,
       30.8,
       32.67,
       34.17,
@@ -2633,7 +2725,8 @@
       47.3,
       47.44,
       42.87,
-      48.74
+      48.74,
+      49.41
     ]
   },
   {
@@ -2641,19 +2734,31 @@
     "name": "Franklin India Small Cap Fund",
     "amc": "Franklin",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 11724.35,
+    "expense_ratio": 0.99,
     "manager": {
       "name": "Akhil Kalluri",
-      "tenure_years": 2.5,
+      "tenure_years": 13.3,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Akhil Kalluri",
-        "tenure_years": 2.5,
+        "tenure_years": 13.3,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "R Janakiraman",
+        "tenure_years": 30.2,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Akhil Kalluri",
+        "tenure_years": 0.1,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -2670,22 +2775,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2013-01-01",
-    "nav": 194.18,
+    "nav": 196.12,
     "returns": {
-      "1y": 8.7,
+      "1y": 9.9,
       "3y": 20.3,
-      "5y": 21.0
+      "5y": 21.1
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 83,
     "max_drawdown_5y_pct": -24.1,
     "recovery_months": 14,
     "nav_history_3y": [
-      118.37,
       125.18,
       132.78,
       139.52,
@@ -2720,7 +2824,8 @@
       180.09,
       182.51,
       164.9,
-      194.18
+      194.18,
+      196.12
     ]
   },
   {
@@ -2728,17 +2833,17 @@
     "name": "Groww Small Cap Fund",
     "amc": "Groww",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 209.25,
+    "expense_ratio": 1.02,
     "manager": {
-      "name": "Unknown",
+      "name": "Anupam Tiwari",
       "tenure_years": 0.3,
       "funds_managed": 1,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Unknown",
+        "name": "Anupam Tiwari",
         "tenure_years": 0.3,
         "funds_managed": 1,
         "changed_last_12mo": false
@@ -2757,16 +2862,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2026-02-02",
-    "nav": 10.96,
+    "nav": 11.05,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -9.9,
@@ -2774,7 +2879,8 @@
     "nav_history_3y": [
       10.15,
       9.23,
-      10.96
+      10.96,
+      11.05
     ]
   },
   {
@@ -2782,19 +2888,25 @@
     "name": "HDFC Small Cap Fund",
     "amc": "HDFC",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 33724.28,
+    "expense_ratio": 0.83,
     "manager": {
       "name": "Dhruv Muchhal",
-      "tenure_years": 2.8,
+      "tenure_years": 11.0,
       "funds_managed": 3,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Dhruv Muchhal",
-        "tenure_years": 2.8,
+        "tenure_years": 11.0,
         "funds_managed": 3,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Chirag Setalvad",
+        "tenure_years": 11.4,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -2811,22 +2923,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2014-06-30",
-    "nav": 150.67,
+    "nav": 152.25,
     "returns": {
-      "1y": 8.0,
-      "3y": 17.4,
-      "5y": 20.2
+      "1y": 9.2,
+      "3y": 17.3,
+      "5y": 20.1
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 88,
     "max_drawdown_5y_pct": -22.6,
     "recovery_months": 7,
     "nav_history_3y": [
-      99.33,
       104.69,
       112.44,
       116.41,
@@ -2861,7 +2972,8 @@
       152.91,
       153.0,
       135.38,
-      150.67
+      150.67,
+      152.25
     ]
   },
   {
@@ -2869,19 +2981,25 @@
     "name": "HSBC Small Cap Fund",
     "amc": "HSBC",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 13881.79,
+    "expense_ratio": 0.93,
     "manager": {
-      "name": "Unknown",
-      "tenure_years": 1.5,
+      "name": "Venugopal Manghat",
+      "tenure_years": 7.1,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Unknown",
-        "tenure_years": 1.5,
+        "name": "Venugopal Manghat",
+        "tenure_years": 7.1,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Mayank Chaturvedi",
+        "tenure_years": 9.9,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -2898,22 +3016,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2022-11-28",
-    "nav": 89.52,
+    "nav": 90.49,
     "returns": {
-      "1y": 10.0,
+      "1y": 11.4,
       "3y": 18.3,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -27.2,
     "recovery_months": 14,
     "nav_history_3y": [
-      56.24,
       59.63,
       63.11,
       67.23,
@@ -2948,7 +3065,8 @@
       82.49,
       84.34,
       76.03,
-      89.52
+      89.52,
+      90.49
     ]
   },
   {
@@ -2956,18 +3074,24 @@
     "name": "Helios Small Cap Fund",
     "amc": "Helios",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 726.45,
+    "expense_ratio": 0.68,
     "manager": {
-      "name": "Unknown",
+      "name": "Pratik Singh",
       "tenure_years": 0.5,
       "funds_managed": 1,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Unknown",
+        "name": "Pratik Singh",
         "tenure_years": 0.5,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Alok Bahl",
+        "tenure_years": 5.0,
         "funds_managed": 1,
         "changed_last_12mo": false
       }
@@ -2985,16 +3109,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2025-11-28",
-    "nav": 9.85,
+    "nav": 9.99,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -16.9,
@@ -3005,7 +3129,8 @@
       9.22,
       9.29,
       8.44,
-      9.85
+      9.85,
+      9.99
     ]
   },
   {
@@ -3013,19 +3138,25 @@
     "name": "ITI Small Cap Fund",
     "amc": "ITI",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 2492.96,
+    "expense_ratio": 1.12,
     "manager": {
       "name": "George Thomas",
-      "tenure_years": 3.1,
+      "tenure_years": 0.9,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "George Thomas",
-        "tenure_years": 3.1,
+        "tenure_years": 0.9,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Dhimant Shah",
+        "tenure_years": 6.3,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -3042,22 +3173,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2020-02-19",
-    "nav": 32.66,
+    "nav": 33.05,
     "returns": {
-      "1y": 13.9,
-      "3y": 27.2,
+      "1y": 15.4,
+      "3y": 27.7,
       "5y": 19.7
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -29.2,
     "recovery_months": 12,
     "nav_history_3y": [
-      16.77,
       17.77,
       18.71,
       19.32,
@@ -3092,7 +3222,8 @@
       29.99,
       30.36,
       27.93,
-      32.66
+      32.66,
+      33.05
     ]
   },
   {
@@ -3100,19 +3231,37 @@
     "name": "JM Small Cap Fund",
     "amc": "JM Financial",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 560.03,
+    "expense_ratio": 0.98,
     "manager": {
-      "name": "Unknown",
-      "tenure_years": 1.0,
+      "name": "Satish Ramanathan",
+      "tenure_years": 1.9,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Unknown",
-        "tenure_years": 1.0,
+        "name": "Satish Ramanathan",
+        "tenure_years": 1.9,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Ruchi Fozdar",
+        "tenure_years": 31.6,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Deepak Gupta",
+        "tenure_years": 0.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Asit Bhandarkar",
+        "tenure_years": 31.6,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -3129,16 +3278,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2024-06-24",
-    "nav": 10.07,
+    "nav": 10.21,
     "returns": {
-      "1y": 8.6,
+      "1y": 9.9,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -24.4,
@@ -3166,7 +3315,8 @@
       9.27,
       9.52,
       8.47,
-      10.07
+      10.07,
+      10.21
     ]
   },
   {
@@ -3174,8 +3324,8 @@
     "name": "Kotak Small Cap Fund",
     "amc": "Kotak",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 16500,
+    "expense_ratio": 0.37,
     "manager": {
       "name": "Arjun Khanna",
       "tenure_years": 2.0,
@@ -3203,22 +3353,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2013-01-02",
-    "nav": 294.73,
+    "nav": 298.83,
     "returns": {
-      "1y": 6.3,
-      "3y": 16.2,
-      "5y": 16.6
+      "1y": 7.9,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 89,
     "max_drawdown_5y_pct": -24.7,
     "recovery_months": 14,
     "nav_history_3y": [
-      197.16,
       210.97,
       220.58,
       227.77,
@@ -3253,7 +3402,8 @@
       279.8,
       288.09,
       257.92,
-      294.73
+      294.73,
+      298.83
     ]
   },
   {
@@ -3261,19 +3411,25 @@
     "name": "LIC MF Small Cap Fund",
     "amc": "LIC MF",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 552.21,
+    "expense_ratio": 1.0,
     "manager": {
-      "name": "Unknown",
-      "tenure_years": 1.0,
+      "name": "Dikshit Mittal",
+      "tenure_years": 2.6,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Unknown",
-        "tenure_years": 1.0,
+        "name": "Dikshit Mittal",
+        "tenure_years": 2.6,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Mahesh Bendre",
+        "tenure_years": 8.9,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -3290,16 +3446,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2023-07-31",
-    "nav": 34.64,
+    "nav": 35.08,
     "returns": {
-      "1y": 12.3,
+      "1y": 14.1,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -27.0,
@@ -3338,7 +3494,8 @@
       31.37,
       32.07,
       29.3,
-      34.64
+      34.64,
+      35.08
     ]
   },
   {
@@ -3346,19 +3503,31 @@
     "name": "Mahindra Manulife Small Cap Fund",
     "amc": "Mahindra Manulife",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 3820.31,
+    "expense_ratio": 0.5,
     "manager": {
-      "name": "Unknown",
-      "tenure_years": 1.8,
+      "name": "Krishna Sanghavi",
+      "tenure_years": 2.8,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Unknown",
-        "tenure_years": 1.8,
+        "name": "Krishna Sanghavi",
+        "tenure_years": 2.8,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Vishal Jajoo",
+        "tenure_years": 3.5,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Neelesh Dhamnaskar",
+        "tenure_years": 10.2,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -3375,22 +3544,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2022-12-14",
-    "nav": 20.83,
+    "nav": 21.13,
     "returns": {
-      "1y": 15.3,
-      "3y": 26.0,
+      "1y": 16.8,
+      "3y": 26.5,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -26.0,
     "recovery_months": 14,
     "nav_history_3y": [
-      11.06,
       11.78,
       12.64,
       13.41,
@@ -3425,7 +3593,8 @@
       19.24,
       19.5,
       18.07,
-      20.83
+      20.83,
+      21.13
     ]
   },
   {
@@ -3433,19 +3602,25 @@
     "name": "Mirae Asset Small Cap Fund",
     "amc": "Mirae Asset",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 3333.01,
+    "expense_ratio": 0.39,
     "manager": {
-      "name": "Unknown",
-      "tenure_years": 0.8,
+      "name": "Siddharth Srivastava",
+      "tenure_years": 1.3,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Unknown",
-        "tenure_years": 0.8,
+        "name": "Siddharth Srivastava",
+        "tenure_years": 1.3,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Varun Goel",
+        "tenure_years": 18.4,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -3462,16 +3637,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2025-02-03",
-    "nav": 11.68,
+    "nav": 11.84,
     "returns": {
-      "1y": 14.8,
+      "1y": 16.4,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -15.1,
@@ -3491,7 +3666,8 @@
       11.33,
       11.38,
       10.35,
-      11.68
+      11.68,
+      11.84
     ]
   },
   {
@@ -3499,19 +3675,37 @@
     "name": "Motilal Oswal Small Cap Fund",
     "amc": "Motilal Oswal",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 5177.86,
+    "expense_ratio": 0.97,
     "manager": {
       "name": "Niket Shah",
-      "tenure_years": 1.0,
+      "tenure_years": 1.2,
       "funds_managed": 4,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Niket Shah",
-        "tenure_years": 1.0,
+        "tenure_years": 1.2,
         "funds_managed": 4,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Rakesh Shetty",
+        "tenure_years": 2.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Swapnil P Mayekar",
+        "tenure_years": 2.4,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Ajay Khandelwal",
+        "tenure_years": 16.3,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -3528,16 +3722,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2023-12-29",
-    "nav": 14.8,
+    "nav": 14.98,
     "returns": {
-      "1y": 16.5,
+      "1y": 18.3,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -23.7,
@@ -3571,7 +3765,8 @@
       13.53,
       13.84,
       12.56,
-      14.8
+      14.8,
+      14.98
     ]
   },
   {
@@ -3579,19 +3774,37 @@
     "name": "PGIM India Small Cap Fund",
     "amc": "PGIM India",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 1353.47,
+    "expense_ratio": 0.63,
     "manager": {
       "name": "Aniruddha Naha",
-      "tenure_years": 2.5,
+      "tenure_years": 4.3,
       "funds_managed": 3,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Aniruddha Naha",
-        "tenure_years": 2.5,
+        "tenure_years": 4.3,
         "funds_managed": 3,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Vinay Paharia",
+        "tenure_years": 4.8,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Vivek Sharma",
+        "tenure_years": 16.0,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Utsav Mehta",
+        "tenure_years": 0.1,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -3608,22 +3821,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2021-08-02",
-    "nav": 17.52,
+    "nav": 17.72,
     "returns": {
-      "1y": 13.7,
-      "3y": 18.2,
+      "1y": 15.5,
+      "3y": 18.4,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 97,
     "max_drawdown_5y_pct": -24.6,
     "recovery_months": 13,
     "nav_history_3y": [
-      11.22,
       11.75,
       12.34,
       12.48,
@@ -3658,7 +3870,8 @@
       16.48,
       16.68,
       15.35,
-      17.52
+      17.52,
+      17.72
     ]
   },
   {
@@ -3666,19 +3879,25 @@
     "name": "Quantum Small Cap Fund",
     "amc": "Quantum",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 180.76,
+    "expense_ratio": 0.69,
     "manager": {
-      "name": "Unknown",
-      "tenure_years": 1.0,
+      "name": "Abhilasha Satale",
+      "tenure_years": 0.1,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Unknown",
-        "tenure_years": 1.0,
+        "name": "Abhilasha Satale",
+        "tenure_years": 0.1,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Chirag Mehta",
+        "tenure_years": 2.6,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -3695,16 +3914,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2023-11-03",
-    "nav": 12.69,
+    "nav": 12.82,
     "returns": {
-      "1y": 11.5,
+      "1y": 12.9,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -18.2,
@@ -3739,7 +3958,8 @@
       12.62,
       12.71,
       11.3,
-      12.69
+      12.69,
+      12.82
     ]
   },
   {
@@ -3747,8 +3967,8 @@
     "name": "Sundaram Small Cap Fund",
     "amc": "Sundaram",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 4200,
+    "expense_ratio": 0.69,
     "manager": {
       "name": "Rohit Seksaria",
       "tenure_years": 3.5,
@@ -3776,22 +3996,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2013-01-02",
-    "nav": 299.88,
+    "nav": 303.66,
     "returns": {
-      "1y": 17.0,
-      "3y": 21.8,
-      "5y": 20.4
+      "1y": 18.1,
+      "3y": 22.0,
+      "5y": 20.5
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 76,
     "max_drawdown_5y_pct": -23.8,
     "recovery_months": 14,
     "nav_history_3y": [
-      175.49,
       185.86,
       194.78,
       203.19,
@@ -3826,7 +4045,8 @@
       279.38,
       280.75,
       252.59,
-      299.88
+      299.88,
+      303.66
     ]
   },
   {
@@ -3834,19 +4054,25 @@
     "name": "Tata Small Cap Fund",
     "amc": "Tata",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 9620.55,
+    "expense_ratio": 0.5,
     "manager": {
       "name": "Chandraprakash Padiyar",
-      "tenure_years": 4.0,
+      "tenure_years": 0.7,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Chandraprakash Padiyar",
-        "tenure_years": 4.0,
+        "tenure_years": 0.7,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Jeetendra Khatri",
+        "tenure_years": 6.9,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -3863,22 +4089,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2018-11-13",
-    "nav": 39.54,
+    "nav": 39.99,
     "returns": {
-      "1y": -1.7,
-      "3y": 14.6,
-      "5y": 19.0
+      "1y": -0.6,
+      "3y": 14.3,
+      "5y": 18.9
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -30.9,
     "recovery_months": 1,
     "nav_history_3y": [
-      27.88,
       29.49,
       30.88,
       31.71,
@@ -3913,7 +4138,8 @@
       39.26,
       38.75,
       34.3,
-      39.54
+      39.54,
+      39.99
     ]
   },
   {
@@ -3921,18 +4147,18 @@
     "name": "The Wealth Company Small Cap Fund",
     "amc": "The Wealth Co",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 38.8,
+    "expense_ratio": 2.46,
     "manager": {
-      "name": "Unknown",
-      "tenure_years": 0.3,
+      "name": "Aparna Shanker",
+      "tenure_years": 0.2,
       "funds_managed": 1,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Unknown",
-        "tenure_years": 0.3,
+        "name": "Aparna Shanker",
+        "tenure_years": 0.2,
         "funds_managed": 1,
         "changed_last_12mo": false
       }
@@ -3950,23 +4176,24 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2026-03-30",
-    "nav": 10.82,
+    "nav": 10.92,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -1.1,
     "recovery_months": 1,
     "nav_history_3y": [
       9.87,
-      10.82
+      10.82,
+      10.92
     ]
   },
   {
@@ -3974,18 +4201,18 @@
     "name": "UTI Small Cap Fund",
     "amc": "UTI",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 4163.68,
+    "expense_ratio": 0.68,
     "manager": {
       "name": "Amit Premchandani",
-      "tenure_years": 3.2,
+      "tenure_years": 5.4,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Amit Premchandani",
-        "tenure_years": 3.2,
+        "tenure_years": 5.4,
         "funds_managed": 2,
         "changed_last_12mo": false
       }
@@ -4003,22 +4230,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2020-12-23",
-    "nav": 27.76,
+    "nav": 28.05,
     "returns": {
-      "1y": 10.6,
+      "1y": 11.7,
       "3y": 19.9,
-      "5y": 19.3
+      "5y": 19.5
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -22.3,
     "recovery_months": 14,
     "nav_history_3y": [
-      17.31,
       18.23,
       19.0,
       19.8,
@@ -4053,7 +4279,8 @@
       26.26,
       26.19,
       23.9,
-      27.76
+      27.76,
+      28.05
     ]
   },
   {
@@ -4061,8 +4288,8 @@
     "name": "Union Small Cap Fund",
     "amc": "Union",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 2100,
+    "expense_ratio": 0.63,
     "manager": {
       "name": "Vinay Paharia",
       "tenure_years": 5.2,
@@ -4090,22 +4317,21 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2014-06-17",
-    "nav": 58.54,
+    "nav": 59.24,
     "returns": {
-      "1y": 23.1,
-      "3y": 22.5,
-      "5y": 19.9
+      "1y": 24.9,
+      "3y": 22.6,
+      "5y": 20.3
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": 74,
     "max_drawdown_5y_pct": -26.2,
     "recovery_months": 14,
     "nav_history_3y": [
-      33.87,
       35.99,
       38.08,
       41.06,
@@ -4140,7 +4366,8 @@
       52.71,
       55.02,
       50.4,
-      58.54
+      58.54,
+      59.24
     ]
   },
   {
@@ -4148,19 +4375,25 @@
     "name": "Old Bridge Focused Fund",
     "amc": "Old Bridge",
     "category": "Focused",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 2332.95,
+    "expense_ratio": 0.93,
     "manager": {
       "name": "Kenneth Andrade",
-      "tenure_years": 1.3,
+      "tenure_years": 2.3,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Kenneth Andrade",
-        "tenure_years": 1.3,
+        "tenure_years": 2.3,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Kenneth Andrade",
+        "tenure_years": 2.7,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -4177,14 +4410,14 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2024-01-25",
-    "nav": 12.7,
+    "nav": 12.79,
     "returns": {
-      "1y": 9.8,
+      "1y": 10.1,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 9.8,
+      "1y": 10.1,
       "3y": null,
       "5y": null
     },
@@ -4219,7 +4452,8 @@
       12.64,
       12.56,
       11.36,
-      12.7
+      12.7,
+      12.79
     ]
   },
   {
@@ -4227,19 +4461,31 @@
     "name": "Trust MF Flexi Cap Fund",
     "amc": "Trust MF",
     "category": "Flexi Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 991.23,
+    "expense_ratio": 0.97,
     "manager": {
       "name": "Mihir Vora",
-      "tenure_years": 1.0,
+      "tenure_years": 2.1,
       "funds_managed": 3,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Mihir Vora",
-        "tenure_years": 1.0,
+        "tenure_years": 2.1,
         "funds_managed": 3,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Mihir Vora",
+        "tenure_years": 6.6,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Saurabh Kataria",
+        "tenure_years": 0.1,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -4256,16 +4502,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2024-04-29",
-    "nav": 11.49,
+    "nav": 11.58,
     "returns": {
-      "1y": 5.3,
+      "1y": 6.1,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.2,
+      "1y": 5.6,
       "3y": 18.2,
-      "5y": 16.4
+      "5y": 16.5
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -18.9,
@@ -4295,7 +4541,8 @@
       11.61,
       11.63,
       10.47,
-      11.49
+      11.49,
+      11.58
     ]
   },
   {
@@ -4303,19 +4550,31 @@
     "name": "Trust MF Small Cap Fund",
     "amc": "Trust MF",
     "category": "Small Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 1348.46,
+    "expense_ratio": 2.2,
     "manager": {
       "name": "Mihir Vora",
-      "tenure_years": 0.5,
+      "tenure_years": 1.6,
       "funds_managed": 3,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Mihir Vora",
-        "tenure_years": 0.5,
+        "tenure_years": 1.6,
         "funds_managed": 3,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Mihir Vora",
+        "tenure_years": 6.6,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Saurabh Kataria",
+        "tenure_years": 0.1,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -4332,16 +4591,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2024-11-05",
-    "nav": 11.63,
+    "nav": 11.77,
     "returns": {
-      "1y": 26.3,
+      "1y": 27.9,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 12.4,
-      "3y": 21.2,
-      "5y": 19.8
+      "1y": 13.8,
+      "3y": 21.3,
+      "5y": 19.9
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -24.0,
@@ -4364,7 +4623,8 @@
       10.5,
       10.75,
       9.93,
-      11.63
+      11.63,
+      11.77
     ]
   },
   {
@@ -4372,18 +4632,30 @@
     "name": "Unifi Flexi Cap Fund",
     "amc": "Unifi",
     "category": "Flexi Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 165.51,
+    "expense_ratio": 1.26,
     "manager": {
       "name": "Satyanarayana Seshadri",
-      "tenure_years": 0.9,
+      "tenure_years": 1.0,
       "funds_managed": 1,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Satyanarayana Seshadri",
-        "tenure_years": 0.9,
+        "tenure_years": 1.0,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Karthik Srinivas",
+        "tenure_years": 2.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Saravanan V N",
+        "tenure_years": 0.1,
         "funds_managed": 1,
         "changed_last_12mo": false
       }
@@ -4401,16 +4673,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2025-06-09",
-    "nav": 10.09,
+    "nav": 10.18,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.2,
+      "1y": 5.6,
       "3y": 18.2,
-      "5y": 16.4
+      "5y": 16.5
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -13.2,
@@ -4426,7 +4698,8 @@
       10.08,
       10.17,
       9.12,
-      10.09
+      10.09,
+      10.18
     ]
   },
   {
@@ -4434,18 +4707,30 @@
     "name": "Capitalmind Flexi Cap Fund",
     "amc": "Capitalmind",
     "category": "Flexi Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 373.21,
+    "expense_ratio": 0.96,
     "manager": {
       "name": "Deepak Shenoy",
-      "tenure_years": 0.7,
+      "tenure_years": 0.2,
       "funds_managed": 1,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Deepak Shenoy",
-        "tenure_years": 0.7,
+        "tenure_years": 0.2,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Anoop Vijaykumar",
+        "tenure_years": 0.8,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Divyansh Agnani",
+        "tenure_years": 1.1,
         "funds_managed": 1,
         "changed_last_12mo": false
       }
@@ -4463,16 +4748,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2025-08-06",
-    "nav": 10.04,
+    "nav": 10.05,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.2,
+      "1y": 5.6,
       "3y": 18.2,
-      "5y": 16.4
+      "5y": 16.5
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -9.2,
@@ -4486,7 +4771,8 @@
       10.2,
       10.33,
       9.5,
-      10.04
+      10.04,
+      10.05
     ]
   },
   {
@@ -4494,8 +4780,8 @@
     "name": "Jio BlackRock Flexi Cap Fund",
     "amc": "Jio BlackRock",
     "category": "Flexi Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 1800,
+    "expense_ratio": 0.49,
     "manager": {
       "name": "Rahul Singh",
       "tenure_years": 0.5,
@@ -4505,6 +4791,12 @@
     "managers": [
       {
         "name": "Rahul Singh",
+        "tenure_years": 0.5,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Mohit Jain",
         "tenure_years": 0.5,
         "funds_managed": 2,
         "changed_last_12mo": false
@@ -4523,16 +4815,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2025-10-17",
-    "nav": 9.7,
+    "nav": 9.75,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.2,
+      "1y": 5.6,
       "3y": 18.2,
-      "5y": 16.4
+      "5y": 16.5
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -14.3,
@@ -4544,7 +4836,8 @@
       10.0,
       10.07,
       8.88,
-      9.7
+      9.7,
+      9.75
     ]
   },
   {
@@ -4552,18 +4845,30 @@
     "name": "The Wealth Company Flexi Cap Fund",
     "amc": "The Wealth Co",
     "category": "Flexi Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 195.12,
+    "expense_ratio": 3.43,
     "manager": {
-      "name": "Unknown",
-      "tenure_years": 0.5,
+      "name": "Neeraj Jain",
+      "tenure_years": 0.6,
       "funds_managed": 1,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Unknown",
-        "tenure_years": 0.5,
+        "name": "Neeraj Jain",
+        "tenure_years": 0.6,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Aparna Shanker",
+        "tenure_years": 0.8,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Umesh Sharma",
+        "tenure_years": 0.1,
         "funds_managed": 1,
         "changed_last_12mo": false
       }
@@ -4581,16 +4886,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2025-10-17",
-    "nav": 9.96,
+    "nav": 10.0,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.2,
+      "1y": 5.6,
       "3y": 18.2,
-      "5y": 16.4
+      "5y": 16.5
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -16.1,
@@ -4602,7 +4907,8 @@
       10.0,
       9.7,
       8.74,
-      9.96
+      9.96,
+      10.0
     ]
   },
   {
@@ -4610,8 +4916,8 @@
     "name": "Abakkus Flexi Cap Fund",
     "amc": "Abakkus",
     "category": "Flexi Cap",
-    "aum_cr": 0,
-    "expense_ratio": 0.0,
+    "aum_cr": 3140.68,
+    "expense_ratio": 3.23,
     "manager": {
       "name": "Sunil Singhania",
       "tenure_years": 0.4,
@@ -4623,6 +4929,12 @@
         "name": "Sunil Singhania",
         "tenure_years": 0.4,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Sanjay Doshi",
+        "tenure_years": 0.7,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -4639,16 +4951,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2025-12-30",
-    "nav": 10.25,
+    "nav": 10.35,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.2,
+      "1y": 5.6,
       "3y": 18.2,
-      "5y": 16.4
+      "5y": 16.5
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -10.7,
@@ -4658,7 +4970,8 @@
       9.86,
       10.04,
       9.11,
-      10.25
+      10.25,
+      10.35
     ]
   }
 ]
