@@ -7,8 +7,6 @@ export function fmt(n: number | null | undefined, suffix = ""): string {
 }
 
 export function fmtAUM(cr: number): string {
-  if (cr >= 10000) return (cr / 1000).toFixed(1) + "K";
-  if (cr >= 1000) return cr.toLocaleString('en-IN');
   return cr.toLocaleString('en-IN');
 }
 

@@ -44,11 +44,11 @@ export interface ColDef {
 export const ALL_COLS: ColDef[] = [
   { id: "name",     label: "Fund",           num: false, w: 260, always: true, help: "Scheme name, AMC, ID and benchmark." },
   { id: "category", label: "Cat",            num: false, w: 90,  help: "SEBI scheme category (Flexi Cap, Large Cap, Mid Cap, Small Cap, ELSS, Hybrid, Index, Sectoral, Contra)." },
-  { id: "aum",      label: "AUM",            num: true,  w: 90,  help: "Assets Under Management in ₹ crore. Very small funds (< ₹100 Cr) can be volatile and illiquid; very large small-cap funds can struggle to deploy fresh inflows." },
-  { id: "er",       label: "ER",             num: true,  w: 62,  help: "Expense Ratio, annual fee charged by the scheme as % of assets. Compounds against returns — a 0.5% lower ER over 20 years is meaningful." },
+  { id: "aum",      label: "AUM (Cr)",       num: true,  w: 100, help: "Assets Under Management in ₹ crore (AAUM as of last monthly update). Very small funds (< ₹100 Cr) can be volatile and illiquid; very large small-cap funds can struggle to deploy fresh inflows." },
+  { id: "er",       label: "ER (Direct)",   num: true,  w: 74,  help: "Expense Ratio for the Direct Plan (no distributor commission), as % of assets per year. This is the TER you actually pay when investing directly. Compounds against returns — a 0.5% lower ER over 20 years is meaningful." },
   { id: "r3y",      label: "3Y CAGR",        num: true,  w: 96,  help: "3-year Compound Annual Growth Rate of NAV. A single window — easily cherry-picked. Check rolling consistency alongside." },
   { id: "r5y",      label: "5Y CAGR",        num: true,  w: 96,  help: "5-year Compound Annual Growth Rate. Smoother than 3Y but still a single window; use rolling consistency to see if the fund actually stays good." },
-  { id: "cons",     label: "Rolling cons.",  num: true,  w: 130, help: "Rolling 3Y consistency over the last 7 years: share of overlapping 3-year windows where the fund beat its category average. High = repeatable alpha, not one lucky year." },
+  { id: "cons",     label: "Rolling cons.",  num: true,  w: 130, help: "Rolling 3Y consistency over the last 7 years: share of overlapping 3-year windows where the fund beat its category average 3Y return. Benchmark = average 3Y CAGR of all funds in the same category. High = repeatable alpha, not one lucky year." },
   { id: "dd",       label: "Max DD",         num: true,  w: 78,  help: "Maximum drawdown over last 5 years — the worst peak-to-trough NAV fall. Tells you how ugly it got, not how often." },
   { id: "rec",      label: "Recov",          num: true,  w: 68,  help: "Recovery time in months: how long the fund took to climb back to its pre-drawdown peak NAV. Short recovery = the dip was fast; long recovery = sustained pain." },
   { id: "mgr",      label: "Manager",        num: false, w: 150, help: "Fund manager name and tenure at this fund. Hover the funds count to see which other funds in this screener the manager runs (workload indicator). Click '+N' to expand all managers. Each name links to LinkedIn. ⚠ = manager changed in last 12 months." },
@@ -237,9 +237,10 @@ function Cell({ col, f, managerFunds }: CellProps) {
       return (
         <td className="num tt">
           <span className="val">{fmtAUM(f.aum_cr)}</span>
-          <span className="delta">Cr</span>
+          <span className="delta" style={{marginLeft:2}}>Cr</span>
           <div className="tt-body">
             <div className="row"><span className="k">Total AUM</span><span className="v">{fmtAUMFull(f.aum_cr)}</span></div>
+            <div style={{fontSize:"9.5px",color:"var(--text-quiet)",marginTop:4}}>Source: AMFI AAUM, updated monthly</div>
           </div>
         </td>
       );
@@ -288,6 +289,7 @@ function Cell({ col, f, managerFunds }: CellProps) {
     case "mgr":
       return <MgrCell f={f} managerFunds={managerFunds} />;
     case "t10":
+      if (!f.concentration.top_10_pct) return <td className="num"><span style={{color:"var(--text-quiet)"}}>—</span></td>;
       return <td className="num"><span className="val">{f.concentration.top_10_pct.toFixed(1)}</span><span className="delta">%</span></td>;
     case "style": {
       const m = f.style.match;

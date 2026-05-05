@@ -225,9 +225,11 @@ def fetch(code):
         return json.loads(r.read())
 
 # ---------------------------------------------------------------------------
-# Build fund records
+# Build fund records  (Pass 1 — rolling_consistency filled in Pass 2)
 # ---------------------------------------------------------------------------
-results = []
+results   = []
+nav_cache = {}   # code -> nav_data, kept for the second-pass consistency calc
+
 for code, (name, category, amc) in SCHEMES.items():
     sys.stderr.write("Fetching {}: {}...\n".format(code, name[:40]))
 
@@ -247,6 +249,7 @@ for code, (name, category, amc) in SCHEMES.items():
             if dt and nav > 0:
                 nav_data.append({"dt": dt, "nav": nav})
 
+        nav_cache[code] = nav_data
         latest_nav = nav_data[0]["nav"] if nav_data else 0
         managers = get_static(code, "managers")
 
@@ -270,17 +273,16 @@ for code, (name, category, amc) in SCHEMES.items():
                 "3y": cagr(nav_data, 3),
                 "5y": cagr(nav_data, 5),
             },
-            # Filled after all funds are fetched
-            "category_avg_returns": None,
-            "rolling_consistency_3y_pct": rolling_consistency(nav_data, 3),
+            # Both filled after all funds are fetched (Pass 2)
+            "category_avg_returns":      None,
+            "rolling_consistency_3y_pct": None,
             "max_drawdown_5y_pct":        max_drawdown(nav_data, 5),
             "recovery_months":            recovery_months_fn(nav_data, 5),
             "nav_history_3y":             monthly_nav_history(nav_data, 36),
         }
         results.append(fund)
-        sys.stderr.write("  ok NAV:{:.2f} 1Y:{} 3Y:{} cons:{}\n".format(
-            fund["nav"], fund["returns"]["1y"], fund["returns"]["3y"],
-            fund["rolling_consistency_3y_pct"]))
+        sys.stderr.write("  ok NAV:{:.2f} 1Y:{} 3Y:{}\n".format(
+            fund["nav"], fund["returns"]["1y"], fund["returns"]["3y"]))
         time.sleep(0.4)
 
     except Exception as e:
@@ -308,6 +310,21 @@ cat_avg = {
 
 for fund in results:
     fund["category_avg_returns"] = cat_avg.get(fund["category"], {"1y": None, "3y": None, "5y": None})
+
+# ---------------------------------------------------------------------------
+# Pass 2 — rolling consistency vs category average 3Y CAGR.
+# Using the category average 3Y CAGR (just computed above) as the benchmark
+# gives a meaningful bar: "did this fund beat its peers on average?"
+# The old approach used a fixed 8% which is too low for Indian equity and
+# caused most equity funds to show 100% consistency.
+# ---------------------------------------------------------------------------
+for fund in results:
+    nd = nav_cache.get(fund["id"], [])
+    cat_3y = fund["category_avg_returns"].get("3y")
+    # Convert % to decimal; fallback to 10% if category avg is unavailable
+    benchmark = (cat_3y / 100.0) if cat_3y is not None else 0.10
+    fund["rolling_consistency_3y_pct"] = rolling_consistency(nd, 3, benchmark)
+    sys.stderr.write("  cons({}): {}\n".format(fund["id"], fund["rolling_consistency_3y_pct"]))
 
 # ---------------------------------------------------------------------------
 # Validation: surface missing or zero static fields so the maintainer notices

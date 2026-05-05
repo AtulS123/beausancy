@@ -635,7 +635,25 @@ table.grid thead th {
   user-select: none;
   transition: color 150ms ease, background 150ms ease;
 }
+/* Freeze first column (Fund name) during horizontal scroll */
+table.grid thead th:first-child {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 4;  /* above both row and column stickies */
+  background: var(--bg);
+  border-right: 1px solid var(--border);
+}
+table.grid tbody td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: var(--bg);
+  border-right: 1px solid var(--border);
+}
+table.grid tbody tr:hover td:first-child { background: var(--bg-row-hover); }
 table.grid thead th:hover { color: var(--text); background: var(--bg-elev); }
+table.grid thead th:first-child:hover { background: var(--bg-elev); }
 table.grid thead th.num { text-align: right; }
 table.grid thead th.sorted { color: var(--accent); }
 table.grid thead th .sortchev {
