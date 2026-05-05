@@ -39,7 +39,7 @@ SCHEMES = {
     "148595": ("DSP Value Fund",                            "Flexi Cap", "DSP"),
     "118617": ("Edelweiss Large Cap Fund",                  "Large Cap", "Edelweiss"),
     "135800": ("Tata Digital India Fund",                   "Others",    "Tata"),
-    "129220": ("L&T Emerging Businesses Fund",              "Small Cap", "L&T"),
+    # "129220": ("L&T Emerging Businesses Fund", "Small Cap", "L&T"),  # defunct Nov 2022 — merged into HSBC Small Cap (151130)
     "119062": ("HDFC Hybrid Equity Fund",                   "Hybrid",    "HDFC"),
     "118989": ("HDFC Mid-Cap Opportunities Fund",           "Mid Cap",   "HDFC"),
     "133839": ("PGIM India Flexi Cap Fund",                 "Flexi Cap", "PGIM India"),
