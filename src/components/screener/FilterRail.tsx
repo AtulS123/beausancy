@@ -13,10 +13,10 @@ const STYLE_BASES = ["Any", "Value", "Growth", "Quality", "Momentum", "Low-Vol",
 
 export const FILTER_DEFAULTS: FilterState = {
   categories: [],
-  aum: [100, 50000],
+  aum: [0, 100000],
   expense: [0, 2.5],
   fundAge: 0,
-  consistency: 60,
+  consistency: 0,
   rollingWindow: "3Y",
   minCagr: 0,
   maxDd: 50,
@@ -26,9 +26,9 @@ export const FILTER_DEFAULTS: FilterState = {
   excludeRecentChange: false,
   styleMatch: [],
   styleBasis: "Any",
-  top10: [10, 80],
-  numStocks: [15, 150],
-  topSector: [10, 80]
+  top10: [0, 100],
+  numStocks: [0, 200],
+  topSector: [0, 100]
 };
 
 // ─── Help tooltip ──────────────────────────────────────────────────────────
