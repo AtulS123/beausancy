@@ -15,6 +15,7 @@ Run: python3 scripts/fetch_groww_static.py
 
 from __future__ import annotations
 import urllib.request, json, re, datetime, sys, time
+from collections import defaultdict
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -124,6 +125,38 @@ def parse_tenure(html: str) -> list[float]:
     return tenures
 
 
+def _extract_from_holdings(holdings: list, result: dict) -> None:
+    """
+    Groww stores portfolio as a flat list of individual holdings, each with
+    nature_name ('EQ'/'Debt'), sector_name, and corpus_per (% of AUM).
+    Derive num_stocks, top_10_pct, and top_sectors from this list.
+    """
+    eq = [h for h in holdings if isinstance(h, dict) and h.get('nature_name') == 'EQ']
+    if not eq:
+        return
+
+    if 'num_stocks' not in result:
+        result['num_stocks'] = len(eq)
+
+    if 'top_10_pct' not in result:
+        sorted_h = sorted(eq, key=lambda h: float(h.get('corpus_per') or 0), reverse=True)
+        t10 = sum(float(h.get('corpus_per') or 0) for h in sorted_h[:10])
+        if 0 < t10 <= 100:
+            result['top_10_pct'] = round(t10, 1)
+
+    if 'top_sectors' not in result:
+        sector_totals: dict[str, float] = defaultdict(float)
+        for h in eq:
+            sname = (h.get('sector_name') or '').strip()
+            pct = float(h.get('corpus_per') or 0)
+            if sname and pct > 0:
+                sector_totals[sname] += pct
+        if sector_totals:
+            entries = sorted(sector_totals.items(), key=lambda x: x[1], reverse=True)
+            result['top_sectors'] = [{'name': n, 'pct': round(p, 1)} for n, p in entries[:3]]
+            result['top_sector_pct'] = round(entries[0][1], 1)
+
+
 def _scan_for_portfolio(obj: object, result: dict, depth: int = 0) -> None:
     """Recursively walk parsed JSON looking for portfolio keys Groww uses."""
     if depth > 10 or not obj:
@@ -137,17 +170,51 @@ def _scan_for_portfolio(obj: object, result: dict, depth: int = 0) -> None:
     if not isinstance(obj, dict):
         return
 
-    # Direct key matches for concentration fields
+    # Groww primary structure: mfServerSideData.holdings — flat list of per-holding dicts
+    if 'holdings' in obj and isinstance(obj['holdings'], list):
+        _extract_from_holdings(obj['holdings'], result)
+
+    # Fallback: pre-aggregated sector allocation lists (older Groww layouts / other sources)
+    if 'top_sectors' not in result:
+        for sec_key in ('sectorAllocation', 'sectorList', 'sectorData', 'sectors'):
+            if sec_key in obj:
+                sectors = obj[sec_key]
+                if isinstance(sectors, list) and sectors:
+                    entries: list[tuple[str, float]] = []
+                    for s in sectors:
+                        if not isinstance(s, dict):
+                            continue
+                        sname = None
+                        for nk in ('sectorName', 'sector', 'name', 'category', 'sectorDesc'):
+                            if nk in s and isinstance(s[nk], str) and s[nk].strip():
+                                sname = s[nk].strip()
+                                break
+                        spct = None
+                        for pk in ('percentage', 'percent', 'value', 'allocation', 'allocationPercent'):
+                            if pk in s:
+                                try:
+                                    spct = float(s[pk])
+                                except (TypeError, ValueError):
+                                    pass
+                                break
+                        if sname and spct is not None and 0 < spct < 100:
+                            entries.append((sname, round(spct, 1)))
+                    if entries:
+                        entries.sort(key=lambda x: x[1], reverse=True)
+                        result['top_sectors'] = [{'name': n, 'pct': p} for n, p in entries[:3]]
+                        result['top_sector_pct'] = entries[0][1]
+                break
+
+    # Fallback: direct numeric keys for top_10_pct / num_stocks
     KEY_MAP: dict[str, tuple] = {
-        # Groww key                    → (our key,      cast,  validator)
-        'top10HoldingPercentage':      ('top_10_pct',   float, lambda v: 0 < v <= 100),
-        'topTenHoldingPercentage':     ('top_10_pct',   float, lambda v: 0 < v <= 100),
-        'top10Percent':                ('top_10_pct',   float, lambda v: 0 < v <= 100),
-        'totalStocks':                 ('num_stocks',   int,   lambda v: 0 < v < 2000),
-        'totalHolding':                ('num_stocks',   int,   lambda v: 0 < v < 2000),
-        'totalEquityHolding':          ('num_stocks',   int,   lambda v: 0 < v < 2000),
-        'numberOfStocks':              ('num_stocks',   int,   lambda v: 0 < v < 2000),
-        'stockCount':                  ('num_stocks',   int,   lambda v: 0 < v < 2000),
+        'top10HoldingPercentage':  ('top_10_pct',  float, lambda v: 0 < v <= 100),
+        'topTenHoldingPercentage': ('top_10_pct',  float, lambda v: 0 < v <= 100),
+        'top10Percent':            ('top_10_pct',  float, lambda v: 0 < v <= 100),
+        'totalStocks':             ('num_stocks',  int,   lambda v: 0 < v < 2000),
+        'totalHolding':            ('num_stocks',  int,   lambda v: 0 < v < 2000),
+        'totalEquityHolding':      ('num_stocks',  int,   lambda v: 0 < v < 2000),
+        'numberOfStocks':          ('num_stocks',  int,   lambda v: 0 < v < 2000),
+        'stockCount':              ('num_stocks',  int,   lambda v: 0 < v < 2000),
     }
     for src, (dst, cast, ok) in KEY_MAP.items():
         if src in obj and dst not in result:
@@ -157,28 +224,6 @@ def _scan_for_portfolio(obj: object, result: dict, depth: int = 0) -> None:
                     result[dst] = round(v, 1) if dst != 'num_stocks' else v
             except (TypeError, ValueError):
                 pass
-
-    # Sector allocation — find the largest sector %
-    for sec_key in ('sectorAllocation', 'sectorList', 'sectorData', 'sectors'):
-        if sec_key in obj and 'top_sector_pct' not in result:
-            sectors = obj[sec_key]
-            if isinstance(sectors, list) and sectors:
-                pcts: list[float] = []
-                for s in sectors:
-                    if not isinstance(s, dict):
-                        continue
-                    for k in ('percentage', 'percent', 'value', 'allocation', 'allocationPercent'):
-                        if k in s:
-                            try:
-                                pcts.append(float(s[k]))
-                            except (TypeError, ValueError):
-                                pass
-                            break
-                if pcts:
-                    mx = max(pcts)
-                    if 0 < mx < 100:
-                        result['top_sector_pct'] = round(mx, 1)
-            break
 
     # Recurse into all child values
     for v in obj.values():
@@ -337,7 +382,10 @@ def main() -> None:
             existing_conc = static[code].get('concentration',
                 {'top_10_pct': 0.0, 'num_stocks': 0, 'top_sector_pct': 0.0})
             for k, v in conc.items():
-                if v and v > 0:
+                if k == 'top_sectors':
+                    if v:  # non-empty list
+                        existing_conc[k] = v
+                elif v and v > 0:
                     existing_conc[k] = v
             static[code]['concentration'] = existing_conc
 

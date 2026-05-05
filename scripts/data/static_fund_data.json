@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Static fund data maintained manually. Update monthly after AMC factsheets are published (typically by the 10th of each month).",
-    "last_updated": "2026-05-05",
+    "last_updated": "2026-05-06",
     "fields": {
       "aum_cr": "AUM in crores -- source: AMFI monthly AAUM report or fund factsheet",
       "expense_ratio": "Direct plan TER (%) -- source: AMC website or SEBI TER disclosure",
@@ -61,12 +61,12 @@
     }
   },
   "118825": {
-    "aum_cr": 38950,
-    "expense_ratio": 0.54,
+    "aum_cr": 35342.63,
+    "expense_ratio": 0.57,
     "managers": [
       {
-        "name": "Gaurav Khandelwal",
-        "tenure_years": 2.1,
+        "name": "Gaurav Misra",
+        "tenure_years": 9.3,
         "funds_managed": 3,
         "changed_last_12mo": false
       }
@@ -79,19 +79,45 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 54.1,
-      "num_stocks": 62,
-      "top_sector_pct": 29.8
+      "top_10_pct": 49.2,
+      "num_stocks": 77,
+      "top_sector_pct": 29.7,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 29.7
+        },
+        {
+          "name": "Services",
+          "pct": 9.4
+        },
+        {
+          "name": "Energy",
+          "pct": 9.1
+        }
+      ]
     }
   },
   "118778": {
-    "aum_cr": 52180,
+    "aum_cr": 61808.85,
     "expense_ratio": 0.73,
     "managers": [
       {
         "name": "Samir Rachh",
-        "tenure_years": 8.7,
+        "tenure_years": 2.1,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Amber Singhania",
+        "tenure_years": 5.2,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Kinjal Desai",
+        "tenure_years": 6.1,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -103,20 +129,70 @@
       "basis": "Growth"
     },
     "concentration": {
-      "top_10_pct": 22.4,
-      "num_stocks": 142,
-      "top_sector_pct": 19.6
+      "top_10_pct": 14.2,
+      "num_stocks": 247,
+      "top_sector_pct": 16.7,
+      "top_sectors": [
+        {
+          "name": "Capital Goods",
+          "pct": 16.7
+        },
+        {
+          "name": "Consumer Staples",
+          "pct": 12.4
+        },
+        {
+          "name": "Financial",
+          "pct": 12.4
+        }
+      ]
     }
   },
   "120828": {
     "scheme_url": "https://www.quantmutual.com/funds/quant-small-cap-fund-direct-growth",
-    "aum_cr": 21430,
-    "expense_ratio": 0.68,
+    "aum_cr": 25820.99,
+    "expense_ratio": 0.71,
     "managers": [
       {
-        "name": "Ankit Pande",
-        "tenure_years": 4.3,
+        "name": "Varun Pattani",
+        "tenure_years": 13.3,
         "funds_managed": 6,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Ayusha Kumbhat",
+        "tenure_years": 30.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Sameer Kate",
+        "tenure_years": 0.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Sanjeev Sharma",
+        "tenure_years": 30.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Sandeep Tandon",
+        "tenure_years": 30.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Ankit A Pande",
+        "tenure_years": 13.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Yug Tibrewal",
+        "tenure_years": 0.1,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -128,9 +204,23 @@
       "basis": "Momentum"
     },
     "concentration": {
-      "top_10_pct": 38.7,
-      "num_stocks": 78,
-      "top_sector_pct": 24.3
+      "top_10_pct": 36.6,
+      "num_stocks": 104,
+      "top_sector_pct": 23.2,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 23.2
+        },
+        {
+          "name": "Healthcare",
+          "pct": 17.2
+        },
+        {
+          "name": "Energy",
+          "pct": 13.5
+        }
+      ]
     }
   },
   "125497": {
@@ -184,19 +274,43 @@
     }
   },
   "120377": {
-    "aum_cr": 58420,
-    "expense_ratio": 0.88,
+    "aum_cr": 66397.8,
+    "expense_ratio": 0.89,
     "managers": [
       {
-        "name": "Sankaran Naren",
-        "tenure_years": 7.8,
+        "name": "Sharmila D'Silva",
+        "tenure_years": 3.0,
         "funds_managed": 6,
         "changed_last_12mo": false
       },
       {
         "name": "Ihab Dalwai",
-        "tenure_years": 5.2,
+        "tenure_years": 7.3,
         "funds_managed": 3,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Rajat Chandak",
+        "tenure_years": 9.5,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Akhil Kakkar",
+        "tenure_years": 10.2,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Sri Sharma",
+        "tenure_years": 10.7,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Manish Banthia",
+        "tenure_years": 12.8,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -208,9 +322,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 38.4,
-      "num_stocks": 84,
-      "top_sector_pct": 24.1
+      "top_10_pct": 28.2,
+      "num_stocks": 126,
+      "top_sector_pct": 16.5,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 16.5
+        },
+        {
+          "name": "Automobile",
+          "pct": 11.0
+        },
+        {
+          "name": "Services",
+          "pct": 8.8
+        }
+      ]
     }
   },
   "120716": {
@@ -239,12 +367,12 @@
     }
   },
   "135781": {
-    "aum_cr": 24680,
-    "expense_ratio": 0.58,
+    "aum_cr": 22940.33,
+    "expense_ratio": 0.66,
     "managers": [
       {
         "name": "Neelesh Surana",
-        "tenure_years": 10.3,
+        "tenure_years": 10.5,
         "funds_managed": 5,
         "changed_last_12mo": false
       }
@@ -257,9 +385,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 41.2,
-      "num_stocks": 72,
-      "top_sector_pct": 26.4
+      "top_10_pct": 40.9,
+      "num_stocks": 69,
+      "top_sector_pct": 27.6,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 27.6
+        },
+        {
+          "name": "Services",
+          "pct": 13.2
+        },
+        {
+          "name": "Healthcare",
+          "pct": 8.6
+        }
+      ]
     }
   },
   "120503": {
@@ -288,13 +430,37 @@
     }
   },
   "150346": {
-    "aum_cr": 2840,
-    "expense_ratio": 0.62,
+    "aum_cr": 6890.27,
+    "expense_ratio": 0.93,
     "managers": [
       {
         "name": "Ramesh Mantri",
-        "tenure_years": 1.7,
+        "tenure_years": 0.1,
         "funds_managed": 3,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Piyush Baranwal",
+        "tenure_years": 3.8,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Trupti Agrawal",
+        "tenure_years": 3.8,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Dheeresh Pathak",
+        "tenure_years": 3.8,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Ashish Agrawal",
+        "tenure_years": 4.0,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -306,18 +472,32 @@
       "basis": "Quality"
     },
     "concentration": {
-      "top_10_pct": 36.8,
-      "num_stocks": 62,
-      "top_sector_pct": 24.2
+      "top_10_pct": 35.1,
+      "num_stocks": 154,
+      "top_sector_pct": 32.0,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 32.0
+        },
+        {
+          "name": "Services",
+          "pct": 8.7
+        },
+        {
+          "name": "Healthcare",
+          "pct": 7.7
+        }
+      ]
     }
   },
   "120348": {
-    "aum_cr": 13420,
-    "expense_ratio": 0.64,
+    "aum_cr": 17663.58,
+    "expense_ratio": 0.57,
     "managers": [
       {
         "name": "Taher Badshah",
-        "tenure_years": 6.8,
+        "tenure_years": 7.1,
         "funds_managed": 2,
         "changed_last_12mo": false
       }
@@ -330,9 +510,23 @@
       "basis": "Value"
     },
     "concentration": {
-      "top_10_pct": 42.4,
-      "num_stocks": 54,
-      "top_sector_pct": 26.8
+      "top_10_pct": 37.6,
+      "num_stocks": 75,
+      "top_sector_pct": 25.9,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 25.9
+        },
+        {
+          "name": "Services",
+          "pct": 12.3
+        },
+        {
+          "name": "Healthcare",
+          "pct": 11.9
+        }
+      ]
     }
   },
   "119581": {
@@ -361,13 +555,19 @@
     }
   },
   "148595": {
-    "aum_cr": 1240,
-    "expense_ratio": 0.89,
+    "aum_cr": 1469.21,
+    "expense_ratio": 1.02,
     "managers": [
       {
-        "name": "Aparna Karnik",
-        "tenure_years": 3.1,
+        "name": "Kaivalya Nadkarni",
+        "tenure_years": 5.5,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Aparna Karnik",
+        "tenure_years": 29.4,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -379,19 +579,39 @@
       "basis": "Value"
     },
     "concentration": {
-      "top_10_pct": 46.2,
-      "num_stocks": 38,
-      "top_sector_pct": 28.9
+      "top_10_pct": 24.5,
+      "num_stocks": 73,
+      "top_sector_pct": 10.7,
+      "top_sectors": [
+        {
+          "name": "Automobile",
+          "pct": 10.7
+        },
+        {
+          "name": "Energy",
+          "pct": 10.5
+        },
+        {
+          "name": "Technology",
+          "pct": 9.0
+        }
+      ]
     }
   },
   "118617": {
-    "aum_cr": 3420,
-    "expense_ratio": 0.42,
+    "aum_cr": 1321.7,
+    "expense_ratio": 0.67,
     "managers": [
       {
-        "name": "Trideep Bhattacharya",
-        "tenure_years": 3.4,
+        "name": "Bharat Lahoti",
+        "tenure_years": 3.1,
         "funds_managed": 5,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Bhavesh Jain",
+        "tenure_years": 11.1,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -403,19 +623,39 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 44.8,
-      "num_stocks": 58,
-      "top_sector_pct": 28.3
+      "top_10_pct": 42.7,
+      "num_stocks": 76,
+      "top_sector_pct": 30.9,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 30.9
+        },
+        {
+          "name": "Energy",
+          "pct": 10.5
+        },
+        {
+          "name": "Healthcare",
+          "pct": 8.5
+        }
+      ]
     }
   },
   "135800": {
-    "aum_cr": 11240,
-    "expense_ratio": 0.34,
+    "aum_cr": 9238.58,
+    "expense_ratio": 0.59,
     "managers": [
       {
-        "name": "Meeta Shetty",
-        "tenure_years": 4.2,
+        "name": "Hasmukh Vishariya",
+        "tenure_years": 5.3,
         "funds_managed": 3,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Meeta Shetty",
+        "tenure_years": 5.8,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -427,9 +667,23 @@
       "basis": "Growth"
     },
     "concentration": {
-      "top_10_pct": 72.4,
-      "num_stocks": 28,
-      "top_sector_pct": 78.4
+      "top_10_pct": 71.9,
+      "num_stocks": 45,
+      "top_sector_pct": 68.5,
+      "top_sectors": [
+        {
+          "name": "Technology",
+          "pct": 68.5
+        },
+        {
+          "name": "Services",
+          "pct": 16.9
+        },
+        {
+          "name": "Communication",
+          "pct": 5.5
+        }
+      ]
     }
   },
   "129220": {
@@ -507,13 +761,31 @@
     }
   },
   "133839": {
-    "aum_cr": 8640,
-    "expense_ratio": 0.42,
+    "aum_cr": 5332.01,
+    "expense_ratio": 0.55,
     "managers": [
       {
-        "name": "Aniruddha Naha",
-        "tenure_years": 4.1,
+        "name": "Anandha Padmanabhan Anjeneyan",
+        "tenure_years": 4.3,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Vinay Paharia",
+        "tenure_years": 5.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Puneet Pal",
+        "tenure_years": 5.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Vivek Sharma",
+        "tenure_years": 5.8,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -525,9 +797,23 @@
       "basis": "Quality"
     },
     "concentration": {
-      "top_10_pct": 40.2,
-      "num_stocks": 45,
-      "top_sector_pct": 26.1
+      "top_10_pct": 34.7,
+      "num_stocks": 79,
+      "top_sector_pct": 24.6,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 24.6
+        },
+        {
+          "name": "Healthcare",
+          "pct": 10.0
+        },
+        {
+          "name": "Automobile",
+          "pct": 9.6
+        }
+      ]
     }
   },
   "152358": {
@@ -535,7 +821,7 @@
     "expense_ratio": 0.93,
     "managers": [
       {
-        "name": "Kenneth Andrade",
+        "name": "Tarang Agrawal",
         "tenure_years": 2.3,
         "funds_managed": 2,
         "changed_last_12mo": false
@@ -555,9 +841,23 @@
       "basis": "Quality"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 47.9,
+      "num_stocks": 23,
+      "top_sector_pct": 15.5,
+      "top_sectors": [
+        {
+          "name": "Metals & Mining",
+          "pct": 15.5
+        },
+        {
+          "name": "Healthcare",
+          "pct": 14.8
+        },
+        {
+          "name": "Services",
+          "pct": 13.7
+        }
+      ]
     }
   },
   "152584": {
@@ -565,7 +865,7 @@
     "expense_ratio": 0.97,
     "managers": [
       {
-        "name": "Mihir Vora",
+        "name": "Aakash Manghani",
         "tenure_years": 2.1,
         "funds_managed": 3,
         "changed_last_12mo": false
@@ -591,9 +891,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 37.8,
+      "num_stocks": 59,
+      "top_sector_pct": 24.7,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 24.7
+        },
+        {
+          "name": "Healthcare",
+          "pct": 10.1
+        },
+        {
+          "name": "Technology",
+          "pct": 8.4
+        }
+      ]
     }
   },
   "152939": {
@@ -601,7 +915,7 @@
     "expense_ratio": 2.2,
     "managers": [
       {
-        "name": "Mihir Vora",
+        "name": "Aakash Manghani",
         "tenure_years": 1.6,
         "funds_managed": 3,
         "changed_last_12mo": false
@@ -627,9 +941,23 @@
       "basis": "Growth"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 25.6,
+      "num_stocks": 64,
+      "top_sector_pct": 16.4,
+      "top_sectors": [
+        {
+          "name": "Healthcare",
+          "pct": 16.4
+        },
+        {
+          "name": "Financial",
+          "pct": 14.5
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 12.6
+        }
+      ]
     }
   },
   "153543": {
@@ -637,7 +965,7 @@
     "expense_ratio": 1.26,
     "managers": [
       {
-        "name": "Satyanarayana Seshadri",
+        "name": "Aejas Lakhani",
         "tenure_years": 1.0,
         "funds_managed": 1,
         "changed_last_12mo": false
@@ -663,9 +991,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 38.2,
+      "num_stocks": 55,
+      "top_sector_pct": 30.3,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 30.3
+        },
+        {
+          "name": "Healthcare",
+          "pct": 10.1
+        },
+        {
+          "name": "Services",
+          "pct": 8.4
+        }
+      ]
     }
   },
   "153738": {
@@ -673,7 +1015,7 @@
     "expense_ratio": 0.96,
     "managers": [
       {
-        "name": "Deepak Shenoy",
+        "name": "Prateek Jain",
         "tenure_years": 0.2,
         "funds_managed": 1,
         "changed_last_12mo": false
@@ -699,9 +1041,23 @@
       "basis": "Momentum"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 27.6,
+      "num_stocks": 35,
+      "top_sector_pct": 20.7,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 20.7
+        },
+        {
+          "name": "Energy",
+          "pct": 10.0
+        },
+        {
+          "name": "Automobile",
+          "pct": 9.9
+        }
+      ]
     }
   },
   "153859": {
@@ -766,9 +1122,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 33.5,
+      "num_stocks": 40,
+      "top_sector_pct": 29.8,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 29.8
+        },
+        {
+          "name": "Automobile",
+          "pct": 8.9
+        },
+        {
+          "name": "Technology",
+          "pct": 8.6
+        }
+      ]
     }
   },
   "154043": {
@@ -776,7 +1146,7 @@
     "expense_ratio": 3.23,
     "managers": [
       {
-        "name": "Sunil Singhania",
+        "name": "Abhishek Krishnaswami Srinivas",
         "tenure_years": 0.4,
         "funds_managed": 2,
         "changed_last_12mo": false
@@ -796,9 +1166,23 @@
       "basis": "Quality"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 32.0,
+      "num_stocks": 44,
+      "top_sector_pct": 26.3,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 26.3
+        },
+        {
+          "name": "Energy",
+          "pct": 9.0
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 8.5
+        }
+      ]
     }
   },
   "154215": {
@@ -806,7 +1190,7 @@
     "expense_ratio": 2.02,
     "managers": [
       {
-        "name": "Sunil Singhania",
+        "name": "Abhishek Krishnaswami Srinivas",
         "tenure_years": 0.2,
         "funds_managed": 3,
         "changed_last_12mo": false
@@ -826,9 +1210,23 @@
       "basis": "Quality"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 16.9,
+      "num_stocks": 42,
+      "top_sector_pct": 9.7,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 9.7
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 8.6
+        },
+        {
+          "name": "Metals & Mining",
+          "pct": 6.2
+        }
+      ]
     }
   },
   "119556": {
@@ -867,7 +1265,7 @@
     "expense_ratio": 0.65,
     "managers": [
       {
-        "name": "Anupam Tiwari",
+        "name": "Mayank Hyanki",
         "tenure_years": 7.4,
         "funds_managed": 2,
         "changed_last_12mo": false
@@ -893,9 +1291,23 @@
       "basis": "Quality"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 20.7,
+      "num_stocks": 137,
+      "top_sector_pct": 13.5,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 13.5
+        },
+        {
+          "name": "Healthcare",
+          "pct": 12.7
+        },
+        {
+          "name": "Services",
+          "pct": 8.5
+        }
+      ]
     }
   },
   "153612": {
@@ -929,9 +1341,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 30.6,
+      "num_stocks": 76,
+      "top_sector_pct": 17.7,
+      "top_sectors": [
+        {
+          "name": "Capital Goods",
+          "pct": 17.7
+        },
+        {
+          "name": "Financial",
+          "pct": 14.9
+        },
+        {
+          "name": "Construction",
+          "pct": 14.5
+        }
+      ]
     }
   },
   "147946": {
@@ -971,9 +1397,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 19.2,
+      "num_stocks": 251,
+      "top_sector_pct": 19.5,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 19.5
+        },
+        {
+          "name": "Healthcare",
+          "pct": 10.1
+        },
+        {
+          "name": "Services",
+          "pct": 9.1
+        }
+      ]
     }
   },
   "145678": {
@@ -1001,9 +1441,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 25.3,
+      "num_stocks": 82,
+      "top_sector_pct": 15.6,
+      "top_sectors": [
+        {
+          "name": "Capital Goods",
+          "pct": 15.6
+        },
+        {
+          "name": "Financial",
+          "pct": 13.9
+        },
+        {
+          "name": "Healthcare",
+          "pct": 11.8
+        }
+      ]
     }
   },
   "152128": {
@@ -1031,9 +1485,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 29.4,
+      "num_stocks": 50,
+      "top_sector_pct": 19.7,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 19.7
+        },
+        {
+          "name": "Healthcare",
+          "pct": 19.5
+        },
+        {
+          "name": "Services",
+          "pct": 16.6
+        }
+      ]
     }
   },
   "146130": {
@@ -1061,9 +1529,23 @@
       "basis": "Quality"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 23.9,
+      "num_stocks": 88,
+      "top_sector_pct": 19.9,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 19.9
+        },
+        {
+          "name": "Services",
+          "pct": 18.5
+        },
+        {
+          "name": "Healthcare",
+          "pct": 11.1
+        }
+      ]
     }
   },
   "119212": {
@@ -1128,9 +1610,23 @@
       "basis": "Growth"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 25.2,
+      "num_stocks": 86,
+      "top_sector_pct": 20.7,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 20.7
+        },
+        {
+          "name": "Healthcare",
+          "pct": 13.4
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 10.0
+        }
+      ]
     }
   },
   "118525": {
@@ -1138,7 +1634,7 @@
     "expense_ratio": 0.99,
     "managers": [
       {
-        "name": "Akhil Kalluri",
+        "name": "Sandeep Manam",
         "tenure_years": 13.3,
         "funds_managed": 2,
         "changed_last_12mo": false
@@ -1164,9 +1660,23 @@
       "basis": "Growth"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 21.0,
+      "num_stocks": 89,
+      "top_sector_pct": 17.4,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 17.4
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 16.3
+        },
+        {
+          "name": "Healthcare",
+          "pct": 10.8
+        }
+      ]
     }
   },
   "154063": {
@@ -1188,9 +1698,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 35.5,
+      "num_stocks": 49,
+      "top_sector_pct": 28.6,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 28.6
+        },
+        {
+          "name": "Automobile",
+          "pct": 18.6
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 15.2
+        }
+      ]
     }
   },
   "130503": {
@@ -1218,9 +1742,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 28.1,
+      "num_stocks": 83,
+      "top_sector_pct": 17.9,
+      "top_sectors": [
+        {
+          "name": "Services",
+          "pct": 17.9
+        },
+        {
+          "name": "Financial",
+          "pct": 12.9
+        },
+        {
+          "name": "Healthcare",
+          "pct": 12.1
+        }
+      ]
     }
   },
   "151130": {
@@ -1248,9 +1786,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 19.4,
+      "num_stocks": 107,
+      "top_sector_pct": 19.4,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 19.4
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 14.8
+        },
+        {
+          "name": "Healthcare",
+          "pct": 11.1
+        }
+      ]
     }
   },
   "153912": {
@@ -1278,9 +1830,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 17.9,
+      "num_stocks": 76,
+      "top_sector_pct": 23.6,
+      "top_sectors": [
+        {
+          "name": "Services",
+          "pct": 23.6
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 17.1
+        },
+        {
+          "name": "Healthcare",
+          "pct": 11.7
+        }
+      ]
     }
   },
   "147919": {
@@ -1288,13 +1854,13 @@
     "expense_ratio": 1.12,
     "managers": [
       {
-        "name": "Dhimant Shah",
-        "tenure_years": 6.3,
+        "name": "Rajesh Bhatia",
+        "tenure_years": 0.9,
         "funds_managed": 2,
         "changed_last_12mo": false
       },
       {
-        "name": "Rajesh Bhatia",
+        "name": "Dhimant Shah",
         "tenure_years": 6.3,
         "funds_managed": 3,
         "changed_last_12mo": false
@@ -1308,9 +1874,23 @@
       "basis": "Growth"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 24.3,
+      "num_stocks": 81,
+      "top_sector_pct": 16.2,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 16.2
+        },
+        {
+          "name": "Healthcare",
+          "pct": 15.5
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 14.3
+        }
+      ]
     }
   },
   "152614": {
@@ -1350,9 +1930,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 35.8,
+      "num_stocks": 66,
+      "top_sector_pct": 16.0,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 16.0
+        },
+        {
+          "name": "Services",
+          "pct": 15.5
+        },
+        {
+          "name": "Healthcare",
+          "pct": 14.5
+        }
+      ]
     }
   },
   "120164": {
@@ -1405,9 +1999,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 22.7,
+      "num_stocks": 70,
+      "top_sector_pct": 27.4,
+      "top_sectors": [
+        {
+          "name": "Capital Goods",
+          "pct": 27.4
+        },
+        {
+          "name": "Consumer Staples",
+          "pct": 13.4
+        },
+        {
+          "name": "Chemicals",
+          "pct": 10.0
+        }
+      ]
     }
   },
   "150915": {
@@ -1428,7 +2036,7 @@
       },
       {
         "name": "Neelesh Dhamnaskar",
-        "tenure_years": 10.2,
+        "tenure_years": 10.3,
         "funds_managed": 1,
         "changed_last_12mo": false
       }
@@ -1441,9 +2049,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 23.8,
+      "num_stocks": 77,
+      "top_sector_pct": 16.8,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 16.8
+        },
+        {
+          "name": "Healthcare",
+          "pct": 16.4
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 10.2
+        }
+      ]
     }
   },
   "153196": {
@@ -1471,9 +2093,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 23.4,
+      "num_stocks": 78,
+      "top_sector_pct": 23.3,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 23.3
+        },
+        {
+          "name": "Services",
+          "pct": 14.4
+        },
+        {
+          "name": "Healthcare",
+          "pct": 13.2
+        }
+      ]
     }
   },
   "152237": {
@@ -1481,7 +2117,7 @@
     "expense_ratio": 0.97,
     "managers": [
       {
-        "name": "Niket Shah",
+        "name": "Bhalchandra Shinde",
         "tenure_years": 1.2,
         "funds_managed": 4,
         "changed_last_12mo": false
@@ -1500,7 +2136,7 @@
       },
       {
         "name": "Ajay Khandelwal",
-        "tenure_years": 16.3,
+        "tenure_years": 16.4,
         "funds_managed": 1,
         "changed_last_12mo": false
       }
@@ -1513,9 +2149,23 @@
       "basis": "Quality"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 33.5,
+      "num_stocks": 58,
+      "top_sector_pct": 14.1,
+      "top_sectors": [
+        {
+          "name": "Capital Goods",
+          "pct": 14.1
+        },
+        {
+          "name": "Services",
+          "pct": 13.6
+        },
+        {
+          "name": "Financial",
+          "pct": 13.5
+        }
+      ]
     }
   },
   "149019": {
@@ -1523,7 +2173,7 @@
     "expense_ratio": 0.63,
     "managers": [
       {
-        "name": "Aniruddha Naha",
+        "name": "Puneet Pal",
         "tenure_years": 4.3,
         "funds_managed": 3,
         "changed_last_12mo": false
@@ -1555,9 +2205,23 @@
       "basis": "Quality"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 25.7,
+      "num_stocks": 67,
+      "top_sector_pct": 15.5,
+      "top_sectors": [
+        {
+          "name": "Healthcare",
+          "pct": 15.5
+        },
+        {
+          "name": "Services",
+          "pct": 14.2
+        },
+        {
+          "name": "Financial",
+          "pct": 12.7
+        }
+      ]
     }
   },
   "152107": {
@@ -1585,9 +2249,23 @@
       "basis": "Value"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 26.4,
+      "num_stocks": 55,
+      "top_sector_pct": 21.7,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 21.7
+        },
+        {
+          "name": "Services",
+          "pct": 10.4
+        },
+        {
+          "name": "Automobile",
+          "pct": 9.9
+        }
+      ]
     }
   },
   "119589": {
@@ -1640,9 +2318,23 @@
       "basis": "Quality"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 34.1,
+      "num_stocks": 62,
+      "top_sector_pct": 15.7,
+      "top_sectors": [
+        {
+          "name": "Metals & Mining",
+          "pct": 15.7
+        },
+        {
+          "name": "Services",
+          "pct": 13.6
+        },
+        {
+          "name": "Chemicals",
+          "pct": 12.6
+        }
+      ]
     }
   },
   "154269": {
@@ -1664,9 +2356,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 23.5,
+      "num_stocks": 38,
+      "top_sector_pct": 12.8,
+      "top_sectors": [
+        {
+          "name": "Technology",
+          "pct": 12.8
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 7.0
+        },
+        {
+          "name": "Energy",
+          "pct": 5.8
+        }
+      ]
     }
   },
   "148618": {
@@ -1674,7 +2380,7 @@
     "expense_ratio": 0.68,
     "managers": [
       {
-        "name": "Amit Premchandani",
+        "name": "Nitin Jain",
         "tenure_years": 5.4,
         "funds_managed": 2,
         "changed_last_12mo": false
@@ -1688,9 +2394,23 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 24.3,
+      "num_stocks": 99,
+      "top_sector_pct": 14.7,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 14.7
+        },
+        {
+          "name": "Healthcare",
+          "pct": 14.4
+        },
+        {
+          "name": "Services",
+          "pct": 13.5
+        }
+      ]
     }
   },
   "129649": {

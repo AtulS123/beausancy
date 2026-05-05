@@ -53,11 +53,12 @@ export const ALL_COLS: ColDef[] = [
   { id: "rec",      label: "Recov",          num: true,  w: 68,  help: "Recovery time in months: how long the fund took to climb back to its pre-drawdown peak NAV. Short recovery = the dip was fast; long recovery = sustained pain." },
   { id: "mgr",      label: "Manager",        num: false, w: 150, help: "Fund manager name and tenure at this fund. Hover the funds count to see which other funds in this screener the manager runs (workload indicator). Click '+N' to expand all managers. Each name links to LinkedIn. ⚠ = manager changed in last 12 months." },
   { id: "t10",      label: "Top-10 %",       num: true,  w: 80,  help: "% of portfolio in the top 10 stocks. >60% = concentrated conviction; <30% = broadly diversified. Concentrated funds can be great or disastrous depending on the manager." },
+  { id: "sectors",  label: "Top Sectors",    num: false, w: 170, help: "Top 3 equity sectors by allocation weight. Shows sector name and % of portfolio. Useful for spotting hidden concentration — two funds with similar returns may have very different sector bets. Source: Groww, updated monthly." },
   { id: "style",    label: "Style",          num: false, w: 90,  help: "Style integrity (R²): how closely the fund's actual holdings match its declared category. Strict (R²>0.85) = tight adherence. Mod (0.65–0.85) = some drift. Drift (<0.65) = effectively a different style. Hover a cell to see declared vs actual style and the factor basis (Value/Growth/Quality/Momentum/Low-Vol/Blend)." },
   { id: "spark",    label: "3Y trend",       num: false, w: 110, help: "Sparkline of NAV over the last 3 years. Visual shape only — use for pattern recognition, not precise reads." }
 ];
 
-export const DEFAULT_COLS = ["name","category","aum","er","r3y","r5y","cons","dd","rec","mgr","t10","style","spark"];
+export const DEFAULT_COLS = ["name","category","aum","er","r3y","r5y","cons","dd","rec","mgr","t10","sectors","style","spark"];
 
 // ─── Sort helpers ──────────────────────────────────────────────────────────
 function numCompare(a: number | null | undefined, b: number | null | undefined, dir: string): number {
@@ -87,6 +88,7 @@ export function sortFunds(funds: Fund[], sort: SortState): Fund[] {
       case "rec":      return numCompare(a.recovery_months, b.recovery_months, dir);
       case "mgr":      return numCompare(a.manager.tenure_years, b.manager.tenure_years, dir);
       case "t10":      return numCompare(a.concentration.top_10_pct, b.concentration.top_10_pct, dir);
+      case "sectors":  return numCompare(a.concentration.top_sector_pct, b.concentration.top_sector_pct, dir);
       case "style":    return numCompare(a.style.r_squared, b.style.r_squared, dir);
       default: return 0;
     }
@@ -294,6 +296,36 @@ function Cell({ col, f, managerFunds }: CellProps) {
     case "t10":
       if (!f.concentration.top_10_pct) return <td className="num"><span style={{color:"var(--text-quiet)"}}>—</span></td>;
       return <td className="num"><span className="val">{f.concentration.top_10_pct.toFixed(1)}</span><span className="delta">%</span></td>;
+    case "sectors": {
+      const sectors = f.concentration.top_sectors;
+      if (!sectors || sectors.length === 0)
+        return <td><span style={{color:"var(--text-quiet)"}}>—</span></td>;
+      return (
+        <td style={{padding: "5px 8px"}}>
+          {sectors.map((s, i) => (
+            <div key={i} style={{
+              display: "flex", alignItems: "baseline", justifyContent: "space-between",
+              gap: 6, lineHeight: "1.55",
+            }}>
+              <span style={{
+                fontSize: "10px",
+                color: i === 0 ? "var(--text)" : "var(--text-dim)",
+                overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
+                maxWidth: 118,
+              }} title={s.name}>
+                {s.name}
+              </span>
+              <span style={{
+                fontSize: "9.5px", color: "var(--text-quiet)",
+                fontVariantNumeric: "tabular-nums", flexShrink: 0,
+              }}>
+                {s.pct.toFixed(1)}%
+              </span>
+            </div>
+          ))}
+        </td>
+      );
+    }
     case "style": {
       const m = f.style.match;
       const matchLabel: Record<string, string> = { strict: "Strict", moderate: "Mod", drifted: "Drift" };

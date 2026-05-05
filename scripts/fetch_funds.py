@@ -130,7 +130,7 @@ STATIC_DEFAULTS = {
     "expense_ratio": 0.0,
     "managers": [{"name": "Unknown", "tenure_years": 0.0, "funds_managed": 1, "changed_last_12mo": False}],
     "style": {"declared": "Unknown", "actual": "Blend", "r_squared": 0.80, "match": "moderate", "basis": "Blend"},
-    "concentration": {"top_10_pct": 0.0, "num_stocks": 0, "top_sector_pct": 0.0},
+    "concentration": {"top_10_pct": 0.0, "num_stocks": 0, "top_sector_pct": 0.0, "top_sectors": []},
 }
 
 def get_static(code, field):

@@ -34,6 +34,7 @@ export interface Fund {
     top_10_pct: number;
     num_stocks: number;
     top_sector_pct: number;
+    top_sectors?: { name: string; pct: number }[];
   };
   nav_history_3y: number[];
 }
