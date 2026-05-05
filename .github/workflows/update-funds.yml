@@ -1,40 +1,26 @@
 name: Update Fund Data
 
-# -------------------------------------------------------------------
-# Three jobs:
+# Runs every weekday at 6 pm IST (12:30 UTC).
+# Also triggerable manually from Actions → "Update Fund Data" → Run workflow.
 #
-#   update-nav (daily, Mon-Fri):
-#     Fetches live NAV history from mfapi.in, re-computes returns,
-#     drawdowns, and rolling consistency.  Reads AUM / expense ratio /
-#     managers / concentration from scripts/data/static_fund_data.json.
-#     Output → public/data/funds.json
-#     Then upserts all funds into the Neon PostgreSQL database.
-#
-#   update-static (monthly, 1st of each month):
-#     Uses Playwright (headless Chromium) to scrape AMFI's scheme
-#     performance pages for AUM and expense ratio. Updates
-#     scripts/data/static_fund_data.json and commits the result.
-#     This is the only reliable free source for Indian MF AUM + TER.
-#
-#   validate-static (weekly, Mondays):
-#     Prints a reminder to check whether static_fund_data.json is still
-#     current. AMC factsheets drop around the 5th–10th of each month.
-#     Manager names, style and concentration still need manual updates.
-#
-# Manual trigger: Actions → "Update Fund Data" → Run workflow.
-# Required secret: DATABASE_URL (Neon connection string)
-# -------------------------------------------------------------------
+# What it does:
+#   1. Fetches live NAV history from mfapi.in and rebuilds public/data/funds.json
+#   2. Commits and pushes the updated file so Vercel serves fresh data
+#   3. (Optional) If DATABASE_URL secret is set, also syncs to the Neon DB
+#   4. On the 1st of each month, runs the Groww scraper to refresh AUM/ER/managers
+#   5. Every Monday, checks whether static_fund_data.json is more than 35 days old
 
 on:
   schedule:
-    - cron: '30 12 * * 1-5'   # 6 pm IST Mon–Fri (12:30 UTC) — daily NAV update
-    - cron: '0 3 1 * *'        # 8:30 am IST 1st of each month — AUM + ER scrape
-    - cron: '0 4 * * 1'        # 9:30 am IST every Monday — static-data reminder
-  workflow_dispatch:           # also triggerable manually from the Actions tab
+    - cron: '30 12 * * 1-5'   # 6:00 pm IST Mon–Fri  — daily NAV refresh
+    - cron: '0 3 1 * *'        # 8:30 am IST 1st/month — Groww AUM/ER scrape
+    - cron: '0 4 * * 1'        # 9:30 am IST every Mon — static-data freshness check
+  workflow_dispatch:
 
 jobs:
-  # ── Daily NAV update ──────────────────────────────────────────────
+  # ── Daily: fetch live NAV data and rebuild funds.json ────────────────────
   update-nav:
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 12 * * 1-5'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -46,39 +32,38 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Fetch live fund data from MFAPI
+      - name: Fetch live NAV data
         run: |
           python3 scripts/fetch_funds.py > public/data/funds.json 2>fetch_stderr.txt
           cat fetch_stderr.txt >&2
-          FUND_COUNT=$(python3 -c "import json; print(len(json.load(open('public/data/funds.json'))))")
-          echo "funds_updated=$FUND_COUNT" >> $GITHUB_OUTPUT
-          echo "Funds updated: $FUND_COUNT"
-          # Surface any validation warnings as a workflow notice
+          COUNT=$(python3 -c "import json; print(len(json.load(open('public/data/funds.json'))))")
+          echo "Fetched $COUNT funds"
           if grep -q "VALIDATION WARNING" fetch_stderr.txt; then
-            echo "::warning::Static data warnings found — check fetch_stderr output and update scripts/data/static_fund_data.json"
+            echo "::warning::Missing static data — check fetch_stderr output and update scripts/data/static_fund_data.json"
           fi
-        id: fetch
-
-      - name: Install psycopg2
-        run: pip install psycopg2-binary
-
-      - name: Sync funds to Neon database
-        env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
-        run: python3 scripts/sync_db.py
 
       - name: Commit updated funds.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/data/funds.json
-          git diff --staged --quiet || git commit -m "chore: update fund data $(date -u '+%Y-%m-%d') [${{ steps.fetch.outputs.funds_updated }} funds]"
-          git push
+          git diff --staged --quiet && echo "No changes." || (
+            git commit -m "chore: daily NAV refresh $(date -u '+%Y-%m-%d')" &&
+            git push
+          )
 
-  # ── Monthly AUM + ER scrape (1st of each month) ──────────────────
+      - name: Sync to Neon DB (optional)
+        if: env.DATABASE_URL != ''
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          pip install psycopg2-binary -q
+          python3 scripts/sync_db.py
+
+  # ── Monthly: refresh AUM, ER, and managers from Groww ────────────────────
   update-static:
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 3 1 * *'
     runs-on: ubuntu-latest
-    if: github.event.schedule == '0 3 1 * *' || github.event_name == 'workflow_dispatch'
     permissions:
       contents: write
 
@@ -89,53 +74,44 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install Playwright and Chromium
-        run: |
-          pip install playwright
-          playwright install chromium
-          playwright install-deps chromium
+      - name: Scrape Groww for AUM, ER, and manager data
+        run: python3 scripts/fetch_groww_static.py 2>&1
 
-      - name: Scrape AMFI for AUM and expense ratio
-        run: python3 scripts/fetch_amfi_static.py
+      - name: Rebuild funds.json with updated static data
+        run: python3 scripts/fetch_funds.py > public/data/funds.json
 
-      - name: Commit updated static_fund_data.json
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add scripts/data/static_fund_data.json
-          git diff --staged --quiet || git commit -m "chore: update AUM + expense ratio from AMFI $(date -u '+%Y-%m')"
-          git push
+          git add scripts/data/static_fund_data.json public/data/funds.json
+          git diff --staged --quiet && echo "No changes." || (
+            git commit -m "chore: monthly AUM/ER/manager refresh $(date -u '+%Y-%m')" &&
+            git push
+          )
 
-  # ── Weekly static-data reminder (Mondays only) ───────────────────
+  # ── Weekly: warn if static data hasn't been updated recently ─────────────
   validate-static:
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 4 * * 1'
     runs-on: ubuntu-latest
-    if: github.event.schedule == '0 4 * * 1' || github.event_name == 'workflow_dispatch'
 
     steps:
       - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
 
       - name: Check static data freshness
         run: |
           python3 - <<'EOF'
           import json, datetime, sys
-
           with open("scripts/data/static_fund_data.json") as f:
               data = json.load(f)
-
           last_updated = data.get("_meta", {}).get("last_updated", "unknown")
-          print(f"static_fund_data.json last_updated: {last_updated}")
-
+          print(f"static_fund_data.json last updated: {last_updated}")
           try:
-              dt = datetime.date.fromisoformat(last_updated)
-              age_days = (datetime.date.today() - dt).days
-              if age_days > 35:
-                  print(f"::warning::static_fund_data.json is {age_days} days old. AMC factsheets drop around the 5th-10th of each month — time to update AUM, expense ratios, managers, and concentration. See MAINTENANCE.md.")
+              age = (datetime.date.today() - datetime.date.fromisoformat(last_updated)).days
+              if age > 35:
+                  print(f"::warning::static_fund_data.json is {age} days old. Update AUM, expense ratios, managers, and concentration from AMC factsheets. See MAINTENANCE.md.")
               else:
-                  print(f"Static data is {age_days} days old — looks current.")
+                  print(f"Static data is {age} days old — current.")
           except ValueError:
-              print("::warning::Could not parse last_updated date in static_fund_data.json")
+              print("::warning::Cannot parse last_updated date in static_fund_data.json")
           EOF
