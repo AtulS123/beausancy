@@ -1,9 +1,14 @@
 """
-fetch_groww_static.py — Scrape Groww fund pages for AUM, ER, and manager data.
+fetch_groww_static.py — Monthly refresh of Groww-hosted fund data.
 
-Groww pages are server-rendered HTML — no browser/Playwright needed.
-Only updates aum_cr, expense_ratio, and managers[] for funds with aum_cr == 0.
-Manually-maintained style, concentration, and funds_managed fields are preserved.
+Scrapes all 57 funds on each monthly run (not just those with missing data).
+For the ~41 funds that exist on Groww, updates:
+  - aum_cr, expense_ratio
+  - managers[] (name, tenure_years)
+  - concentration (top_10_pct, num_stocks, top_sector_pct)
+
+For the ~16 not on Groww: logs failure, leaves existing values untouched.
+Style, funds_managed, and changed_last_12mo are always preserved (manual fields).
 
 Run: python3 scripts/fetch_groww_static.py
 """
@@ -27,7 +32,6 @@ MONTH_MAP = {
     'Jul': 7, 'Aug': 8, 'Sep': 9, 'Oct': 10, 'Nov': 11, 'Dec': 12
 }
 
-# Manual slug overrides where the auto-derived slug doesn't match Groww's URL
 SLUG_OVERRIDES: dict[str, list[str]] = {
     "125497": ["sbi-small-cap-fund-direct-plan-growth", "sbi-small-cap-fund-direct-growth"],
     "119556": ["aditya-birla-sun-life-small-cap-fund-direct-growth",
@@ -42,8 +46,9 @@ SLUG_OVERRIDES: dict[str, list[str]] = {
 }
 
 
+# ─── HTML parsers ─────────────────────────────────────────────────────────────
+
 class NameParser(HTMLParser):
-    """Extract text from elements whose class contains a given substring."""
     def __init__(self, class_substr: str):
         super().__init__()
         self._substr  = class_substr
@@ -64,6 +69,8 @@ class NameParser(HTMLParser):
         self._capture = False
 
 
+# ─── Slug helpers ──────────────────────────────────────────────────────────────
+
 def name_to_slug(name: str) -> str:
     slug = name.lower()
     slug = re.sub(r'[^a-z0-9\s]', '', slug)
@@ -79,6 +86,8 @@ def candidate_slugs(name: str, code: str) -> list[str]:
     return [base, alt]
 
 
+# ─── HTTP fetch ───────────────────────────────────────────────────────────────
+
 def fetch_page(slug: str) -> str | None:
     url = f"https://groww.in/mutual-funds/{slug}"
     req = urllib.request.Request(url, headers={
@@ -90,7 +99,6 @@ def fetch_page(slug: str) -> str | None:
         with urllib.request.urlopen(req, timeout=20) as resp:
             if resp.status == 200:
                 html = resp.read().decode('utf-8', errors='replace')
-                # Reject 404/error pages
                 if re.search(r'<title[^>]*>\s*404\b', html, re.I):
                     return None
                 if '"statusCode":404' in html or '"error":"Not Found"' in html:
@@ -101,8 +109,9 @@ def fetch_page(slug: str) -> str | None:
     return None
 
 
+# ─── Data extraction ──────────────────────────────────────────────────────────
+
 def parse_tenure(html: str) -> list[float]:
-    """Return list of tenure_years (one per manager) based on start dates."""
     dates = re.findall(
         r'(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{4})',
         html
@@ -115,62 +124,172 @@ def parse_tenure(html: str) -> list[float]:
     return tenures
 
 
+def _scan_for_portfolio(obj: object, result: dict, depth: int = 0) -> None:
+    """Recursively walk parsed JSON looking for portfolio keys Groww uses."""
+    if depth > 10 or not obj:
+        return
+
+    if isinstance(obj, list):
+        for item in obj[:100]:
+            _scan_for_portfolio(item, result, depth + 1)
+        return
+
+    if not isinstance(obj, dict):
+        return
+
+    # Direct key matches for concentration fields
+    KEY_MAP: dict[str, tuple] = {
+        # Groww key                    → (our key,      cast,  validator)
+        'top10HoldingPercentage':      ('top_10_pct',   float, lambda v: 0 < v <= 100),
+        'topTenHoldingPercentage':     ('top_10_pct',   float, lambda v: 0 < v <= 100),
+        'top10Percent':                ('top_10_pct',   float, lambda v: 0 < v <= 100),
+        'totalStocks':                 ('num_stocks',   int,   lambda v: 0 < v < 2000),
+        'totalHolding':                ('num_stocks',   int,   lambda v: 0 < v < 2000),
+        'totalEquityHolding':          ('num_stocks',   int,   lambda v: 0 < v < 2000),
+        'numberOfStocks':              ('num_stocks',   int,   lambda v: 0 < v < 2000),
+        'stockCount':                  ('num_stocks',   int,   lambda v: 0 < v < 2000),
+    }
+    for src, (dst, cast, ok) in KEY_MAP.items():
+        if src in obj and dst not in result:
+            try:
+                v = cast(obj[src])
+                if ok(v):
+                    result[dst] = round(v, 1) if dst != 'num_stocks' else v
+            except (TypeError, ValueError):
+                pass
+
+    # Sector allocation — find the largest sector %
+    for sec_key in ('sectorAllocation', 'sectorList', 'sectorData', 'sectors'):
+        if sec_key in obj and 'top_sector_pct' not in result:
+            sectors = obj[sec_key]
+            if isinstance(sectors, list) and sectors:
+                pcts: list[float] = []
+                for s in sectors:
+                    if not isinstance(s, dict):
+                        continue
+                    for k in ('percentage', 'percent', 'value', 'allocation', 'allocationPercent'):
+                        if k in s:
+                            try:
+                                pcts.append(float(s[k]))
+                            except (TypeError, ValueError):
+                                pass
+                            break
+                if pcts:
+                    mx = max(pcts)
+                    if 0 < mx < 100:
+                        result['top_sector_pct'] = round(mx, 1)
+            break
+
+    # Recurse into all child values
+    for v in obj.values():
+        if isinstance(v, (dict, list)):
+            _scan_for_portfolio(v, result, depth + 1)
+
+
+def extract_concentration(html: str) -> dict:
+    """
+    Try to extract top_10_pct, num_stocks, top_sector_pct from Groww HTML.
+    Returns a (possibly empty) dict with whatever was found.
+    """
+    result: dict = {}
+
+    # Strategy 1: parse the Next.js __NEXT_DATA__ JSON blob (most reliable)
+    nd = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.DOTALL)
+    if nd:
+        try:
+            page_data = json.loads(nd.group(1))
+            _scan_for_portfolio(page_data, result)
+        except Exception:
+            pass
+
+    # Strategy 2: direct regex fallbacks (for older page layouts)
+    if 'top_10_pct' not in result:
+        for pat in [r'"top10HoldingPercentage"\s*:\s*([\d.]+)',
+                    r'"topTenHoldingPercentage"\s*:\s*([\d.]+)',
+                    r'"top10Percent"\s*:\s*([\d.]+)']:
+            m = re.search(pat, html, re.IGNORECASE)
+            if m:
+                v = float(m.group(1))
+                if 0 < v <= 100:
+                    result['top_10_pct'] = round(v, 1)
+                break
+
+    if 'num_stocks' not in result:
+        for pat in [r'"totalStocks"\s*:\s*(\d+)',
+                    r'"totalHolding"\s*:\s*(\d+)',
+                    r'"stockCount"\s*:\s*(\d+)']:
+            m = re.search(pat, html)
+            if m:
+                v = int(m.group(1))
+                if 0 < v < 2000:
+                    result['num_stocks'] = v
+                break
+
+    return result
+
+
 def extract(html: str) -> dict:
     result: dict = {}
 
-    # AUM: "aum":209.24572365  (in crores on Groww)
+    # AUM (in crores)
     m = re.search(r'"aum"\s*:\s*([\d.]+)', html)
     if m:
         result['aum_cr'] = round(float(m.group(1)), 2)
 
-    # Expense ratio: "expense_ratio":"1.02" or "expense_ratio":1.02
+    # Expense ratio
     m = re.search(r'"expense_ratio"\s*:\s*"?([\d.]+)"?', html)
     if m:
         er = float(m.group(1))
         if 0.0 < er < 5.0:
             result['expense_ratio'] = er
 
-    # Manager names via HTML parser (class "Management_personName")
+    # Manager names + tenures
     parser = NameParser("Management_personName")
     parser.feed(html)
     names = [n for n in parser.results if len(n) > 2]
-
     if names:
         tenures = parse_tenure(html)
-        managers = []
-        for i, name in enumerate(names):
-            tenure = tenures[i] if i < len(tenures) else 0.3
-            managers.append({
+        result['managers'] = [
+            {
                 "name":              name,
-                "tenure_years":      tenure,
-                "funds_managed":     1,     # placeholder; preserve existing if known
+                "tenure_years":      tenures[i] if i < len(tenures) else 0.3,
+                "funds_managed":     1,
                 "changed_last_12mo": False,
-            })
-        result['managers'] = managers
+            }
+            for i, name in enumerate(names)
+        ]
+
+    # Portfolio concentration
+    conc = extract_concentration(html)
+    if conc:
+        result['concentration'] = conc
 
     return result
 
 
+# ─── Static data helpers ──────────────────────────────────────────────────────
+
 def load_schemes() -> dict[str, str]:
-    """Read scheme codes + names from fetch_funds.py."""
     text = FETCH_PATH.read_text(encoding='utf-8')
     return {m.group(1): m.group(2)
             for m in re.finditer(r'"(\d{6})"\s*:\s*\("([^"]+)"', text)}
 
 
+# ─── Main ─────────────────────────────────────────────────────────────────────
+
 def main() -> None:
     with open(STATIC_PATH, encoding='utf-8') as f:
         static = json.load(f)
 
-    schemes  = load_schemes()
-    missing  = {code: name for code, name in schemes.items()
-                if code in static and not static[code].get('aum_cr')}
+    schemes = load_schemes()
+    # Process ALL funds every run — not just those with missing AUM.
+    # Funds not on Groww will fail the fetch and their data is left unchanged.
+    to_scrape = {code: name for code, name in schemes.items() if code in static}
 
-    print(f"Funds to scrape: {len(missing)}", file=sys.stderr)
+    print(f"Funds to scrape: {len(to_scrape)}", file=sys.stderr)
+    updated, not_on_groww = 0, []
 
-    updated, failed = 0, []
-
-    for code, name in sorted(missing.items()):
+    for code, name in sorted(to_scrape.items()):
         print(f"\n[{code}] {name}", file=sys.stderr)
         html = None
         for slug in candidate_slugs(name, code):
@@ -181,8 +300,8 @@ def main() -> None:
             time.sleep(0.5)
 
         if not html:
-            print(f"  FAILED", file=sys.stderr)
-            failed.append(f"{code} {name}")
+            print(f"  not on Groww — keeping existing data", file=sys.stderr)
+            not_on_groww.append(f"{code} {name}")
             time.sleep(1)
             continue
 
@@ -190,25 +309,37 @@ def main() -> None:
         aum  = data.get('aum_cr')
         er   = data.get('expense_ratio')
         mgrs = [m['name'] for m in data.get('managers', [])]
-        print(f"  AUM={aum}  ER={er}  managers={mgrs}", file=sys.stderr)
+        conc = data.get('concentration', {})
+        print(f"  AUM={aum}  ER={er}  managers={mgrs}  conc={conc}", file=sys.stderr)
 
         if not data:
-            print(f"  no data found", file=sys.stderr)
-            failed.append(f"{code} {name}")
+            print(f"  no data extracted", file=sys.stderr)
+            not_on_groww.append(f"{code} {name}")
             time.sleep(1.5)
             continue
 
-        if aum  is not None: static[code]['aum_cr']        = aum
-        if er   is not None: static[code]['expense_ratio'] = er
+        if aum is not None:
+            static[code]['aum_cr'] = aum
+        if er is not None:
+            static[code]['expense_ratio'] = er
+
         if 'managers' in data:
             existing = static[code].get('managers', [])
             new_mgrs = data['managers']
-            # Only preserve funds_managed from existing data (manual entry).
-            # Always trust Groww for manager names and tenures.
             for i, mgr in enumerate(new_mgrs):
                 if i < len(existing):
-                    mgr['funds_managed'] = existing[i].get('funds_managed', 1)
+                    # Preserve manually-set funds_managed and changed_last_12mo
+                    mgr['funds_managed']     = existing[i].get('funds_managed', 1)
+                    mgr['changed_last_12mo'] = existing[i].get('changed_last_12mo', False)
             static[code]['managers'] = new_mgrs
+
+        if conc:
+            existing_conc = static[code].get('concentration',
+                {'top_10_pct': 0.0, 'num_stocks': 0, 'top_sector_pct': 0.0})
+            for k, v in conc.items():
+                if v and v > 0:
+                    existing_conc[k] = v
+            static[code]['concentration'] = existing_conc
 
         updated += 1
         time.sleep(1.5)
@@ -217,11 +348,8 @@ def main() -> None:
     with open(STATIC_PATH, 'w', encoding='utf-8') as f:
         json.dump(static, f, indent=2, ensure_ascii=False)
 
-    print(f"\n--- Done: {updated}/{len(missing)} updated ---", file=sys.stderr)
-    if failed:
-        print(f"Failed ({len(failed)}):", file=sys.stderr)
-        for x in failed:
-            print(f"  {x}", file=sys.stderr)
+    print(f"\n--- Done: {updated}/{len(to_scrape)} updated ---", file=sys.stderr)
+    print(f"Not on Groww ({len(not_on_groww)}): {[x.split()[0] for x in not_on_groww]}", file=sys.stderr)
 
 
 if __name__ == "__main__":

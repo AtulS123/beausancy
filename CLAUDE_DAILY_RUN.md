@@ -11,8 +11,22 @@ maintenance described in CLAUDE_DAILY_RUN.md".
 - **Repo / working directory:** `C:\Users\atuls\Documents\Claude\Projects\Beausancy website\beausancy`
 - **Deployed at:** https://beausancy.vercel.app (auto-deploys from `master`)
 - **GitHub:** AtulS123/beausancy (push to `master`)
-- **Data store:** `scripts/data/static_fund_data.json` — manually maintained AUM, ER, managers, concentration
+- **Data store:** `scripts/data/static_fund_data.json` — maintained AUM, ER, managers, concentration
 - **Live data:** `public/data/funds.json` — rebuilt by `scripts/fetch_funds.py` from mfapi.in
+
+---
+
+## What is fully automated (GitHub Actions)
+
+These run without any manual intervention:
+
+| Schedule | Job | What it does |
+|---|---|---|
+| Mon–Fri 11:30pm IST | `update-nav` | Fetches NAV history from mfapi.in, rebuilds `funds.json`, pushes to master |
+| 1st of each month 8:30am IST | `update-static` | Runs `fetch_amfi_aum.py` → `fetch_groww_static.py` → rebuilds and pushes |
+| Every Monday 9:30am IST | `validate-static` | Warns if `static_fund_data.json` is older than 35 days |
+
+**Everything below is only needed if automation has failed, or for the two remaining manual fields.**
 
 ---
 
@@ -56,19 +70,21 @@ proceed to Steps 3 and 4. Otherwise, you are done for today.
 
 ---
 
-## Step 3 — Monthly: Update AUM from Groww (semi-automated)
+## Step 3 — Monthly: Automated AUM/ER/managers/concentration refresh
 
-Run the Groww scraper to refresh AUM, expense ratio, and manager data for all
-funds that have a Groww page (approximately 41 of 57):
+Run the AMFI and Groww scrapers to refresh all automated fields:
 
 ```bash
+# Step 3a: AMFI AAUM — updates AUM for all 57 funds
+python scripts/fetch_amfi_aum.py 2>&1
+
+# Step 3b: Groww scraper — updates AUM, ER, managers, concentration for ~41 funds
 python scripts/fetch_groww_static.py 2>&1
 ```
 
-This updates `scripts/data/static_fund_data.json` in place. The script prints
-each fund it scraped and what it found. Review the output for:
-- Funds that `FAILED` (not on Groww — expected for the 16 AMC-direct funds)
-- Unexpected failures (network error for a fund that should work)
+These update `scripts/data/static_fund_data.json` in place. Review output for:
+- Funds that failed on Groww (expected for the 16 AMC-direct funds)
+- Unexpected network failures
 
 After running, verify the JSON is still valid:
 
@@ -78,11 +94,10 @@ python -c "import json; d=json.load(open('scripts/data/static_fund_data.json'));
 
 ---
 
-## Step 4 — Monthly: Update the 16 non-Groww funds manually
+## Step 4 — Monthly: Manual update for the 16 non-Groww funds
 
-These funds are NOT on Groww and need manual data from AMC factsheets.
-The Groww scraper leaves them untouched, so you update them yourself in
-`scripts/data/static_fund_data.json`.
+The AMFI scraper covers AUM for these funds automatically. But **expense ratio (TER)**
+and **manager tenures** still need manual updates from AMC factsheets when they change.
 
 | Scheme code | Fund name | AMC factsheet |
 |---|---|---|
@@ -103,42 +118,29 @@ The Groww scraper leaves them untouched, so you update them yourself in
 | 129649 | Union Small Cap | https://www.unionmf.com/downloads |
 | 153859 | Jio BlackRock Flexi Cap | https://www.jioblackrock.com/downloads |
 
-For each fund, update these fields from the latest factsheet:
-- `aum_cr` — Direct plan AAUM in crores (or use AMFI AAUM table below)
-- `expense_ratio` — Direct plan TER %
-- `managers[].tenure_years` — increment by ~1/12 per month, or reset if changed
-- `managers[].changed_last_12mo` — set `true` if new manager this year
+For each fund, check and update if changed:
+- `expense_ratio` — Direct plan TER % (if it changed from last month)
+- `managers[].tenure_years` — Groww scraper handles the 41 automated funds; for these 16, increment by ~1/12 per month or reset if manager changed
+- `managers[].changed_last_12mo` — set `true` if a new manager joined this year
 
-**AUM shortcut** — AMFI AAUM table covers all funds at once:
+**AUM shortcut** — already automated via `fetch_amfi_aum.py`, but you can cross-check:
 > https://www.amfiindia.com/research-information/other-data/amfi-monthly-average-aum
 
 ---
 
-## Step 5 — Monthly: Update concentration data for all funds
+## Step 5 — Monthly: Concentration data for non-Groww funds
 
-This is the most time-consuming step and is the biggest data gap in the screener
-(most funds show `—` for Top-10% and # stocks). Do it when you have 30 minutes.
+Concentration (`top_10_pct`, `num_stocks`, `top_sector_pct`) is **automated for the
+~41 Groww-covered funds** via `fetch_groww_static.py`. For the 16 non-Groww funds,
+update from their factsheets when you have 15 minutes.
 
-For each fund in `scripts/data/static_fund_data.json`, open its AMC factsheet
-and update:
-
-```json
-"concentration": {
-  "top_10_pct": 42.3,    ← sum of top-10 holding weights from factsheet
-  "num_stocks":  56,     ← total number of equity holdings
-  "top_sector_pct": 28.1 ← weight of the largest sector
-}
-```
-
-The **factsheet URLs** for the remaining Groww-covered funds are listed in
-`MAINTENANCE.md`. Priority order (biggest user impact first):
-1. Nippon Small Cap (118778) — large fund, widely searched
-2. HDFC Small Cap (130503)
-3. Canara Robeco Small Cap (146130)
-4. Axis Small Cap (125354)
-5. Franklin India Small Cap (118525)
-6. All remaining Small Cap funds
-7. Flexi Cap and other categories
+Priority order (biggest user impact first):
+1. SBI Small Cap (125497)
+2. HDFC Mid-Cap Opportunities (118989)
+3. Motilal Oswal Midcap (127042)
+4. ABSL Small Cap (119556)
+5. DSP Small Cap (119212)
+6. All remaining non-Groww funds
 
 ---
 
@@ -184,25 +186,28 @@ Ideal state: 0 missing AUM, and concentration count shrinking over time toward 0
 
 ---
 
-## What Claude can do automatically vs what needs you
+## What is automated vs what needs you
 
-| Task | Automated by Claude? |
+| Task | Automated? |
 |---|---|
-| Run `fetch_funds.py` and commit | ✅ fully |
-| Run `fetch_groww_static.py` and commit | ✅ fully |
-| Check validation warnings | ✅ fully |
-| Update AUM/ER from AMFI table | ✅ Claude can fetch the web page and parse it |
-| Update manager names/tenures | ⚠️ Claude can fetch factsheet pages; you confirm |
-| Update concentration data | ⚠️ Claude can read factsheet PDFs if you provide them |
-| Update style/r_squared | ❌ quarterly judgment call — you do this |
+| Daily NAV/returns refresh | ✅ GitHub Actions (Mon–Fri 11:30pm IST) |
+| Monthly AUM refresh (all 57 funds) | ✅ GitHub Actions via AMFI scraper (1st of month) |
+| Monthly AUM/ER/managers/concentration (41 Groww funds) | ✅ GitHub Actions via Groww scraper |
+| Monthly TER for the 16 non-Groww funds | ⚠️ Check factsheets if changed |
+| Manager tenures for the 16 non-Groww funds | ⚠️ Increment monthly or reset on change |
+| Concentration for the 16 non-Groww funds | ⚠️ Read factsheet PDFs |
+| Style (value/growth/blend) | ❌ Quarterly judgment call — you do this |
+| R-squared / benchmark correlation | ❌ Quarterly judgment call — you do this |
 
 ---
 
 ## Notes
 
 - The Groww scraper uses a 1.5s delay per fund to avoid rate-limiting. It takes
-  ~5 minutes for 41 funds. Run it from a stable network connection.
+  ~5 minutes for 41 funds.
 - `static_fund_data.json` is the source of truth for all non-NAV data. Never
   edit `public/data/funds.json` directly — it gets overwritten.
 - If a fund is completely new (just launched), its 1Y/3Y/5Y returns will show
   `null` until enough NAV history exists. That is expected and correct.
+- `fetch_amfi_aum.py` tries a bulk AAUM download first, then falls back to per-scheme
+  pages. It never crashes CI — failures are logged as warnings only.

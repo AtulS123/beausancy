@@ -74,7 +74,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Scrape Groww for AUM, ER, and manager data
+      - name: Update AUM from AMFI (covers all 57 funds, fills 16 non-Groww funds)
+        run: python3 scripts/fetch_amfi_aum.py 2>&1
+
+      - name: Scrape Groww for AUM, ER, managers, and concentration (41 funds)
         run: python3 scripts/fetch_groww_static.py 2>&1
 
       - name: Rebuild funds.json with updated static data
