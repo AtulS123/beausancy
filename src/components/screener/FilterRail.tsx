@@ -168,10 +168,10 @@ export function FilterRail({ state, set, reset, collapsed }: FilterRailProps) {
             <div className="flabel">
               <span>AUM <Help title="Assets under management">Total money the fund currently manages, in ₹ crore. Very small funds (&lt;₹500Cr) may be volatile; very large ones can struggle to deploy capital in mid/small caps. Log-scaled slider.</Help></span>
               <span className="val">
-                ₹{state.aum[0] < 1000 ? state.aum[0] : (state.aum[0]/1000).toFixed(1)+'K'} – ₹{state.aum[1] >= 50000 ? '50K+' : (state.aum[1] >= 1000 ? (state.aum[1]/1000).toFixed(1)+'K' : state.aum[1])} Cr
+                ₹{state.aum[0] < 1000 ? state.aum[0] : (state.aum[0]/1000).toFixed(1)+'K'} – ₹{state.aum[1] >= 100000 ? '100K+' : (state.aum[1] >= 1000 ? (state.aum[1]/1000).toFixed(1)+'K' : state.aum[1])} Cr
               </span>
             </div>
-            <DualSlider min={100} max={50000} value={state.aum} onChange={v => set({ aum: [Math.round(v[0]), Math.round(v[1])] })} log />
+            <DualSlider min={0} max={100000} value={state.aum} onChange={v => set({ aum: [Math.round(v[0]), Math.round(v[1])] })} log />
           </div>
           <div>
             <div className="flabel">
@@ -316,21 +316,21 @@ export function FilterRail({ state, set, reset, collapsed }: FilterRailProps) {
               <span>Top-10 weight <Help title="Top-10 holdings weight">% of the portfolio held in the 10 largest positions. &gt;55% is a concentrated book (fund manager has strong conviction bets); &lt;35% means the top ideas are diluted across many names.</Help></span>
               <span className="val">{state.top10[0]}% – {state.top10[1]}%</span>
             </div>
-            <DualSlider min={10} max={80} value={state.top10} onChange={v => set({ top10: [Math.round(v[0]), Math.round(v[1])] })} />
+            <DualSlider min={0} max={100} value={state.top10} onChange={v => set({ top10: [Math.round(v[0]), Math.round(v[1])] })} />
           </div>
           <div>
             <div className="flabel">
               <span>Number of stocks <Help title="Number of holdings">How many distinct stocks the fund owns. &lt;30 = high-conviction concentrated; 30–60 = typical active; &gt;80 = closet-index territory where it gets hard to beat the benchmark after fees.</Help></span>
               <span className="val">{state.numStocks[0]} – {state.numStocks[1]}</span>
             </div>
-            <DualSlider min={15} max={150} value={state.numStocks} onChange={v => set({ numStocks: [Math.round(v[0]), Math.round(v[1])] })} />
+            <DualSlider min={0} max={200} value={state.numStocks} onChange={v => set({ numStocks: [Math.round(v[0]), Math.round(v[1])] })} />
           </div>
           <div>
             <div className="flabel">
               <span>Top-sector weight <Help title="Largest sector weight">% allocated to the single biggest sector (e.g. Financials, IT). High values mean the fund&apos;s fate is tied to one sector&apos;s cycle — fine if intentional, risky if unintended.</Help></span>
               <span className="val">{state.topSector[0]}% – {state.topSector[1]}%</span>
             </div>
-            <DualSlider min={10} max={80} value={state.topSector} onChange={v => set({ topSector: [Math.round(v[0]), Math.round(v[1])] })} />
+            <DualSlider min={0} max={100} value={state.topSector} onChange={v => set({ topSector: [Math.round(v[0]), Math.round(v[1])] })} />
           </div>
         </Group>
 
