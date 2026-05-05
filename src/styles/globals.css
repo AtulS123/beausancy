@@ -761,6 +761,8 @@ table.grid td .delta {
   max-width: 240px;
   font-size: 12.5px;
 }
+.fund-link { color: var(--text); text-decoration: none; }
+.fund-link:hover { color: var(--accent); text-decoration: underline; }
 .fund-sub { font-size: 10.5px; color: var(--text-faint); font-family: 'JetBrains Mono', monospace; }
 .fund-id { color: var(--text-quiet); }
 

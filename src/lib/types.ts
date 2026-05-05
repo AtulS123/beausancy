@@ -10,6 +10,7 @@ export interface Fund {
   id: string;
   name: string;
   amc: string;
+  scheme_url?: string;
   category: string;
   aum_cr: number;
   expense_ratio: number;

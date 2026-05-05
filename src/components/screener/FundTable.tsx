@@ -226,7 +226,10 @@ function Cell({ col, f, managerFunds }: CellProps) {
     case "name":
       return (
         <td className="fund-cell">
-          <span className="fund-name" title={`${f.name} — ${f.amc}`}>{f.name}</span>
+          {f.scheme_url
+            ? <a href={f.scheme_url} target="_blank" rel="noopener noreferrer" className="fund-name fund-link" title={`${f.name} — ${f.amc} (opens fund page)`}>{f.name}</a>
+            : <span className="fund-name" title={`${f.name} — ${f.amc}`}>{f.name}</span>
+          }
           <span className="fund-sub mono"><span>{f.amc}</span> <span className="fund-id">· {f.id}</span></span>
         </td>
       );

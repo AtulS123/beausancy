@@ -13,7 +13,7 @@ Output: public/data/funds.json (committed by GitHub Actions)
 See MAINTENANCE.md for how to add funds and update static fields.
 """
 
-import urllib.request, json, math, datetime, time, sys, os
+import urllib.request, json, math, datetime, time, sys, os, re
 from collections import defaultdict
 
 # ---------------------------------------------------------------------------
@@ -84,6 +84,24 @@ SCHEMES = {
     "153872": ("The Wealth Company Flexi Cap Fund",         "Flexi Cap", "The Wealth Co"),
     "154043": ("Abakkus Flexi Cap Fund",                    "Flexi Cap", "Abakkus"),
 }
+
+# Groww slug overrides for funds where auto-derived slug differs from actual Groww URL
+GROWW_SLUG_OVERRIDES = {
+    "152584": "trustmf-flexi-cap-fund-direct-growth",
+    "152939": "trustmf-small-cap-fund-direct-growth",
+}
+
+def _name_to_groww_slug(name):
+    slug = name.lower()
+    slug = re.sub(r'[^a-z0-9\s]', '', slug)
+    slug = re.sub(r'\s+', '-', slug.strip())
+    return slug + "-direct-growth"
+
+def get_scheme_url(code, name, static_d):
+    if 'scheme_url' in static_d:
+        return static_d['scheme_url']
+    slug = GROWW_SLUG_OVERRIDES.get(code) or _name_to_groww_slug(name)
+    return "https://groww.in/mutual-funds/" + slug
 
 # ---------------------------------------------------------------------------
 # Load static overrides (AUM, ER, managers, style, concentration)
@@ -258,6 +276,7 @@ for code, (name, category, amc) in SCHEMES.items():
             "name": name,
             "amc": amc,
             "category": category,
+            "scheme_url":    get_scheme_url(code, name, STATIC.get(code, {})),
             # --- static fields (updated monthly from factsheets) ---
             "aum_cr":        get_static(code, "aum_cr"),
             "expense_ratio": get_static(code, "expense_ratio"),
