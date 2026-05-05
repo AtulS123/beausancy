@@ -486,6 +486,7 @@ export default function Screener() {
             <div className="tablewrap">
               <FundTable
                 funds={sorted}
+                allFunds={funds}
                 sort={sort}
                 onSort={onSort}
                 cols={cols}

@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect, useState, useMemo } from 'react';
 import type { Fund, SortState } from '@/lib/types';
 import { fmtAUM, fmtAUMFull } from './Controls';
 import { IcColumns, IcReset } from './Icons';
@@ -51,7 +51,7 @@ export const ALL_COLS: ColDef[] = [
   { id: "cons",     label: "Rolling cons.",  num: true,  w: 130, help: "Rolling 3Y consistency over the last 7 years: share of overlapping 3-year windows where the fund beat its category average. High = repeatable alpha, not one lucky year." },
   { id: "dd",       label: "Max DD",         num: true,  w: 78,  help: "Maximum drawdown over last 5 years — the worst peak-to-trough NAV fall. Tells you how ugly it got, not how often." },
   { id: "rec",      label: "Recov",          num: true,  w: 68,  help: "Recovery time in months: how long the fund took to climb back to its pre-drawdown peak NAV. Short recovery = the dip was fast; long recovery = sustained pain." },
-  { id: "mgr",      label: "Manager",        num: false, w: 150, help: "Fund manager name and tenure. Click '+N' to expand all managers on a fund. Each name has a direct LinkedIn search link. ⚠ = manager changed within last 12 months — track record may not apply to current manager." },
+  { id: "mgr",      label: "Manager",        num: false, w: 150, help: "Fund manager name and tenure at this fund. Hover the funds count to see which other funds in this screener the manager runs (workload indicator). Click '+N' to expand all managers. Each name links to LinkedIn. ⚠ = manager changed in last 12 months." },
   { id: "t10",      label: "Top-10 %",       num: true,  w: 80,  help: "% of portfolio in the top 10 stocks. >60% = concentrated conviction; <30% = broadly diversified. Concentrated funds can be great or disastrous depending on the manager." },
   { id: "style",    label: "Style",          num: false, w: 90,  help: "Style integrity (R²): how closely the fund's actual holdings match its declared category. Strict (R²>0.85) = tight adherence. Mod (0.65–0.85) = some drift. Drift (<0.65) = effectively a different style. Hover a cell to see declared vs actual style and the factor basis (Value/Growth/Quality/Momentum/Low-Vol/Blend)." },
   { id: "spark",    label: "3Y trend",       num: false, w: 110, help: "Sparkline of NAV over the last 3 years. Visual shape only — use for pattern recognition, not precise reads." }
@@ -125,7 +125,35 @@ function LiLink({ name }: { name: string }) {
 }
 
 // ─── Manager cell (click to expand all managers) ──────────────────────────
-function MgrCell({ f }: { f: Fund }) {
+function FundsCountBadge({ name, managerFunds }: { name: string; managerFunds: Record<string, string[]> }) {
+  const otherFunds = (managerFunds[name] || []).filter(n => n !== name);
+  // "X funds" label — the full list on hover uses the tt pattern
+  const allFunds = managerFunds[name] || [];
+  if (allFunds.length <= 1) return null;
+  return (
+    <span className="tt" style={{position: "relative", display: "inline-block"}}>
+      <span style={{
+        fontSize: "9px", color: "var(--text-quiet)", cursor: "default",
+        borderBottom: "1px dashed var(--border)",
+      }}>
+        {allFunds.length} fund{allFunds.length !== 1 ? "s" : ""}
+      </span>
+      <div className="tt-body" style={{minWidth: 180, left: 0, right: "auto"}}>
+        <div style={{fontSize:"10px", color:"var(--text-dim)", marginBottom: 4, fontWeight: 600}}>
+          Also manages in this screener:
+        </div>
+        {otherFunds.length === 0
+          ? <div style={{fontSize:"9.5px", color:"var(--text-quiet)"}}>No other funds in screener</div>
+          : otherFunds.map((fn, i) => (
+            <div key={i} style={{fontSize:"9.5px", color:"var(--text)", padding: "1px 0"}}>{fn}</div>
+          ))
+        }
+      </div>
+    </span>
+  );
+}
+
+function MgrCell({ f, managerFunds }: { f: Fund; managerFunds: Record<string, string[]> }) {
   const [expanded, setExpanded] = useState(false);
   const managers: typeof f.managers = f.managers?.length ? f.managers : [f.manager];
   const lead = managers[0];
@@ -141,8 +169,10 @@ function MgrCell({ f }: { f: Fund }) {
             <LiLink name={lead.name} />
             {lead.changed_last_12mo && <span style={{color: "var(--warn)", fontSize: "11px"}}>⚠</span>}
           </div>
-          <span className="fund-sub mono" style={{fontSize: "10px"}}>
-            {lead.tenure_years.toFixed(1)} yr · {lead.funds_managed} fund{lead.funds_managed !== 1 ? "s" : ""}
+          <span className="fund-sub mono" style={{fontSize: "10px", display: "flex", alignItems: "center", gap: 4}}>
+            {lead.tenure_years.toFixed(1)} yr
+            {" · "}
+            <FundsCountBadge name={lead.name} managerFunds={managerFunds} />
           </span>
         </div>
         {rest.length > 0 && (
@@ -172,8 +202,10 @@ function MgrCell({ f }: { f: Fund }) {
               <LiLink name={m.name} />
               {m.changed_last_12mo && <span style={{color: "var(--warn)", fontSize: "11px"}}>⚠</span>}
             </div>
-            <span className="fund-sub mono" style={{fontSize: "9.5px"}}>
-              {m.tenure_years.toFixed(1)} yr · {m.funds_managed} fund{m.funds_managed !== 1 ? "s" : ""}
+            <span className="fund-sub mono" style={{fontSize: "9.5px", display: "flex", alignItems: "center", gap: 4}}>
+              {m.tenure_years.toFixed(1)} yr
+              {" · "}
+              <FundsCountBadge name={m.name} managerFunds={managerFunds} />
             </span>
           </div>
         </div>
@@ -186,9 +218,10 @@ function MgrCell({ f }: { f: Fund }) {
 interface CellProps {
   col: string;
   f: Fund;
+  managerFunds: Record<string, string[]>;
 }
 
-function Cell({ col, f }: CellProps) {
+function Cell({ col, f, managerFunds }: CellProps) {
   switch (col) {
     case "name":
       return (
@@ -253,7 +286,7 @@ function Cell({ col, f }: CellProps) {
     case "rec":
       return <td className="num"><span className="val">{f.recovery_months}</span><span className="delta">mo</span></td>;
     case "mgr":
-      return <MgrCell f={f} />;
+      return <MgrCell f={f} managerFunds={managerFunds} />;
     case "t10":
       return <td className="num"><span className="val">{f.concentration.top_10_pct.toFixed(1)}</span><span className="delta">%</span></td>;
     case "style": {
@@ -318,14 +351,32 @@ function Cell({ col, f }: CellProps) {
 // ─── FundTable ────────────────────────────────────────────────────────────
 interface FundTableProps {
   funds: Fund[];
+  allFunds?: Fund[];
   sort: SortState;
   onSort: (col: string) => void;
   cols: string[];
   onReset: () => void;
 }
 
-export function FundTable({ funds, sort, onSort, cols, onReset }: FundTableProps) {
+export function FundTable({ funds, allFunds, sort, onSort, cols, onReset }: FundTableProps) {
   const visibleCols = ALL_COLS.filter(c => cols.includes(c.id));
+
+  // Build manager → [fund names] map for cross-reference tooltips
+  const managerFunds = useMemo<Record<string, string[]>>(() => {
+    const source = allFunds ?? funds;
+    const map: Record<string, string[]> = {};
+    for (const fund of source) {
+      const mgrs = fund.managers?.length ? fund.managers : [fund.manager];
+      for (const m of mgrs) {
+        const mgrName = m.name;
+        if (mgrName && mgrName !== 'Unknown') {
+          if (!map[mgrName]) map[mgrName] = [];
+          map[mgrName].push(fund.name);
+        }
+      }
+    }
+    return map;
+  }, [allFunds, funds]);
 
   if (funds.length === 0) {
     return (
@@ -368,7 +419,7 @@ export function FundTable({ funds, sort, onSort, cols, onReset }: FundTableProps
       <tbody>
         {funds.map(f => (
           <tr key={f.id}>
-            {visibleCols.map(c => <Cell key={c.id} col={c.id} f={f} />)}
+            {visibleCols.map(c => <Cell key={c.id} col={c.id} f={f} managerFunds={managerFunds} />)}
           </tr>
         ))}
       </tbody>
