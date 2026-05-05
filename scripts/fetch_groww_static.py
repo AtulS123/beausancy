@@ -203,11 +203,10 @@ def main() -> None:
         if 'managers' in data:
             existing = static[code].get('managers', [])
             new_mgrs = data['managers']
-            # Preserve known manager names from existing data; update tenure from Groww
+            # Only preserve funds_managed from existing data (manual entry).
+            # Always trust Groww for manager names and tenures.
             for i, mgr in enumerate(new_mgrs):
                 if i < len(existing):
-                    if existing[i].get('name', 'Unknown') != 'Unknown':
-                        mgr['name'] = existing[i]['name']  # keep verified name
                     mgr['funds_managed'] = existing[i].get('funds_managed', 1)
             static[code]['managers'] = new_mgrs
 

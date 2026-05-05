@@ -1275,15 +1275,15 @@
     "expense_ratio": 1.12,
     "managers": [
       {
-        "name": "George Thomas",
-        "tenure_years": 0.9,
+        "name": "Dhimant Shah",
+        "tenure_years": 6.3,
         "funds_managed": 2,
         "changed_last_12mo": false
       },
       {
-        "name": "Dhimant Shah",
+        "name": "Rajesh Bhatia",
         "tenure_years": 6.3,
-        "funds_managed": 1,
+        "funds_managed": 3,
         "changed_last_12mo": false
       }
     ],
