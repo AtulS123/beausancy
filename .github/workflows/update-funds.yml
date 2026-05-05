@@ -12,7 +12,7 @@ name: Update Fund Data
 
 on:
   schedule:
-    - cron: '30 12 * * 1-5'   # 6:00 pm IST Mon–Fri  — daily NAV refresh
+    - cron: '0 18 * * 1-5'    # 11:30 pm IST Mon–Fri — daily NAV refresh
     - cron: '0 3 1 * *'        # 8:30 am IST 1st/month — Groww AUM/ER scrape
     - cron: '0 4 * * 1'        # 9:30 am IST every Mon — static-data freshness check
   workflow_dispatch:
@@ -20,7 +20,7 @@ on:
 jobs:
   # ── Daily: fetch live NAV data and rebuild funds.json ────────────────────
   update-nav:
-    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 12 * * 1-5'
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 18 * * 1-5'
     runs-on: ubuntu-latest
     permissions:
       contents: write
