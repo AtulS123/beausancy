@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import type { Fund, SortState } from '@/lib/types';
 import { fmtAUM, fmtAUMFull } from './Controls';
 import { IcColumns, IcReset } from './Icons';
@@ -51,7 +51,7 @@ export const ALL_COLS: ColDef[] = [
   { id: "cons",     label: "Rolling cons.",  num: true,  w: 130, help: "Rolling 3Y consistency over the last 7 years: share of overlapping 3-year windows where the fund beat its category average. High = repeatable alpha, not one lucky year." },
   { id: "dd",       label: "Max DD",         num: true,  w: 78,  help: "Maximum drawdown over last 5 years — the worst peak-to-trough NAV fall. Tells you how ugly it got, not how often." },
   { id: "rec",      label: "Recov",          num: true,  w: 68,  help: "Recovery time in months: how long the fund took to climb back to its pre-drawdown peak NAV. Short recovery = the dip was fast; long recovery = sustained pain." },
-  { id: "mgr",      label: "Manager",        num: false, w: 130, help: "Fund manager name and tenure (years running this scheme). A fund's track record belongs to the manager, not the AMC — tenure ≥5y is meaningful, ≤3y means you're betting on a short sample. Hover for LinkedIn search." },
+  { id: "mgr",      label: "Manager",        num: false, w: 150, help: "Fund manager name and tenure. Click '+N' to expand all managers on a fund. Each name has a direct LinkedIn search link. ⚠ = manager changed within last 12 months — track record may not apply to current manager." },
   { id: "t10",      label: "Top-10 %",       num: true,  w: 80,  help: "% of portfolio in the top 10 stocks. >60% = concentrated conviction; <30% = broadly diversified. Concentrated funds can be great or disastrous depending on the manager." },
   { id: "style",    label: "Style",          num: false, w: 90,  help: "Style integrity (R²): how closely the fund's actual holdings match its declared category. Strict (R²>0.85) = tight adherence. Mod (0.65–0.85) = some drift. Drift (<0.65) = effectively a different style. Hover a cell to see declared vs actual style and the factor basis (Value/Growth/Quality/Momentum/Low-Vol/Blend)." },
   { id: "spark",    label: "3Y trend",       num: false, w: 110, help: "Sparkline of NAV over the last 3 years. Visual shape only — use for pattern recognition, not precise reads." }
@@ -102,6 +102,86 @@ function deltaStr(v: number | null, base: number | null): { t: string; cls: stri
   return { t: (d > 0 ? "+" : "") + d.toFixed(1), cls: d > 0 ? "pos" : "neg" };
 }
 
+// ─── LinkedIn icon ────────────────────────────────────────────────────────
+function LiLink({ name }: { name: string }) {
+  const url = `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(name + ' fund manager india')}`;
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      title={`Search ${name} on LinkedIn`}
+      onClick={e => e.stopPropagation()}
+      style={{
+        display: "inline-flex", alignItems: "center", justifyContent: "center",
+        width: 14, height: 14, borderRadius: 2, background: "#0a66c2",
+        color: "#fff", fontSize: "8px", fontWeight: 700, textDecoration: "none",
+        flexShrink: 0, lineHeight: 1, letterSpacing: 0,
+      }}
+    >
+      in
+    </a>
+  );
+}
+
+// ─── Manager cell (click to expand all managers) ──────────────────────────
+function MgrCell({ f }: { f: Fund }) {
+  const [expanded, setExpanded] = useState(false);
+  const managers: typeof f.managers = f.managers?.length ? f.managers : [f.manager];
+  const lead = managers[0];
+  const rest = managers.slice(1);
+
+  return (
+    <td style={{verticalAlign: "top", padding: "6px 8px"}}>
+      {/* Lead manager row */}
+      <div style={{display: "flex", alignItems: "flex-start", gap: 5}}>
+        <div style={{flex: 1, minWidth: 0}}>
+          <div style={{display: "flex", alignItems: "center", gap: 4, flexWrap: "wrap"}}>
+            <span className="fund-name" style={{fontSize: "11.5px"}}>{lead.name}</span>
+            <LiLink name={lead.name} />
+            {lead.changed_last_12mo && <span style={{color: "var(--warn)", fontSize: "11px"}}>⚠</span>}
+          </div>
+          <span className="fund-sub mono" style={{fontSize: "10px"}}>
+            {lead.tenure_years.toFixed(1)} yr · {lead.funds_managed} fund{lead.funds_managed !== 1 ? "s" : ""}
+          </span>
+        </div>
+        {rest.length > 0 && (
+          <button
+            onClick={() => setExpanded(v => !v)}
+            style={{
+              fontSize: "9px", color: "var(--accent)", background: "var(--accent-bg)",
+              border: "1px solid var(--accent-border)", borderRadius: 3, cursor: "pointer",
+              padding: "1px 5px", flexShrink: 0, marginTop: 1,
+            }}
+          >
+            {expanded ? "▲" : `+${rest.length}`}
+          </button>
+        )}
+      </div>
+
+      {/* Additional managers (expanded) */}
+      {expanded && rest.map((m, i) => (
+        <div key={i} style={{
+          marginTop: 5, paddingTop: 5,
+          borderTop: "1px solid var(--border)",
+          display: "flex", alignItems: "flex-start", gap: 5,
+        }}>
+          <div style={{flex: 1, minWidth: 0}}>
+            <div style={{display: "flex", alignItems: "center", gap: 4}}>
+              <span style={{fontSize: "11px", color: "var(--text)"}}>{m.name}</span>
+              <LiLink name={m.name} />
+              {m.changed_last_12mo && <span style={{color: "var(--warn)", fontSize: "11px"}}>⚠</span>}
+            </div>
+            <span className="fund-sub mono" style={{fontSize: "9.5px"}}>
+              {m.tenure_years.toFixed(1)} yr · {m.funds_managed} fund{m.funds_managed !== 1 ? "s" : ""}
+            </span>
+          </div>
+        </div>
+      ))}
+    </td>
+  );
+}
+
 // ─── Cell ─────────────────────────────────────────────────────────────────
 interface CellProps {
   col: string;
@@ -120,6 +200,7 @@ function Cell({ col, f }: CellProps) {
     case "category":
       return <td><span className="cat-pill">{f.category}</span></td>;
     case "aum":
+      if (!f.aum_cr) return <td className="num"><span style={{color:"var(--text-quiet)"}}>—</span></td>;
       return (
         <td className="num tt">
           <span className="val">{fmtAUM(f.aum_cr)}</span>
@@ -130,6 +211,7 @@ function Cell({ col, f }: CellProps) {
         </td>
       );
     case "er":
+      if (!f.expense_ratio) return <td className="num"><span style={{color:"var(--text-quiet)"}}>—</span></td>;
       return <td className="num"><span className="val">{f.expense_ratio.toFixed(2)}</span><span className="delta">%</span></td>;
     case "r3y": {
       const v = f.returns["3y"];
@@ -170,33 +252,8 @@ function Cell({ col, f }: CellProps) {
       return <td className="num"><span className="val neg">{f.max_drawdown_5y_pct.toFixed(1)}%</span></td>;
     case "rec":
       return <td className="num"><span className="val">{f.recovery_months}</span><span className="delta">mo</span></td>;
-    case "mgr": {
-      const t = f.manager.tenure_years;
-      const name = f.manager.name;
-      const liUrl = `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(name + ' fund manager india')}`;
-      return (
-        <td className="tt" style={{verticalAlign:"middle"}}>
-          <span className="fund-name" style={{fontSize:"11.5px"}}>{name}</span>
-          <span className="fund-sub mono" style={{fontSize:"10px"}}>
-            {t.toFixed(1)} yr{f.manager.changed_last_12mo ? ' · ' : ''}
-            {f.manager.changed_last_12mo && <span style={{color:"var(--warn)"}}>⚠</span>}
-          </span>
-          <div className="tt-body">
-            <div className="row"><span className="k">Tenure</span><span className="v">{t.toFixed(1)} yr</span></div>
-            <div className="row"><span className="k">Funds run</span><span className="v">{f.manager.funds_managed}</span></div>
-            {f.manager.changed_last_12mo && (
-              <div className="row"><span className="k" style={{color:"var(--warn)"}}>Changed</span><span className="v">&lt; 12 mo ago</span></div>
-            )}
-            <div style={{marginTop:6}}>
-              <a href={liUrl} target="_blank" rel="noopener noreferrer"
-                style={{color:"var(--accent)", fontSize:"10.5px", textDecoration:"none"}}>
-                Search LinkedIn ↗
-              </a>
-            </div>
-          </div>
-        </td>
-      );
-    }
+    case "mgr":
+      return <MgrCell f={f} />;
     case "t10":
       return <td className="num"><span className="val">{f.concentration.top_10_pct.toFixed(1)}</span><span className="delta">%</span></td>;
     case "style": {
