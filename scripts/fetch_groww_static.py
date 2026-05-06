@@ -34,16 +34,31 @@ MONTH_MAP = {
 }
 
 SLUG_OVERRIDES: dict[str, list[str]] = {
-    "125497": ["sbi-small-cap-fund-direct-plan-growth", "sbi-small-cap-fund-direct-growth"],
-    "119556": ["aditya-birla-sun-life-small-cap-fund-direct-growth",
-               "aditya-birla-sunlife-small-cap-fund-direct-growth"],
+    # ── Funds whose Groww URL still uses the pre-rename/old fund name ──────────
+    # Groww retains the original slug even after SEBI-mandated name changes
+    "118955": ["hdfc-equity-fund-direct-growth"],              # HDFC Flexi Cap (was HDFC Equity)
+    "118989": ["hdfc-mid-cap-opportunities-fund-direct-growth"],# HDFC Mid-Cap (hyphen vs "midcap")
+    "119062": ["hdfc-balanced-fund-direct-growth"],            # HDFC Hybrid Equity (was HDFC Balanced)
+    "119212": ["dsp-blackrock-micro-cap-fund-direct-growth"],  # DSP Small Cap (was DSP BlackRock Micro Cap)
+    "119556": ["birla-sun-life-small-midcap-fund-direct-growth"],# ABSL Small Cap (was Birla Sun Life Small & Midcap)
+    "119581": ["sundaram-select-midcap-direct-growth"],        # Sundaram Mid Cap (old slug)
+    "119589": ["sundaram-smile-fund-direct-growth"],           # Sundaram Small Cap (was Sundaram SMILE)
+    "120503": ["axis-long-term-equity-fund-direct-growth"],    # Axis ELSS (was Axis Long Term Equity)
+    "120716": ["uti-nifty-fund-direct-growth"],                # UTI Nifty 50 (was UTI Nifty Fund)
+    "122639": ["parag-parikh-long-term-value-fund-direct-growth"],# PPFAS Flexi Cap (was PP Long Term Value)
+    "125497": ["sbi-small-midcap-fund-direct-growth"],         # SBI Small Cap (was SBI Small & Midcap)
+    "127042": ["motilal-oswal-most-focused-midcap-30-fund-direct-growth"],# MO Midcap (was MOST Focused Midcap 30)
+    # ── Trust MF: slug differs from auto-derived name ──────────────────────────
     "152128": ["baroda-bnp-paribas-small-cap-fund-direct-growth"],
-    "153612": ["bajaj-finserv-small-cap-fund-direct-growth"],
-    "153859": ["jio-blackrock-flexi-cap-fund-direct-growth"],
     "152584": ["trustmf-flexi-cap-fund-direct-growth",
                "trust-mutual-fund-flexi-cap-fund-direct-growth"],
     "152939": ["trustmf-small-cap-fund-direct-growth",
                "trust-mutual-fund-small-cap-fund-direct-growth"],
+    "153612": ["bajaj-finserv-small-cap-fund-direct-growth"],
+    # ── Not on Groww — excluded from override, fetch will return None ──────────
+    # "120164": Kotak Small Cap — not listed on Groww
+    # "129649": Union Small Cap — not listed on Groww
+    # "153859": Jio BlackRock — too new, not yet on Groww
 }
 
 

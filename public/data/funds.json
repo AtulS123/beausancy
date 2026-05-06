@@ -4,20 +4,56 @@
     "name": "Parag Parikh Flexi Cap Fund",
     "amc": "PPFAS",
     "category": "Flexi Cap",
-    "scheme_url": "https://www.ppfas.com/mutual-fund/parag-parikh-flexi-cap-fund/",
-    "aum_cr": 78420,
-    "expense_ratio": 0.63,
+    "scheme_url": "https://groww.in/mutual-funds/parag-parikh-long-term-value-fund-direct-growth",
+    "aum_cr": 128966.48,
+    "expense_ratio": 0.79,
     "manager": {
-      "name": "Rajeev Thakkar",
-      "tenure_years": 11.5,
+      "name": "Mansi Kariya",
+      "tenure_years": 4.5,
       "funds_managed": 4,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Rajeev Thakkar",
-        "tenure_years": 11.5,
+        "name": "Mansi Kariya",
+        "tenure_years": 4.5,
         "funds_managed": 4,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Raunak Onkar",
+        "tenure_years": 11.8,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Tejas Soman",
+        "tenure_years": 13.0,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Aishwarya Dhar",
+        "tenure_years": 13.6,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Raj Mehta",
+        "tenure_years": 0.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Rukun Tarachandani",
+        "tenure_years": 13.6,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Rajeev Thakkar",
+        "tenure_years": 13.6,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -29,21 +65,35 @@
       "basis": "Quality"
     },
     "concentration": {
-      "top_10_pct": 48.2,
-      "num_stocks": 31,
-      "top_sector_pct": 28.4
+      "top_10_pct": 49.8,
+      "num_stocks": 49,
+      "top_sector_pct": 24.3,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 24.3
+        },
+        {
+          "name": "Energy",
+          "pct": 13.7
+        },
+        {
+          "name": "Technology",
+          "pct": 10.0
+        }
+      ]
     },
     "inception_date": "2013-05-28",
-    "nav": 91.26,
+    "nav": 91.16,
     "returns": {
-      "1y": 3.7,
+      "1y": 3.5,
       "3y": 17.8,
-      "5y": 16.9
+      "5y": 16.8
     },
     "category_avg_returns": {
-      "1y": 5.6,
-      "3y": 18.2,
-      "5y": 16.5
+      "1y": 4.9,
+      "3y": 18.1,
+      "5y": 16.3
     },
     "rolling_consistency_3y_pct": 54,
     "max_drawdown_5y_pct": -17.9,
@@ -84,7 +134,7 @@
       91.95,
       85.68,
       91.29,
-      91.26
+      91.16
     ]
   },
   {
@@ -92,20 +142,26 @@
     "name": "HDFC Flexi Cap Fund",
     "amc": "HDFC",
     "category": "Flexi Cap",
-    "scheme_url": "https://www.hdfcfund.com/our-products/hdfc-flexi-cap-fund",
-    "aum_cr": 64210,
-    "expense_ratio": 0.78,
+    "scheme_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+    "aum_cr": 91334.91,
+    "expense_ratio": 0.67,
     "manager": {
-      "name": "Roshi Jain",
-      "tenure_years": 3.2,
+      "name": "Dhruv Muchhal",
+      "tenure_years": 13.3,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Roshi Jain",
-        "tenure_years": 3.2,
+        "name": "Dhruv Muchhal",
+        "tenure_years": 13.3,
         "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Amit Ganatra",
+        "tenure_years": 26.4,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -117,21 +173,35 @@
       "basis": "Value"
     },
     "concentration": {
-      "top_10_pct": 52.4,
-      "num_stocks": 48,
-      "top_sector_pct": 32.1
+      "top_10_pct": 47.2,
+      "num_stocks": 59,
+      "top_sector_pct": 32.4,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 32.4
+        },
+        {
+          "name": "Automobile",
+          "pct": 11.2
+        },
+        {
+          "name": "Healthcare",
+          "pct": 10.2
+        }
+      ]
     },
     "inception_date": "2013-01-01",
-    "nav": 2149.49,
+    "nav": 2136.67,
     "returns": {
-      "1y": 2.7,
-      "3y": 19.8,
-      "5y": 20.6
+      "1y": 2.0,
+      "3y": 19.5,
+      "5y": 20.0
     },
     "category_avg_returns": {
-      "1y": 5.6,
-      "3y": 18.2,
-      "5y": 16.5
+      "1y": 4.9,
+      "3y": 18.1,
+      "5y": 16.3
     },
     "rolling_consistency_3y_pct": 47,
     "max_drawdown_5y_pct": -13.3,
@@ -172,7 +242,7 @@
       2261.53,
       1996.49,
       2137.0,
-      2149.49
+      2136.67
     ]
   },
   {
@@ -182,7 +252,7 @@
     "category": "Large Cap",
     "scheme_url": "https://groww.in/mutual-funds/mirae-asset-large-cap-fund-direct-growth",
     "aum_cr": 35342.63,
-    "expense_ratio": 0.57,
+    "expense_ratio": 0.72,
     "manager": {
       "name": "Gaurav Misra",
       "tenure_years": 9.3,
@@ -224,18 +294,18 @@
       ]
     },
     "inception_date": "2013-01-02",
-    "nav": 123.92,
+    "nav": 123.47,
     "returns": {
-      "1y": 2.1,
-      "3y": 12.2,
-      "5y": 12.2
+      "1y": 1.1,
+      "3y": 12.1,
+      "5y": 11.9
     },
     "category_avg_returns": {
-      "1y": 2.0,
-      "3y": 13.2,
-      "5y": 13.1
+      "1y": 1.2,
+      "3y": 13.1,
+      "5y": 12.9
     },
-    "rolling_consistency_3y_pct": 76,
+    "rolling_consistency_3y_pct": 79,
     "max_drawdown_5y_pct": -17.4,
     "recovery_months": 5,
     "nav_history_3y": [
@@ -274,7 +344,7 @@
       128.43,
       113.12,
       123.31,
-      123.92
+      123.47
     ]
   },
   {
@@ -284,7 +354,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/nippon-india-small-cap-fund-direct-growth",
     "aum_cr": 61808.85,
-    "expense_ratio": 0.73,
+    "expense_ratio": 0.65,
     "manager": {
       "name": "Samir Rachh",
       "tenure_years": 2.1,
@@ -338,16 +408,16 @@
       ]
     },
     "inception_date": "2013-01-02",
-    "nav": 194.29,
+    "nav": 193.76,
     "returns": {
-      "1y": 12.6,
-      "3y": 22.0,
-      "5y": 23.4
+      "1y": 11.3,
+      "3y": 21.9,
+      "5y": 23.1
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 73,
     "max_drawdown_5y_pct": -24.2,
@@ -388,7 +458,7 @@
       182.55,
       165.18,
       192.08,
-      194.29
+      193.76
     ]
   },
   {
@@ -476,16 +546,16 @@
       ]
     },
     "inception_date": "2013-01-07",
-    "nav": 283.63,
+    "nav": 284.66,
     "returns": {
-      "1y": 10.8,
-      "3y": 21.6,
-      "5y": 23.3
+      "1y": 9.6,
+      "3y": 21.7,
+      "5y": 23.0
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 47,
     "max_drawdown_5y_pct": -25.2,
@@ -526,7 +596,7 @@
       258.43,
       239.93,
       280.48,
-      283.63
+      284.66
     ]
   },
   {
@@ -534,20 +604,26 @@
     "name": "SBI Small Cap Fund",
     "amc": "SBI",
     "category": "Small Cap",
-    "scheme_url": "https://www.sbimf.com/en-us/sbi-small-cap-fund",
-    "aum_cr": 28740,
-    "expense_ratio": 0.71,
+    "scheme_url": "https://groww.in/mutual-funds/sbi-small-midcap-fund-direct-growth",
+    "aum_cr": 32285.56,
+    "expense_ratio": 0.82,
     "manager": {
-      "name": "R. Srinivasan",
-      "tenure_years": 9.2,
+      "name": "Pradeep Kesavan",
+      "tenure_years": 13.3,
       "funds_managed": 3,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "R. Srinivasan",
-        "tenure_years": 9.2,
+        "name": "Pradeep Kesavan",
+        "tenure_years": 13.3,
         "funds_managed": 3,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Rama Iyer Srinivasan",
+        "tenure_years": 38.9,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -559,21 +635,35 @@
       "basis": "Quality"
     },
     "concentration": {
-      "top_10_pct": 34.2,
-      "num_stocks": 56,
-      "top_sector_pct": 22.7
+      "top_10_pct": 28.0,
+      "num_stocks": 68,
+      "top_sector_pct": 13.1,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 13.1
+        },
+        {
+          "name": "Automobile",
+          "pct": 11.3
+        },
+        {
+          "name": "Consumer Staples",
+          "pct": 11.1
+        }
+      ]
     },
     "inception_date": "2013-11-18",
-    "nav": 195.45,
+    "nav": 194.56,
     "returns": {
-      "1y": 7.5,
-      "3y": 15.2,
-      "5y": 16.4
+      "1y": 5.9,
+      "3y": 15.1,
+      "5y": 16.1
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 57,
     "max_drawdown_5y_pct": -22.4,
@@ -614,7 +704,7 @@
       184.76,
       169.37,
       193.41,
-      195.45
+      194.56
     ]
   },
   {
@@ -622,20 +712,44 @@
     "name": "Motilal Oswal Midcap Fund",
     "amc": "Motilal Oswal",
     "category": "Mid Cap",
-    "scheme_url": "https://www.motilaloswalmf.com/mf/motilal-oswal-midcap-fund/100",
-    "aum_cr": 18960,
-    "expense_ratio": 0.72,
+    "scheme_url": "https://groww.in/mutual-funds/motilal-oswal-most-focused-midcap-30-fund-direct-growth",
+    "aum_cr": 31046.66,
+    "expense_ratio": 0.75,
     "manager": {
-      "name": "Niket Shah",
-      "tenure_years": 3.8,
+      "name": "Ankit Agarwal",
+      "tenure_years": 1.2,
       "funds_managed": 3,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Niket Shah",
-        "tenure_years": 3.8,
+        "name": "Ankit Agarwal",
+        "tenure_years": 1.2,
         "funds_managed": 3,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Swapnil P Mayekar",
+        "tenure_years": 2.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Ajay Khandelwal",
+        "tenure_years": 7.5,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Varun Sharma",
+        "tenure_years": 8.6,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Rakesh Shetty",
+        "tenure_years": 11.9,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -647,21 +761,35 @@
       "basis": "Quality"
     },
     "concentration": {
-      "top_10_pct": 58.4,
-      "num_stocks": 26,
-      "top_sector_pct": 31.2
+      "top_10_pct": 57.5,
+      "num_stocks": 28,
+      "top_sector_pct": 22.8,
+      "top_sectors": [
+        {
+          "name": "Services",
+          "pct": 22.8
+        },
+        {
+          "name": "Financial",
+          "pct": 19.7
+        },
+        {
+          "name": "Technology",
+          "pct": 12.5
+        }
+      ]
     },
     "inception_date": "2014-02-25",
-    "nav": 105.39,
+    "nav": 105.24,
     "returns": {
-      "1y": -2.4,
-      "3y": 22.0,
-      "5y": 24.3
+      "1y": -4.2,
+      "3y": 21.9,
+      "5y": 24.1
     },
     "category_avg_returns": {
-      "1y": 7.8,
+      "1y": 6.3,
       "3y": 23.7,
-      "5y": 22.6
+      "5y": 22.3
     },
     "rolling_consistency_3y_pct": 49,
     "max_drawdown_5y_pct": -28.9,
@@ -702,7 +830,7 @@
       102.5,
       92.96,
       104.87,
-      105.39
+      105.24
     ]
   },
   {
@@ -784,18 +912,18 @@
       ]
     },
     "inception_date": "2013-01-02",
-    "nav": 85.12,
+    "nav": 85.11,
     "returns": {
-      "1y": 6.6,
+      "1y": 6.3,
       "3y": 12.9,
       "5y": 12.0
     },
     "category_avg_returns": {
-      "1y": 2.2,
-      "3y": 11.0,
-      "5y": 11.7
+      "1y": 1.8,
+      "3y": 10.9,
+      "5y": 11.6
     },
-    "rolling_consistency_3y_pct": 77,
+    "rolling_consistency_3y_pct": 79,
     "max_drawdown_5y_pct": -8.2,
     "recovery_months": 1,
     "nav_history_3y": [
@@ -834,7 +962,7 @@
       86.18,
       80.41,
       84.81,
-      85.12
+      85.11
     ]
   },
   {
@@ -842,20 +970,26 @@
     "name": "UTI Nifty 50 Index Fund",
     "amc": "UTI",
     "category": "Index",
-    "scheme_url": "https://www.utimf.com/funds/uti-nifty-50-index-fund/",
-    "aum_cr": 19840,
-    "expense_ratio": 0.2,
+    "scheme_url": "https://groww.in/mutual-funds/uti-nifty-fund-direct-growth",
+    "aum_cr": 24433.24,
+    "expense_ratio": 0.29,
     "manager": {
       "name": "Sharwan Kumar Goyal",
-      "tenure_years": 6.4,
+      "tenure_years": 10.0,
       "funds_managed": 8,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Sharwan Kumar Goyal",
-        "tenure_years": 6.4,
+        "tenure_years": 10.0,
         "funds_managed": 8,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Ayush Jain",
+        "tenure_years": 13.3,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -867,23 +1001,37 @@
       "basis": "Blend"
     },
     "concentration": {
-      "top_10_pct": 58.2,
+      "top_10_pct": 54.3,
       "num_stocks": 50,
-      "top_sector_pct": 35.4
+      "top_sector_pct": 34.0,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 34.0
+        },
+        {
+          "name": "Energy",
+          "pct": 14.0
+        },
+        {
+          "name": "Technology",
+          "pct": 9.4
+        }
+      ]
     },
     "inception_date": "2013-01-02",
-    "nav": 168.62,
+    "nav": 168.01,
     "returns": {
-      "1y": -0.0,
-      "3y": 11.1,
-      "5y": 11.8
+      "1y": -0.8,
+      "3y": 11.0,
+      "5y": 11.5
     },
     "category_avg_returns": {
-      "1y": 0.0,
-      "3y": 11.1,
-      "5y": 11.8
+      "1y": -0.8,
+      "3y": 11.0,
+      "5y": 11.5
     },
-    "rolling_consistency_3y_pct": 68,
+    "rolling_consistency_3y_pct": 70,
     "max_drawdown_5y_pct": -16.6,
     "recovery_months": 5,
     "nav_history_3y": [
@@ -922,7 +1070,7 @@
       176.04,
       156.12,
       167.77,
-      168.62
+      168.01
     ]
   },
   {
@@ -932,7 +1080,7 @@
     "category": "ELSS",
     "scheme_url": "https://groww.in/mutual-funds/mirae-asset-elss-tax-saver-fund-direct-growth",
     "aum_cr": 22940.33,
-    "expense_ratio": 0.66,
+    "expense_ratio": 0.75,
     "manager": {
       "name": "Neelesh Surana",
       "tenure_years": 10.5,
@@ -974,16 +1122,16 @@
       ]
     },
     "inception_date": "2015-12-29",
-    "nav": 55.22,
+    "nav": 54.99,
     "returns": {
-      "1y": 6.4,
-      "3y": 16.6,
-      "5y": 14.9
+      "1y": 5.2,
+      "3y": 16.4,
+      "5y": 14.5
     },
     "category_avg_returns": {
-      "1y": 3.8,
-      "3y": 15.0,
-      "5y": 12.3
+      "1y": 2.9,
+      "3y": 14.8,
+      "5y": 12.0
     },
     "rolling_consistency_3y_pct": 80,
     "max_drawdown_5y_pct": -17.9,
@@ -1024,7 +1172,7 @@
       56.49,
       49.63,
       54.84,
-      55.22
+      54.99
     ]
   },
   {
@@ -1032,20 +1180,26 @@
     "name": "Axis ELSS Tax Saver Fund",
     "amc": "Axis",
     "category": "ELSS",
-    "scheme_url": "https://www.axismf.com/mutual-fund/axis-elss-tax-saver-fund",
-    "aum_cr": 34120,
-    "expense_ratio": 0.78,
+    "scheme_url": "https://groww.in/mutual-funds/axis-long-term-equity-fund-direct-growth",
+    "aum_cr": 29075.78,
+    "expense_ratio": 0.82,
     "manager": {
-      "name": "Shreyash Devalkar",
-      "tenure_years": 2.6,
+      "name": "Ashish Naik",
+      "tenure_years": 13.3,
       "funds_managed": 4,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Shreyash Devalkar",
-        "tenure_years": 2.6,
+        "name": "Ashish Naik",
+        "tenure_years": 13.3,
         "funds_managed": 4,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Shreyash Devalkar",
+        "tenure_years": 16.7,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -1057,23 +1211,37 @@
       "basis": "Growth"
     },
     "concentration": {
-      "top_10_pct": 56.7,
-      "num_stocks": 42,
-      "top_sector_pct": 33.1
+      "top_10_pct": 38.3,
+      "num_stocks": 75,
+      "top_sector_pct": 28.2,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 28.2
+        },
+        {
+          "name": "Healthcare",
+          "pct": 8.6
+        },
+        {
+          "name": "Services",
+          "pct": 8.3
+        }
+      ]
     },
     "inception_date": "2013-01-02",
-    "nav": 105.74,
+    "nav": 105.84,
     "returns": {
-      "1y": 1.2,
+      "1y": 0.6,
       "3y": 13.3,
-      "5y": 9.7
+      "5y": 9.5
     },
     "category_avg_returns": {
-      "1y": 3.8,
-      "3y": 15.0,
-      "5y": 12.3
+      "1y": 2.9,
+      "3y": 14.8,
+      "5y": 12.0
     },
-    "rolling_consistency_3y_pct": 47,
+    "rolling_consistency_3y_pct": 50,
     "max_drawdown_5y_pct": -28.0,
     "recovery_months": 18,
     "nav_history_3y": [
@@ -1112,7 +1280,7 @@
       108.93,
       96.28,
       105.28,
-      105.74
+      105.84
     ]
   },
   {
@@ -1122,7 +1290,7 @@
     "category": "Flexi Cap",
     "scheme_url": "https://groww.in/mutual-funds/whiteoak-capital-flexi-cap-fund-direct-growth",
     "aum_cr": 6890.27,
-    "expense_ratio": 0.93,
+    "expense_ratio": 0.65,
     "manager": {
       "name": "Ramesh Mantri",
       "tenure_years": 0.1,
@@ -1188,16 +1356,16 @@
       ]
     },
     "inception_date": "2022-08-03",
-    "nav": 17.93,
+    "nav": 17.94,
     "returns": {
-      "1y": 5.8,
+      "1y": 5.0,
       "3y": 19.2,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.6,
-      "3y": 18.2,
-      "5y": 16.5
+      "1y": 4.9,
+      "3y": 18.1,
+      "5y": 16.3
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -15.6,
@@ -1238,7 +1406,7 @@
       17.92,
       16.19,
       17.84,
-      17.93
+      17.94
     ]
   },
   {
@@ -1248,7 +1416,7 @@
     "category": "Flexi Cap",
     "scheme_url": "https://groww.in/mutual-funds/invesco-india-contra-fund-direct-growth",
     "aum_cr": 17663.58,
-    "expense_ratio": 0.57,
+    "expense_ratio": 1.6,
     "manager": {
       "name": "Taher Badshah",
       "tenure_years": 7.1,
@@ -1290,16 +1458,16 @@
       ]
     },
     "inception_date": "2013-01-02",
-    "nav": 152.18,
+    "nav": 151.81,
     "returns": {
-      "1y": 1.8,
-      "3y": 19.1,
-      "5y": 16.8
+      "1y": 0.6,
+      "3y": 19.0,
+      "5y": 16.5
     },
     "category_avg_returns": {
-      "1y": 5.6,
-      "3y": 18.2,
-      "5y": 16.5
+      "1y": 4.9,
+      "3y": 18.1,
+      "5y": 16.3
     },
     "rolling_consistency_3y_pct": 56,
     "max_drawdown_5y_pct": -18.6,
@@ -1340,7 +1508,7 @@
       155.84,
       137.65,
       150.96,
-      152.18
+      151.81
     ]
   },
   {
@@ -1348,21 +1516,27 @@
     "name": "Sundaram Mid Cap Fund",
     "amc": "Sundaram",
     "category": "Mid Cap",
-    "scheme_url": "https://www.sundarammutual.com/funds/sundaram-mid-cap-fund",
-    "aum_cr": 9240,
-    "expense_ratio": 0.91,
+    "scheme_url": "https://groww.in/mutual-funds/sundaram-select-midcap-direct-growth",
+    "aum_cr": 11898.19,
+    "expense_ratio": 1.39,
     "manager": {
-      "name": "S. Bharath",
-      "tenure_years": 0.6,
+      "name": "Shalav Saket",
+      "tenure_years": 6.2,
       "funds_managed": 4,
       "changed_last_12mo": true
     },
     "managers": [
       {
-        "name": "S. Bharath",
-        "tenure_years": 0.6,
+        "name": "Shalav Saket",
+        "tenure_years": 6.2,
         "funds_managed": 4,
         "changed_last_12mo": true
+      },
+      {
+        "name": "Bharath S.",
+        "tenure_years": 13.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
       }
     ],
     "style": {
@@ -1373,21 +1547,35 @@
       "basis": "Growth"
     },
     "concentration": {
-      "top_10_pct": 34.8,
-      "num_stocks": 72,
-      "top_sector_pct": 24.6
+      "top_10_pct": 25.7,
+      "num_stocks": 78,
+      "top_sector_pct": 15.7,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 15.7
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 15.3
+        },
+        {
+          "name": "Services",
+          "pct": 10.4
+        }
+      ]
     },
     "inception_date": "2013-01-02",
-    "nav": 1567.64,
+    "nav": 1566.99,
     "returns": {
-      "1y": 13.8,
+      "1y": 12.3,
       "3y": 25.2,
-      "5y": 21.2
+      "5y": 20.9
     },
     "category_avg_returns": {
-      "1y": 7.8,
+      "1y": 6.3,
       "3y": 23.7,
-      "5y": 22.6
+      "5y": 22.3
     },
     "rolling_consistency_3y_pct": 42,
     "max_drawdown_5y_pct": -20.7,
@@ -1428,7 +1616,7 @@
       1561.88,
       1392.79,
       1556.52,
-      1567.64
+      1566.99
     ]
   },
   {
@@ -1493,9 +1681,9 @@
       "5y": 15.8
     },
     "category_avg_returns": {
-      "1y": 5.6,
-      "3y": 18.2,
-      "5y": 16.5
+      "1y": 4.9,
+      "3y": 18.1,
+      "5y": 16.3
     },
     "rolling_consistency_3y_pct": 57,
     "max_drawdown_5y_pct": -16.5,
@@ -1594,18 +1782,18 @@
       ]
     },
     "inception_date": "2013-01-08",
-    "nav": 94.7,
+    "nav": 94.58,
     "returns": {
-      "1y": 2.0,
-      "3y": 14.2,
-      "5y": 14.1
+      "1y": 1.4,
+      "3y": 14.1,
+      "5y": 13.8
     },
     "category_avg_returns": {
-      "1y": 2.0,
-      "3y": 13.2,
-      "5y": 13.1
+      "1y": 1.2,
+      "3y": 13.1,
+      "5y": 12.9
     },
-    "rolling_consistency_3y_pct": 71,
+    "rolling_consistency_3y_pct": 73,
     "max_drawdown_5y_pct": -17.3,
     "recovery_months": 5,
     "nav_history_3y": [
@@ -1644,7 +1832,7 @@
       99.29,
       87.82,
       94.31,
-      94.7
+      94.58
     ]
   },
   {
@@ -1702,16 +1890,16 @@
       ]
     },
     "inception_date": "2015-12-29",
-    "nav": 45.85,
+    "nav": 45.79,
     "returns": {
-      "1y": -11.5,
+      "1y": -12.2,
       "3y": 9.6,
-      "5y": 9.7
+      "5y": 9.5
     },
     "category_avg_returns": {
-      "1y": -11.5,
+      "1y": -12.2,
       "3y": 9.6,
-      "5y": 9.7
+      "5y": 9.5
     },
     "rolling_consistency_3y_pct": 97,
     "max_drawdown_5y_pct": -33.3,
@@ -1752,7 +1940,7 @@
       46.82,
       43.87,
       45.98,
-      45.85
+      45.79
     ]
   },
   {
@@ -1760,9 +1948,9 @@
     "name": "HDFC Hybrid Equity Fund",
     "amc": "HDFC",
     "category": "Hybrid",
-    "scheme_url": "https://www.hdfcfund.com/our-products/hdfc-hybrid-equity-fund",
-    "aum_cr": 22340,
-    "expense_ratio": 0.94,
+    "scheme_url": "https://groww.in/mutual-funds/hdfc-balanced-fund-direct-growth",
+    "aum_cr": 20080.76,
+    "expense_ratio": 0.8462407,
     "manager": {
       "name": "Chirag Setalvad",
       "tenure_years": 12.4,
@@ -1785,21 +1973,35 @@
       "basis": "Value"
     },
     "concentration": {
-      "top_10_pct": 42.8,
-      "num_stocks": 56,
-      "top_sector_pct": 27.6
+      "top_10_pct": 30.2,
+      "num_stocks": 66,
+      "top_sector_pct": 24.7,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 24.7
+        },
+        {
+          "name": "Technology",
+          "pct": 6.5
+        },
+        {
+          "name": "Energy",
+          "pct": 5.7
+        }
+      ]
     },
     "inception_date": "2013-01-01",
-    "nav": 121.83,
+    "nav": 121.41,
     "returns": {
-      "1y": -2.2,
-      "3y": 9.1,
-      "5y": 11.4
+      "1y": -2.8,
+      "3y": 9.0,
+      "5y": 11.1
     },
     "category_avg_returns": {
-      "1y": 2.2,
-      "3y": 11.0,
-      "5y": 11.7
+      "1y": 1.8,
+      "3y": 10.9,
+      "5y": 11.6
     },
     "rolling_consistency_3y_pct": 65,
     "max_drawdown_5y_pct": -12.6,
@@ -1840,7 +2042,7 @@
       128.45,
       115.33,
       121.38,
-      121.83
+      121.41
     ]
   },
   {
@@ -1848,21 +2050,27 @@
     "name": "HDFC Mid-Cap Opportunities Fund",
     "amc": "HDFC",
     "category": "Mid Cap",
-    "scheme_url": "https://www.hdfcfund.com/our-products/hdfc-mid-cap-opportunities-fund",
-    "aum_cr": 42180,
-    "expense_ratio": 0.67,
+    "scheme_url": "https://groww.in/mutual-funds/hdfc-mid-cap-opportunities-fund-direct-growth",
+    "aum_cr": 85357.92,
+    "expense_ratio": 0.8,
     "manager": {
-      "name": "Pankaj Tibrewal",
-      "tenure_years": 0.8,
+      "name": "Chirag Setalvad",
+      "tenure_years": 13.3,
       "funds_managed": 2,
       "changed_last_12mo": true
     },
     "managers": [
       {
-        "name": "Pankaj Tibrewal",
-        "tenure_years": 0.8,
+        "name": "Chirag Setalvad",
+        "tenure_years": 13.3,
         "funds_managed": 2,
         "changed_last_12mo": true
+      },
+      {
+        "name": "Dhruv Muchhal",
+        "tenure_years": 26.4,
+        "funds_managed": 1,
+        "changed_last_12mo": false
       }
     ],
     "style": {
@@ -1873,21 +2081,35 @@
       "basis": "Growth"
     },
     "concentration": {
-      "top_10_pct": 29.8,
-      "num_stocks": 68,
-      "top_sector_pct": 21.4
+      "top_10_pct": 34.0,
+      "num_stocks": 78,
+      "top_sector_pct": 24.4,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 24.4
+        },
+        {
+          "name": "Healthcare",
+          "pct": 14.8
+        },
+        {
+          "name": "Automobile",
+          "pct": 9.6
+        }
+      ]
     },
     "inception_date": "2013-01-01",
-    "nav": 218.53,
+    "nav": 218.75,
     "returns": {
-      "1y": 12.0,
+      "1y": 10.8,
       "3y": 24.0,
-      "5y": 22.2
+      "5y": 22.0
     },
     "category_avg_returns": {
-      "1y": 7.8,
+      "1y": 6.3,
       "3y": 23.7,
-      "5y": 22.6
+      "5y": 22.3
     },
     "rolling_consistency_3y_pct": 48,
     "max_drawdown_5y_pct": -17.0,
@@ -1928,7 +2150,7 @@
       223.96,
       199.42,
       217.72,
-      218.53
+      218.75
     ]
   },
   {
@@ -1998,16 +2220,16 @@
       ]
     },
     "inception_date": "2015-03-09",
-    "nav": 41.66,
+    "nav": 41.59,
     "returns": {
-      "1y": 3.8,
-      "3y": 13.2,
-      "5y": 12.5
+      "1y": 2.7,
+      "3y": 13.1,
+      "5y": 12.2
     },
     "category_avg_returns": {
-      "1y": 5.6,
-      "3y": 18.2,
-      "5y": 16.5
+      "1y": 4.9,
+      "3y": 18.1,
+      "5y": 16.3
     },
     "rolling_consistency_3y_pct": 33,
     "max_drawdown_5y_pct": -22.6,
@@ -2048,7 +2270,7 @@
       41.95,
       37.76,
       41.41,
-      41.66
+      41.59
     ]
   },
   {
@@ -2058,7 +2280,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/abakkus-small-cap-fund-direct-growth",
     "aum_cr": 453.38,
-    "expense_ratio": 2.02,
+    "expense_ratio": 3.74,
     "manager": {
       "name": "Abhishek Krishnaswami Srinivas",
       "tenure_years": 0.2,
@@ -2106,16 +2328,16 @@
       ]
     },
     "inception_date": "2026-03-20",
-    "nav": 11.16,
+    "nav": 11.15,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -1.7,
@@ -2123,7 +2345,7 @@
     "nav_history_3y": [
       9.86,
       11.03,
-      11.16
+      11.15
     ]
   },
   {
@@ -2131,25 +2353,25 @@
     "name": "Aditya Birla Sun Life Small Cap Fund",
     "amc": "ABSL",
     "category": "Small Cap",
-    "scheme_url": "https://mutualfund.adityabirlacapital.com/Mutual-Fund/Equity-Funds/Aditya-Birla-Sun-Life-Small-Cap-Fund",
-    "aum_cr": 5200,
-    "expense_ratio": 0.87,
+    "scheme_url": "https://groww.in/mutual-funds/birla-sun-life-small-midcap-fund-direct-growth",
+    "aum_cr": 4449.15,
+    "expense_ratio": 1.43,
     "manager": {
-      "name": "Dhaval Joshi",
-      "tenure_years": 3.0,
+      "name": "Abhinav Khandelwal",
+      "tenure_years": 4.1,
       "funds_managed": 3,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Dhaval Joshi",
-        "tenure_years": 3.0,
+        "name": "Abhinav Khandelwal",
+        "tenure_years": 4.1,
         "funds_managed": 3,
         "changed_last_12mo": false
       },
       {
-        "name": "Haresh Mehta",
-        "tenure_years": 3.0,
+        "name": "Dhaval Joshi",
+        "tenure_years": 4.1,
         "funds_managed": 4,
         "changed_last_12mo": false
       }
@@ -2162,23 +2384,37 @@
       "basis": "Growth"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 23.4,
+      "num_stocks": 88,
+      "top_sector_pct": 18.8,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 18.8
+        },
+        {
+          "name": "Healthcare",
+          "pct": 13.5
+        },
+        {
+          "name": "Consumer Staples",
+          "pct": 10.9
+        }
+      ]
     },
     "inception_date": "2013-01-07",
-    "nav": 103.15,
+    "nav": 102.73,
     "returns": {
-      "1y": 17.5,
-      "3y": 20.4,
-      "5y": 16.5
+      "1y": 16.2,
+      "3y": 20.2,
+      "5y": 16.3
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
-    "rolling_consistency_3y_pct": 36,
+    "rolling_consistency_3y_pct": 38,
     "max_drawdown_5y_pct": -26.2,
     "recovery_months": 14,
     "nav_history_3y": [
@@ -2217,7 +2453,7 @@
       96.02,
       87.17,
       101.68,
-      103.15
+      102.73
     ]
   },
   {
@@ -2227,7 +2463,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/axis-small-cap-fund-direct-growth",
     "aum_cr": 23918.65,
-    "expense_ratio": 0.65,
+    "expense_ratio": 0.58,
     "manager": {
       "name": "Mayank Hyanki",
       "tenure_years": 7.4,
@@ -2281,16 +2517,16 @@
       ]
     },
     "inception_date": "2013-12-05",
-    "nav": 124.1,
+    "nav": 124.56,
     "returns": {
-      "1y": 11.2,
-      "3y": 19.1,
-      "5y": 19.7
+      "1y": 10.6,
+      "3y": 19.2,
+      "5y": 19.5
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 48,
     "max_drawdown_5y_pct": -19.4,
@@ -2331,7 +2567,7 @@
       118.52,
       108.18,
       122.8,
-      124.1
+      124.56
     ]
   },
   {
@@ -2341,7 +2577,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/bajaj-finserv-small-cap-fund-direct-growth",
     "aum_cr": 1530.09,
-    "expense_ratio": 0.61,
+    "expense_ratio": 1.41,
     "manager": {
       "name": "Siddharth Chaudhary",
       "tenure_years": 0.9,
@@ -2395,16 +2631,16 @@
       ]
     },
     "inception_date": "2025-07-22",
-    "nav": 10.16,
+    "nav": 10.15,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -16.2,
@@ -2420,7 +2656,7 @@
       9.44,
       8.49,
       10.07,
-      10.16
+      10.15
     ]
   },
   {
@@ -2430,7 +2666,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/bandhan-small-cap-fund-direct-growth",
     "aum_cr": 20129.67,
-    "expense_ratio": 0.4,
+    "expense_ratio": 0.87,
     "manager": {
       "name": "Manish Gunwani",
       "tenure_years": 6.3,
@@ -2490,16 +2726,16 @@
       ]
     },
     "inception_date": "2020-02-26",
-    "nav": 52.75,
+    "nav": 52.78,
     "returns": {
-      "1y": 16.8,
+      "1y": 15.6,
       "3y": 32.2,
-      "5y": 24.8
+      "5y": 24.7
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -24.3,
@@ -2540,7 +2776,7 @@
       49.19,
       44.63,
       52.16,
-      52.75
+      52.78
     ]
   },
   {
@@ -2550,7 +2786,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/bank-of-india-small-cap-fund-direct-growth",
     "aum_cr": 1770.44,
-    "expense_ratio": 1.0,
+    "expense_ratio": 0.87,
     "manager": {
       "name": "Nav Bhardwaj",
       "tenure_years": 7.4,
@@ -2598,16 +2834,16 @@
       ]
     },
     "inception_date": "2018-12-27",
-    "nav": 55.46,
+    "nav": 55.72,
     "returns": {
-      "1y": 17.7,
-      "3y": 23.7,
-      "5y": 21.9
+      "1y": 16.7,
+      "3y": 23.9,
+      "5y": 21.8
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 87,
     "max_drawdown_5y_pct": -27.1,
@@ -2648,7 +2884,7 @@
       49.24,
       45.5,
       54.92,
-      55.46
+      55.72
     ]
   },
   {
@@ -2706,16 +2942,16 @@
       ]
     },
     "inception_date": "2023-11-01",
-    "nav": 13.73,
+    "nav": 13.7,
     "returns": {
-      "1y": 12.6,
+      "1y": 11.3,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -25.0,
@@ -2751,7 +2987,7 @@
       12.85,
       11.97,
       13.5,
-      13.73
+      13.7
     ]
   },
   {
@@ -2761,7 +2997,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/canara-robeco-small-cap-fund-direct-growth",
     "aum_cr": 11602.93,
-    "expense_ratio": 0.56,
+    "expense_ratio": 0.71,
     "manager": {
       "name": "Shridatta Bhandwaldar",
       "tenure_years": 7.3,
@@ -2809,16 +3045,16 @@
       ]
     },
     "inception_date": "2019-02-19",
-    "nav": 43.0,
+    "nav": 43.13,
     "returns": {
-      "1y": 10.6,
-      "3y": 17.6,
-      "5y": 20.2
+      "1y": 9.8,
+      "3y": 17.7,
+      "5y": 19.9
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 72,
     "max_drawdown_5y_pct": -23.6,
@@ -2859,7 +3095,7 @@
       41.49,
       37.37,
       42.5,
-      43.0
+      43.13
     ]
   },
   {
@@ -2867,26 +3103,20 @@
     "name": "DSP Small Cap Fund",
     "amc": "DSP",
     "category": "Small Cap",
-    "scheme_url": "https://www.dspim.com/fund-pages/dsp-small-cap-fund",
-    "aum_cr": 9800,
-    "expense_ratio": 0.7,
+    "scheme_url": "https://groww.in/mutual-funds/dsp-blackrock-micro-cap-fund-direct-growth",
+    "aum_cr": 15300.48,
+    "expense_ratio": 0.78,
     "manager": {
       "name": "Vinit Sambre",
-      "tenure_years": 11.0,
+      "tenure_years": 10.8,
       "funds_managed": 3,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Vinit Sambre",
-        "tenure_years": 11.0,
+        "tenure_years": 10.8,
         "funds_managed": 3,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Abhishek Ghosh",
-        "tenure_years": 2.5,
-        "funds_managed": 2,
         "changed_last_12mo": false
       }
     ],
@@ -2898,21 +3128,35 @@
       "basis": "Quality"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 30.2,
+      "num_stocks": 82,
+      "top_sector_pct": 13.9,
+      "top_sectors": [
+        {
+          "name": "Chemicals",
+          "pct": 13.9
+        },
+        {
+          "name": "Automobile",
+          "pct": 13.7
+        },
+        {
+          "name": "Consumer Staples",
+          "pct": 12.5
+        }
+      ]
     },
     "inception_date": "2013-01-02",
-    "nav": 226.1,
+    "nav": 225.04,
     "returns": {
-      "1y": 21.5,
-      "3y": 22.1,
-      "5y": 20.8
+      "1y": 19.3,
+      "3y": 21.9,
+      "5y": 20.5
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 62,
     "max_drawdown_5y_pct": -24.1,
@@ -2953,7 +3197,7 @@
       215.03,
       193.48,
       224.0,
-      226.1
+      225.04
     ]
   },
   {
@@ -2963,7 +3207,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/edelweiss-small-cap-fund-direct-growth",
     "aum_cr": 5107.67,
-    "expense_ratio": 0.55,
+    "expense_ratio": 0.58,
     "manager": {
       "name": "Raj Koradia",
       "tenure_years": 3.1,
@@ -3017,16 +3261,16 @@
       ]
     },
     "inception_date": "2019-02-14",
-    "nav": 49.41,
+    "nav": 49.32,
     "returns": {
-      "1y": 13.1,
-      "3y": 20.8,
-      "5y": 21.3
+      "1y": 11.4,
+      "3y": 20.7,
+      "5y": 21.0
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 88,
     "max_drawdown_5y_pct": -22.9,
@@ -3067,7 +3311,7 @@
       47.44,
       42.87,
       48.74,
-      49.41
+      49.32
     ]
   },
   {
@@ -3077,7 +3321,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/franklin-india-small-cap-fund-direct-growth",
     "aum_cr": 11724.35,
-    "expense_ratio": 0.99,
+    "expense_ratio": 0.98,
     "manager": {
       "name": "Sandeep Manam",
       "tenure_years": 13.3,
@@ -3131,16 +3375,16 @@
       ]
     },
     "inception_date": "2013-01-01",
-    "nav": 196.12,
+    "nav": 196.16,
     "returns": {
-      "1y": 9.9,
+      "1y": 8.9,
       "3y": 20.3,
-      "5y": 21.1
+      "5y": 20.9
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 53,
     "max_drawdown_5y_pct": -24.1,
@@ -3181,7 +3425,7 @@
       182.51,
       164.9,
       194.18,
-      196.12
+      196.16
     ]
   },
   {
@@ -3233,16 +3477,16 @@
       ]
     },
     "inception_date": "2026-02-02",
-    "nav": 11.05,
+    "nav": 11.14,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -9.9,
@@ -3251,7 +3495,7 @@
       10.15,
       9.23,
       10.96,
-      11.05
+      11.14
     ]
   },
   {
@@ -3261,7 +3505,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
     "aum_cr": 33724.28,
-    "expense_ratio": 0.83,
+    "expense_ratio": 0.85,
     "manager": {
       "name": "Dhruv Muchhal",
       "tenure_years": 11.0,
@@ -3309,16 +3553,16 @@
       ]
     },
     "inception_date": "2014-06-30",
-    "nav": 152.25,
+    "nav": 152.43,
     "returns": {
-      "1y": 9.2,
-      "3y": 17.3,
-      "5y": 20.1
+      "1y": 8.0,
+      "3y": 17.4,
+      "5y": 19.9
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 52,
     "max_drawdown_5y_pct": -22.6,
@@ -3359,7 +3603,7 @@
       153.0,
       135.38,
       150.67,
-      152.25
+      152.43
     ]
   },
   {
@@ -3369,7 +3613,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/hsbc-small-cap-fund-direct-growth",
     "aum_cr": 13881.79,
-    "expense_ratio": 0.93,
+    "expense_ratio": 0.76,
     "manager": {
       "name": "Venugopal Manghat",
       "tenure_years": 7.1,
@@ -3417,16 +3661,16 @@
       ]
     },
     "inception_date": "2022-11-28",
-    "nav": 90.49,
+    "nav": 90.92,
     "returns": {
-      "1y": 11.4,
-      "3y": 18.3,
+      "1y": 10.8,
+      "3y": 18.5,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 0,
     "max_drawdown_5y_pct": -27.2,
@@ -3467,7 +3711,7 @@
       84.34,
       76.03,
       89.52,
-      90.49
+      90.92
     ]
   },
   {
@@ -3525,16 +3769,16 @@
       ]
     },
     "inception_date": "2025-11-28",
-    "nav": 9.99,
+    "nav": 9.98,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -16.9,
@@ -3546,7 +3790,7 @@
       9.29,
       8.44,
       9.85,
-      9.99
+      9.98
     ]
   },
   {
@@ -3556,7 +3800,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/iti-small-cap-fund-direct-growth",
     "aum_cr": 2492.96,
-    "expense_ratio": 1.12,
+    "expense_ratio": 0.63,
     "manager": {
       "name": "Rajesh Bhatia",
       "tenure_years": 0.9,
@@ -3604,16 +3848,16 @@
       ]
     },
     "inception_date": "2020-02-19",
-    "nav": 33.05,
+    "nav": 33.15,
     "returns": {
-      "1y": 15.4,
-      "3y": 27.7,
-      "5y": 19.7
+      "1y": 14.3,
+      "3y": 27.8,
+      "5y": 19.6
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 98,
     "max_drawdown_5y_pct": -29.2,
@@ -3654,7 +3898,7 @@
       30.36,
       27.93,
       32.66,
-      33.05
+      33.15
     ]
   },
   {
@@ -3664,7 +3908,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/jm-small-cap-fund-direct-growth",
     "aum_cr": 560.03,
-    "expense_ratio": 0.98,
+    "expense_ratio": 1.34,
     "manager": {
       "name": "Satish Ramanathan",
       "tenure_years": 1.9,
@@ -3724,16 +3968,16 @@
       ]
     },
     "inception_date": "2024-06-24",
-    "nav": 10.21,
+    "nav": 10.35,
     "returns": {
-      "1y": 9.9,
+      "1y": 10.0,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -24.4,
@@ -3762,7 +4006,7 @@
       9.52,
       8.47,
       10.07,
-      10.21
+      10.35
     ]
   },
   {
@@ -3800,16 +4044,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2013-01-02",
-    "nav": 298.83,
+    "nav": 298.44,
     "returns": {
-      "1y": 7.9,
+      "1y": 6.5,
       "3y": 16.6,
-      "5y": 16.7
+      "5y": 16.6
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 48,
     "max_drawdown_5y_pct": -24.7,
@@ -3850,7 +4094,7 @@
       288.09,
       257.92,
       294.73,
-      298.83
+      298.44
     ]
   },
   {
@@ -3860,7 +4104,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/lic-mf-small-cap-fund-direct-growth",
     "aum_cr": 552.21,
-    "expense_ratio": 1.0,
+    "expense_ratio": 1.47,
     "manager": {
       "name": "Dikshit Mittal",
       "tenure_years": 2.6,
@@ -3908,16 +4152,16 @@
       ]
     },
     "inception_date": "2023-07-31",
-    "nav": 35.08,
+    "nav": 35.29,
     "returns": {
-      "1y": 14.1,
+      "1y": 13.1,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -27.0,
@@ -3957,7 +4201,7 @@
       32.07,
       29.3,
       34.64,
-      35.08
+      35.29
     ]
   },
   {
@@ -3967,7 +4211,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/mahindra-manulife-small-cap-fund-direct-growth",
     "aum_cr": 3820.31,
-    "expense_ratio": 0.5,
+    "expense_ratio": 1.06,
     "manager": {
       "name": "Krishna Sanghavi",
       "tenure_years": 2.8,
@@ -4021,16 +4265,16 @@
       ]
     },
     "inception_date": "2022-12-14",
-    "nav": 21.13,
+    "nav": 21.07,
     "returns": {
-      "1y": 16.8,
-      "3y": 26.5,
+      "1y": 15.2,
+      "3y": 26.4,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -26.0,
@@ -4071,7 +4315,7 @@
       19.5,
       18.07,
       20.83,
-      21.13
+      21.07
     ]
   },
   {
@@ -4081,7 +4325,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/mirae-asset-small-cap-fund-direct-growth",
     "aum_cr": 3333.01,
-    "expense_ratio": 0.39,
+    "expense_ratio": 0.59,
     "manager": {
       "name": "Siddharth Srivastava",
       "tenure_years": 1.3,
@@ -4129,16 +4373,16 @@
       ]
     },
     "inception_date": "2025-02-03",
-    "nav": 11.84,
+    "nav": 11.81,
     "returns": {
-      "1y": 16.4,
+      "1y": 15.0,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -15.1,
@@ -4159,7 +4403,7 @@
       11.38,
       10.35,
       11.68,
-      11.84
+      11.81
     ]
   },
   {
@@ -4169,7 +4413,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/motilal-oswal-small-cap-fund-direct-growth",
     "aum_cr": 5177.86,
-    "expense_ratio": 0.97,
+    "expense_ratio": 0.87,
     "manager": {
       "name": "Bhalchandra Shinde",
       "tenure_years": 1.2,
@@ -4229,16 +4473,16 @@
       ]
     },
     "inception_date": "2023-12-29",
-    "nav": 14.98,
+    "nav": 15.03,
     "returns": {
-      "1y": 18.3,
+      "1y": 18.0,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -23.7,
@@ -4273,7 +4517,7 @@
       13.84,
       12.56,
       14.8,
-      14.98
+      15.03
     ]
   },
   {
@@ -4343,16 +4587,16 @@
       ]
     },
     "inception_date": "2021-08-02",
-    "nav": 17.72,
+    "nav": 17.76,
     "returns": {
-      "1y": 15.5,
-      "3y": 18.4,
+      "1y": 15.1,
+      "3y": 18.5,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 0,
     "max_drawdown_5y_pct": -24.6,
@@ -4393,7 +4637,7 @@
       16.68,
       15.35,
       17.52,
-      17.72
+      17.76
     ]
   },
   {
@@ -4451,16 +4695,16 @@
       ]
     },
     "inception_date": "2023-11-03",
-    "nav": 12.82,
+    "nav": 12.81,
     "returns": {
-      "1y": 12.9,
+      "1y": 11.8,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -18.2,
@@ -4496,7 +4740,7 @@
       12.71,
       11.3,
       12.69,
-      12.82
+      12.81
     ]
   },
   {
@@ -4504,19 +4748,19 @@
     "name": "Sundaram Small Cap Fund",
     "amc": "Sundaram",
     "category": "Small Cap",
-    "scheme_url": "https://www.sundarammutual.com/funds/sundaram-small-cap-fund",
-    "aum_cr": 4200,
-    "expense_ratio": 0.69,
+    "scheme_url": "https://groww.in/mutual-funds/sundaram-smile-fund-direct-growth",
+    "aum_cr": 2982.57,
+    "expense_ratio": 0.85,
     "manager": {
       "name": "Rohit Seksaria",
-      "tenure_years": 3.5,
+      "tenure_years": 6.2,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Rohit Seksaria",
-        "tenure_years": 3.5,
+        "tenure_years": 6.2,
         "funds_managed": 2,
         "changed_last_12mo": false
       }
@@ -4529,21 +4773,35 @@
       "basis": "Growth"
     },
     "concentration": {
-      "top_10_pct": 0.0,
-      "num_stocks": 0,
-      "top_sector_pct": 0.0
+      "top_10_pct": 28.6,
+      "num_stocks": 68,
+      "top_sector_pct": 19.0,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 19.0
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 12.6
+        },
+        {
+          "name": "Healthcare",
+          "pct": 11.6
+        }
+      ]
     },
     "inception_date": "2013-01-02",
-    "nav": 303.66,
+    "nav": 303.82,
     "returns": {
-      "1y": 18.1,
+      "1y": 17.2,
       "3y": 22.0,
-      "5y": 20.5
+      "5y": 20.4
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 52,
     "max_drawdown_5y_pct": -23.8,
@@ -4584,7 +4842,7 @@
       280.75,
       252.59,
       299.88,
-      303.66
+      303.82
     ]
   },
   {
@@ -4642,16 +4900,16 @@
       ]
     },
     "inception_date": "2018-11-13",
-    "nav": 39.99,
+    "nav": 39.86,
     "returns": {
-      "1y": -0.6,
-      "3y": 14.3,
-      "5y": 18.9
+      "1y": -2.4,
+      "3y": 14.1,
+      "5y": 18.6
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 87,
     "max_drawdown_5y_pct": -30.9,
@@ -4692,7 +4950,7 @@
       38.75,
       34.3,
       39.54,
-      39.99
+      39.86
     ]
   },
   {
@@ -4702,7 +4960,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/the-wealth-company-small-cap-fund-direct-growth",
     "aum_cr": 38.8,
-    "expense_ratio": 2.46,
+    "expense_ratio": 1.34,
     "manager": {
       "name": "Aparna Shanker",
       "tenure_years": 0.2,
@@ -4744,16 +5002,16 @@
       ]
     },
     "inception_date": "2026-03-30",
-    "nav": 10.92,
+    "nav": 10.93,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -1.1,
@@ -4761,7 +5019,7 @@
     "nav_history_3y": [
       9.87,
       10.82,
-      10.92
+      10.93
     ]
   },
   {
@@ -4771,7 +5029,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/uti-small-cap-fund-direct-growth",
     "aum_cr": 4163.68,
-    "expense_ratio": 0.68,
+    "expense_ratio": 0.7,
     "manager": {
       "name": "Nitin Jain",
       "tenure_years": 5.4,
@@ -4813,16 +5071,16 @@
       ]
     },
     "inception_date": "2020-12-23",
-    "nav": 28.05,
+    "nav": 28.09,
     "returns": {
-      "1y": 11.7,
-      "3y": 19.9,
-      "5y": 19.5
+      "1y": 10.9,
+      "3y": 20.0,
+      "5y": 19.3
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 51,
     "max_drawdown_5y_pct": -22.3,
@@ -4863,7 +5121,7 @@
       26.19,
       23.9,
       27.76,
-      28.05
+      28.09
     ]
   },
   {
@@ -4901,16 +5159,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2014-06-17",
-    "nav": 59.24,
+    "nav": 59.61,
     "returns": {
-      "1y": 24.9,
-      "3y": 22.6,
+      "1y": 24.7,
+      "3y": 22.8,
       "5y": 20.3
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": 42,
     "max_drawdown_5y_pct": -26.2,
@@ -4951,7 +5209,7 @@
       55.02,
       50.4,
       58.54,
-      59.24
+      59.61
     ]
   },
   {
@@ -4961,7 +5219,7 @@
     "category": "Focused",
     "scheme_url": "https://groww.in/mutual-funds/old-bridge-focused-fund-direct-growth",
     "aum_cr": 2332.95,
-    "expense_ratio": 0.93,
+    "expense_ratio": 2.09,
     "manager": {
       "name": "Tarang Agrawal",
       "tenure_years": 2.3,
@@ -5011,12 +5269,12 @@
     "inception_date": "2024-01-25",
     "nav": 12.79,
     "returns": {
-      "1y": 10.1,
+      "1y": 8.6,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 10.1,
+      "1y": 8.6,
       "3y": null,
       "5y": null
     },
@@ -5062,7 +5320,7 @@
     "category": "Flexi Cap",
     "scheme_url": "https://groww.in/mutual-funds/trustmf-flexi-cap-fund-direct-growth",
     "aum_cr": 991.23,
-    "expense_ratio": 0.97,
+    "expense_ratio": 2.28,
     "manager": {
       "name": "Aakash Manghani",
       "tenure_years": 2.1,
@@ -5116,16 +5374,16 @@
       ]
     },
     "inception_date": "2024-04-29",
-    "nav": 11.58,
+    "nav": 11.59,
     "returns": {
-      "1y": 6.1,
+      "1y": 4.8,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.6,
-      "3y": 18.2,
-      "5y": 16.5
+      "1y": 4.9,
+      "3y": 18.1,
+      "5y": 16.3
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -18.9,
@@ -5156,7 +5414,7 @@
       11.63,
       10.47,
       11.49,
-      11.58
+      11.59
     ]
   },
   {
@@ -5166,7 +5424,7 @@
     "category": "Small Cap",
     "scheme_url": "https://groww.in/mutual-funds/trustmf-small-cap-fund-direct-growth",
     "aum_cr": 1348.46,
-    "expense_ratio": 2.2,
+    "expense_ratio": 1.13,
     "manager": {
       "name": "Aakash Manghani",
       "tenure_years": 1.6,
@@ -5220,16 +5478,16 @@
       ]
     },
     "inception_date": "2024-11-05",
-    "nav": 11.77,
+    "nav": 11.83,
     "returns": {
-      "1y": 27.9,
+      "1y": 27.1,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 14.0,
+      "1y": 12.9,
       "3y": 20.9,
-      "5y": 20.3
+      "5y": 20.1
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -24.0,
@@ -5253,7 +5511,7 @@
       10.75,
       9.93,
       11.63,
-      11.77
+      11.83
     ]
   },
   {
@@ -5263,7 +5521,7 @@
     "category": "Flexi Cap",
     "scheme_url": "https://groww.in/mutual-funds/unifi-flexi-cap-fund-direct-growth",
     "aum_cr": 165.51,
-    "expense_ratio": 1.26,
+    "expense_ratio": 1.65,
     "manager": {
       "name": "Aejas Lakhani",
       "tenure_years": 1.0,
@@ -5317,16 +5575,16 @@
       ]
     },
     "inception_date": "2025-06-09",
-    "nav": 10.18,
+    "nav": 10.15,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.6,
-      "3y": 18.2,
-      "5y": 16.5
+      "1y": 4.9,
+      "3y": 18.1,
+      "5y": 16.3
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -13.2,
@@ -5343,7 +5601,7 @@
       10.17,
       9.12,
       10.09,
-      10.18
+      10.15
     ]
   },
   {
@@ -5353,7 +5611,7 @@
     "category": "Flexi Cap",
     "scheme_url": "https://groww.in/mutual-funds/capitalmind-flexi-cap-fund-direct-growth",
     "aum_cr": 373.21,
-    "expense_ratio": 0.96,
+    "expense_ratio": 0.97,
     "manager": {
       "name": "Prateek Jain",
       "tenure_years": 0.2,
@@ -5407,16 +5665,16 @@
       ]
     },
     "inception_date": "2025-08-06",
-    "nav": 10.05,
+    "nav": 10.07,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.6,
-      "3y": 18.2,
-      "5y": 16.5
+      "1y": 4.9,
+      "3y": 18.1,
+      "5y": 16.3
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -9.2,
@@ -5431,7 +5689,7 @@
       10.33,
       9.5,
       10.04,
-      10.05
+      10.07
     ]
   },
   {
@@ -5475,16 +5733,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2025-10-17",
-    "nav": 9.75,
+    "nav": 9.74,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.6,
-      "3y": 18.2,
-      "5y": 16.5
+      "1y": 4.9,
+      "3y": 18.1,
+      "5y": 16.3
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -14.3,
@@ -5497,7 +5755,7 @@
       10.07,
       8.88,
       9.7,
-      9.75
+      9.74
     ]
   },
   {
@@ -5507,7 +5765,7 @@
     "category": "Flexi Cap",
     "scheme_url": "https://groww.in/mutual-funds/the-wealth-company-flexi-cap-fund-direct-growth",
     "aum_cr": 195.12,
-    "expense_ratio": 3.43,
+    "expense_ratio": 2.16,
     "manager": {
       "name": "Neeraj Jain",
       "tenure_years": 0.6,
@@ -5568,9 +5826,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.6,
-      "3y": 18.2,
-      "5y": 16.5
+      "1y": 4.9,
+      "3y": 18.1,
+      "5y": 16.3
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -16.1,
@@ -5593,7 +5851,7 @@
     "category": "Flexi Cap",
     "scheme_url": "https://groww.in/mutual-funds/abakkus-flexi-cap-fund-direct-growth",
     "aum_cr": 3140.68,
-    "expense_ratio": 3.23,
+    "expense_ratio": 0.97,
     "manager": {
       "name": "Abhishek Krishnaswami Srinivas",
       "tenure_years": 0.4,
@@ -5641,16 +5899,16 @@
       ]
     },
     "inception_date": "2025-12-30",
-    "nav": 10.35,
+    "nav": 10.32,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.6,
-      "3y": 18.2,
-      "5y": 16.5
+      "1y": 4.9,
+      "3y": 18.1,
+      "5y": 16.3
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -10.7,
@@ -5661,7 +5919,7 @@
       10.04,
       9.11,
       10.25,
-      10.35
+      10.32
     ]
   }
 ]
