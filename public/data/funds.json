@@ -1674,10 +1674,10 @@
       ]
     },
     "inception_date": "2020-12-11",
-    "nav": 24.01,
+    "nav": 24.13,
     "returns": {
-      "1y": 15.4,
-      "3y": 19.9,
+      "1y": 15.7,
+      "3y": 20.1,
       "5y": 15.8
     },
     "category_avg_returns": {
@@ -1685,11 +1685,10 @@
       "3y": 18.1,
       "5y": 16.3
     },
-    "rolling_consistency_3y_pct": 57,
+    "rolling_consistency_3y_pct": 58,
     "max_drawdown_5y_pct": -16.5,
     "recovery_months": 5,
     "nav_history_3y": [
-      14.14,
       14.72,
       15.41,
       15.36,
@@ -1724,7 +1723,8 @@
       24.16,
       24.06,
       22.42,
-      24.01
+      24.01,
+      24.13
     ]
   },
   {
