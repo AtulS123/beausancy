@@ -83,6 +83,31 @@ SCHEMES = {
     "153859": ("Jio BlackRock Flexi Cap Fund",              "Flexi Cap", "Jio BlackRock"),
     "153872": ("The Wealth Company Flexi Cap Fund",         "Flexi Cap", "The Wealth Co"),
     "154043": ("Abakkus Flexi Cap Fund",                    "Flexi Cap", "Abakkus"),
+    # --- Mid Cap universe (one per AMC, active open-ended direct growth) ---
+    "120505": ("Axis Midcap Fund",                          "Mid Cap",   "Axis"),
+    "150212": ("Baroda BNP Paribas Mid Cap Fund",           "Mid Cap",   "Baroda BNP Paribas"),
+    "150404": ("Bandhan Midcap Fund",                       "Mid Cap",   "Bandhan"),
+    "150817": ("Canara Robeco Mid Cap Fund",                "Mid Cap",   "Canara Robeco"),
+    "119071": ("DSP Midcap Fund",                          "Mid Cap",   "DSP"),
+    "140228": ("Edelweiss Mid Cap Fund",                    "Mid Cap",   "Edelweiss"),
+    "118533": ("Franklin India Mid Cap Fund",               "Mid Cap",   "Franklin"),
+    "149154": ("HSBC Mid Cap Fund",                         "Mid Cap",   "HSBC"),
+    "120381": ("ICICI Prudential MidCap Fund",              "Mid Cap",   "ICICI Prudential"),
+    "120403": ("Invesco India Midcap Fund",                 "Mid Cap",   "Invesco"),
+    "148733": ("ITI Mid Cap Fund",                          "Mid Cap",   "ITI"),
+    "150815": ("JM Midcap Fund",                           "Mid Cap",   "JM Financial"),
+    "119775": ("Kotak Midcap Fund",                         "Mid Cap",   "Kotak"),
+    "152002": ("LIC MF Mid Cap Fund",                       "Mid Cap",   "LIC MF"),
+    "142110": ("Mahindra Manulife Mid Cap Fund",            "Mid Cap",   "Mahindra Manulife"),
+    "147445": ("Mirae Asset Midcap Fund",                   "Mid Cap",   "Mirae Asset"),
+    "118668": ("Nippon India Growth Fund",                  "Mid Cap",   "Nippon India"),
+    "125307": ("PGIM India Midcap Fund",                    "Mid Cap",   "PGIM India"),
+    "119716": ("SBI Midcap Fund",                           "Mid Cap",   "SBI"),
+    "119178": ("Tata Mid Cap Growth Fund",                  "Mid Cap",   "Tata"),
+    "148073": ("Union Midcap Fund",                         "Mid Cap",   "Union"),
+    "120726": ("UTI Mid Cap Fund",                          "Mid Cap",   "UTI"),
+    "150584": ("WhiteOak Capital Mid Cap Fund",             "Mid Cap",   "WhiteOak"),
+    "120841": ("quant Mid Cap Fund",                        "Mid Cap",   "Quant"),
 }
 
 # Groww slug overrides for funds where auto-derived slug differs from actual Groww URL
@@ -280,8 +305,8 @@ for code, (name, category, amc) in SCHEMES.items():
             # --- static fields (updated monthly from factsheets) ---
             "aum_cr":        get_static(code, "aum_cr"),
             "expense_ratio": get_static(code, "expense_ratio"),
-            "manager":       managers[0],
-            "managers":      managers,
+            "manager":       managers[0] if managers else STATIC_DEFAULTS["managers"][0],
+            "managers":      managers if managers else STATIC_DEFAULTS["managers"],
             "style":         get_static(code, "style"),
             "concentration": get_static(code, "concentration"),
             # --- live fields (computed daily from mfapi) ---

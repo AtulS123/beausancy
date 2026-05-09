@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Static fund data maintained manually. Update monthly after AMC factsheets are published (typically by the 10th of each month).",
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-05-09",
     "fields": {
       "aum_cr": "AUM in crores -- source: AMFI monthly AAUM report or fund factsheet",
       "expense_ratio": "Direct plan TER (%) -- source: AMC website or SEBI TER disclosure",
@@ -13,7 +13,7 @@
   "122639": {
     "scheme_url": "https://groww.in/mutual-funds/parag-parikh-long-term-value-fund-direct-growth",
     "aum_cr": 128966.48,
-    "expense_ratio": 0.79,
+    "expense_ratio": 0.74,
     "managers": [
       {
         "name": "Mansi Kariya",
@@ -23,7 +23,7 @@
       },
       {
         "name": "Raunak Onkar",
-        "tenure_years": 11.8,
+        "tenure_years": 11.9,
         "funds_managed": 1,
         "changed_last_12mo": false
       },
@@ -88,7 +88,7 @@
   "118955": {
     "scheme_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
     "aum_cr": 91334.91,
-    "expense_ratio": 0.67,
+    "expense_ratio": 0.86,
     "managers": [
       {
         "name": "Dhruv Muchhal",
@@ -132,7 +132,7 @@
   },
   "118825": {
     "aum_cr": 35342.63,
-    "expense_ratio": 0.72,
+    "expense_ratio": 1.07,
     "managers": [
       {
         "name": "Gaurav Misra",
@@ -170,7 +170,7 @@
   },
   "118778": {
     "aum_cr": 61808.85,
-    "expense_ratio": 0.65,
+    "expense_ratio": 0.87,
     "managers": [
       {
         "name": "Samir Rachh",
@@ -180,7 +180,7 @@
       },
       {
         "name": "Amber Singhania",
-        "tenure_years": 5.2,
+        "tenure_years": 5.3,
         "funds_managed": 1,
         "changed_last_12mo": false
       },
@@ -220,8 +220,8 @@
   },
   "120828": {
     "scheme_url": "https://www.quantmutual.com/funds/quant-small-cap-fund-direct-growth",
-    "aum_cr": 25820.99,
-    "expense_ratio": 0.71,
+    "aum_cr": 30373.69,
+    "expense_ratio": 0.69,
     "managers": [
       {
         "name": "Varun Pattani",
@@ -296,7 +296,7 @@
   "125497": {
     "scheme_url": "https://groww.in/mutual-funds/sbi-small-midcap-fund-direct-growth",
     "aum_cr": 32285.56,
-    "expense_ratio": 0.82,
+    "expense_ratio": 0.74,
     "managers": [
       {
         "name": "Pradeep Kesavan",
@@ -340,7 +340,7 @@
   },
   "127042": {
     "scheme_url": "https://groww.in/mutual-funds/motilal-oswal-most-focused-midcap-30-fund-direct-growth",
-    "aum_cr": 31046.66,
+    "aum_cr": 35734.98,
     "expense_ratio": 0.75,
     "managers": [
       {
@@ -403,7 +403,7 @@
   },
   "120377": {
     "aum_cr": 66397.8,
-    "expense_ratio": 0.89,
+    "expense_ratio": 1.07,
     "managers": [
       {
         "name": "Sharmila D'Silva",
@@ -413,7 +413,7 @@
       },
       {
         "name": "Ihab Dalwai",
-        "tenure_years": 7.3,
+        "tenure_years": 7.4,
         "funds_managed": 3,
         "changed_last_12mo": false
       },
@@ -431,7 +431,7 @@
       },
       {
         "name": "Sri Sharma",
-        "tenure_years": 10.7,
+        "tenure_years": 10.8,
         "funds_managed": 1,
         "changed_last_12mo": false
       },
@@ -471,8 +471,8 @@
   },
   "120716": {
     "scheme_url": "https://groww.in/mutual-funds/uti-nifty-fund-direct-growth",
-    "aum_cr": 24433.24,
-    "expense_ratio": 0.29,
+    "aum_cr": 27848.74,
+    "expense_ratio": 0.22,
     "managers": [
       {
         "name": "Sharwan Kumar Goyal",
@@ -516,7 +516,7 @@
   },
   "135781": {
     "aum_cr": 22940.33,
-    "expense_ratio": 0.75,
+    "expense_ratio": 1.26,
     "managers": [
       {
         "name": "Neelesh Surana",
@@ -555,7 +555,7 @@
   "120503": {
     "scheme_url": "https://groww.in/mutual-funds/axis-long-term-equity-fund-direct-growth",
     "aum_cr": 29075.78,
-    "expense_ratio": 0.82,
+    "expense_ratio": 1.24,
     "managers": [
       {
         "name": "Ashish Naik",
@@ -599,7 +599,7 @@
   },
   "150346": {
     "aum_cr": 6890.27,
-    "expense_ratio": 0.65,
+    "expense_ratio": 1.38,
     "managers": [
       {
         "name": "Ramesh Mantri",
@@ -627,7 +627,7 @@
       },
       {
         "name": "Ashish Agrawal",
-        "tenure_years": 4.0,
+        "tenure_years": 4.1,
         "funds_managed": 1,
         "changed_last_12mo": false
       }
@@ -660,8 +660,8 @@
     }
   },
   "120348": {
-    "aum_cr": 17663.58,
-    "expense_ratio": 1.6,
+    "aum_cr": 17611.84,
+    "expense_ratio": 0.59,
     "managers": [
       {
         "name": "Taher Badshah",
@@ -700,7 +700,7 @@
   "119581": {
     "scheme_url": "https://groww.in/mutual-funds/sundaram-select-midcap-direct-growth",
     "aum_cr": 11898.19,
-    "expense_ratio": 1.39,
+    "expense_ratio": 1.5,
     "managers": [
       {
         "name": "Shalav Saket",
@@ -709,7 +709,7 @@
         "changed_last_12mo": true
       },
       {
-        "name": "Bharath S.",
+        "name": "Bharath S",
         "tenure_years": 13.3,
         "funds_managed": 1,
         "changed_last_12mo": false
@@ -744,7 +744,7 @@
   },
   "148595": {
     "aum_cr": 1469.21,
-    "expense_ratio": 1.02,
+    "expense_ratio": 0.94,
     "managers": [
       {
         "name": "Kaivalya Nadkarni",
@@ -788,7 +788,7 @@
   },
   "118617": {
     "aum_cr": 1321.7,
-    "expense_ratio": 0.67,
+    "expense_ratio": 1.35,
     "managers": [
       {
         "name": "Bharat Lahoti",
@@ -940,7 +940,7 @@
   "118989": {
     "scheme_url": "https://groww.in/mutual-funds/hdfc-mid-cap-opportunities-fund-direct-growth",
     "aum_cr": 85357.92,
-    "expense_ratio": 0.8,
+    "expense_ratio": 0.76,
     "managers": [
       {
         "name": "Chirag Setalvad",
@@ -984,7 +984,7 @@
   },
   "133839": {
     "aum_cr": 5332.01,
-    "expense_ratio": 0.55,
+    "expense_ratio": 3.27,
     "managers": [
       {
         "name": "Anandha Padmanabhan Anjeneyan",
@@ -1040,7 +1040,7 @@
   },
   "152358": {
     "aum_cr": 2332.95,
-    "expense_ratio": 2.09,
+    "expense_ratio": 2.27,
     "managers": [
       {
         "name": "Tarang Agrawal",
@@ -1084,7 +1084,7 @@
   },
   "152584": {
     "aum_cr": 991.23,
-    "expense_ratio": 2.28,
+    "expense_ratio": 2.0,
     "managers": [
       {
         "name": "Aakash Manghani",
@@ -1134,7 +1134,7 @@
   },
   "152939": {
     "aum_cr": 1348.46,
-    "expense_ratio": 1.13,
+    "expense_ratio": 2.92,
     "managers": [
       {
         "name": "Aakash Manghani",
@@ -1184,7 +1184,7 @@
   },
   "153543": {
     "aum_cr": 165.51,
-    "expense_ratio": 1.65,
+    "expense_ratio": 1.68,
     "managers": [
       {
         "name": "Aejas Lakhani",
@@ -1233,12 +1233,12 @@
     }
   },
   "153738": {
-    "aum_cr": 373.21,
-    "expense_ratio": 0.97,
+    "aum_cr": 424.78,
+    "expense_ratio": 1.21,
     "managers": [
       {
         "name": "Prateek Jain",
-        "tenure_years": 0.2,
+        "tenure_years": 0.3,
         "funds_managed": 1,
         "changed_last_12mo": false
       },
@@ -1315,7 +1315,7 @@
   },
   "153872": {
     "aum_cr": 195.12,
-    "expense_ratio": 2.16,
+    "expense_ratio": 0.35,
     "managers": [
       {
         "name": "Neeraj Jain",
@@ -1365,7 +1365,7 @@
   },
   "154043": {
     "aum_cr": 3140.68,
-    "expense_ratio": 0.97,
+    "expense_ratio": 1.05,
     "managers": [
       {
         "name": "Abhishek Krishnaswami Srinivas",
@@ -1409,7 +1409,7 @@
   },
   "154215": {
     "aum_cr": 453.38,
-    "expense_ratio": 3.74,
+    "expense_ratio": 1.82,
     "managers": [
       {
         "name": "Abhishek Krishnaswami Srinivas",
@@ -1454,17 +1454,17 @@
   "119556": {
     "scheme_url": "https://groww.in/mutual-funds/birla-sun-life-small-midcap-fund-direct-growth",
     "aum_cr": 4449.15,
-    "expense_ratio": 1.43,
+    "expense_ratio": 1.31,
     "managers": [
       {
         "name": "Abhinav Khandelwal",
-        "tenure_years": 4.1,
+        "tenure_years": 4.2,
         "funds_managed": 3,
         "changed_last_12mo": false
       },
       {
         "name": "Dhaval Joshi",
-        "tenure_years": 4.1,
+        "tenure_years": 4.2,
         "funds_managed": 4,
         "changed_last_12mo": false
       }
@@ -1498,7 +1498,7 @@
   },
   "125354": {
     "aum_cr": 23918.65,
-    "expense_ratio": 0.58,
+    "expense_ratio": 0.63,
     "managers": [
       {
         "name": "Mayank Hyanki",
@@ -1548,7 +1548,7 @@
   },
   "153612": {
     "aum_cr": 1530.09,
-    "expense_ratio": 1.41,
+    "expense_ratio": 0.98,
     "managers": [
       {
         "name": "Siddharth Chaudhary",
@@ -1558,7 +1558,7 @@
       },
       {
         "name": "Nimesh Chandan",
-        "tenure_years": 4.5,
+        "tenure_years": 4.6,
         "funds_managed": 1,
         "changed_last_12mo": false
       },
@@ -1598,7 +1598,7 @@
   },
   "147946": {
     "aum_cr": 20129.67,
-    "expense_ratio": 0.87,
+    "expense_ratio": 1.75,
     "managers": [
       {
         "name": "Manish Gunwani",
@@ -1654,7 +1654,7 @@
   },
   "145678": {
     "aum_cr": 1770.44,
-    "expense_ratio": 0.87,
+    "expense_ratio": 0.65,
     "managers": [
       {
         "name": "Nav Bhardwaj",
@@ -1698,7 +1698,7 @@
   },
   "152128": {
     "aum_cr": 1066.16,
-    "expense_ratio": 1.53,
+    "expense_ratio": 1.48,
     "managers": [
       {
         "name": "Himanshu Singh",
@@ -1742,7 +1742,7 @@
   },
   "146130": {
     "aum_cr": 11602.93,
-    "expense_ratio": 0.71,
+    "expense_ratio": 0.79,
     "managers": [
       {
         "name": "Shridatta Bhandwaldar",
@@ -1825,7 +1825,7 @@
   },
   "146196": {
     "aum_cr": 5107.67,
-    "expense_ratio": 0.58,
+    "expense_ratio": 0.85,
     "managers": [
       {
         "name": "Raj Koradia",
@@ -1875,7 +1875,7 @@
   },
   "118525": {
     "aum_cr": 11724.35,
-    "expense_ratio": 0.98,
+    "expense_ratio": 1.28,
     "managers": [
       {
         "name": "Sandeep Manam",
@@ -1963,7 +1963,7 @@
   },
   "130503": {
     "aum_cr": 33724.28,
-    "expense_ratio": 0.85,
+    "expense_ratio": 0.86,
     "managers": [
       {
         "name": "Dhruv Muchhal",
@@ -2006,7 +2006,7 @@
     }
   },
   "151130": {
-    "aum_cr": 13881.79,
+    "aum_cr": 16393.56,
     "expense_ratio": 0.76,
     "managers": [
       {
@@ -2050,8 +2050,8 @@
     }
   },
   "153912": {
-    "aum_cr": 726.45,
-    "expense_ratio": 0.68,
+    "aum_cr": 932.43,
+    "expense_ratio": 0.67,
     "managers": [
       {
         "name": "Pratik Singh",
@@ -2095,7 +2095,7 @@
   },
   "147919": {
     "aum_cr": 2492.96,
-    "expense_ratio": 0.63,
+    "expense_ratio": 0.78,
     "managers": [
       {
         "name": "Rajesh Bhatia",
@@ -2139,7 +2139,7 @@
   },
   "152614": {
     "aum_cr": 560.03,
-    "expense_ratio": 1.34,
+    "expense_ratio": 0.8,
     "managers": [
       {
         "name": "Satish Ramanathan",
@@ -2219,8 +2219,8 @@
     }
   },
   "152004": {
-    "aum_cr": 552.21,
-    "expense_ratio": 1.47,
+    "aum_cr": 660.05,
+    "expense_ratio": 2.39,
     "managers": [
       {
         "name": "Dikshit Mittal",
@@ -2264,11 +2264,11 @@
   },
   "150915": {
     "aum_cr": 3820.31,
-    "expense_ratio": 1.06,
+    "expense_ratio": 0.49,
     "managers": [
       {
         "name": "Krishna Sanghavi",
-        "tenure_years": 2.8,
+        "tenure_years": 2.9,
         "funds_managed": 2,
         "changed_last_12mo": false
       },
@@ -2314,7 +2314,7 @@
   },
   "153196": {
     "aum_cr": 3333.01,
-    "expense_ratio": 0.59,
+    "expense_ratio": 0.55,
     "managers": [
       {
         "name": "Siddharth Srivastava",
@@ -2357,8 +2357,8 @@
     }
   },
   "152237": {
-    "aum_cr": 5177.86,
-    "expense_ratio": 0.87,
+    "aum_cr": 6206.07,
+    "expense_ratio": 0.96,
     "managers": [
       {
         "name": "Bhalchandra Shinde",
@@ -2414,7 +2414,7 @@
   },
   "149019": {
     "aum_cr": 1353.47,
-    "expense_ratio": 0.63,
+    "expense_ratio": 1.77,
     "managers": [
       {
         "name": "Puneet Pal",
@@ -2469,7 +2469,7 @@
     }
   },
   "152107": {
-    "aum_cr": 180.76,
+    "aum_cr": 209.37,
     "expense_ratio": 0.69,
     "managers": [
       {
@@ -2553,7 +2553,7 @@
   },
   "145206": {
     "aum_cr": 9620.55,
-    "expense_ratio": 0.5,
+    "expense_ratio": 0.48,
     "managers": [
       {
         "name": "Chandraprakash Padiyar",
@@ -2597,7 +2597,7 @@
   },
   "154269": {
     "aum_cr": 38.8,
-    "expense_ratio": 1.34,
+    "expense_ratio": 2.32,
     "managers": [
       {
         "name": "Aparna Shanker",
@@ -2634,8 +2634,8 @@
     }
   },
   "148618": {
-    "aum_cr": 4163.68,
-    "expense_ratio": 0.7,
+    "aum_cr": 4872.44,
+    "expense_ratio": 0.67,
     "managers": [
       {
         "name": "Nitin Jain",
@@ -2694,6 +2694,1105 @@
       "top_10_pct": 0.0,
       "num_stocks": 0,
       "top_sector_pct": 0.0
+    }
+  },
+  "120505": {
+    "scheme_url": "https://groww.in/mutual-funds/axis-midcap-fund-direct-growth",
+    "aum_cr": 28834.54,
+    "expense_ratio": 0.68,
+    "managers": [
+      {
+        "name": "Krishnaa Narayan",
+        "tenure_years": 8.6,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Nitin Arora",
+        "tenure_years": 12.0,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Shreyash Devalkar",
+        "tenure_years": 13.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 24.7,
+      "num_stocks": 88,
+      "top_sector_pct": 13.6,
+      "top_sectors": [
+        {
+          "name": "Services",
+          "pct": 13.6
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 13.0
+        },
+        {
+          "name": "Financial",
+          "pct": 11.2
+        }
+      ]
+    }
+  },
+  "150212": {
+    "scheme_url": "https://groww.in/mutual-funds/bnp-paribas-mid-cap-fund-direct-growth",
+    "aum_cr": 2128.94,
+    "expense_ratio": 0.66,
+    "managers": [
+      {
+        "name": "Himanshu Singh",
+        "tenure_years": 8.8,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Rohan Korde",
+        "tenure_years": 13.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 26.5,
+      "num_stocks": 64,
+      "top_sector_pct": 15.1,
+      "top_sectors": [
+        {
+          "name": "Services",
+          "pct": 15.1
+        },
+        {
+          "name": "Financial",
+          "pct": 15.1
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 12.6
+        }
+      ]
+    }
+  },
+  "150404": {
+    "scheme_url": "https://groww.in/mutual-funds/bandhan-midcap-fund-direct-growth",
+    "aum_cr": 1840.78,
+    "expense_ratio": 1.07,
+    "managers": [
+      {
+        "name": "Ritika Behera",
+        "tenure_years": 3.8,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Gaurav Satra",
+        "tenure_years": 3.8,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Harshal Joshi",
+        "tenure_years": 26.4,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Ritu Modi",
+        "tenure_years": 0.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 27.4,
+      "num_stocks": 81,
+      "top_sector_pct": 17.1,
+      "top_sectors": [
+        {
+          "name": "Services",
+          "pct": 17.1
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 15.2
+        },
+        {
+          "name": "Healthcare",
+          "pct": 15.1
+        }
+      ]
+    }
+  },
+  "150817": {
+    "scheme_url": "https://groww.in/mutual-funds/canara-robeco-mid-cap-fund-direct-growth",
+    "aum_cr": 3879.59,
+    "expense_ratio": 1.83,
+    "managers": [
+      {
+        "name": "Pranav Gokhale",
+        "tenure_years": 3.5,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Shridatta Bhandwaldar",
+        "tenure_years": 38.4,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 24.6,
+      "num_stocks": 59,
+      "top_sector_pct": 21.6,
+      "top_sectors": [
+        {
+          "name": "Services",
+          "pct": 21.6
+        },
+        {
+          "name": "Financial",
+          "pct": 16.7
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 12.5
+        }
+      ]
+    }
+  },
+  "119071": {
+    "scheme_url": "https://www.dspim.com/nfo/factsheets",
+    "aum_cr": 0,
+    "expense_ratio": 0,
+    "managers": [],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 0,
+      "num_stocks": 0,
+      "top_sector_pct": 0,
+      "top_sectors": []
+    }
+  },
+  "140228": {
+    "scheme_url": "https://groww.in/mutual-funds/edelweiss-mid-and-small-cap-fund-direct-growth",
+    "aum_cr": 13553.62,
+    "expense_ratio": 0.65,
+    "managers": [
+      {
+        "name": "Trideep Bhattacharya",
+        "tenure_years": 3.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Raj Koradia",
+        "tenure_years": 11.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Dhruv Bhatia",
+        "tenure_years": 13.0,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 21.2,
+      "num_stocks": 86,
+      "top_sector_pct": 22.7,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 22.7
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 10.2
+        },
+        {
+          "name": "Services",
+          "pct": 9.7
+        }
+      ]
+    }
+  },
+  "118533": {
+    "scheme_url": "https://groww.in/mutual-funds/franklin-india-mid-cap-fund-direct-growth",
+    "aum_cr": 10899.4,
+    "expense_ratio": 1.35,
+    "managers": [
+      {
+        "name": "Sandeep Manam",
+        "tenure_years": 13.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "R Janakiraman",
+        "tenure_years": 30.2,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Akhil Kalluri",
+        "tenure_years": 0.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 21.2,
+      "num_stocks": 78,
+      "top_sector_pct": 17.9,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 17.9
+        },
+        {
+          "name": "Healthcare",
+          "pct": 10.4
+        },
+        {
+          "name": "Construction",
+          "pct": 9.9
+        }
+      ]
+    }
+  },
+  "149154": {
+    "scheme_url": "https://groww.in/mutual-funds/hsbc-mid-cap-fund-direct-growth",
+    "aum_cr": 1082.16,
+    "expense_ratio": 0.7,
+    "managers": [],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 31.1,
+      "num_stocks": 50,
+      "top_sector_pct": 13.1,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 13.1
+        },
+        {
+          "name": "Construction",
+          "pct": 12.0
+        },
+        {
+          "name": "Healthcare",
+          "pct": 10.4
+        }
+      ]
+    }
+  },
+  "120381": {
+    "scheme_url": "https://groww.in/mutual-funds/icici-prudential-midcap-fund-direct-growth",
+    "aum_cr": 6568.77,
+    "expense_ratio": 1.39,
+    "managers": [
+      {
+        "name": "Sharmila D'Silva",
+        "tenure_years": 11.0,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Lalit Kumar",
+        "tenure_years": 12.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 38.2,
+      "num_stocks": 81,
+      "top_sector_pct": 17.3,
+      "top_sectors": [
+        {
+          "name": "Metals & Mining",
+          "pct": 17.3
+        },
+        {
+          "name": "Services",
+          "pct": 13.8
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 13.4
+        }
+      ]
+    }
+  },
+  "120403": {
+    "scheme_url": "https://groww.in/mutual-funds/invesco-india-mid-cap-fund-direct-growth",
+    "aum_cr": 9895.45,
+    "expense_ratio": 0.58,
+    "managers": [
+      {
+        "name": "Aditya Khemani",
+        "tenure_years": 7.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 45.9,
+      "num_stocks": 44,
+      "top_sector_pct": 25.4,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 25.4
+        },
+        {
+          "name": "Services",
+          "pct": 22.6
+        },
+        {
+          "name": "Healthcare",
+          "pct": 19.7
+        }
+      ]
+    }
+  },
+  "148733": {
+    "scheme_url": "https://groww.in/mutual-funds/iti-mid-cap-fund-direct-growth",
+    "aum_cr": 1183.91,
+    "expense_ratio": 1.61,
+    "managers": [
+      {
+        "name": "Rajesh Bhatia",
+        "tenure_years": 0.9,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Dhimant Shah",
+        "tenure_years": 5.2,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 19.8,
+      "num_stocks": 82,
+      "top_sector_pct": 21.3,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 21.3
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 13.9
+        },
+        {
+          "name": "Automobile",
+          "pct": 13.3
+        }
+      ]
+    }
+  },
+  "150815": {
+    "scheme_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "aum_cr": 1020.25,
+    "expense_ratio": 0.66,
+    "managers": [
+      {
+        "name": "Ruchi Fozdar",
+        "tenure_years": 3.5,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Satish Ramanathan",
+        "tenure_years": 3.5,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Deepak Gupta",
+        "tenure_years": 3.5,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Asit Bhandarkar",
+        "tenure_years": 31.6,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 33.6,
+      "num_stocks": 60,
+      "top_sector_pct": 16.5,
+      "top_sectors": [
+        {
+          "name": "Healthcare",
+          "pct": 16.5
+        },
+        {
+          "name": "Financial",
+          "pct": 16.4
+        },
+        {
+          "name": "Automobile",
+          "pct": 13.5
+        }
+      ]
+    }
+  },
+  "119775": {
+    "scheme_url": "https://assetmanagement.kotak.com/mutual-fund-performance-report",
+    "aum_cr": 0,
+    "expense_ratio": 0,
+    "managers": [],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 0,
+      "num_stocks": 0,
+      "top_sector_pct": 0,
+      "top_sectors": []
+    }
+  },
+  "152002": {
+    "scheme_url": "https://groww.in/mutual-funds/lic-mf-midcap-fund-direct-growth",
+    "aum_cr": 346.56,
+    "expense_ratio": 1.33,
+    "managers": [
+      {
+        "name": "Dikshit Mittal",
+        "tenure_years": 2.6,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 22.8,
+      "num_stocks": 65,
+      "top_sector_pct": 15.5,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 15.5
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 15.1
+        },
+        {
+          "name": "Services",
+          "pct": 13.6
+        }
+      ]
+    }
+  },
+  "142110": {
+    "scheme_url": "https://groww.in/mutual-funds/mahindra-manulife-mid-cap-fund-direct-growth",
+    "aum_cr": 4098.63,
+    "expense_ratio": 0.56,
+    "managers": [
+      {
+        "name": "Kirti Dalvi",
+        "tenure_years": 2.9,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Neelesh Dhamnaskar",
+        "tenure_years": 8.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Krishna Sanghavi",
+        "tenure_years": 10.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 26.2,
+      "num_stocks": 58,
+      "top_sector_pct": 25.9,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 25.9
+        },
+        {
+          "name": "Healthcare",
+          "pct": 12.5
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 11.0
+        }
+      ]
+    }
+  },
+  "147445": {
+    "scheme_url": "https://groww.in/mutual-funds/mirae-asset-midcap-fund-direct-growth",
+    "aum_cr": 16193.93,
+    "expense_ratio": 1.16,
+    "managers": [
+      {
+        "name": "Ankit Jain",
+        "tenure_years": 1.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 31.7,
+      "num_stocks": 63,
+      "top_sector_pct": 16.9,
+      "top_sectors": [
+        {
+          "name": "Services",
+          "pct": 16.9
+        },
+        {
+          "name": "Financial",
+          "pct": 16.5
+        },
+        {
+          "name": "Healthcare",
+          "pct": 14.5
+        }
+      ]
+    }
+  },
+  "118668": {
+    "scheme_url": "https://groww.in/mutual-funds/nippon-india-growth-mid-cap-fund-direct-growth",
+    "aum_cr": 39676.13,
+    "expense_ratio": 0.86,
+    "managers": [
+      {
+        "name": "Rupesh Patel",
+        "tenure_years": 5.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Amber Singhania",
+        "tenure_years": 6.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Kinjal Desai",
+        "tenure_years": 8.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 24.0,
+      "num_stocks": 99,
+      "top_sector_pct": 21.9,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 21.9
+        },
+        {
+          "name": "Services",
+          "pct": 14.6
+        },
+        {
+          "name": "Healthcare",
+          "pct": 11.4
+        }
+      ]
+    }
+  },
+  "125307": {
+    "scheme_url": "https://groww.in/mutual-funds/pgim-india-midcap-fund-direct-growth",
+    "aum_cr": 9680.98,
+    "expense_ratio": 0.55,
+    "managers": [
+      {
+        "name": "Vinay Paharia",
+        "tenure_years": 4.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Vivek Sharma",
+        "tenure_years": 5.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Utsav Mehta",
+        "tenure_years": 5.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Puneet Pal",
+        "tenure_years": 5.8,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 23.9,
+      "num_stocks": 94,
+      "top_sector_pct": 18.6,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 18.6
+        },
+        {
+          "name": "Services",
+          "pct": 14.7
+        },
+        {
+          "name": "Healthcare",
+          "pct": 11.6
+        }
+      ]
+    }
+  },
+  "119716": {
+    "scheme_url": "https://groww.in/mutual-funds/sbi-magnum-midcap-fund-direct-growth",
+    "aum_cr": 20576.46,
+    "expense_ratio": 0.98,
+    "managers": [
+      {
+        "name": "Bhavin Vithlani",
+        "tenure_years": 0.7,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Pradeep Kesavan",
+        "tenure_years": 13.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 30.4,
+      "num_stocks": 52,
+      "top_sector_pct": 16.2,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 16.2
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 11.8
+        },
+        {
+          "name": "Construction",
+          "pct": 10.5
+        }
+      ]
+    }
+  },
+  "119178": {
+    "scheme_url": "https://groww.in/mutual-funds/tata-mid-cap-growth-fund-direct-growth",
+    "aum_cr": 4992.84,
+    "expense_ratio": 0.88,
+    "managers": [
+      {
+        "name": "Satish Chandra Mishra",
+        "tenure_years": 0.7,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 27.7,
+      "num_stocks": 64,
+      "top_sector_pct": 20.5,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 20.5
+        },
+        {
+          "name": "Healthcare",
+          "pct": 11.8
+        },
+        {
+          "name": "Services",
+          "pct": 9.2
+        }
+      ]
+    }
+  },
+  "148073": {
+    "scheme_url": "https://groww.in/mutual-funds/union-midcap-fund-direct-growth",
+    "aum_cr": 1497.77,
+    "expense_ratio": 1.26,
+    "managers": [
+      {
+        "name": "Pratik Dharmshi",
+        "tenure_years": 5.9,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Gaurav Chopra",
+        "tenure_years": 6.2,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 28.7,
+      "num_stocks": 71,
+      "top_sector_pct": 22.0,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 22.0
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 15.3
+        },
+        {
+          "name": "Healthcare",
+          "pct": 13.2
+        }
+      ]
+    }
+  },
+  "120726": {
+    "scheme_url": "https://groww.in/mutual-funds/uti-mid-cap-fund-direct-growth",
+    "aum_cr": 11679.71,
+    "expense_ratio": 1.77,
+    "managers": [
+      {
+        "name": "Vishal Chopda",
+        "tenure_years": 11.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 20.6,
+      "num_stocks": 90,
+      "top_sector_pct": 17.9,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 17.9
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 12.9
+        },
+        {
+          "name": "Healthcare",
+          "pct": 12.1
+        }
+      ]
+    }
+  },
+  "150584": {
+    "scheme_url": "https://groww.in/mutual-funds/whiteoak-capital-mid-cap-fund-direct-growth",
+    "aum_cr": 4490.64,
+    "expense_ratio": 1.62,
+    "managers": [
+      {
+        "name": "Ramesh Mantri",
+        "tenure_years": 0.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Piyush Baranwal",
+        "tenure_years": 3.7,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Trupti Agrawal",
+        "tenure_years": 7.8,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Dheeresh Pathak",
+        "tenure_years": 0.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Ashish Agrawal",
+        "tenure_years": 7.8,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 27.9,
+      "num_stocks": 124,
+      "top_sector_pct": 20.2,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 20.2
+        },
+        {
+          "name": "Healthcare",
+          "pct": 15.8
+        },
+        {
+          "name": "Services",
+          "pct": 12.2
+        }
+      ]
+    }
+  },
+  "120841": {
+    "scheme_url": "https://groww.in/mutual-funds/quant-mid-cap-fund-direct-growth",
+    "aum_cr": 7904.71,
+    "expense_ratio": 0.74,
+    "managers": [
+      {
+        "name": "Varun Pattani",
+        "tenure_years": 4.8,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Ayusha Kumbhat",
+        "tenure_years": 13.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Sameer Kate",
+        "tenure_years": 30.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Sanjeev Sharma",
+        "tenure_years": 0.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Sandeep Tandon",
+        "tenure_years": 30.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Ankit A Pande",
+        "tenure_years": 30.1,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Yug Tibrewal",
+        "tenure_years": 13.3,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 62.9,
+      "num_stocks": 32,
+      "top_sector_pct": 15.6,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 15.6
+        },
+        {
+          "name": "Healthcare",
+          "pct": 14.8
+        },
+        {
+          "name": "Construction",
+          "pct": 10.2
+        }
+      ]
     }
   }
 }

@@ -55,7 +55,19 @@ SLUG_OVERRIDES: dict[str, list[str]] = {
     "152939": ["trustmf-small-cap-fund-direct-growth",
                "trust-mutual-fund-small-cap-fund-direct-growth"],
     "153612": ["bajaj-finserv-small-cap-fund-direct-growth"],
+    # ── Mid Cap funds: slugs that differ from auto-derived current name ────────
+    "140228": ["edelweiss-mid-and-small-cap-fund-direct-growth"],   # Edelweiss Mid Cap (old slug has "and-small")
+    "118668": ["nippon-india-growth-mid-cap-fund-direct-growth"],   # Nippon India Growth (Mid Cap)
+    "120403": ["invesco-india-mid-cap-fund-direct-growth"],         # Invesco India Midcap
+    "152002": ["lic-mf-midcap-fund-direct-growth"],                 # LIC MF Mid Cap
+    "119716": ["sbi-magnum-midcap-fund-direct-growth",
+               "sbi-mid-cap-direct-plan-growth"],                   # SBI Midcap (was SBI Magnum Midcap)
+    "150212": ["bnp-paribas-mid-cap-fund-direct-growth"],           # Baroda BNP Paribas Mid Cap (old BNP name)
+    # ── Not on Groww: intentionally bad slug so scraper skips without wrong data ─
+    # kotak-midcap-fund-direct-growth maps to scheme 120164 (Kotak Small Cap), not 119775
+    "119775": ["kotak-midcap-fund-not-on-groww"],                   # Kotak Midcap — use AMC factsheet
     # ── Not on Groww — excluded from override, fetch will return None ──────────
+    # "119071": DSP Midcap — not listed on Groww (use DSP factsheet)
     # "120164": Kotak Small Cap — not listed on Groww
     # "129649": Union Small Cap — not listed on Groww
     # "153859": Jio BlackRock — too new, not yet on Groww
