@@ -9,51 +9,51 @@
     "expense_ratio": 0.74,
     "manager": {
       "name": "Mansi Kariya",
-      "tenure_years": 4.5,
+      "tenure_years": 2.4,
       "funds_managed": 4,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Mansi Kariya",
-        "tenure_years": 4.5,
+        "tenure_years": 2.4,
         "funds_managed": 4,
         "changed_last_12mo": false
       },
       {
         "name": "Raunak Onkar",
-        "tenure_years": 11.9,
-        "funds_managed": 1,
+        "tenure_years": 13.0,
+        "funds_managed": 6,
         "changed_last_12mo": false
       },
       {
         "name": "Tejas Soman",
-        "tenure_years": 13.0,
-        "funds_managed": 1,
+        "tenure_years": 0.7,
+        "funds_managed": 7,
         "changed_last_12mo": false
       },
       {
         "name": "Aishwarya Dhar",
-        "tenure_years": 13.6,
-        "funds_managed": 1,
+        "tenure_years": 0.7,
+        "funds_managed": 5,
         "changed_last_12mo": false
       },
       {
         "name": "Raj Mehta",
-        "tenure_years": 0.1,
-        "funds_managed": 1,
+        "tenure_years": 10.3,
+        "funds_managed": 6,
         "changed_last_12mo": false
       },
       {
         "name": "Rukun Tarachandani",
-        "tenure_years": 13.6,
-        "funds_managed": 1,
+        "tenure_years": 4.0,
+        "funds_managed": 6,
         "changed_last_12mo": false
       },
       {
         "name": "Rajeev Thakkar",
-        "tenure_years": 13.6,
-        "funds_managed": 1,
+        "tenure_years": 13.0,
+        "funds_managed": 6,
         "changed_last_12mo": false
       }
     ],
@@ -147,21 +147,21 @@
     "expense_ratio": 0.86,
     "manager": {
       "name": "Dhruv Muchhal",
-      "tenure_years": 13.3,
-      "funds_managed": 2,
+      "tenure_years": 2.9,
+      "funds_managed": 47,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Dhruv Muchhal",
-        "tenure_years": 13.3,
-        "funds_managed": 2,
+        "tenure_years": 2.9,
+        "funds_managed": 47,
         "changed_last_12mo": false
       },
       {
         "name": "Amit Ganatra",
-        "tenure_years": 26.4,
-        "funds_managed": 1,
+        "tenure_years": 0.3,
+        "funds_managed": 2,
         "changed_last_12mo": false
       }
     ],
@@ -255,15 +255,15 @@
     "expense_ratio": 1.07,
     "manager": {
       "name": "Gaurav Misra",
-      "tenure_years": 9.3,
-      "funds_managed": 3,
+      "tenure_years": 7.3,
+      "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Gaurav Misra",
-        "tenure_years": 9.3,
-        "funds_managed": 3,
+        "tenure_years": 7.3,
+        "funds_managed": 2,
         "changed_last_12mo": false
       }
     ],
@@ -357,27 +357,27 @@
     "expense_ratio": 0.87,
     "manager": {
       "name": "Samir Rachh",
-      "tenure_years": 2.1,
-      "funds_managed": 2,
+      "tenure_years": 9.4,
+      "funds_managed": 1,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Samir Rachh",
-        "tenure_years": 2.1,
-        "funds_managed": 2,
+        "tenure_years": 9.4,
+        "funds_managed": 1,
         "changed_last_12mo": false
       },
       {
         "name": "Amber Singhania",
-        "tenure_years": 5.3,
-        "funds_managed": 1,
+        "tenure_years": 0.2,
+        "funds_managed": 44,
         "changed_last_12mo": false
       },
       {
         "name": "Kinjal Desai",
-        "tenure_years": 6.1,
-        "funds_managed": 1,
+        "tenure_years": 0.2,
+        "funds_managed": 46,
         "changed_last_12mo": false
       }
     ],
@@ -471,51 +471,51 @@
     "expense_ratio": 0.69,
     "manager": {
       "name": "Varun Pattani",
-      "tenure_years": 13.3,
-      "funds_managed": 6,
+      "tenure_years": 1.3,
+      "funds_managed": 25,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Varun Pattani",
-        "tenure_years": 13.3,
-        "funds_managed": 6,
+        "tenure_years": 1.3,
+        "funds_managed": 25,
         "changed_last_12mo": false
       },
       {
         "name": "Ayusha Kumbhat",
-        "tenure_years": 30.1,
-        "funds_managed": 1,
+        "tenure_years": 1.2,
+        "funds_managed": 25,
         "changed_last_12mo": false
       },
       {
         "name": "Sameer Kate",
-        "tenure_years": 0.1,
-        "funds_managed": 1,
+        "tenure_years": 1.2,
+        "funds_managed": 31,
         "changed_last_12mo": false
       },
       {
         "name": "Sanjeev Sharma",
-        "tenure_years": 30.1,
-        "funds_managed": 1,
+        "tenure_years": 6.6,
+        "funds_managed": 34,
         "changed_last_12mo": false
       },
       {
         "name": "Sandeep Tandon",
-        "tenure_years": 30.1,
-        "funds_managed": 1,
+        "tenure_years": 1.3,
+        "funds_managed": 29,
         "changed_last_12mo": false
       },
       {
         "name": "Ankit A Pande",
-        "tenure_years": 13.3,
-        "funds_managed": 1,
+        "tenure_years": 6.0,
+        "funds_managed": 30,
         "changed_last_12mo": false
       },
       {
         "name": "Yug Tibrewal",
-        "tenure_years": 0.1,
-        "funds_managed": 1,
+        "tenure_years": 1.2,
+        "funds_managed": 25,
         "changed_last_12mo": false
       }
     ],
@@ -609,21 +609,21 @@
     "expense_ratio": 0.74,
     "manager": {
       "name": "Pradeep Kesavan",
-      "tenure_years": 13.3,
-      "funds_managed": 3,
+      "tenure_years": 2.4,
+      "funds_managed": 46,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Pradeep Kesavan",
-        "tenure_years": 13.3,
-        "funds_managed": 3,
+        "tenure_years": 2.4,
+        "funds_managed": 46,
         "changed_last_12mo": false
       },
       {
         "name": "Rama Iyer Srinivasan",
-        "tenure_years": 38.9,
-        "funds_managed": 1,
+        "tenure_years": 12.5,
+        "funds_managed": 6,
         "changed_last_12mo": false
       }
     ],
@@ -717,39 +717,39 @@
     "expense_ratio": 0.75,
     "manager": {
       "name": "Ankit Agarwal",
-      "tenure_years": 1.2,
-      "funds_managed": 3,
+      "tenure_years": 0.3,
+      "funds_managed": 9,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Ankit Agarwal",
-        "tenure_years": 1.2,
-        "funds_managed": 3,
+        "tenure_years": 0.3,
+        "funds_managed": 9,
         "changed_last_12mo": false
       },
       {
         "name": "Swapnil P Mayekar",
-        "tenure_years": 2.1,
-        "funds_managed": 1,
+        "tenure_years": 0.5,
+        "funds_managed": 46,
         "changed_last_12mo": false
       },
       {
         "name": "Ajay Khandelwal",
-        "tenure_years": 7.5,
-        "funds_managed": 1,
+        "tenure_years": 1.6,
+        "funds_managed": 13,
         "changed_last_12mo": false
       },
       {
         "name": "Varun Sharma",
-        "tenure_years": 8.6,
-        "funds_managed": 1,
+        "tenure_years": 0.3,
+        "funds_managed": 10,
         "changed_last_12mo": false
       },
       {
         "name": "Rakesh Shetty",
-        "tenure_years": 11.9,
-        "funds_managed": 1,
+        "tenure_years": 3.5,
+        "funds_managed": 53,
         "changed_last_12mo": false
       }
     ],
@@ -843,45 +843,45 @@
     "expense_ratio": 1.07,
     "manager": {
       "name": "Sharmila D'Silva",
-      "tenure_years": 3.0,
-      "funds_managed": 6,
+      "tenure_years": 3.9,
+      "funds_managed": 47,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Sharmila D'Silva",
-        "tenure_years": 3.0,
-        "funds_managed": 6,
+        "tenure_years": 3.9,
+        "funds_managed": 47,
         "changed_last_12mo": false
       },
       {
         "name": "Ihab Dalwai",
-        "tenure_years": 7.4,
-        "funds_managed": 3,
+        "tenure_years": 8.3,
+        "funds_managed": 5,
         "changed_last_12mo": false
       },
       {
         "name": "Rajat Chandak",
-        "tenure_years": 9.5,
-        "funds_managed": 1,
+        "tenure_years": 10.7,
+        "funds_managed": 6,
         "changed_last_12mo": false
       },
       {
         "name": "Akhil Kakkar",
-        "tenure_years": 10.2,
-        "funds_managed": 1,
+        "tenure_years": 2.3,
+        "funds_managed": 7,
         "changed_last_12mo": false
       },
       {
         "name": "Sri Sharma",
-        "tenure_years": 10.8,
-        "funds_managed": 1,
+        "tenure_years": 5.0,
+        "funds_managed": 5,
         "changed_last_12mo": false
       },
       {
         "name": "Manish Banthia",
-        "tenure_years": 12.8,
-        "funds_managed": 1,
+        "tenure_years": 13.4,
+        "funds_managed": 26,
         "changed_last_12mo": false
       }
     ],
@@ -975,21 +975,21 @@
     "expense_ratio": 0.22,
     "manager": {
       "name": "Sharwan Kumar Goyal",
-      "tenure_years": 10.0,
-      "funds_managed": 8,
+      "tenure_years": 7.9,
+      "funds_managed": 21,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Sharwan Kumar Goyal",
-        "tenure_years": 10.0,
-        "funds_managed": 8,
+        "tenure_years": 7.9,
+        "funds_managed": 21,
         "changed_last_12mo": false
       },
       {
         "name": "Ayush Jain",
-        "tenure_years": 13.3,
-        "funds_managed": 1,
+        "tenure_years": 4.0,
+        "funds_managed": 18,
         "changed_last_12mo": false
       }
     ],
@@ -1084,14 +1084,14 @@
     "manager": {
       "name": "Neelesh Surana",
       "tenure_years": 10.5,
-      "funds_managed": 5,
+      "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Neelesh Surana",
         "tenure_years": 10.5,
-        "funds_managed": 5,
+        "funds_managed": 2,
         "changed_last_12mo": false
       }
     ],
@@ -1185,21 +1185,21 @@
     "expense_ratio": 1.24,
     "manager": {
       "name": "Ashish Naik",
-      "tenure_years": 13.3,
+      "tenure_years": 2.8,
       "funds_managed": 4,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Ashish Naik",
-        "tenure_years": 13.3,
+        "tenure_years": 2.8,
         "funds_managed": 4,
         "changed_last_12mo": false
       },
       {
         "name": "Shreyash Devalkar",
-        "tenure_years": 16.7,
-        "funds_managed": 1,
+        "tenure_years": 2.8,
+        "funds_managed": 6,
         "changed_last_12mo": false
       }
     ],
@@ -1293,39 +1293,39 @@
     "expense_ratio": 1.38,
     "manager": {
       "name": "Ramesh Mantri",
-      "tenure_years": 0.1,
-      "funds_managed": 3,
+      "tenure_years": 3.8,
+      "funds_managed": 18,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Ramesh Mantri",
-        "tenure_years": 0.1,
-        "funds_managed": 3,
+        "tenure_years": 3.8,
+        "funds_managed": 18,
         "changed_last_12mo": false
       },
       {
         "name": "Piyush Baranwal",
         "tenure_years": 3.8,
-        "funds_managed": 1,
+        "funds_managed": 20,
         "changed_last_12mo": false
       },
       {
         "name": "Trupti Agrawal",
-        "tenure_years": 3.8,
-        "funds_managed": 1,
+        "tenure_years": 3.7,
+        "funds_managed": 17,
         "changed_last_12mo": false
       },
       {
         "name": "Dheeresh Pathak",
-        "tenure_years": 3.8,
-        "funds_managed": 1,
+        "tenure_years": 2.1,
+        "funds_managed": 17,
         "changed_last_12mo": false
       },
       {
         "name": "Ashish Agrawal",
-        "tenure_years": 4.1,
-        "funds_managed": 1,
+        "tenure_years": 1.3,
+        "funds_managed": 18,
         "changed_last_12mo": false
       }
     ],
@@ -1419,15 +1419,15 @@
     "expense_ratio": 0.59,
     "manager": {
       "name": "Taher Badshah",
-      "tenure_years": 7.1,
-      "funds_managed": 2,
+      "tenure_years": 9.3,
+      "funds_managed": 7,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Taher Badshah",
-        "tenure_years": 7.1,
-        "funds_managed": 2,
+        "tenure_years": 9.3,
+        "funds_managed": 7,
         "changed_last_12mo": false
       }
     ],
@@ -1521,21 +1521,21 @@
     "expense_ratio": 1.5,
     "manager": {
       "name": "Shalav Saket",
-      "tenure_years": 6.2,
-      "funds_managed": 4,
+      "tenure_years": 0.4,
+      "funds_managed": 10,
       "changed_last_12mo": true
     },
     "managers": [
       {
         "name": "Shalav Saket",
-        "tenure_years": 6.2,
-        "funds_managed": 4,
+        "tenure_years": 0.4,
+        "funds_managed": 10,
         "changed_last_12mo": true
       },
       {
         "name": "Bharath S",
-        "tenure_years": 13.3,
-        "funds_managed": 1,
+        "tenure_years": 5.2,
+        "funds_managed": 9,
         "changed_last_12mo": false
       }
     ],
@@ -1629,21 +1629,21 @@
     "expense_ratio": 0.94,
     "manager": {
       "name": "Kaivalya Nadkarni",
-      "tenure_years": 5.5,
-      "funds_managed": 2,
+      "tenure_years": 1.6,
+      "funds_managed": 11,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Kaivalya Nadkarni",
-        "tenure_years": 5.5,
-        "funds_managed": 2,
+        "tenure_years": 1.6,
+        "funds_managed": 11,
         "changed_last_12mo": false
       },
       {
         "name": "Aparna Karnik",
-        "tenure_years": 29.4,
-        "funds_managed": 1,
+        "tenure_years": 4.0,
+        "funds_managed": 3,
         "changed_last_12mo": false
       }
     ],
@@ -1737,21 +1737,21 @@
     "expense_ratio": 1.35,
     "manager": {
       "name": "Bharat Lahoti",
-      "tenure_years": 3.1,
-      "funds_managed": 5,
+      "tenure_years": 9.0,
+      "funds_managed": 25,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Bharat Lahoti",
-        "tenure_years": 3.1,
-        "funds_managed": 5,
+        "tenure_years": 9.0,
+        "funds_managed": 25,
         "changed_last_12mo": false
       },
       {
         "name": "Bhavesh Jain",
-        "tenure_years": 11.1,
-        "funds_managed": 1,
+        "tenure_years": 4.6,
+        "funds_managed": 31,
         "changed_last_12mo": false
       }
     ],
@@ -1845,21 +1845,21 @@
     "expense_ratio": 0.59,
     "manager": {
       "name": "Hasmukh Vishariya",
-      "tenure_years": 5.3,
-      "funds_managed": 3,
+      "tenure_years": 1.2,
+      "funds_managed": 10,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Hasmukh Vishariya",
-        "tenure_years": 5.3,
-        "funds_managed": 3,
+        "tenure_years": 1.2,
+        "funds_managed": 10,
         "changed_last_12mo": false
       },
       {
         "name": "Meeta Shetty",
-        "tenure_years": 5.8,
-        "funds_managed": 1,
+        "tenure_years": 7.5,
+        "funds_managed": 3,
         "changed_last_12mo": false
       }
     ],
@@ -1953,15 +1953,15 @@
     "expense_ratio": 0.8462407,
     "manager": {
       "name": "Chirag Setalvad",
-      "tenure_years": 12.4,
-      "funds_managed": 3,
+      "tenure_years": 0.3,
+      "funds_managed": 1,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Chirag Setalvad",
-        "tenure_years": 12.4,
-        "funds_managed": 3,
+        "tenure_years": 0.3,
+        "funds_managed": 1,
         "changed_last_12mo": false
       }
     ],
@@ -2055,21 +2055,21 @@
     "expense_ratio": 0.76,
     "manager": {
       "name": "Chirag Setalvad",
-      "tenure_years": 13.3,
-      "funds_managed": 2,
+      "tenure_years": 13.4,
+      "funds_managed": 3,
       "changed_last_12mo": true
     },
     "managers": [
       {
         "name": "Chirag Setalvad",
-        "tenure_years": 13.3,
-        "funds_managed": 2,
+        "tenure_years": 13.4,
+        "funds_managed": 3,
         "changed_last_12mo": true
       },
       {
         "name": "Dhruv Muchhal",
-        "tenure_years": 26.4,
-        "funds_managed": 1,
+        "tenure_years": 2.9,
+        "funds_managed": 47,
         "changed_last_12mo": false
       }
     ],
@@ -2163,33 +2163,33 @@
     "expense_ratio": 3.27,
     "manager": {
       "name": "Anandha Padmanabhan Anjeneyan",
-      "tenure_years": 4.3,
-      "funds_managed": 2,
+      "tenure_years": 5.3,
+      "funds_managed": 13,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Anandha Padmanabhan Anjeneyan",
-        "tenure_years": 4.3,
-        "funds_managed": 2,
+        "tenure_years": 5.3,
+        "funds_managed": 13,
         "changed_last_12mo": false
       },
       {
         "name": "Vinay Paharia",
-        "tenure_years": 5.3,
-        "funds_managed": 1,
+        "tenure_years": 3.1,
+        "funds_managed": 10,
         "changed_last_12mo": false
       },
       {
         "name": "Puneet Pal",
-        "tenure_years": 5.3,
-        "funds_managed": 1,
+        "tenure_years": 3.1,
+        "funds_managed": 20,
         "changed_last_12mo": false
       },
       {
         "name": "Vivek Sharma",
-        "tenure_years": 5.8,
-        "funds_managed": 1,
+        "tenure_years": 2.1,
+        "funds_managed": 14,
         "changed_last_12mo": false
       }
     ],
@@ -2283,21 +2283,21 @@
     "expense_ratio": 1.82,
     "manager": {
       "name": "Abhishek Krishnaswami Srinivas",
-      "tenure_years": 0.2,
+      "tenure_years": 0.1,
       "funds_managed": 3,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Abhishek Krishnaswami Srinivas",
-        "tenure_years": 0.2,
+        "tenure_years": 0.1,
         "funds_managed": 3,
         "changed_last_12mo": false
       },
       {
         "name": "Sanjay Doshi",
-        "tenure_years": 0.7,
-        "funds_managed": 1,
+        "tenure_years": 0.2,
+        "funds_managed": 3,
         "changed_last_12mo": false
       }
     ],
@@ -2358,21 +2358,21 @@
     "expense_ratio": 1.31,
     "manager": {
       "name": "Abhinav Khandelwal",
-      "tenure_years": 4.2,
-      "funds_managed": 3,
+      "tenure_years": 1.5,
+      "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Abhinav Khandelwal",
-        "tenure_years": 4.2,
-        "funds_managed": 3,
+        "tenure_years": 1.5,
+        "funds_managed": 2,
         "changed_last_12mo": false
       },
       {
         "name": "Dhaval Joshi",
-        "tenure_years": 4.2,
-        "funds_managed": 4,
+        "tenure_years": 3.5,
+        "funds_managed": 6,
         "changed_last_12mo": false
       }
     ],
@@ -2466,27 +2466,27 @@
     "expense_ratio": 0.63,
     "manager": {
       "name": "Mayank Hyanki",
-      "tenure_years": 7.4,
-      "funds_managed": 2,
+      "tenure_years": 2.8,
+      "funds_managed": 3,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Mayank Hyanki",
-        "tenure_years": 7.4,
-        "funds_managed": 2,
+        "tenure_years": 2.8,
+        "funds_managed": 3,
         "changed_last_12mo": false
       },
       {
         "name": "Tejas Sheth",
-        "tenure_years": 12.5,
+        "tenure_years": 2.0,
         "funds_managed": 1,
         "changed_last_12mo": false
       },
       {
         "name": "Krishnaa Narayan",
-        "tenure_years": 16.7,
-        "funds_managed": 1,
+        "tenure_years": 2.2,
+        "funds_managed": 26,
         "changed_last_12mo": false
       }
     ],
@@ -2581,26 +2581,26 @@
     "manager": {
       "name": "Siddharth Chaudhary",
       "tenure_years": 0.9,
-      "funds_managed": 1,
+      "funds_managed": 19,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Siddharth Chaudhary",
         "tenure_years": 0.9,
-        "funds_managed": 1,
+        "funds_managed": 19,
         "changed_last_12mo": false
       },
       {
         "name": "Nimesh Chandan",
-        "tenure_years": 4.6,
-        "funds_managed": 1,
+        "tenure_years": 0.9,
+        "funds_managed": 15,
         "changed_last_12mo": false
       },
       {
         "name": "Sorbh Gupta",
-        "tenure_years": 0.1,
-        "funds_managed": 1,
+        "tenure_years": 0.9,
+        "funds_managed": 12,
         "changed_last_12mo": false
       }
     ],
@@ -2669,33 +2669,33 @@
     "expense_ratio": 1.75,
     "manager": {
       "name": "Manish Gunwani",
-      "tenure_years": 6.3,
-      "funds_managed": 3,
+      "tenure_years": 3.3,
+      "funds_managed": 7,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Manish Gunwani",
-        "tenure_years": 6.3,
-        "funds_managed": 3,
+        "tenure_years": 3.3,
+        "funds_managed": 7,
         "changed_last_12mo": false
       },
       {
         "name": "Ritika Behera",
-        "tenure_years": 26.4,
-        "funds_managed": 1,
+        "tenure_years": 2.6,
+        "funds_managed": 23,
         "changed_last_12mo": false
       },
       {
         "name": "Gaurav Satra",
-        "tenure_years": 0.1,
-        "funds_managed": 1,
+        "tenure_years": 1.9,
+        "funds_managed": 23,
         "changed_last_12mo": false
       },
       {
         "name": "Kirthi Jain",
-        "tenure_years": 26.4,
-        "funds_managed": 1,
+        "tenure_years": 2.9,
+        "funds_managed": 2,
         "changed_last_12mo": false
       }
     ],
@@ -2789,21 +2789,21 @@
     "expense_ratio": 0.65,
     "manager": {
       "name": "Nav Bhardwaj",
-      "tenure_years": 7.4,
-      "funds_managed": 2,
+      "tenure_years": 0.8,
+      "funds_managed": 1,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Nav Bhardwaj",
-        "tenure_years": 7.4,
-        "funds_managed": 2,
+        "tenure_years": 0.8,
+        "funds_managed": 1,
         "changed_last_12mo": false
       },
       {
         "name": "Alok Singh",
-        "tenure_years": 7.4,
-        "funds_managed": 1,
+        "tenure_years": 1.6,
+        "funds_managed": 10,
         "changed_last_12mo": false
       }
     ],
@@ -2897,21 +2897,21 @@
     "expense_ratio": 1.48,
     "manager": {
       "name": "Himanshu Singh",
-      "tenure_years": 2.6,
-      "funds_managed": 2,
+      "tenure_years": 1.5,
+      "funds_managed": 5,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Himanshu Singh",
-        "tenure_years": 2.6,
-        "funds_managed": 2,
+        "tenure_years": 1.5,
+        "funds_managed": 5,
         "changed_last_12mo": false
       },
       {
         "name": "Sanjay Chawla",
-        "tenure_years": 0.1,
-        "funds_managed": 1,
+        "tenure_years": 0.4,
+        "funds_managed": 16,
         "changed_last_12mo": false
       }
     ],
@@ -3000,21 +3000,21 @@
     "expense_ratio": 0.79,
     "manager": {
       "name": "Shridatta Bhandwaldar",
-      "tenure_years": 7.3,
-      "funds_managed": 2,
+      "tenure_years": 6.6,
+      "funds_managed": 13,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Shridatta Bhandwaldar",
-        "tenure_years": 7.3,
-        "funds_managed": 2,
+        "tenure_years": 6.6,
+        "funds_managed": 13,
         "changed_last_12mo": false
       },
       {
         "name": "Pranav Gokhale",
-        "tenure_years": 38.4,
-        "funds_managed": 1,
+        "tenure_years": 2.5,
+        "funds_managed": 5,
         "changed_last_12mo": false
       }
     ],
@@ -3108,15 +3108,15 @@
     "expense_ratio": 0.78,
     "manager": {
       "name": "Vinit Sambre",
-      "tenure_years": 10.8,
-      "funds_managed": 3,
+      "tenure_years": 13.4,
+      "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Vinit Sambre",
-        "tenure_years": 10.8,
-        "funds_managed": 3,
+        "tenure_years": 13.4,
+        "funds_managed": 2,
         "changed_last_12mo": false
       }
     ],
@@ -3210,27 +3210,27 @@
     "expense_ratio": 0.85,
     "manager": {
       "name": "Raj Koradia",
-      "tenure_years": 3.1,
-      "funds_managed": 2,
+      "tenure_years": 1.8,
+      "funds_managed": 8,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Raj Koradia",
-        "tenure_years": 3.1,
-        "funds_managed": 2,
+        "tenure_years": 1.8,
+        "funds_managed": 8,
         "changed_last_12mo": false
       },
       {
         "name": "Trideep Bhattacharya",
-        "tenure_years": 7.3,
-        "funds_managed": 1,
+        "tenure_years": 4.4,
+        "funds_managed": 10,
         "changed_last_12mo": false
       },
       {
         "name": "Dhruv Bhatia",
-        "tenure_years": 18.0,
-        "funds_managed": 1,
+        "tenure_years": 1.6,
+        "funds_managed": 3,
         "changed_last_12mo": false
       }
     ],
@@ -3324,27 +3324,27 @@
     "expense_ratio": 1.28,
     "manager": {
       "name": "Sandeep Manam",
-      "tenure_years": 13.3,
-      "funds_managed": 2,
+      "tenure_years": 4.6,
+      "funds_managed": 21,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Sandeep Manam",
-        "tenure_years": 13.3,
-        "funds_managed": 2,
+        "tenure_years": 4.6,
+        "funds_managed": 21,
         "changed_last_12mo": false
       },
       {
         "name": "R Janakiraman",
-        "tenure_years": 30.2,
-        "funds_managed": 1,
+        "tenure_years": 13.4,
+        "funds_managed": 9,
         "changed_last_12mo": false
       },
       {
         "name": "Akhil Kalluri",
-        "tenure_years": 0.1,
-        "funds_managed": 1,
+        "tenure_years": 3.7,
+        "funds_managed": 3,
         "changed_last_12mo": false
       }
     ],
@@ -3439,14 +3439,14 @@
     "manager": {
       "name": "Anupam Tiwari",
       "tenure_years": 0.3,
-      "funds_managed": 1,
+      "funds_managed": 5,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Anupam Tiwari",
         "tenure_years": 0.3,
-        "funds_managed": 1,
+        "funds_managed": 5,
         "changed_last_12mo": false
       }
     ],
@@ -3508,21 +3508,21 @@
     "expense_ratio": 0.86,
     "manager": {
       "name": "Dhruv Muchhal",
-      "tenure_years": 11.0,
-      "funds_managed": 3,
+      "tenure_years": 2.9,
+      "funds_managed": 47,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Dhruv Muchhal",
-        "tenure_years": 11.0,
-        "funds_managed": 3,
+        "tenure_years": 2.9,
+        "funds_managed": 47,
         "changed_last_12mo": false
       },
       {
         "name": "Chirag Setalvad",
-        "tenure_years": 11.4,
-        "funds_managed": 1,
+        "tenure_years": 11.9,
+        "funds_managed": 3,
         "changed_last_12mo": false
       }
     ],
@@ -3616,21 +3616,21 @@
     "expense_ratio": 0.76,
     "manager": {
       "name": "Venugopal Manghat",
-      "tenure_years": 7.1,
-      "funds_managed": 2,
+      "tenure_years": 6.4,
+      "funds_managed": 4,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Venugopal Manghat",
-        "tenure_years": 7.1,
-        "funds_managed": 2,
+        "tenure_years": 6.4,
+        "funds_managed": 4,
         "changed_last_12mo": false
       },
       {
         "name": "Mayank Chaturvedi",
-        "tenure_years": 9.9,
-        "funds_managed": 1,
+        "tenure_years": 0.6,
+        "funds_managed": 19,
         "changed_last_12mo": false
       }
     ],
@@ -3725,20 +3725,20 @@
     "manager": {
       "name": "Pratik Singh",
       "tenure_years": 0.5,
-      "funds_managed": 1,
+      "funds_managed": 7,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Pratik Singh",
         "tenure_years": 0.5,
-        "funds_managed": 1,
+        "funds_managed": 7,
         "changed_last_12mo": false
       },
       {
         "name": "Alok Bahl",
-        "tenure_years": 5.0,
-        "funds_managed": 1,
+        "tenure_years": 0.5,
+        "funds_managed": 8,
         "changed_last_12mo": false
       }
     ],
@@ -3803,21 +3803,21 @@
     "expense_ratio": 0.78,
     "manager": {
       "name": "Rajesh Bhatia",
-      "tenure_years": 0.9,
-      "funds_managed": 2,
+      "tenure_years": 1.9,
+      "funds_managed": 12,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Rajesh Bhatia",
-        "tenure_years": 0.9,
-        "funds_managed": 2,
+        "tenure_years": 1.9,
+        "funds_managed": 12,
         "changed_last_12mo": false
       },
       {
         "name": "Dhimant Shah",
-        "tenure_years": 6.3,
-        "funds_managed": 3,
+        "tenure_years": 3.8,
+        "funds_managed": 9,
         "changed_last_12mo": false
       }
     ],
@@ -3911,33 +3911,33 @@
     "expense_ratio": 0.8,
     "manager": {
       "name": "Satish Ramanathan",
-      "tenure_years": 1.9,
-      "funds_managed": 2,
+      "tenure_years": 1.6,
+      "funds_managed": 9,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Satish Ramanathan",
-        "tenure_years": 1.9,
-        "funds_managed": 2,
+        "tenure_years": 1.6,
+        "funds_managed": 9,
         "changed_last_12mo": false
       },
       {
         "name": "Ruchi Fozdar",
-        "tenure_years": 31.6,
-        "funds_managed": 1,
+        "tenure_years": 1.6,
+        "funds_managed": 17,
         "changed_last_12mo": false
       },
       {
         "name": "Deepak Gupta",
-        "tenure_years": 0.1,
-        "funds_managed": 1,
+        "tenure_years": 1.1,
+        "funds_managed": 10,
         "changed_last_12mo": false
       },
       {
         "name": "Asit Bhandarkar",
-        "tenure_years": 31.6,
-        "funds_managed": 1,
+        "tenure_years": 2.0,
+        "funds_managed": 10,
         "changed_last_12mo": false
       }
     ],
@@ -4107,21 +4107,21 @@
     "expense_ratio": 2.39,
     "manager": {
       "name": "Dikshit Mittal",
-      "tenure_years": 2.6,
-      "funds_managed": 2,
+      "tenure_years": 0.8,
+      "funds_managed": 5,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Dikshit Mittal",
-        "tenure_years": 2.6,
-        "funds_managed": 2,
+        "tenure_years": 0.8,
+        "funds_managed": 5,
         "changed_last_12mo": false
       },
       {
         "name": "Mahesh Bendre",
-        "tenure_years": 8.9,
-        "funds_managed": 1,
+        "tenure_years": 1.9,
+        "funds_managed": 7,
         "changed_last_12mo": false
       }
     ],
@@ -4214,27 +4214,27 @@
     "expense_ratio": 0.49,
     "manager": {
       "name": "Krishna Sanghavi",
-      "tenure_years": 2.9,
-      "funds_managed": 2,
+      "tenure_years": 1.5,
+      "funds_managed": 6,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Krishna Sanghavi",
-        "tenure_years": 2.9,
-        "funds_managed": 2,
+        "tenure_years": 1.5,
+        "funds_managed": 6,
         "changed_last_12mo": false
       },
       {
         "name": "Vishal Jajoo",
-        "tenure_years": 3.5,
-        "funds_managed": 1,
+        "tenure_years": 1.4,
+        "funds_managed": 5,
         "changed_last_12mo": false
       },
       {
         "name": "Neelesh Dhamnaskar",
-        "tenure_years": 10.3,
-        "funds_managed": 1,
+        "tenure_years": 0.2,
+        "funds_managed": 6,
         "changed_last_12mo": false
       }
     ],
@@ -4329,20 +4329,20 @@
     "manager": {
       "name": "Siddharth Srivastava",
       "tenure_years": 1.3,
-      "funds_managed": 2,
+      "funds_managed": 5,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Siddharth Srivastava",
         "tenure_years": 1.3,
-        "funds_managed": 2,
+        "funds_managed": 5,
         "changed_last_12mo": false
       },
       {
         "name": "Varun Goel",
-        "tenure_years": 18.4,
-        "funds_managed": 1,
+        "tenure_years": 1.3,
+        "funds_managed": 2,
         "changed_last_12mo": false
       }
     ],
@@ -4416,33 +4416,33 @@
     "expense_ratio": 0.96,
     "manager": {
       "name": "Bhalchandra Shinde",
-      "tenure_years": 1.2,
-      "funds_managed": 4,
+      "tenure_years": 0.3,
+      "funds_managed": 9,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Bhalchandra Shinde",
-        "tenure_years": 1.2,
-        "funds_managed": 4,
+        "tenure_years": 0.3,
+        "funds_managed": 9,
         "changed_last_12mo": false
       },
       {
         "name": "Rakesh Shetty",
-        "tenure_years": 2.1,
-        "funds_managed": 1,
+        "tenure_years": 2.4,
+        "funds_managed": 53,
         "changed_last_12mo": false
       },
       {
         "name": "Swapnil P Mayekar",
-        "tenure_years": 2.4,
-        "funds_managed": 1,
+        "tenure_years": 0.5,
+        "funds_managed": 46,
         "changed_last_12mo": false
       },
       {
         "name": "Ajay Khandelwal",
-        "tenure_years": 16.4,
-        "funds_managed": 1,
+        "tenure_years": 2.4,
+        "funds_managed": 13,
         "changed_last_12mo": false
       }
     ],
@@ -4530,33 +4530,33 @@
     "expense_ratio": 1.77,
     "manager": {
       "name": "Puneet Pal",
-      "tenure_years": 4.3,
-      "funds_managed": 3,
+      "tenure_years": 3.1,
+      "funds_managed": 20,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Puneet Pal",
-        "tenure_years": 4.3,
-        "funds_managed": 3,
+        "tenure_years": 3.1,
+        "funds_managed": 20,
         "changed_last_12mo": false
       },
       {
         "name": "Vinay Paharia",
-        "tenure_years": 4.8,
-        "funds_managed": 1,
+        "tenure_years": 3.1,
+        "funds_managed": 10,
         "changed_last_12mo": false
       },
       {
         "name": "Vivek Sharma",
-        "tenure_years": 16.0,
-        "funds_managed": 1,
+        "tenure_years": 2.1,
+        "funds_managed": 14,
         "changed_last_12mo": false
       },
       {
         "name": "Utsav Mehta",
-        "tenure_years": 0.1,
-        "funds_managed": 1,
+        "tenure_years": 2.1,
+        "funds_managed": 8,
         "changed_last_12mo": false
       }
     ],
@@ -4650,21 +4650,21 @@
     "expense_ratio": 0.69,
     "manager": {
       "name": "Abhilasha Satale",
-      "tenure_years": 0.1,
-      "funds_managed": 2,
+      "tenure_years": 2.6,
+      "funds_managed": 1,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Abhilasha Satale",
-        "tenure_years": 0.1,
-        "funds_managed": 2,
+        "tenure_years": 2.6,
+        "funds_managed": 1,
         "changed_last_12mo": false
       },
       {
         "name": "Chirag Mehta",
         "tenure_years": 2.6,
-        "funds_managed": 1,
+        "funds_managed": 6,
         "changed_last_12mo": false
       }
     ],
@@ -4753,15 +4753,15 @@
     "expense_ratio": 0.85,
     "manager": {
       "name": "Rohit Seksaria",
-      "tenure_years": 6.2,
-      "funds_managed": 2,
+      "tenure_years": 3.5,
+      "funds_managed": 19,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Rohit Seksaria",
-        "tenure_years": 6.2,
-        "funds_managed": 2,
+        "tenure_years": 3.5,
+        "funds_managed": 19,
         "changed_last_12mo": false
       }
     ],
@@ -4855,20 +4855,20 @@
     "expense_ratio": 0.48,
     "manager": {
       "name": "Chandraprakash Padiyar",
-      "tenure_years": 0.7,
+      "tenure_years": 7.6,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Chandraprakash Padiyar",
-        "tenure_years": 0.7,
+        "tenure_years": 7.6,
         "funds_managed": 2,
         "changed_last_12mo": false
       },
       {
         "name": "Jeetendra Khatri",
-        "tenure_years": 6.9,
+        "tenure_years": 2.6,
         "funds_managed": 1,
         "changed_last_12mo": false
       }
@@ -4964,14 +4964,14 @@
     "manager": {
       "name": "Aparna Shanker",
       "tenure_years": 0.2,
-      "funds_managed": 1,
+      "funds_managed": 6,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Aparna Shanker",
         "tenure_years": 0.2,
-        "funds_managed": 1,
+        "funds_managed": 6,
         "changed_last_12mo": false
       }
     ],
@@ -5032,14 +5032,14 @@
     "expense_ratio": 0.67,
     "manager": {
       "name": "Nitin Jain",
-      "tenure_years": 5.4,
+      "tenure_years": 1.6,
       "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Nitin Jain",
-        "tenure_years": 5.4,
+        "tenure_years": 1.6,
         "funds_managed": 2,
         "changed_last_12mo": false
       }
@@ -5223,20 +5223,20 @@
     "manager": {
       "name": "Tarang Agrawal",
       "tenure_years": 2.3,
-      "funds_managed": 2,
+      "funds_managed": 1,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Tarang Agrawal",
         "tenure_years": 2.3,
-        "funds_managed": 2,
+        "funds_managed": 1,
         "changed_last_12mo": false
       },
       {
         "name": "Kenneth Andrade",
-        "tenure_years": 2.7,
-        "funds_managed": 1,
+        "tenure_years": 2.3,
+        "funds_managed": 3,
         "changed_last_12mo": false
       }
     ],
@@ -5324,26 +5324,26 @@
     "manager": {
       "name": "Aakash Manghani",
       "tenure_years": 2.1,
-      "funds_managed": 3,
+      "funds_managed": 4,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Aakash Manghani",
         "tenure_years": 2.1,
-        "funds_managed": 3,
+        "funds_managed": 4,
         "changed_last_12mo": false
       },
       {
         "name": "Mihir Vora",
-        "tenure_years": 6.6,
-        "funds_managed": 1,
+        "tenure_years": 2.1,
+        "funds_managed": 5,
         "changed_last_12mo": false
       },
       {
         "name": "Saurabh Kataria",
         "tenure_years": 0.1,
-        "funds_managed": 1,
+        "funds_managed": 4,
         "changed_last_12mo": false
       }
     ],
@@ -5428,26 +5428,26 @@
     "manager": {
       "name": "Aakash Manghani",
       "tenure_years": 1.6,
-      "funds_managed": 3,
+      "funds_managed": 4,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Aakash Manghani",
         "tenure_years": 1.6,
-        "funds_managed": 3,
+        "funds_managed": 4,
         "changed_last_12mo": false
       },
       {
         "name": "Mihir Vora",
-        "tenure_years": 6.6,
-        "funds_managed": 1,
+        "tenure_years": 1.6,
+        "funds_managed": 5,
         "changed_last_12mo": false
       },
       {
         "name": "Saurabh Kataria",
         "tenure_years": 0.1,
-        "funds_managed": 1,
+        "funds_managed": 4,
         "changed_last_12mo": false
       }
     ],
@@ -5525,26 +5525,26 @@
     "manager": {
       "name": "Aejas Lakhani",
       "tenure_years": 1.0,
-      "funds_managed": 1,
+      "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Aejas Lakhani",
         "tenure_years": 1.0,
-        "funds_managed": 1,
+        "funds_managed": 2,
         "changed_last_12mo": false
       },
       {
         "name": "Karthik Srinivas",
-        "tenure_years": 2.3,
-        "funds_managed": 1,
+        "tenure_years": 1.0,
+        "funds_managed": 3,
         "changed_last_12mo": false
       },
       {
         "name": "Saravanan V N",
-        "tenure_years": 0.1,
-        "funds_managed": 1,
+        "tenure_years": 1.0,
+        "funds_managed": 3,
         "changed_last_12mo": false
       }
     ],
@@ -5614,27 +5614,27 @@
     "expense_ratio": 1.21,
     "manager": {
       "name": "Prateek Jain",
-      "tenure_years": 0.3,
-      "funds_managed": 1,
+      "tenure_years": 0.8,
+      "funds_managed": 4,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Prateek Jain",
-        "tenure_years": 0.3,
-        "funds_managed": 1,
+        "tenure_years": 0.8,
+        "funds_managed": 4,
         "changed_last_12mo": false
       },
       {
         "name": "Anoop Vijaykumar",
         "tenure_years": 0.8,
-        "funds_managed": 1,
+        "funds_managed": 4,
         "changed_last_12mo": false
       },
       {
         "name": "Divyansh Agnani",
-        "tenure_years": 1.1,
-        "funds_managed": 1,
+        "tenure_years": 0.1,
+        "funds_managed": 2,
         "changed_last_12mo": false
       }
     ],
@@ -5768,27 +5768,27 @@
     "expense_ratio": 0.35,
     "manager": {
       "name": "Neeraj Jain",
-      "tenure_years": 0.6,
-      "funds_managed": 1,
+      "tenure_years": 0.4,
+      "funds_managed": 3,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Neeraj Jain",
-        "tenure_years": 0.6,
-        "funds_managed": 1,
+        "tenure_years": 0.4,
+        "funds_managed": 3,
         "changed_last_12mo": false
       },
       {
         "name": "Aparna Shanker",
-        "tenure_years": 0.8,
-        "funds_managed": 1,
+        "tenure_years": 0.6,
+        "funds_managed": 6,
         "changed_last_12mo": false
       },
       {
         "name": "Umesh Sharma",
-        "tenure_years": 0.1,
-        "funds_managed": 1,
+        "tenure_years": 0.6,
+        "funds_managed": 4,
         "changed_last_12mo": false
       }
     ],
@@ -5854,21 +5854,21 @@
     "expense_ratio": 1.05,
     "manager": {
       "name": "Abhishek Krishnaswami Srinivas",
-      "tenure_years": 0.4,
-      "funds_managed": 2,
+      "tenure_years": 0.1,
+      "funds_managed": 3,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Abhishek Krishnaswami Srinivas",
-        "tenure_years": 0.4,
-        "funds_managed": 2,
+        "tenure_years": 0.1,
+        "funds_managed": 3,
         "changed_last_12mo": false
       },
       {
         "name": "Sanjay Doshi",
-        "tenure_years": 0.7,
-        "funds_managed": 1,
+        "tenure_years": 0.4,
+        "funds_managed": 3,
         "changed_last_12mo": false
       }
     ],
@@ -5932,27 +5932,27 @@
     "expense_ratio": 0.68,
     "manager": {
       "name": "Krishnaa Narayan",
-      "tenure_years": 8.6,
-      "funds_managed": 1,
+      "tenure_years": 2.2,
+      "funds_managed": 26,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Krishnaa Narayan",
-        "tenure_years": 8.6,
-        "funds_managed": 1,
+        "tenure_years": 2.2,
+        "funds_managed": 26,
         "changed_last_12mo": false
       },
       {
         "name": "Nitin Arora",
-        "tenure_years": 12.0,
-        "funds_managed": 1,
+        "tenure_years": 2.8,
+        "funds_managed": 4,
         "changed_last_12mo": false
       },
       {
         "name": "Shreyash Devalkar",
-        "tenure_years": 13.3,
-        "funds_managed": 1,
+        "tenure_years": 9.5,
+        "funds_managed": 6,
         "changed_last_12mo": false
       }
     ],
@@ -6046,21 +6046,21 @@
     "expense_ratio": 0.66,
     "manager": {
       "name": "Himanshu Singh",
-      "tenure_years": 8.8,
-      "funds_managed": 1,
+      "tenure_years": 1.5,
+      "funds_managed": 5,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Himanshu Singh",
-        "tenure_years": 8.8,
-        "funds_managed": 1,
+        "tenure_years": 1.5,
+        "funds_managed": 5,
         "changed_last_12mo": false
       },
       {
         "name": "Rohan Korde",
-        "tenure_years": 13.3,
-        "funds_managed": 1,
+        "tenure_years": 0.1,
+        "funds_managed": 2,
         "changed_last_12mo": false
       }
     ],
@@ -6154,33 +6154,33 @@
     "expense_ratio": 1.07,
     "manager": {
       "name": "Ritika Behera",
-      "tenure_years": 3.8,
-      "funds_managed": 1,
+      "tenure_years": 2.6,
+      "funds_managed": 23,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Ritika Behera",
-        "tenure_years": 3.8,
-        "funds_managed": 1,
+        "tenure_years": 2.6,
+        "funds_managed": 23,
         "changed_last_12mo": false
       },
       {
         "name": "Gaurav Satra",
-        "tenure_years": 3.8,
-        "funds_managed": 1,
+        "tenure_years": 1.9,
+        "funds_managed": 23,
         "changed_last_12mo": false
       },
       {
         "name": "Harshal Joshi",
-        "tenure_years": 26.4,
-        "funds_managed": 1,
+        "tenure_years": 3.8,
+        "funds_managed": 22,
         "changed_last_12mo": false
       },
       {
         "name": "Ritu Modi",
-        "tenure_years": 0.1,
-        "funds_managed": 1,
+        "tenure_years": 3.5,
+        "funds_managed": 2,
         "changed_last_12mo": false
       }
     ],
@@ -6274,21 +6274,21 @@
     "expense_ratio": 1.83,
     "manager": {
       "name": "Pranav Gokhale",
-      "tenure_years": 3.5,
-      "funds_managed": 1,
+      "tenure_years": 2.5,
+      "funds_managed": 5,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Pranav Gokhale",
-        "tenure_years": 3.5,
-        "funds_managed": 1,
+        "tenure_years": 2.5,
+        "funds_managed": 5,
         "changed_last_12mo": false
       },
       {
         "name": "Shridatta Bhandwaldar",
-        "tenure_years": 38.4,
-        "funds_managed": 1,
+        "tenure_years": 3.5,
+        "funds_managed": 13,
         "changed_last_12mo": false
       }
     ],
@@ -6471,27 +6471,27 @@
     "expense_ratio": 0.65,
     "manager": {
       "name": "Trideep Bhattacharya",
-      "tenure_years": 3.1,
-      "funds_managed": 1,
+      "tenure_years": 4.6,
+      "funds_managed": 10,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Trideep Bhattacharya",
-        "tenure_years": 3.1,
-        "funds_managed": 1,
+        "tenure_years": 4.6,
+        "funds_managed": 10,
         "changed_last_12mo": false
       },
       {
         "name": "Raj Koradia",
-        "tenure_years": 11.1,
-        "funds_managed": 1,
+        "tenure_years": 1.8,
+        "funds_managed": 8,
         "changed_last_12mo": false
       },
       {
         "name": "Dhruv Bhatia",
-        "tenure_years": 13.0,
-        "funds_managed": 1,
+        "tenure_years": 1.6,
+        "funds_managed": 3,
         "changed_last_12mo": false
       }
     ],
@@ -6585,27 +6585,27 @@
     "expense_ratio": 1.35,
     "manager": {
       "name": "Sandeep Manam",
-      "tenure_years": 13.3,
-      "funds_managed": 1,
+      "tenure_years": 4.6,
+      "funds_managed": 21,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Sandeep Manam",
-        "tenure_years": 13.3,
-        "funds_managed": 1,
+        "tenure_years": 4.6,
+        "funds_managed": 21,
         "changed_last_12mo": false
       },
       {
         "name": "R Janakiraman",
-        "tenure_years": 30.2,
-        "funds_managed": 1,
+        "tenure_years": 13.4,
+        "funds_managed": 9,
         "changed_last_12mo": false
       },
       {
         "name": "Akhil Kalluri",
-        "tenure_years": 0.1,
-        "funds_managed": 1,
+        "tenure_years": 4.3,
+        "funds_managed": 3,
         "changed_last_12mo": false
       }
     ],
@@ -6698,15 +6698,15 @@
     "aum_cr": 1082.16,
     "expense_ratio": 0.7,
     "manager": {
-      "name": "Unknown",
-      "tenure_years": 0.0,
+      "name": "Ankur Arora",
+      "tenure_years": 0.3,
       "funds_managed": 1,
       "changed_last_12mo": false
     },
     "managers": [
       {
-        "name": "Unknown",
-        "tenure_years": 0.0,
+        "name": "Ankur Arora",
+        "tenure_years": 0.3,
         "funds_managed": 1,
         "changed_last_12mo": false
       }
@@ -6780,21 +6780,21 @@
     "expense_ratio": 1.39,
     "manager": {
       "name": "Sharmila D'Silva",
-      "tenure_years": 11.0,
-      "funds_managed": 1,
+      "tenure_years": 3.9,
+      "funds_managed": 47,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Sharmila D'Silva",
-        "tenure_years": 11.0,
-        "funds_managed": 1,
+        "tenure_years": 3.9,
+        "funds_managed": 47,
         "changed_last_12mo": false
       },
       {
         "name": "Lalit Kumar",
-        "tenure_years": 12.1,
-        "funds_managed": 1,
+        "tenure_years": 3.8,
+        "funds_managed": 4,
         "changed_last_12mo": false
       }
     ],
@@ -6888,15 +6888,15 @@
     "expense_ratio": 0.58,
     "manager": {
       "name": "Aditya Khemani",
-      "tenure_years": 7.1,
-      "funds_managed": 1,
+      "tenure_years": 2.5,
+      "funds_managed": 5,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Aditya Khemani",
-        "tenure_years": 7.1,
-        "funds_managed": 1,
+        "tenure_years": 2.5,
+        "funds_managed": 5,
         "changed_last_12mo": false
       }
     ],
@@ -6990,21 +6990,21 @@
     "expense_ratio": 1.61,
     "manager": {
       "name": "Rajesh Bhatia",
-      "tenure_years": 0.9,
-      "funds_managed": 1,
+      "tenure_years": 1.9,
+      "funds_managed": 12,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Rajesh Bhatia",
-        "tenure_years": 0.9,
-        "funds_managed": 1,
+        "tenure_years": 1.9,
+        "funds_managed": 12,
         "changed_last_12mo": false
       },
       {
         "name": "Dhimant Shah",
-        "tenure_years": 5.2,
-        "funds_managed": 1,
+        "tenure_years": 3.6,
+        "funds_managed": 9,
         "changed_last_12mo": false
       }
     ],
@@ -7098,33 +7098,33 @@
     "expense_ratio": 0.66,
     "manager": {
       "name": "Ruchi Fozdar",
-      "tenure_years": 3.5,
-      "funds_managed": 1,
+      "tenure_years": 1.6,
+      "funds_managed": 17,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Ruchi Fozdar",
-        "tenure_years": 3.5,
-        "funds_managed": 1,
+        "tenure_years": 1.6,
+        "funds_managed": 17,
         "changed_last_12mo": false
       },
       {
         "name": "Satish Ramanathan",
         "tenure_years": 3.5,
-        "funds_managed": 1,
+        "funds_managed": 9,
         "changed_last_12mo": false
       },
       {
         "name": "Deepak Gupta",
-        "tenure_years": 3.5,
-        "funds_managed": 1,
+        "tenure_years": 1.1,
+        "funds_managed": 10,
         "changed_last_12mo": false
       },
       {
         "name": "Asit Bhandarkar",
-        "tenure_years": 31.6,
-        "funds_managed": 1,
+        "tenure_years": 1.6,
+        "funds_managed": 10,
         "changed_last_12mo": false
       }
     ],
@@ -7307,15 +7307,15 @@
     "expense_ratio": 1.33,
     "manager": {
       "name": "Dikshit Mittal",
-      "tenure_years": 2.6,
-      "funds_managed": 1,
+      "tenure_years": 2.8,
+      "funds_managed": 5,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Dikshit Mittal",
-        "tenure_years": 2.6,
-        "funds_managed": 1,
+        "tenure_years": 2.8,
+        "funds_managed": 5,
         "changed_last_12mo": false
       }
     ],
@@ -7408,27 +7408,27 @@
     "expense_ratio": 0.56,
     "manager": {
       "name": "Kirti Dalvi",
-      "tenure_years": 2.9,
-      "funds_managed": 1,
+      "tenure_years": 1.4,
+      "funds_managed": 5,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Kirti Dalvi",
-        "tenure_years": 2.9,
-        "funds_managed": 1,
+        "tenure_years": 1.4,
+        "funds_managed": 5,
         "changed_last_12mo": false
       },
       {
         "name": "Neelesh Dhamnaskar",
-        "tenure_years": 8.3,
-        "funds_managed": 1,
+        "tenure_years": 0.2,
+        "funds_managed": 6,
         "changed_last_12mo": false
       },
       {
         "name": "Krishna Sanghavi",
-        "tenure_years": 10.3,
-        "funds_managed": 1,
+        "tenure_years": 1.5,
+        "funds_managed": 6,
         "changed_last_12mo": false
       }
     ],
@@ -7522,15 +7522,15 @@
     "expense_ratio": 1.16,
     "manager": {
       "name": "Ankit Jain",
-      "tenure_years": 1.3,
-      "funds_managed": 1,
+      "tenure_years": 6.8,
+      "funds_managed": 3,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Ankit Jain",
-        "tenure_years": 1.3,
-        "funds_managed": 1,
+        "tenure_years": 6.8,
+        "funds_managed": 3,
         "changed_last_12mo": false
       }
     ],
@@ -7624,27 +7624,27 @@
     "expense_ratio": 0.86,
     "manager": {
       "name": "Rupesh Patel",
-      "tenure_years": 5.3,
-      "funds_managed": 1,
+      "tenure_years": 3.4,
+      "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Rupesh Patel",
-        "tenure_years": 5.3,
-        "funds_managed": 1,
+        "tenure_years": 3.4,
+        "funds_managed": 2,
         "changed_last_12mo": false
       },
       {
         "name": "Amber Singhania",
-        "tenure_years": 6.1,
-        "funds_managed": 1,
+        "tenure_years": 0.2,
+        "funds_managed": 44,
         "changed_last_12mo": false
       },
       {
         "name": "Kinjal Desai",
-        "tenure_years": 8.3,
-        "funds_managed": 1,
+        "tenure_years": 8.0,
+        "funds_managed": 46,
         "changed_last_12mo": false
       }
     ],
@@ -7738,33 +7738,33 @@
     "expense_ratio": 0.55,
     "manager": {
       "name": "Vinay Paharia",
-      "tenure_years": 4.3,
-      "funds_managed": 1,
+      "tenure_years": 3.1,
+      "funds_managed": 10,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Vinay Paharia",
-        "tenure_years": 4.3,
-        "funds_managed": 1,
+        "tenure_years": 3.1,
+        "funds_managed": 10,
         "changed_last_12mo": false
       },
       {
         "name": "Vivek Sharma",
-        "tenure_years": 5.3,
-        "funds_managed": 1,
+        "tenure_years": 2.1,
+        "funds_managed": 14,
         "changed_last_12mo": false
       },
       {
         "name": "Utsav Mehta",
-        "tenure_years": 5.3,
-        "funds_managed": 1,
+        "tenure_years": 2.5,
+        "funds_managed": 8,
         "changed_last_12mo": false
       },
       {
         "name": "Puneet Pal",
-        "tenure_years": 5.8,
-        "funds_managed": 1,
+        "tenure_years": 3.8,
+        "funds_managed": 20,
         "changed_last_12mo": false
       }
     ],
@@ -7858,21 +7858,21 @@
     "expense_ratio": 0.98,
     "manager": {
       "name": "Bhavin Vithlani",
-      "tenure_years": 0.7,
-      "funds_managed": 1,
+      "tenure_years": 2.1,
+      "funds_managed": 2,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Bhavin Vithlani",
-        "tenure_years": 0.7,
-        "funds_managed": 1,
+        "tenure_years": 2.1,
+        "funds_managed": 2,
         "changed_last_12mo": false
       },
       {
         "name": "Pradeep Kesavan",
-        "tenure_years": 13.3,
-        "funds_managed": 1,
+        "tenure_years": 2.4,
+        "funds_managed": 46,
         "changed_last_12mo": false
       }
     ],
@@ -7966,15 +7966,15 @@
     "expense_ratio": 0.88,
     "manager": {
       "name": "Satish Chandra Mishra",
-      "tenure_years": 0.7,
-      "funds_managed": 1,
+      "tenure_years": 5.2,
+      "funds_managed": 3,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Satish Chandra Mishra",
-        "tenure_years": 0.7,
-        "funds_managed": 1,
+        "tenure_years": 5.2,
+        "funds_managed": 3,
         "changed_last_12mo": false
       }
     ],
@@ -8068,21 +8068,21 @@
     "expense_ratio": 1.26,
     "manager": {
       "name": "Pratik Dharmshi",
-      "tenure_years": 5.9,
-      "funds_managed": 1,
+      "tenure_years": 1.4,
+      "funds_managed": 8,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Pratik Dharmshi",
-        "tenure_years": 5.9,
-        "funds_managed": 1,
+        "tenure_years": 1.4,
+        "funds_managed": 8,
         "changed_last_12mo": false
       },
       {
         "name": "Gaurav Chopra",
-        "tenure_years": 6.2,
-        "funds_managed": 1,
+        "tenure_years": 3.3,
+        "funds_managed": 9,
         "changed_last_12mo": false
       }
     ],
@@ -8176,15 +8176,15 @@
     "expense_ratio": 1.77,
     "manager": {
       "name": "Vishal Chopda",
-      "tenure_years": 11.1,
-      "funds_managed": 1,
+      "tenure_years": 0.9,
+      "funds_managed": 3,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Vishal Chopda",
-        "tenure_years": 11.1,
-        "funds_managed": 1,
+        "tenure_years": 0.9,
+        "funds_managed": 3,
         "changed_last_12mo": false
       }
     ],
@@ -8278,39 +8278,39 @@
     "expense_ratio": 1.62,
     "manager": {
       "name": "Ramesh Mantri",
-      "tenure_years": 0.1,
-      "funds_managed": 1,
+      "tenure_years": 3.7,
+      "funds_managed": 18,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Ramesh Mantri",
-        "tenure_years": 0.1,
-        "funds_managed": 1,
+        "tenure_years": 3.7,
+        "funds_managed": 18,
         "changed_last_12mo": false
       },
       {
         "name": "Piyush Baranwal",
         "tenure_years": 3.7,
-        "funds_managed": 1,
+        "funds_managed": 20,
         "changed_last_12mo": false
       },
       {
         "name": "Trupti Agrawal",
-        "tenure_years": 7.8,
-        "funds_managed": 1,
+        "tenure_years": 3.7,
+        "funds_managed": 17,
         "changed_last_12mo": false
       },
       {
         "name": "Dheeresh Pathak",
-        "tenure_years": 0.1,
-        "funds_managed": 1,
+        "tenure_years": 2.1,
+        "funds_managed": 17,
         "changed_last_12mo": false
       },
       {
         "name": "Ashish Agrawal",
-        "tenure_years": 7.8,
-        "funds_managed": 1,
+        "tenure_years": 1.3,
+        "funds_managed": 18,
         "changed_last_12mo": false
       }
     ],
@@ -8404,51 +8404,51 @@
     "expense_ratio": 0.74,
     "manager": {
       "name": "Varun Pattani",
-      "tenure_years": 4.8,
-      "funds_managed": 1,
+      "tenure_years": 1.3,
+      "funds_managed": 25,
       "changed_last_12mo": false
     },
     "managers": [
       {
         "name": "Varun Pattani",
-        "tenure_years": 4.8,
-        "funds_managed": 1,
+        "tenure_years": 1.3,
+        "funds_managed": 25,
         "changed_last_12mo": false
       },
       {
         "name": "Ayusha Kumbhat",
-        "tenure_years": 13.3,
-        "funds_managed": 1,
+        "tenure_years": 1.2,
+        "funds_managed": 25,
         "changed_last_12mo": false
       },
       {
         "name": "Sameer Kate",
-        "tenure_years": 30.1,
-        "funds_managed": 1,
+        "tenure_years": 1.2,
+        "funds_managed": 31,
         "changed_last_12mo": false
       },
       {
         "name": "Sanjeev Sharma",
-        "tenure_years": 0.1,
-        "funds_managed": 1,
+        "tenure_years": 6.6,
+        "funds_managed": 34,
         "changed_last_12mo": false
       },
       {
         "name": "Sandeep Tandon",
-        "tenure_years": 30.1,
-        "funds_managed": 1,
+        "tenure_years": 1.3,
+        "funds_managed": 29,
         "changed_last_12mo": false
       },
       {
         "name": "Ankit A Pande",
-        "tenure_years": 30.1,
-        "funds_managed": 1,
+        "tenure_years": 6.0,
+        "funds_managed": 30,
         "changed_last_12mo": false
       },
       {
         "name": "Yug Tibrewal",
-        "tenure_years": 13.3,
-        "funds_managed": 1,
+        "tenure_years": 1.2,
+        "funds_managed": 25,
         "changed_last_12mo": false
       }
     ],

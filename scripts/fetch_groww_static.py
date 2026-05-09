@@ -1,8 +1,8 @@
 """
 fetch_groww_static.py — Monthly refresh of Groww-hosted fund data.
 
-Scrapes all 57 funds on each monthly run (not just those with missing data).
-For the ~41 funds that exist on Groww, updates:
+Scrapes all funds on each monthly run (not just those with missing data).
+For funds that exist on Groww, updates:
   - aum_cr, expense_ratio
   - managers[] (name, tenure_years)
   - concentration (top_10_pct, num_stocks, top_sector_pct)
@@ -300,6 +300,56 @@ def extract_concentration(html: str) -> dict:
     return result
 
 
+def extract_managers_from_next_data(html: str) -> list | None:
+    """
+    Extract manager data from __NEXT_DATA__ fund_manager_details.
+    Returns list of manager dicts or None if unavailable.
+    Each entry has: person_name, date_from (ISO), funds_managed (list).
+    """
+    nd = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.DOTALL)
+    if not nd:
+        return None
+    try:
+        page_data = json.loads(nd.group(1))
+        mf = page_data.get('props', {}).get('pageProps', {}).get('mfServerSideData', {})
+        details = mf.get('fund_manager_details', [])
+        if not details:
+            # Fallback: fund_manager string (comma-separated names, no dates)
+            mgr_str = mf.get('fund_manager', '') or ''
+            names = [n.strip() for n in mgr_str.split(',') if len(n.strip()) > 2]
+            if names:
+                return [{"name": n, "tenure_years": 0.3, "funds_managed": 1,
+                         "changed_last_12mo": False} for n in names]
+            return None
+        mgrs = []
+        for d in details:
+            name = d.get('person_name', '').strip()
+            if not name or len(name) < 3:
+                continue
+            # Compute tenure from date_from ISO string
+            date_from_str = d.get('date_from', '')
+            tenure = 0.3
+            if date_from_str:
+                try:
+                    # "2024-02-29T18:30:00.000Z" → parse year-month-day
+                    dp = date_from_str[:10]  # "2024-02-29"
+                    start = datetime.date.fromisoformat(dp)
+                    tenure = round(max(0.1, (TODAY - start).days / 365.25), 1)
+                except Exception:
+                    pass
+            fm_list = d.get('funds_managed', [])
+            funds_count = len(fm_list) if isinstance(fm_list, list) else 1
+            mgrs.append({
+                "name":              name,
+                "tenure_years":      tenure,
+                "funds_managed":     max(1, funds_count),
+                "changed_last_12mo": False,
+            })
+        return mgrs if mgrs else None
+    except Exception:
+        return None
+
+
 def extract(html: str) -> dict:
     result: dict = {}
 
@@ -315,21 +365,26 @@ def extract(html: str) -> dict:
         if 0.0 < er < 5.0:
             result['expense_ratio'] = er
 
-    # Manager names + tenures
-    parser = NameParser("Management_personName")
-    parser.feed(html)
-    names = [n for n in parser.results if len(n) > 2]
-    if names:
-        tenures = parse_tenure(html)
-        result['managers'] = [
-            {
-                "name":              name,
-                "tenure_years":      tenures[i] if i < len(tenures) else 0.3,
-                "funds_managed":     1,
-                "changed_last_12mo": False,
-            }
-            for i, name in enumerate(names)
-        ]
+    # Manager names + tenures — try __NEXT_DATA__ first (precise dates, funds_managed count),
+    # fall back to HTML class extraction (older page layouts)
+    mgrs = extract_managers_from_next_data(html)
+    if mgrs:
+        result['managers'] = mgrs
+    else:
+        parser = NameParser("Management_personName")
+        parser.feed(html)
+        names = [n for n in parser.results if len(n) > 2]
+        if names:
+            tenures = parse_tenure(html)
+            result['managers'] = [
+                {
+                    "name":              name,
+                    "tenure_years":      tenures[i] if i < len(tenures) else 0.3,
+                    "funds_managed":     1,
+                    "changed_last_12mo": False,
+                }
+                for i, name in enumerate(names)
+            ]
 
     # Portfolio concentration
     conc = extract_concentration(html)
@@ -400,8 +455,9 @@ def main() -> None:
             new_mgrs = data['managers']
             for i, mgr in enumerate(new_mgrs):
                 if i < len(existing):
-                    # Preserve manually-set funds_managed and changed_last_12mo
-                    mgr['funds_managed']     = existing[i].get('funds_managed', 1)
+                    # Preserve only changed_last_12mo (human judgment, not scraped).
+                    # funds_managed is now sourced from Groww fund_manager_details and
+                    # should be overwritten with accurate data each run.
                     mgr['changed_last_12mo'] = existing[i].get('changed_last_12mo', False)
             static[code]['managers'] = new_mgrs
 
