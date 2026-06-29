@@ -787,9 +787,9 @@
       "5y": 22.9
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 52,
     "max_drawdown_5y_pct": -28.9,
@@ -1573,9 +1573,9 @@
       "5y": 19.5
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 49,
     "max_drawdown_5y_pct": -20.7,
@@ -2107,9 +2107,9 @@
       "5y": 20.9
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 55,
     "max_drawdown_5y_pct": -17.0,
@@ -6015,9 +6015,9 @@
       "5y": 15.8
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 39,
     "max_drawdown_5y_pct": -20.3,
@@ -6123,9 +6123,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 78,
     "max_drawdown_5y_pct": -18.6,
@@ -6243,9 +6243,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 85,
     "max_drawdown_5y_pct": -22.7,
@@ -6351,9 +6351,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 64,
     "max_drawdown_5y_pct": -21.2,
@@ -6440,11 +6440,11 @@
       "5y": 13.4
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
-    "rolling_consistency_3y_pct": 31,
+    "rolling_consistency_3y_pct": 28,
     "max_drawdown_5y_pct": -22.5,
     "recovery_months": 13,
     "nav_history_3y": [
@@ -6554,9 +6554,9 @@
       "5y": 20.7
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 73,
     "max_drawdown_5y_pct": -20.1,
@@ -6668,11 +6668,11 @@
       "5y": 15.7
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
-    "rolling_consistency_3y_pct": 43,
+    "rolling_consistency_3y_pct": 42,
     "max_drawdown_5y_pct": -23.9,
     "recovery_months": 11,
     "nav_history_3y": [
@@ -6770,9 +6770,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -24.5,
@@ -6857,9 +6857,9 @@
       "5y": 19.4
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 48,
     "max_drawdown_5y_pct": -21.3,
@@ -6959,11 +6959,11 @@
       "5y": 22.0
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
-    "rolling_consistency_3y_pct": 58,
+    "rolling_consistency_3y_pct": 57,
     "max_drawdown_5y_pct": -20.1,
     "recovery_months": 3,
     "nav_history_3y": [
@@ -7073,9 +7073,9 @@
       "5y": 17.3
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -22.7,
@@ -7193,9 +7193,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -22.5,
@@ -7282,9 +7282,9 @@
       "5y": 18.8
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 63,
     "max_drawdown_5y_pct": -20.9,
@@ -7384,9 +7384,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -21.5,
@@ -7498,9 +7498,9 @@
       "5y": 20.2
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 88,
     "max_drawdown_5y_pct": -20.9,
@@ -7600,11 +7600,11 @@
       "5y": 17.4
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
-    "rolling_consistency_3y_pct": 80,
+    "rolling_consistency_3y_pct": 76,
     "max_drawdown_5y_pct": -22.5,
     "recovery_months": 7,
     "nav_history_3y": [
@@ -7714,9 +7714,9 @@
       "5y": 21.6
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 54,
     "max_drawdown_5y_pct": -19.9,
@@ -7834,9 +7834,9 @@
       "5y": 13.7
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 32,
     "max_drawdown_5y_pct": -19.5,
@@ -7942,9 +7942,9 @@
       "5y": 16.1
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 51,
     "max_drawdown_5y_pct": -17.9,
@@ -8044,11 +8044,11 @@
       "5y": 17.4
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
-    "rolling_consistency_3y_pct": 54,
+    "rolling_consistency_3y_pct": 52,
     "max_drawdown_5y_pct": -21.2,
     "recovery_months": 10,
     "nav_history_3y": [
@@ -8152,11 +8152,11 @@
       "5y": 17.9
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
-    "rolling_consistency_3y_pct": 73,
+    "rolling_consistency_3y_pct": 71,
     "max_drawdown_5y_pct": -21.3,
     "recovery_months": 8,
     "nav_history_3y": [
@@ -8254,9 +8254,9 @@
       "5y": 14.5
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 45,
     "max_drawdown_5y_pct": -22.7,
@@ -8380,9 +8380,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
+      "1y": 6.1,
+      "3y": 21.0,
+      "5y": 18.2
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -19.3,
@@ -8424,144 +8424,6 @@
       21.13,
       21.94,
       22.32
-    ]
-  },
-  {
-    "id": "120841",
-    "name": "quant Mid Cap Fund",
-    "amc": "Quant",
-    "category": "Mid Cap",
-    "scheme_url": "https://groww.in/mutual-funds/quant-mid-cap-fund-direct-growth",
-    "aum_cr": 7904.71,
-    "expense_ratio": 0.74,
-    "manager": {
-      "name": "Varun Pattani",
-      "tenure_years": 1.3,
-      "funds_managed": 25,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Varun Pattani",
-        "tenure_years": 1.3,
-        "funds_managed": 25,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Ayusha Kumbhat",
-        "tenure_years": 1.3,
-        "funds_managed": 25,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Sameer Kate",
-        "tenure_years": 1.2,
-        "funds_managed": 31,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Sanjeev Sharma",
-        "tenure_years": 6.7,
-        "funds_managed": 34,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Sandeep Tandon",
-        "tenure_years": 1.3,
-        "funds_managed": 29,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Ankit A Pande",
-        "tenure_years": 6.1,
-        "funds_managed": 30,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Yug Tibrewal",
-        "tenure_years": 1.2,
-        "funds_managed": 25,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Mid Cap",
-      "actual": "Growth",
-      "r_squared": 0.85,
-      "match": "strict",
-      "basis": "Mid Cap universe"
-    },
-    "concentration": {
-      "top_10_pct": 63.3,
-      "num_stocks": 27,
-      "top_sector_pct": 14.4,
-      "top_sectors": [
-        {
-          "name": "Healthcare",
-          "pct": 14.4
-        },
-        {
-          "name": "Energy",
-          "pct": 14.0
-        },
-        {
-          "name": "Financial",
-          "pct": 9.9
-        }
-      ]
-    },
-    "inception_date": "2013-01-07",
-    "nav": 249.31,
-    "returns": {
-      "1y": 2.2,
-      "3y": 17.5,
-      "5y": 17.7
-    },
-    "category_avg_returns": {
-      "1y": 5.9,
-      "3y": 20.9,
-      "5y": 18.1
-    },
-    "rolling_consistency_3y_pct": 39,
-    "max_drawdown_5y_pct": -26.0,
-    "recovery_months": 16,
-    "nav_history_3y": [
-      171.12,
-      172.73,
-      182.32,
-      176.47,
-      193.12,
-      204.95,
-      222.49,
-      228.32,
-      233.22,
-      252.92,
-      260.13,
-      270.85,
-      278.06,
-      271.88,
-      274.59,
-      253.53,
-      249.16,
-      246.49,
-      238.75,
-      209.93,
-      227.72,
-      236.42,
-      243.29,
-      247.83,
-      240.16,
-      228.18,
-      229.53,
-      241.24,
-      240.04,
-      235.51,
-      217.36,
-      221.21,
-      212.36,
-      240.54,
-      248.67,
-      249.31
     ]
   }
 ]
