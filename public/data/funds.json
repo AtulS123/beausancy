@@ -788,8 +788,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 53,
     "max_drawdown_5y_pct": -28.9,
@@ -1574,8 +1574,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 51,
     "max_drawdown_5y_pct": -20.7,
@@ -2108,8 +2108,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 58,
     "max_drawdown_5y_pct": -17.0,
@@ -3722,86 +3722,6 @@
       89.52,
       92.16,
       97.22
-    ]
-  },
-  {
-    "id": "153912",
-    "name": "Helios Small Cap Fund",
-    "amc": "Helios",
-    "category": "Small Cap",
-    "scheme_url": "https://groww.in/mutual-funds/helios-small-cap-fund-direct-growth",
-    "aum_cr": 1037.25,
-    "expense_ratio": 0.82,
-    "manager": {
-      "name": "Pratik Singh",
-      "tenure_years": 0.7,
-      "funds_managed": 7,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Pratik Singh",
-        "tenure_years": 0.7,
-        "funds_managed": 7,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Alok Bahl",
-        "tenure_years": 0.7,
-        "funds_managed": 8,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Small Cap",
-      "actual": "Blend",
-      "r_squared": 0.0,
-      "match": "moderate",
-      "basis": "Blend"
-    },
-    "concentration": {
-      "top_10_pct": 18.8,
-      "num_stocks": 79,
-      "top_sector_pct": 25.2,
-      "top_sectors": [
-        {
-          "name": "Services",
-          "pct": 25.2
-        },
-        {
-          "name": "Capital Goods",
-          "pct": 18.1
-        },
-        {
-          "name": "Financial",
-          "pct": 12.0
-        }
-      ]
-    },
-    "inception_date": "2025-11-28",
-    "nav": 11.09,
-    "returns": {
-      "1y": null,
-      "3y": null,
-      "5y": null
-    },
-    "category_avg_returns": {
-      "1y": 7.4,
-      "3y": 19.0,
-      "5y": 18.3
-    },
-    "rolling_consistency_3y_pct": null,
-    "max_drawdown_5y_pct": -16.9,
-    "recovery_months": 1,
-    "nav_history_3y": [
-      10.04,
-      9.83,
-      9.22,
-      9.29,
-      8.44,
-      9.85,
-      10.31,
-      11.09
     ]
   },
   {
@@ -6022,10 +5942,10 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
-    "rolling_consistency_3y_pct": 43,
+    "rolling_consistency_3y_pct": 45,
     "max_drawdown_5y_pct": -20.3,
     "recovery_months": 12,
     "nav_history_3y": [
@@ -6124,8 +6044,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 85,
     "max_drawdown_5y_pct": -18.6,
@@ -6244,8 +6164,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 85,
     "max_drawdown_5y_pct": -22.7,
@@ -6352,8 +6272,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 67,
     "max_drawdown_5y_pct": -21.2,
@@ -6395,6 +6315,95 @@
       18.0,
       18.41,
       18.95
+    ]
+  },
+  {
+    "id": "119071",
+    "name": "DSP Midcap Fund",
+    "amc": "DSP",
+    "category": "Mid Cap",
+    "scheme_url": "https://www.dspim.com/nfo/factsheets",
+    "aum_cr": 0,
+    "expense_ratio": 0,
+    "manager": {
+      "name": "Unknown",
+      "tenure_years": 0.0,
+      "funds_managed": 1,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Unknown",
+        "tenure_years": 0.0,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 0,
+      "num_stocks": 0,
+      "top_sector_pct": 0,
+      "top_sectors": []
+    },
+    "inception_date": "2013-01-02",
+    "nav": 171.24,
+    "returns": {
+      "1y": 3.6,
+      "3y": 18.6,
+      "5y": 13.3
+    },
+    "category_avg_returns": {
+      "1y": 4.6,
+      "3y": 20.3,
+      "5y": 18.0
+    },
+    "rolling_consistency_3y_pct": 36,
+    "max_drawdown_5y_pct": -22.5,
+    "recovery_months": 13,
+    "nav_history_3y": [
+      109.93,
+      114.51,
+      115.65,
+      111.81,
+      123.63,
+      131.22,
+      130.31,
+      129.63,
+      127.72,
+      137.61,
+      143.37,
+      156.12,
+      164.98,
+      166.66,
+      169.01,
+      159.51,
+      161.18,
+      162.18,
+      149.34,
+      133.64,
+      144.78,
+      148.64,
+      157.97,
+      165.34,
+      163.59,
+      161.07,
+      162.21,
+      166.16,
+      168.45,
+      166.52,
+      162.22,
+      167.49,
+      148.88,
+      165.24,
+      167.16,
+      171.24
     ]
   },
   {
@@ -6466,8 +6475,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 75,
     "max_drawdown_5y_pct": -20.1,
@@ -6580,8 +6589,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 45,
     "max_drawdown_5y_pct": -23.9,
@@ -6682,8 +6691,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -24.5,
@@ -6769,10 +6778,10 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
-    "rolling_consistency_3y_pct": 49,
+    "rolling_consistency_3y_pct": 51,
     "max_drawdown_5y_pct": -21.3,
     "recovery_months": 3,
     "nav_history_3y": [
@@ -6871,8 +6880,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 61,
     "max_drawdown_5y_pct": -20.1,
@@ -6985,8 +6994,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -22.7,
@@ -7105,8 +7114,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -22.5,
@@ -7194,10 +7203,10 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
-    "rolling_consistency_3y_pct": 64,
+    "rolling_consistency_3y_pct": 66,
     "max_drawdown_5y_pct": -20.9,
     "recovery_months": 5,
     "nav_history_3y": [
@@ -7296,8 +7305,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -21.5,
@@ -7410,10 +7419,10 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
-    "rolling_consistency_3y_pct": 89,
+    "rolling_consistency_3y_pct": 91,
     "max_drawdown_5y_pct": -20.9,
     "recovery_months": 14,
     "nav_history_3y": [
@@ -7512,8 +7521,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 82,
     "max_drawdown_5y_pct": -22.5,
@@ -7626,8 +7635,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 55,
     "max_drawdown_5y_pct": -19.9,
@@ -7746,8 +7755,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 33,
     "max_drawdown_5y_pct": -19.5,
@@ -7854,8 +7863,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 51,
     "max_drawdown_5y_pct": -17.9,
@@ -7956,10 +7965,10 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
-    "rolling_consistency_3y_pct": 55,
+    "rolling_consistency_3y_pct": 57,
     "max_drawdown_5y_pct": -21.2,
     "recovery_months": 10,
     "nav_history_3y": [
@@ -8064,10 +8073,10 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
-    "rolling_consistency_3y_pct": 78,
+    "rolling_consistency_3y_pct": 80,
     "max_drawdown_5y_pct": -21.3,
     "recovery_months": 8,
     "nav_history_3y": [
@@ -8166,8 +8175,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 48,
     "max_drawdown_5y_pct": -22.7,
@@ -8292,8 +8301,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -19.3,
@@ -8430,8 +8439,8 @@
     },
     "category_avg_returns": {
       "1y": 4.6,
-      "3y": 20.4,
-      "5y": 18.3
+      "3y": 20.3,
+      "5y": 18.0
     },
     "rolling_consistency_3y_pct": 40,
     "max_drawdown_5y_pct": -26.0,
