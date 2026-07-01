@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Static fund data maintained manually. Update monthly after AMC factsheets are published (typically by the 10th of each month).",
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-07-01",
     "fields": {
       "aum_cr": "AUM in crores -- source: AMFI monthly AAUM report or fund factsheet",
       "expense_ratio": "Direct plan TER (%) -- source: AMC website or SEBI TER disclosure",
@@ -12,12 +12,12 @@
   },
   "122639": {
     "scheme_url": "https://groww.in/mutual-funds/parag-parikh-long-term-value-fund-direct-growth",
-    "aum_cr": 140949.13,
-    "expense_ratio": 0.62,
+    "aum_cr": 141446.73,
+    "expense_ratio": 0.7,
     "managers": [
       {
         "name": "Mansi Kariya",
-        "tenure_years": 2.4,
+        "tenure_years": 2.5,
         "funds_managed": 4,
         "changed_last_12mo": false
       },
@@ -41,13 +41,13 @@
       },
       {
         "name": "Raj Mehta",
-        "tenure_years": 10.3,
+        "tenure_years": 10.4,
         "funds_managed": 6,
         "changed_last_12mo": false
       },
       {
         "name": "Rukun Tarachandani",
-        "tenure_years": 4.0,
+        "tenure_years": 4.1,
         "funds_managed": 6,
         "changed_last_12mo": false
       },
@@ -87,18 +87,18 @@
   },
   "118955": {
     "scheme_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
-    "aum_cr": 100479.23,
-    "expense_ratio": 0.68,
+    "aum_cr": 101821.82,
+    "expense_ratio": 0.78,
     "managers": [
       {
         "name": "Dhruv Muchhal",
-        "tenure_years": 2.9,
+        "tenure_years": 3.0,
         "funds_managed": 46,
         "changed_last_12mo": false
       },
       {
         "name": "Amit Ganatra",
-        "tenure_years": 0.3,
+        "tenure_years": 0.4,
         "funds_managed": 2,
         "changed_last_12mo": false
       }
@@ -131,12 +131,12 @@
     }
   },
   "118825": {
-    "aum_cr": 38239.21,
-    "expense_ratio": 0.57,
+    "aum_cr": 37692.41,
+    "expense_ratio": 0.76,
     "managers": [
       {
         "name": "Gaurav Misra",
-        "tenure_years": 7.3,
+        "tenure_years": 7.4,
         "funds_managed": 2,
         "changed_last_12mo": false
       }
@@ -169,24 +169,24 @@
     }
   },
   "118778": {
-    "aum_cr": 72672.99,
-    "expense_ratio": 1.25,
+    "aum_cr": 74604.07,
+    "expense_ratio": 0.73,
     "managers": [
       {
         "name": "Samir Rachh",
-        "tenure_years": 9.4,
+        "tenure_years": 9.5,
         "funds_managed": 1,
         "changed_last_12mo": false
       },
       {
         "name": "Amber Singhania",
-        "tenure_years": 0.2,
+        "tenure_years": 0.3,
         "funds_managed": 44,
         "changed_last_12mo": false
       },
       {
         "name": "Kinjal Desai",
-        "tenure_years": 0.2,
+        "tenure_years": 0.3,
         "funds_managed": 46,
         "changed_last_12mo": false
       }
@@ -220,24 +220,24 @@
   },
   "120828": {
     "scheme_url": "https://www.quantmutual.com/funds/quant-small-cap-fund-direct-growth",
-    "aum_cr": 30373.69,
-    "expense_ratio": 0.69,
+    "aum_cr": 31773.74,
+    "expense_ratio": 0.81,
     "managers": [
       {
         "name": "Varun Pattani",
-        "tenure_years": 1.3,
+        "tenure_years": 1.4,
         "funds_managed": 25,
         "changed_last_12mo": false
       },
       {
         "name": "Ayusha Kumbhat",
-        "tenure_years": 1.3,
+        "tenure_years": 1.4,
         "funds_managed": 25,
         "changed_last_12mo": false
       },
       {
         "name": "Sameer Kate",
-        "tenure_years": 1.2,
+        "tenure_years": 1.3,
         "funds_managed": 31,
         "changed_last_12mo": false
       },
@@ -249,7 +249,7 @@
       },
       {
         "name": "Sandeep Tandon",
-        "tenure_years": 1.3,
+        "tenure_years": 1.4,
         "funds_managed": 29,
         "changed_last_12mo": false
       },
@@ -261,7 +261,7 @@
       },
       {
         "name": "Yug Tibrewal",
-        "tenure_years": 1.2,
+        "tenure_years": 1.3,
         "funds_managed": 25,
         "changed_last_12mo": false
       }
@@ -295,19 +295,19 @@
   },
   "125497": {
     "scheme_url": "https://groww.in/mutual-funds/sbi-small-midcap-fund-direct-growth",
-    "aum_cr": 37140.78,
-    "expense_ratio": 0.74,
+    "aum_cr": 37394.61,
+    "expense_ratio": 0.79,
     "managers": [
       {
         "name": "Pradeep Kesavan",
-        "tenure_years": 2.5,
+        "tenure_years": 2.6,
         "funds_managed": 46,
         "changed_last_12mo": false
       },
       {
         "name": "Rama Iyer Srinivasan",
-        "tenure_years": 12.5,
-        "funds_managed": 6,
+        "tenure_years": 12.6,
+        "funds_managed": 5,
         "changed_last_12mo": false
       }
     ],
@@ -340,8 +340,8 @@
   },
   "127042": {
     "scheme_url": "https://groww.in/mutual-funds/motilal-oswal-most-focused-midcap-30-fund-direct-growth",
-    "aum_cr": 35734.98,
-    "expense_ratio": 0.75,
+    "aum_cr": 36458.21,
+    "expense_ratio": 0.99,
     "managers": [
       {
         "name": "Ankit Agarwal",
@@ -351,8 +351,8 @@
       },
       {
         "name": "Swapnil P Mayekar",
-        "tenure_years": 0.5,
-        "funds_managed": 46,
+        "tenure_years": 0.6,
+        "funds_managed": 47,
         "changed_last_12mo": false
       },
       {
@@ -369,8 +369,8 @@
       },
       {
         "name": "Rakesh Shetty",
-        "tenure_years": 3.5,
-        "funds_managed": 53,
+        "tenure_years": 3.6,
+        "funds_managed": 54,
         "changed_last_12mo": false
       }
     ],
@@ -402,43 +402,37 @@
     }
   },
   "120377": {
-    "aum_cr": 70551.44,
-    "expense_ratio": 1.58,
+    "aum_cr": 70569.6,
+    "expense_ratio": 1.07,
     "managers": [
       {
         "name": "Sharmila D'Silva",
-        "tenure_years": 3.9,
-        "funds_managed": 48,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Ihab Dalwai",
-        "tenure_years": 8.3,
-        "funds_managed": 6,
+        "tenure_years": 4.0,
+        "funds_managed": 49,
         "changed_last_12mo": false
       },
       {
         "name": "Rajat Chandak",
-        "tenure_years": 10.7,
+        "tenure_years": 10.8,
         "funds_managed": 6,
         "changed_last_12mo": false
       },
       {
         "name": "Akhil Kakkar",
         "tenure_years": 2.4,
-        "funds_managed": 8,
+        "funds_managed": 10,
         "changed_last_12mo": false
       },
       {
         "name": "Sri Sharma",
-        "tenure_years": 5.1,
-        "funds_managed": 6,
+        "tenure_years": 5.2,
+        "funds_managed": 7,
         "changed_last_12mo": false
       },
       {
         "name": "Manish Banthia",
-        "tenure_years": 13.4,
-        "funds_managed": 27,
+        "tenure_years": 13.5,
+        "funds_managed": 29,
         "changed_last_12mo": false
       }
     ],
@@ -471,19 +465,25 @@
   },
   "120716": {
     "scheme_url": "https://groww.in/mutual-funds/uti-nifty-fund-direct-growth",
-    "aum_cr": 27848.74,
-    "expense_ratio": 0.23,
+    "aum_cr": 27826.89,
+    "expense_ratio": 0.26,
     "managers": [
       {
         "name": "Sharwan Kumar Goyal",
-        "tenure_years": 7.9,
+        "tenure_years": 8.0,
         "funds_managed": 21,
         "changed_last_12mo": false
       },
       {
         "name": "Ayush Jain",
-        "tenure_years": 4.1,
+        "tenure_years": 4.2,
         "funds_managed": 18,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Lokesh Kulthia",
+        "tenure_years": 0.1,
+        "funds_managed": 20,
         "changed_last_12mo": false
       }
     ],
@@ -515,12 +515,12 @@
     }
   },
   "135781": {
-    "aum_cr": 25266.67,
-    "expense_ratio": 0.66,
+    "aum_cr": 25373.67,
+    "expense_ratio": 1.04,
     "managers": [
       {
         "name": "Neelesh Surana",
-        "tenure_years": 10.5,
+        "tenure_years": 10.6,
         "funds_managed": 2,
         "changed_last_12mo": false
       }
@@ -554,18 +554,18 @@
   },
   "120503": {
     "scheme_url": "https://groww.in/mutual-funds/axis-long-term-equity-fund-direct-growth",
-    "aum_cr": 31566.11,
-    "expense_ratio": 0.87,
+    "aum_cr": 31023.34,
+    "expense_ratio": 1.05,
     "managers": [
       {
         "name": "Ashish Naik",
-        "tenure_years": 2.8,
+        "tenure_years": 2.9,
         "funds_managed": 4,
         "changed_last_12mo": false
       },
       {
         "name": "Shreyash Devalkar",
-        "tenure_years": 2.8,
+        "tenure_years": 2.9,
         "funds_managed": 6,
         "changed_last_12mo": false
       }
@@ -598,37 +598,37 @@
     }
   },
   "150346": {
-    "aum_cr": 7906.75,
-    "expense_ratio": 0.54,
+    "aum_cr": 8136.5,
+    "expense_ratio": 0.87,
     "managers": [
       {
         "name": "Ramesh Mantri",
-        "tenure_years": 3.9,
-        "funds_managed": 18,
+        "tenure_years": 4.0,
+        "funds_managed": 19,
         "changed_last_12mo": false
       },
       {
         "name": "Piyush Baranwal",
-        "tenure_years": 3.9,
-        "funds_managed": 20,
+        "tenure_years": 4.0,
+        "funds_managed": 21,
         "changed_last_12mo": false
       },
       {
         "name": "Trupti Agrawal",
-        "tenure_years": 3.8,
-        "funds_managed": 17,
+        "tenure_years": 3.9,
+        "funds_managed": 18,
         "changed_last_12mo": false
       },
       {
         "name": "Dheeresh Pathak",
-        "tenure_years": 2.2,
-        "funds_managed": 17,
+        "tenure_years": 2.3,
+        "funds_managed": 18,
         "changed_last_12mo": false
       },
       {
         "name": "Ashish Agrawal",
-        "tenure_years": 1.4,
-        "funds_managed": 18,
+        "tenure_years": 1.5,
+        "funds_managed": 19,
         "changed_last_12mo": false
       }
     ],
@@ -660,12 +660,12 @@
     }
   },
   "120348": {
-    "aum_cr": 19405.59,
-    "expense_ratio": 0.57,
+    "aum_cr": 19517.34,
+    "expense_ratio": 0.8,
     "managers": [
       {
         "name": "Taher Badshah",
-        "tenure_years": 9.4,
+        "tenure_years": 9.5,
         "funds_managed": 7,
         "changed_last_12mo": false
       }
@@ -699,13 +699,13 @@
   },
   "119581": {
     "scheme_url": "https://groww.in/mutual-funds/sundaram-select-midcap-direct-growth",
-    "aum_cr": 13378.01,
-    "expense_ratio": 0.88,
+    "aum_cr": 13686.66,
+    "expense_ratio": 1.08,
     "managers": [
       {
         "name": "Shalav Saket",
-        "tenure_years": 0.5,
-        "funds_managed": 10,
+        "tenure_years": 0.6,
+        "funds_managed": 12,
         "changed_last_12mo": true
       },
       {
@@ -743,8 +743,8 @@
     }
   },
   "148595": {
-    "aum_cr": 1702.98,
-    "expense_ratio": 1.02,
+    "aum_cr": 1824.06,
+    "expense_ratio": 1.73,
     "managers": [
       {
         "name": "Kaivalya Nadkarni",
@@ -787,18 +787,18 @@
     }
   },
   "118617": {
-    "aum_cr": 1439.03,
-    "expense_ratio": 0.67,
+    "aum_cr": 1421.67,
+    "expense_ratio": 0.98,
     "managers": [
       {
         "name": "Bharat Lahoti",
-        "tenure_years": 9.1,
+        "tenure_years": 9.2,
         "funds_managed": 25,
         "changed_last_12mo": false
       },
       {
         "name": "Bhavesh Jain",
-        "tenure_years": 4.7,
+        "tenure_years": 4.8,
         "funds_managed": 31,
         "changed_last_12mo": false
       }
@@ -831,8 +831,8 @@
     }
   },
   "135800": {
-    "aum_cr": 9697.35,
-    "expense_ratio": 0.59,
+    "aum_cr": 9660.01,
+    "expense_ratio": 0.69,
     "managers": [
       {
         "name": "Hasmukh Vishariya",
@@ -939,18 +939,18 @@
   },
   "118989": {
     "scheme_url": "https://groww.in/mutual-funds/hdfc-mid-cap-opportunities-fund-direct-growth",
-    "aum_cr": 94744.72,
-    "expense_ratio": 0.73,
+    "aum_cr": 97350.48,
+    "expense_ratio": 0.75,
     "managers": [
       {
         "name": "Chirag Setalvad",
-        "tenure_years": 13.4,
+        "tenure_years": 13.5,
         "funds_managed": 3,
         "changed_last_12mo": true
       },
       {
         "name": "Dhruv Muchhal",
-        "tenure_years": 2.9,
+        "tenure_years": 3.0,
         "funds_managed": 46,
         "changed_last_12mo": false
       }
@@ -983,30 +983,30 @@
     }
   },
   "133839": {
-    "aum_cr": 5792.97,
-    "expense_ratio": 0.56,
+    "aum_cr": 5732.98,
+    "expense_ratio": 0.87,
     "managers": [
       {
         "name": "Anandha Padmanabhan Anjeneyan",
-        "tenure_years": 5.3,
+        "tenure_years": 5.4,
         "funds_managed": 13,
         "changed_last_12mo": false
       },
       {
         "name": "Vinay Paharia",
-        "tenure_years": 3.2,
+        "tenure_years": 3.3,
         "funds_managed": 10,
         "changed_last_12mo": false
       },
       {
         "name": "Puneet Pal",
-        "tenure_years": 3.2,
+        "tenure_years": 3.3,
         "funds_managed": 20,
         "changed_last_12mo": false
       },
       {
         "name": "Vivek Sharma",
-        "tenure_years": 2.1,
+        "tenure_years": 2.2,
         "funds_managed": 14,
         "changed_last_12mo": false
       }
@@ -1039,18 +1039,18 @@
     }
   },
   "152358": {
-    "aum_cr": 2905.7,
-    "expense_ratio": 0.9,
+    "aum_cr": 3314.83,
+    "expense_ratio": 1.12,
     "managers": [
       {
         "name": "Tarang Agrawal",
-        "tenure_years": 2.4,
+        "tenure_years": 2.5,
         "funds_managed": 1,
         "changed_last_12mo": false
       },
       {
         "name": "Kenneth Andrade",
-        "tenure_years": 2.4,
+        "tenure_years": 2.5,
         "funds_managed": 3,
         "changed_last_12mo": false
       }
@@ -1083,8 +1083,8 @@
     }
   },
   "152584": {
-    "aum_cr": 1081.32,
-    "expense_ratio": 0.66,
+    "aum_cr": 1043.04,
+    "expense_ratio": 1.58,
     "managers": [
       {
         "name": "Aakash Manghani",
@@ -1100,7 +1100,7 @@
       },
       {
         "name": "Saurabh Kataria",
-        "tenure_years": 0.1,
+        "tenure_years": 0.2,
         "funds_managed": 4,
         "changed_last_12mo": false
       }
@@ -1133,24 +1133,24 @@
     }
   },
   "152939": {
-    "aum_cr": 1656.46,
-    "expense_ratio": 0.47,
+    "aum_cr": 1890.75,
+    "expense_ratio": 1.28,
     "managers": [
       {
         "name": "Aakash Manghani",
-        "tenure_years": 1.6,
+        "tenure_years": 1.7,
         "funds_managed": 4,
         "changed_last_12mo": false
       },
       {
         "name": "Mihir Vora",
-        "tenure_years": 1.6,
+        "tenure_years": 1.7,
         "funds_managed": 5,
         "changed_last_12mo": false
       },
       {
         "name": "Saurabh Kataria",
-        "tenure_years": 0.1,
+        "tenure_years": 0.2,
         "funds_managed": 4,
         "changed_last_12mo": false
       }
@@ -1183,24 +1183,24 @@
     }
   },
   "153543": {
-    "aum_cr": 188.01,
-    "expense_ratio": 1.18,
+    "aum_cr": 194.23,
+    "expense_ratio": 1.34,
     "managers": [
       {
         "name": "Aejas Lakhani",
-        "tenure_years": 1.0,
+        "tenure_years": 1.1,
         "funds_managed": 2,
         "changed_last_12mo": false
       },
       {
         "name": "Karthik Srinivas",
-        "tenure_years": 1.0,
+        "tenure_years": 1.1,
         "funds_managed": 3,
         "changed_last_12mo": false
       },
       {
         "name": "Saravanan V N",
-        "tenure_years": 1.0,
+        "tenure_years": 1.1,
         "funds_managed": 3,
         "changed_last_12mo": false
       }
@@ -1233,24 +1233,24 @@
     }
   },
   "153738": {
-    "aum_cr": 424.78,
-    "expense_ratio": 0.94,
+    "aum_cr": 431.45,
+    "expense_ratio": 1.74,
     "managers": [
       {
         "name": "Prateek Jain",
-        "tenure_years": 0.8,
-        "funds_managed": 4,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Anoop Vijaykumar",
         "tenure_years": 0.9,
         "funds_managed": 4,
         "changed_last_12mo": false
       },
       {
+        "name": "Anoop Vijaykumar",
+        "tenure_years": 1.0,
+        "funds_managed": 4,
+        "changed_last_12mo": false
+      },
+      {
         "name": "Divyansh Agnani",
-        "tenure_years": 0.1,
+        "tenure_years": 0.2,
         "funds_managed": 2,
         "changed_last_12mo": false
       }
@@ -1314,24 +1314,24 @@
     }
   },
   "153872": {
-    "aum_cr": 227.71,
-    "expense_ratio": 0.35,
+    "aum_cr": 231.48,
+    "expense_ratio": 1.2,
     "managers": [
       {
         "name": "Neeraj Jain",
-        "tenure_years": 0.4,
+        "tenure_years": 0.5,
         "funds_managed": 3,
         "changed_last_12mo": false
       },
       {
         "name": "Aparna Shanker",
-        "tenure_years": 0.7,
+        "tenure_years": 0.8,
         "funds_managed": 7,
         "changed_last_12mo": false
       },
       {
         "name": "Umesh Sharma",
-        "tenure_years": 0.7,
+        "tenure_years": 0.8,
         "funds_managed": 5,
         "changed_last_12mo": false
       }
@@ -1364,18 +1364,18 @@
     }
   },
   "154043": {
-    "aum_cr": 3901.18,
-    "expense_ratio": 0.5,
+    "aum_cr": 4613.71,
+    "expense_ratio": 0.8,
     "managers": [
       {
         "name": "Abhishek Krishnaswami Srinivas",
-        "tenure_years": 0.2,
+        "tenure_years": 0.3,
         "funds_managed": 3,
         "changed_last_12mo": false
       },
       {
         "name": "Sanjay Doshi",
-        "tenure_years": 0.5,
+        "tenure_years": 0.6,
         "funds_managed": 3,
         "changed_last_12mo": false
       }
@@ -1408,12 +1408,12 @@
     }
   },
   "154215": {
-    "aum_cr": 816.76,
-    "expense_ratio": 0.9,
+    "aum_cr": 1088.92,
+    "expense_ratio": 1.67,
     "managers": [
       {
         "name": "Abhishek Krishnaswami Srinivas",
-        "tenure_years": 0.2,
+        "tenure_years": 0.3,
         "funds_managed": 3,
         "changed_last_12mo": false
       },
@@ -1453,18 +1453,18 @@
   },
   "119556": {
     "scheme_url": "https://groww.in/mutual-funds/birla-sun-life-small-midcap-fund-direct-growth",
-    "aum_cr": 5253.5,
-    "expense_ratio": 0.92,
+    "aum_cr": 5452.53,
+    "expense_ratio": 1.03,
     "managers": [
       {
         "name": "Abhinav Khandelwal",
-        "tenure_years": 1.6,
+        "tenure_years": 1.7,
         "funds_managed": 2,
         "changed_last_12mo": false
       },
       {
         "name": "Dhaval Joshi",
-        "tenure_years": 3.5,
+        "tenure_years": 3.6,
         "funds_managed": 7,
         "changed_last_12mo": false
       }
@@ -1497,12 +1497,12 @@
     }
   },
   "125354": {
-    "aum_cr": 27363.97,
-    "expense_ratio": 0.61,
+    "aum_cr": 27840.05,
+    "expense_ratio": 0.74,
     "managers": [
       {
         "name": "Mayank Hyanki",
-        "tenure_years": 2.8,
+        "tenure_years": 2.9,
         "funds_managed": 3,
         "changed_last_12mo": false
       },
@@ -1547,24 +1547,24 @@
     }
   },
   "153612": {
-    "aum_cr": 1902.77,
-    "expense_ratio": 0.61,
+    "aum_cr": 1982.67,
+    "expense_ratio": 0.92,
     "managers": [
       {
         "name": "Siddharth Chaudhary",
-        "tenure_years": 0.9,
+        "tenure_years": 1.0,
         "funds_managed": 19,
         "changed_last_12mo": false
       },
       {
         "name": "Nimesh Chandan",
-        "tenure_years": 0.9,
+        "tenure_years": 1.0,
         "funds_managed": 13,
         "changed_last_12mo": false
       },
       {
         "name": "Sorbh Gupta",
-        "tenure_years": 0.9,
+        "tenure_years": 1.0,
         "funds_managed": 8,
         "changed_last_12mo": false
       }
@@ -1597,12 +1597,12 @@
     }
   },
   "147946": {
-    "aum_cr": 25345.79,
-    "expense_ratio": 0.38,
+    "aum_cr": 27219.13,
+    "expense_ratio": 0.63,
     "managers": [
       {
         "name": "Manish Gunwani",
-        "tenure_years": 3.3,
+        "tenure_years": 3.4,
         "funds_managed": 7,
         "changed_last_12mo": false
       },
@@ -1614,13 +1614,13 @@
       },
       {
         "name": "Gaurav Satra",
-        "tenure_years": 2.0,
+        "tenure_years": 2.1,
         "funds_managed": 23,
         "changed_last_12mo": false
       },
       {
         "name": "Kirthi Jain",
-        "tenure_years": 3.0,
+        "tenure_years": 3.1,
         "funds_managed": 2,
         "changed_last_12mo": false
       }
@@ -1653,12 +1653,12 @@
     }
   },
   "145678": {
-    "aum_cr": 2167.57,
-    "expense_ratio": 0.56,
+    "aum_cr": 2318.41,
+    "expense_ratio": 0.7,
     "managers": [
       {
         "name": "Nav Bhardwaj",
-        "tenure_years": 0.9,
+        "tenure_years": 1.0,
         "funds_managed": 1,
         "changed_last_12mo": false
       },
@@ -1697,19 +1697,13 @@
     }
   },
   "152128": {
-    "aum_cr": 1203.82,
-    "expense_ratio": 0.94,
+    "aum_cr": 1222.14,
+    "expense_ratio": 1.16,
     "managers": [
       {
         "name": "Himanshu Singh",
-        "tenure_years": 1.6,
-        "funds_managed": 5,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Sanjay Chawla",
-        "tenure_years": 0.5,
-        "funds_managed": 16,
+        "tenure_years": 1.7,
+        "funds_managed": 4,
         "changed_last_12mo": false
       }
     ],
@@ -1741,18 +1735,18 @@
     }
   },
   "146130": {
-    "aum_cr": 13276.0,
-    "expense_ratio": 0.54,
+    "aum_cr": 13363.87,
+    "expense_ratio": 0.65,
     "managers": [
       {
         "name": "Shridatta Bhandwaldar",
-        "tenure_years": 6.7,
+        "tenure_years": 6.8,
         "funds_managed": 13,
         "changed_last_12mo": false
       },
       {
         "name": "Pranav Gokhale",
-        "tenure_years": 2.6,
+        "tenure_years": 2.7,
         "funds_managed": 5,
         "changed_last_12mo": false
       }
@@ -1786,12 +1780,12 @@
   },
   "119212": {
     "scheme_url": "https://groww.in/mutual-funds/dsp-blackrock-micro-cap-fund-direct-growth",
-    "aum_cr": 17905.82,
-    "expense_ratio": 0.79,
+    "aum_cr": 18358.18,
+    "expense_ratio": 0.83,
     "managers": [
       {
         "name": "Vinit Sambre",
-        "tenure_years": 13.4,
+        "tenure_years": 13.5,
         "funds_managed": 2,
         "changed_last_12mo": false
       }
@@ -1824,24 +1818,24 @@
     }
   },
   "146196": {
-    "aum_cr": 5952.01,
-    "expense_ratio": 0.52,
+    "aum_cr": 6155.89,
+    "expense_ratio": 0.62,
     "managers": [
       {
         "name": "Raj Koradia",
-        "tenure_years": 1.8,
+        "tenure_years": 1.9,
         "funds_managed": 8,
         "changed_last_12mo": false
       },
       {
         "name": "Trideep Bhattacharya",
-        "tenure_years": 4.4,
+        "tenure_years": 4.5,
         "funds_managed": 11,
         "changed_last_12mo": false
       },
       {
         "name": "Dhruv Bhatia",
-        "tenure_years": 1.6,
+        "tenure_years": 1.7,
         "funds_managed": 3,
         "changed_last_12mo": false
       }
@@ -1874,24 +1868,24 @@
     }
   },
   "118525": {
-    "aum_cr": 13850.25,
-    "expense_ratio": 1.25,
+    "aum_cr": 13847.34,
+    "expense_ratio": 1.05,
     "managers": [
       {
         "name": "Sandeep Manam",
-        "tenure_years": 4.6,
+        "tenure_years": 4.7,
         "funds_managed": 21,
         "changed_last_12mo": false
       },
       {
         "name": "R Janakiraman",
-        "tenure_years": 13.4,
+        "tenure_years": 13.5,
         "funds_managed": 9,
         "changed_last_12mo": false
       },
       {
         "name": "Akhil Kalluri",
-        "tenure_years": 3.7,
+        "tenure_years": 3.8,
         "funds_managed": 3,
         "changed_last_12mo": false
       }
@@ -1924,12 +1918,24 @@
     }
   },
   "154063": {
-    "aum_cr": 296.07,
+    "aum_cr": 343.33,
     "expense_ratio": 1.17,
     "managers": [
       {
         "name": "Anupam Tiwari",
-        "tenure_years": 0.4,
+        "tenure_years": 0.5,
+        "funds_managed": 5,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Gagan Thareja",
+        "tenure_years": 0.1,
+        "funds_managed": 5,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Saptarshee Chatterjee",
+        "tenure_years": 0.1,
         "funds_managed": 5,
         "changed_last_12mo": false
       }
@@ -1962,18 +1968,18 @@
     }
   },
   "130503": {
-    "aum_cr": 38168.18,
-    "expense_ratio": 0.73,
+    "aum_cr": 38809.48,
+    "expense_ratio": 0.77,
     "managers": [
       {
         "name": "Dhruv Muchhal",
-        "tenure_years": 2.9,
+        "tenure_years": 3.0,
         "funds_managed": 46,
         "changed_last_12mo": false
       },
       {
         "name": "Chirag Setalvad",
-        "tenure_years": 11.9,
+        "tenure_years": 12.0,
         "funds_managed": 3,
         "changed_last_12mo": false
       }
@@ -2006,19 +2012,19 @@
     }
   },
   "151130": {
-    "aum_cr": 16393.56,
-    "expense_ratio": 0.66,
+    "aum_cr": 16876.72,
+    "expense_ratio": 0.76,
     "managers": [
       {
         "name": "Venugopal Manghat",
         "tenure_years": 6.5,
-        "funds_managed": 4,
+        "funds_managed": 5,
         "changed_last_12mo": false
       },
       {
         "name": "Mayank Chaturvedi",
-        "tenure_years": 0.7,
-        "funds_managed": 19,
+        "tenure_years": 0.8,
+        "funds_managed": 20,
         "changed_last_12mo": false
       }
     ],
@@ -2050,18 +2056,18 @@
     }
   },
   "153912": {
-    "aum_cr": 932.43,
-    "expense_ratio": 0.68,
+    "aum_cr": 1037.25,
+    "expense_ratio": 0.82,
     "managers": [
       {
         "name": "Pratik Singh",
-        "tenure_years": 0.6,
+        "tenure_years": 0.7,
         "funds_managed": 7,
         "changed_last_12mo": false
       },
       {
         "name": "Alok Bahl",
-        "tenure_years": 0.6,
+        "tenure_years": 0.7,
         "funds_managed": 8,
         "changed_last_12mo": false
       }
@@ -2094,24 +2100,24 @@
     }
   },
   "147919": {
-    "aum_cr": 2936.51,
-    "expense_ratio": 0.55,
+    "aum_cr": 3034.33,
+    "expense_ratio": 0.84,
     "managers": [
       {
         "name": "Rajesh Bhatia",
-        "tenure_years": 2.0,
+        "tenure_years": 2.1,
         "funds_managed": 11,
         "changed_last_12mo": false
       },
       {
         "name": "Dhimant Shah",
-        "tenure_years": 3.8,
+        "tenure_years": 3.9,
         "funds_managed": 8,
         "changed_last_12mo": false
       },
       {
         "name": "Alok Ranjan",
-        "tenure_years": 0.1,
+        "tenure_years": 0.2,
         "funds_managed": 8,
         "changed_last_12mo": false
       }
@@ -2144,8 +2150,8 @@
     }
   },
   "152614": {
-    "aum_cr": 677.43,
-    "expense_ratio": 0.8,
+    "aum_cr": 729.63,
+    "expense_ratio": 1.0,
     "managers": [
       {
         "name": "Satish Ramanathan",
@@ -2161,14 +2167,14 @@
       },
       {
         "name": "Deepak Gupta",
-        "tenure_years": 1.1,
-        "funds_managed": 10,
+        "tenure_years": 1.2,
+        "funds_managed": 11,
         "changed_last_12mo": false
       },
       {
         "name": "Asit Bhandarkar",
-        "tenure_years": 2.0,
-        "funds_managed": 10,
+        "tenure_years": 2.1,
+        "funds_managed": 11,
         "changed_last_12mo": false
       }
     ],
@@ -2225,8 +2231,8 @@
     }
   },
   "152004": {
-    "aum_cr": 660.05,
-    "expense_ratio": 1.0,
+    "aum_cr": 694.93,
+    "expense_ratio": 1.45,
     "managers": [
       {
         "name": "Dikshit Mittal",
@@ -2236,7 +2242,7 @@
       },
       {
         "name": "Mahesh Bendre",
-        "tenure_years": 1.9,
+        "tenure_years": 2.0,
         "funds_managed": 8,
         "changed_last_12mo": false
       }
@@ -2269,24 +2275,24 @@
     }
   },
   "150915": {
-    "aum_cr": 4461.52,
-    "expense_ratio": 0.49,
+    "aum_cr": 4590.9,
+    "expense_ratio": 0.88,
     "managers": [
       {
         "name": "Krishna Sanghavi",
-        "tenure_years": 1.6,
+        "tenure_years": 1.7,
         "funds_managed": 6,
         "changed_last_12mo": false
       },
       {
         "name": "Vishal Jajoo",
-        "tenure_years": 1.4,
+        "tenure_years": 1.5,
         "funds_managed": 5,
         "changed_last_12mo": false
       },
       {
         "name": "Neelesh Dhamnaskar",
-        "tenure_years": 0.3,
+        "tenure_years": 0.4,
         "funds_managed": 6,
         "changed_last_12mo": false
       }
@@ -2319,19 +2325,19 @@
     }
   },
   "153196": {
-    "aum_cr": 4123.42,
-    "expense_ratio": 0.37,
+    "aum_cr": 4380.82,
+    "expense_ratio": 0.73,
     "managers": [
       {
         "name": "Siddharth Srivastava",
-        "tenure_years": 1.4,
+        "tenure_years": 1.5,
         "funds_managed": 5,
         "changed_last_12mo": false
       },
       {
         "name": "Varun Goel",
-        "tenure_years": 1.4,
-        "funds_managed": 2,
+        "tenure_years": 1.5,
+        "funds_managed": 3,
         "changed_last_12mo": false
       }
     ],
@@ -2363,8 +2369,8 @@
     }
   },
   "152237": {
-    "aum_cr": 6206.07,
-    "expense_ratio": 1.73,
+    "aum_cr": 6515.37,
+    "expense_ratio": 0.82,
     "managers": [
       {
         "name": "Bhalchandra Shinde",
@@ -2374,19 +2380,19 @@
       },
       {
         "name": "Rakesh Shetty",
-        "tenure_years": 2.5,
-        "funds_managed": 53,
+        "tenure_years": 2.6,
+        "funds_managed": 54,
         "changed_last_12mo": false
       },
       {
         "name": "Swapnil P Mayekar",
-        "tenure_years": 0.5,
-        "funds_managed": 46,
+        "tenure_years": 0.6,
+        "funds_managed": 47,
         "changed_last_12mo": false
       },
       {
         "name": "Ajay Khandelwal",
-        "tenure_years": 2.5,
+        "tenure_years": 2.6,
         "funds_managed": 13,
         "changed_last_12mo": false
       }
@@ -2419,30 +2425,30 @@
     }
   },
   "149019": {
-    "aum_cr": 1539.34,
-    "expense_ratio": 0.66,
+    "aum_cr": 1567.38,
+    "expense_ratio": 0.85,
     "managers": [
       {
         "name": "Puneet Pal",
-        "tenure_years": 3.2,
+        "tenure_years": 3.3,
         "funds_managed": 20,
         "changed_last_12mo": false
       },
       {
         "name": "Vinay Paharia",
-        "tenure_years": 3.2,
+        "tenure_years": 3.3,
         "funds_managed": 10,
         "changed_last_12mo": false
       },
       {
         "name": "Vivek Sharma",
-        "tenure_years": 2.1,
+        "tenure_years": 2.2,
         "funds_managed": 14,
         "changed_last_12mo": false
       },
       {
         "name": "Utsav Mehta",
-        "tenure_years": 2.1,
+        "tenure_years": 2.2,
         "funds_managed": 8,
         "changed_last_12mo": false
       }
@@ -2475,18 +2481,18 @@
     }
   },
   "152107": {
-    "aum_cr": 209.37,
-    "expense_ratio": 0.69,
+    "aum_cr": 224.66,
+    "expense_ratio": 0.82,
     "managers": [
       {
         "name": "Abhilasha Satale",
-        "tenure_years": 2.6,
+        "tenure_years": 2.7,
         "funds_managed": 1,
         "changed_last_12mo": false
       },
       {
         "name": "Chirag Mehta",
-        "tenure_years": 2.6,
+        "tenure_years": 2.7,
         "funds_managed": 6,
         "changed_last_12mo": false
       }
@@ -2520,12 +2526,12 @@
   },
   "119589": {
     "scheme_url": "https://groww.in/mutual-funds/sundaram-smile-fund-direct-growth",
-    "aum_cr": 3562.91,
-    "expense_ratio": 0.85,
+    "aum_cr": 3680.99,
+    "expense_ratio": 0.91,
     "managers": [
       {
         "name": "Rohit Seksaria",
-        "tenure_years": 3.6,
+        "tenure_years": 3.7,
         "funds_managed": 19,
         "changed_last_12mo": false
       }
@@ -2558,12 +2564,12 @@
     }
   },
   "145206": {
-    "aum_cr": 11329.85,
-    "expense_ratio": 0.48,
+    "aum_cr": 11645.01,
+    "expense_ratio": 0.52,
     "managers": [
       {
         "name": "Chandraprakash Padiyar",
-        "tenure_years": 7.6,
+        "tenure_years": 7.7,
         "funds_managed": 2,
         "changed_last_12mo": false
       },
@@ -2602,12 +2608,12 @@
     }
   },
   "154269": {
-    "aum_cr": 53.37,
-    "expense_ratio": 0.4,
+    "aum_cr": 67.87,
+    "expense_ratio": 2.4,
     "managers": [
       {
         "name": "Aparna Shanker",
-        "tenure_years": 0.2,
+        "tenure_years": 0.3,
         "funds_managed": 7,
         "changed_last_12mo": false
       }
@@ -2640,8 +2646,8 @@
     }
   },
   "148618": {
-    "aum_cr": 4872.44,
-    "expense_ratio": 0.67,
+    "aum_cr": 4970.44,
+    "expense_ratio": 0.87,
     "managers": [
       {
         "name": "Nitin Jain",
@@ -2704,8 +2710,8 @@
   },
   "120505": {
     "scheme_url": "https://groww.in/mutual-funds/axis-midcap-fund-direct-growth",
-    "aum_cr": 32276.32,
-    "expense_ratio": 0.57,
+    "aum_cr": 32852.13,
+    "expense_ratio": 0.81,
     "managers": [
       {
         "name": "Krishnaa Narayan",
@@ -2715,13 +2721,13 @@
       },
       {
         "name": "Nitin Arora",
-        "tenure_years": 2.8,
+        "tenure_years": 2.9,
         "funds_managed": 4,
         "changed_last_12mo": false
       },
       {
         "name": "Shreyash Devalkar",
-        "tenure_years": 9.5,
+        "tenure_years": 9.6,
         "funds_managed": 6,
         "changed_last_12mo": false
       }
@@ -2755,18 +2761,12 @@
   },
   "150212": {
     "scheme_url": "https://groww.in/mutual-funds/bnp-paribas-mid-cap-fund-direct-growth",
-    "aum_cr": 2389.18,
-    "expense_ratio": 1.17,
+    "aum_cr": 2460.72,
+    "expense_ratio": 0.71,
     "managers": [
       {
-        "name": "Himanshu Singh",
-        "tenure_years": 1.6,
-        "funds_managed": 5,
-        "changed_last_12mo": false
-      },
-      {
         "name": "Rohan Korde",
-        "tenure_years": 0.1,
+        "tenure_years": 0.2,
         "funds_managed": 2,
         "changed_last_12mo": false
       }
@@ -2800,8 +2800,8 @@
   },
   "150404": {
     "scheme_url": "https://groww.in/mutual-funds/bandhan-midcap-fund-direct-growth",
-    "aum_cr": 2108.55,
-    "expense_ratio": 0.57,
+    "aum_cr": 2205.4,
+    "expense_ratio": 0.72,
     "managers": [
       {
         "name": "Ritika Behera",
@@ -2811,19 +2811,19 @@
       },
       {
         "name": "Gaurav Satra",
-        "tenure_years": 2.0,
+        "tenure_years": 2.1,
         "funds_managed": 23,
         "changed_last_12mo": false
       },
       {
         "name": "Harshal Joshi",
-        "tenure_years": 3.8,
+        "tenure_years": 3.9,
         "funds_managed": 22,
         "changed_last_12mo": false
       },
       {
         "name": "Ritu Modi",
-        "tenure_years": 3.5,
+        "tenure_years": 3.6,
         "funds_managed": 2,
         "changed_last_12mo": false
       }
@@ -2857,12 +2857,12 @@
   },
   "150817": {
     "scheme_url": "https://groww.in/mutual-funds/canara-robeco-mid-cap-fund-direct-growth",
-    "aum_cr": 4451.59,
-    "expense_ratio": 0.61,
+    "aum_cr": 4621.79,
+    "expense_ratio": 0.95,
     "managers": [
       {
         "name": "Pranav Gokhale",
-        "tenure_years": 2.6,
+        "tenure_years": 2.7,
         "funds_managed": 5,
         "changed_last_12mo": false
       },
@@ -2921,24 +2921,24 @@
   },
   "140228": {
     "scheme_url": "https://groww.in/mutual-funds/edelweiss-mid-and-small-cap-fund-direct-growth",
-    "aum_cr": 15910.69,
-    "expense_ratio": 0.48,
+    "aum_cr": 16848.6,
+    "expense_ratio": 0.72,
     "managers": [
       {
         "name": "Trideep Bhattacharya",
-        "tenure_years": 4.7,
+        "tenure_years": 4.8,
         "funds_managed": 11,
         "changed_last_12mo": false
       },
       {
         "name": "Raj Koradia",
-        "tenure_years": 1.8,
+        "tenure_years": 1.9,
         "funds_managed": 8,
         "changed_last_12mo": false
       },
       {
         "name": "Dhruv Bhatia",
-        "tenure_years": 1.6,
+        "tenure_years": 1.7,
         "funds_managed": 3,
         "changed_last_12mo": false
       }
@@ -2972,24 +2972,24 @@
   },
   "118533": {
     "scheme_url": "https://groww.in/mutual-funds/franklin-india-mid-cap-fund-direct-growth",
-    "aum_cr": 12102.39,
-    "expense_ratio": 0.96,
+    "aum_cr": 12230.88,
+    "expense_ratio": 1.11,
     "managers": [
       {
         "name": "Sandeep Manam",
-        "tenure_years": 4.6,
+        "tenure_years": 4.7,
         "funds_managed": 21,
         "changed_last_12mo": false
       },
       {
         "name": "R Janakiraman",
-        "tenure_years": 13.4,
+        "tenure_years": 13.5,
         "funds_managed": 9,
         "changed_last_12mo": false
       },
       {
         "name": "Akhil Kalluri",
-        "tenure_years": 4.3,
+        "tenure_years": 4.4,
         "funds_managed": 3,
         "changed_last_12mo": false
       }
@@ -3062,18 +3062,18 @@
   },
   "120381": {
     "scheme_url": "https://groww.in/mutual-funds/icici-prudential-midcap-fund-direct-growth",
-    "aum_cr": 7556.68,
-    "expense_ratio": 1.02,
+    "aum_cr": 7789.35,
+    "expense_ratio": 1.15,
     "managers": [
       {
         "name": "Sharmila D'Silva",
-        "tenure_years": 3.9,
-        "funds_managed": 48,
+        "tenure_years": 4.0,
+        "funds_managed": 49,
         "changed_last_12mo": false
       },
       {
         "name": "Lalit Kumar",
-        "tenure_years": 3.8,
+        "tenure_years": 3.9,
         "funds_managed": 4,
         "changed_last_12mo": false
       }
@@ -3107,8 +3107,8 @@
   },
   "120403": {
     "scheme_url": "https://groww.in/mutual-funds/invesco-india-mid-cap-fund-direct-growth",
-    "aum_cr": 11767.3,
-    "expense_ratio": 0.58,
+    "aum_cr": 12396.75,
+    "expense_ratio": 0.75,
     "managers": [
       {
         "name": "Aditya Khemani",
@@ -3146,24 +3146,24 @@
   },
   "148733": {
     "scheme_url": "https://groww.in/mutual-funds/iti-mid-cap-fund-direct-growth",
-    "aum_cr": 1358.05,
-    "expense_ratio": 0.57,
+    "aum_cr": 1395.37,
+    "expense_ratio": 1.1,
     "managers": [
       {
         "name": "Rajesh Bhatia",
-        "tenure_years": 2.0,
+        "tenure_years": 2.1,
         "funds_managed": 11,
         "changed_last_12mo": false
       },
       {
         "name": "Dhimant Shah",
-        "tenure_years": 3.7,
+        "tenure_years": 3.8,
         "funds_managed": 8,
         "changed_last_12mo": false
       },
       {
         "name": "Alok Ranjan",
-        "tenure_years": 0.1,
+        "tenure_years": 0.2,
         "funds_managed": 8,
         "changed_last_12mo": false
       }
@@ -3197,8 +3197,8 @@
   },
   "150815": {
     "scheme_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
-    "aum_cr": 1161.71,
-    "expense_ratio": 0.66,
+    "aum_cr": 1217.01,
+    "expense_ratio": 0.89,
     "managers": [
       {
         "name": "Ruchi Fozdar",
@@ -3208,20 +3208,20 @@
       },
       {
         "name": "Satish Ramanathan",
-        "tenure_years": 3.6,
+        "tenure_years": 3.7,
         "funds_managed": 9,
         "changed_last_12mo": false
       },
       {
         "name": "Deepak Gupta",
-        "tenure_years": 1.1,
-        "funds_managed": 10,
+        "tenure_years": 1.2,
+        "funds_managed": 11,
         "changed_last_12mo": false
       },
       {
         "name": "Asit Bhandarkar",
         "tenure_years": 1.7,
-        "funds_managed": 10,
+        "funds_managed": 11,
         "changed_last_12mo": false
       }
     ],
@@ -3273,12 +3273,12 @@
   },
   "152002": {
     "scheme_url": "https://groww.in/mutual-funds/lic-mf-midcap-fund-direct-growth",
-    "aum_cr": 346.56,
+    "aum_cr": 357.11,
     "expense_ratio": 1.33,
     "managers": [
       {
         "name": "Dikshit Mittal",
-        "tenure_years": 2.8,
+        "tenure_years": 2.9,
         "funds_managed": 6,
         "changed_last_12mo": false
       }
@@ -3312,24 +3312,24 @@
   },
   "142110": {
     "scheme_url": "https://groww.in/mutual-funds/mahindra-manulife-mid-cap-fund-direct-growth",
-    "aum_cr": 4687.67,
-    "expense_ratio": 0.49,
+    "aum_cr": 4865.69,
+    "expense_ratio": 0.74,
     "managers": [
       {
         "name": "Kirti Dalvi",
-        "tenure_years": 1.5,
+        "tenure_years": 1.6,
         "funds_managed": 5,
         "changed_last_12mo": false
       },
       {
         "name": "Neelesh Dhamnaskar",
-        "tenure_years": 0.3,
+        "tenure_years": 0.4,
         "funds_managed": 6,
         "changed_last_12mo": false
       },
       {
         "name": "Krishna Sanghavi",
-        "tenure_years": 1.6,
+        "tenure_years": 1.7,
         "funds_managed": 6,
         "changed_last_12mo": false
       }
@@ -3363,12 +3363,12 @@
   },
   "147445": {
     "scheme_url": "https://groww.in/mutual-funds/mirae-asset-midcap-fund-direct-growth",
-    "aum_cr": 18387.66,
-    "expense_ratio": 0.59,
+    "aum_cr": 19002.66,
+    "expense_ratio": 0.91,
     "managers": [
       {
         "name": "Ankit Jain",
-        "tenure_years": 6.9,
+        "tenure_years": 7.0,
         "funds_managed": 3,
         "changed_last_12mo": false
       }
@@ -3402,24 +3402,24 @@
   },
   "118668": {
     "scheme_url": "https://groww.in/mutual-funds/nippon-india-growth-mid-cap-fund-direct-growth",
-    "aum_cr": 45820.33,
-    "expense_ratio": 0.86,
+    "aum_cr": 47415.41,
+    "expense_ratio": 0.82,
     "managers": [
       {
         "name": "Rupesh Patel",
-        "tenure_years": 3.4,
+        "tenure_years": 3.5,
         "funds_managed": 2,
         "changed_last_12mo": false
       },
       {
         "name": "Amber Singhania",
-        "tenure_years": 0.2,
+        "tenure_years": 0.3,
         "funds_managed": 44,
         "changed_last_12mo": false
       },
       {
         "name": "Kinjal Desai",
-        "tenure_years": 8.0,
+        "tenure_years": 8.1,
         "funds_managed": 46,
         "changed_last_12mo": false
       }
@@ -3453,30 +3453,30 @@
   },
   "125307": {
     "scheme_url": "https://groww.in/mutual-funds/pgim-india-midcap-fund-direct-growth",
-    "aum_cr": 10737.51,
-    "expense_ratio": 0.56,
+    "aum_cr": 10821.62,
+    "expense_ratio": 0.79,
     "managers": [
       {
         "name": "Vinay Paharia",
-        "tenure_years": 3.2,
+        "tenure_years": 3.3,
         "funds_managed": 10,
         "changed_last_12mo": false
       },
       {
         "name": "Vivek Sharma",
-        "tenure_years": 2.1,
+        "tenure_years": 2.2,
         "funds_managed": 14,
         "changed_last_12mo": false
       },
       {
         "name": "Utsav Mehta",
-        "tenure_years": 2.6,
+        "tenure_years": 2.7,
         "funds_managed": 8,
         "changed_last_12mo": false
       },
       {
         "name": "Puneet Pal",
-        "tenure_years": 3.9,
+        "tenure_years": 4.0,
         "funds_managed": 20,
         "changed_last_12mo": false
       }
@@ -3510,18 +3510,18 @@
   },
   "119716": {
     "scheme_url": "https://groww.in/mutual-funds/sbi-magnum-midcap-fund-direct-growth",
-    "aum_cr": 23247.37,
-    "expense_ratio": 0.85,
+    "aum_cr": 23416.75,
+    "expense_ratio": 1.06,
     "managers": [
       {
         "name": "Bhavin Vithlani",
-        "tenure_years": 2.2,
+        "tenure_years": 2.3,
         "funds_managed": 2,
         "changed_last_12mo": false
       },
       {
         "name": "Pradeep Kesavan",
-        "tenure_years": 2.5,
+        "tenure_years": 2.6,
         "funds_managed": 46,
         "changed_last_12mo": false
       }
@@ -3555,12 +3555,12 @@
   },
   "119178": {
     "scheme_url": "https://groww.in/mutual-funds/tata-mid-cap-growth-fund-direct-growth",
-    "aum_cr": 5604.35,
-    "expense_ratio": 0.65,
+    "aum_cr": 5731.79,
+    "expense_ratio": 0.84,
     "managers": [
       {
         "name": "Satish Chandra Mishra",
-        "tenure_years": 5.2,
+        "tenure_years": 5.3,
         "funds_managed": 3,
         "changed_last_12mo": false
       }
@@ -3594,12 +3594,12 @@
   },
   "148073": {
     "scheme_url": "https://groww.in/mutual-funds/union-midcap-fund-direct-growth",
-    "aum_cr": 1705.41,
-    "expense_ratio": 0.8,
+    "aum_cr": 1771.27,
+    "expense_ratio": 1.03,
     "managers": [
       {
         "name": "Pratik Dharmshi",
-        "tenure_years": 1.5,
+        "tenure_years": 1.6,
         "funds_managed": 8,
         "changed_last_12mo": false
       },
@@ -3639,13 +3639,13 @@
   },
   "120726": {
     "scheme_url": "https://groww.in/mutual-funds/uti-mid-cap-fund-direct-growth",
-    "aum_cr": 11679.71,
-    "expense_ratio": 0.91,
+    "aum_cr": 11870.75,
+    "expense_ratio": 1.05,
     "managers": [
       {
         "name": "Vishal Chopda",
         "tenure_years": 1.0,
-        "funds_managed": 3,
+        "funds_managed": 2,
         "changed_last_12mo": false
       }
     ],
@@ -3678,37 +3678,37 @@
   },
   "150584": {
     "scheme_url": "https://groww.in/mutual-funds/whiteoak-capital-mid-cap-fund-direct-growth",
-    "aum_cr": 5293.04,
-    "expense_ratio": 0.6,
+    "aum_cr": 5732.44,
+    "expense_ratio": 0.99,
     "managers": [
       {
         "name": "Ramesh Mantri",
-        "tenure_years": 3.8,
-        "funds_managed": 18,
+        "tenure_years": 3.9,
+        "funds_managed": 19,
         "changed_last_12mo": false
       },
       {
         "name": "Piyush Baranwal",
-        "tenure_years": 3.8,
-        "funds_managed": 20,
+        "tenure_years": 3.9,
+        "funds_managed": 21,
         "changed_last_12mo": false
       },
       {
         "name": "Trupti Agrawal",
-        "tenure_years": 3.7,
-        "funds_managed": 17,
+        "tenure_years": 3.8,
+        "funds_managed": 18,
         "changed_last_12mo": false
       },
       {
         "name": "Dheeresh Pathak",
-        "tenure_years": 2.2,
-        "funds_managed": 17,
+        "tenure_years": 2.3,
+        "funds_managed": 18,
         "changed_last_12mo": false
       },
       {
         "name": "Ashish Agrawal",
-        "tenure_years": 1.4,
-        "funds_managed": 18,
+        "tenure_years": 1.5,
+        "funds_managed": 19,
         "changed_last_12mo": false
       }
     ],
@@ -3741,24 +3741,24 @@
   },
   "120841": {
     "scheme_url": "https://groww.in/mutual-funds/quant-mid-cap-fund-direct-growth",
-    "aum_cr": 7904.71,
-    "expense_ratio": 0.74,
+    "aum_cr": 8109.12,
+    "expense_ratio": 1.1,
     "managers": [
       {
         "name": "Varun Pattani",
-        "tenure_years": 1.3,
+        "tenure_years": 1.4,
         "funds_managed": 25,
         "changed_last_12mo": false
       },
       {
         "name": "Ayusha Kumbhat",
-        "tenure_years": 1.3,
+        "tenure_years": 1.4,
         "funds_managed": 25,
         "changed_last_12mo": false
       },
       {
         "name": "Sameer Kate",
-        "tenure_years": 1.2,
+        "tenure_years": 1.3,
         "funds_managed": 31,
         "changed_last_12mo": false
       },
@@ -3770,7 +3770,7 @@
       },
       {
         "name": "Sandeep Tandon",
-        "tenure_years": 1.3,
+        "tenure_years": 1.4,
         "funds_managed": 29,
         "changed_last_12mo": false
       },
@@ -3782,7 +3782,7 @@
       },
       {
         "name": "Yug Tibrewal",
-        "tenure_years": 1.2,
+        "tenure_years": 1.3,
         "funds_managed": 25,
         "changed_last_12mo": false
       }
