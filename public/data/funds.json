@@ -1,5 +1,113 @@
 [
   {
+    "id": "118955",
+    "name": "HDFC Flexi Cap Fund",
+    "amc": "HDFC",
+    "category": "Flexi Cap",
+    "scheme_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+    "aum_cr": 110736.41,
+    "expense_ratio": 0.77,
+    "manager": {
+      "name": "Dhruv Muchhal",
+      "tenure_years": 3.2,
+      "funds_managed": 46,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Dhruv Muchhal",
+        "tenure_years": 3.2,
+        "funds_managed": 46,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Amit Ganatra",
+        "tenure_years": 0.6,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Flexi Cap",
+      "actual": "Value",
+      "r_squared": 0.88,
+      "match": "strict",
+      "basis": "Value"
+    },
+    "concentration": {
+      "top_10_pct": 46.3,
+      "num_stocks": 63,
+      "top_sector_pct": 31.9,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 31.9
+        },
+        {
+          "name": "Automobile",
+          "pct": 11.2
+        },
+        {
+          "name": "Healthcare",
+          "pct": 10.1
+        }
+      ]
+    },
+    "inception_date": "2013-01-01",
+    "nav": 2242.76,
+    "returns": {
+      "1y": -0.2,
+      "3y": 15.0,
+      "5y": 16.9
+    },
+    "category_avg_returns": {
+      "1y": 1.8,
+      "3y": 14.4,
+      "5y": 15.0
+    },
+    "rolling_consistency_3y_pct": 61,
+    "max_drawdown_5y_pct": -13.3,
+    "recovery_months": 4,
+    "nav_history_3y": [
+      1409.17,
+      1514.03,
+      1629.7,
+      1667.19,
+      1718.93,
+      1740.46,
+      1798.29,
+      1837.41,
+      1958.08,
+      2023.96,
+      2059.76,
+      2121.39,
+      2043.15,
+      2051.04,
+      2026.15,
+      1977.71,
+      1891.69,
+      2014.47,
+      2097.09,
+      2125.73,
+      2184.46,
+      2153.32,
+      2155.55,
+      2192.76,
+      2266.13,
+      2278.25,
+      2272.57,
+      2243.71,
+      2261.53,
+      1996.49,
+      2137.0,
+      2132.09,
+      2201.72,
+      2267.18,
+      2303.72,
+      2242.76
+    ]
+  },
+  {
     "id": "118825",
     "name": "Mirae Asset Large Cap Fund",
     "amc": "Mirae Asset",
@@ -169,9 +277,9 @@
       "5y": 18.9
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": 79,
     "max_drawdown_5y_pct": -24.2,
@@ -307,9 +415,9 @@
       "5y": 19.8
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": 52,
     "max_drawdown_5y_pct": -25.2,
@@ -415,9 +523,9 @@
       "5y": 14.5
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": 68,
     "max_drawdown_5y_pct": -22.4,
@@ -459,132 +567,6 @@
       204.79,
       217.62,
       214.73
-    ]
-  },
-  {
-    "id": "127042",
-    "name": "Motilal Oswal Midcap Fund",
-    "amc": "Motilal Oswal",
-    "category": "Mid Cap",
-    "scheme_url": "https://groww.in/mutual-funds/motilal-oswal-most-focused-midcap-30-fund-direct-growth",
-    "aum_cr": 40036.07,
-    "expense_ratio": 0.93,
-    "manager": {
-      "name": "Ankit Agarwal",
-      "tenure_years": 0.6,
-      "funds_managed": 12,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Ankit Agarwal",
-        "tenure_years": 0.6,
-        "funds_managed": 12,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Swapnil P Mayekar",
-        "tenure_years": 0.8,
-        "funds_managed": 49,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Ajay Khandelwal",
-        "tenure_years": 1.9,
-        "funds_managed": 14,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Varun Sharma",
-        "tenure_years": 0.6,
-        "funds_managed": 15,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Rakesh Shetty",
-        "tenure_years": 3.8,
-        "funds_managed": 56,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Mid Cap",
-      "actual": "Quality-Growth",
-      "r_squared": 0.83,
-      "match": "moderate",
-      "basis": "Quality"
-    },
-    "concentration": {
-      "top_10_pct": 56.3,
-      "num_stocks": 27,
-      "top_sector_pct": 23.5,
-      "top_sectors": [
-        {
-          "name": "Services",
-          "pct": 23.5
-        },
-        {
-          "name": "Financial",
-          "pct": 21.6
-        },
-        {
-          "name": "Capital Goods",
-          "pct": 11.6
-        }
-      ]
-    },
-    "inception_date": "2014-02-25",
-    "nav": 120.03,
-    "returns": {
-      "1y": -2.0,
-      "3y": 18.8,
-      "5y": 21.2
-    },
-    "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
-    },
-    "rolling_consistency_3y_pct": 62,
-    "max_drawdown_5y_pct": -28.9,
-    "recovery_months": 6,
-    "nav_history_3y": [
-      69.75,
-      76.3,
-      80.75,
-      83.6,
-      86.61,
-      89.54,
-      93.84,
-      94.34,
-      108.31,
-      113.85,
-      115.78,
-      122.24,
-      117.15,
-      123.46,
-      128.27,
-      109.65,
-      101.21,
-      105.8,
-      108.16,
-      114.07,
-      119.8,
-      116.79,
-      116.93,
-      113.28,
-      119.45,
-      118.86,
-      113.7,
-      105.87,
-      102.5,
-      92.96,
-      104.87,
-      106.29,
-      108.52,
-      115.79,
-      123.44,
-      120.03
     ]
   },
   {
@@ -1117,11 +1099,11 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.5,
-      "5y": 11.3
+      "1y": 1.8,
+      "3y": 14.4,
+      "5y": 15.0
     },
-    "rolling_consistency_3y_pct": 100,
+    "rolling_consistency_3y_pct": 96,
     "max_drawdown_5y_pct": -15.6,
     "recovery_months": 4,
     "nav_history_3y": [
@@ -1219,11 +1201,11 @@
       "5y": 13.1
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.5,
-      "5y": 11.3
+      "1y": 1.8,
+      "3y": 14.4,
+      "5y": 15.0
     },
-    "rolling_consistency_3y_pct": 85,
+    "rolling_consistency_3y_pct": 83,
     "max_drawdown_5y_pct": -18.6,
     "recovery_months": 19,
     "nav_history_3y": [
@@ -1327,11 +1309,11 @@
       "5y": 16.7
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
-    "rolling_consistency_3y_pct": 62,
+    "rolling_consistency_3y_pct": 59,
     "max_drawdown_5y_pct": -20.7,
     "recovery_months": 8,
     "nav_history_3y": [
@@ -1371,114 +1353,6 @@
       1662.35,
       1684.44,
       1632.75
-    ]
-  },
-  {
-    "id": "148595",
-    "name": "DSP Value Fund",
-    "amc": "DSP",
-    "category": "Flexi Cap",
-    "scheme_url": "https://groww.in/mutual-funds/dsp-value-fund-direct-growth",
-    "aum_cr": 2143.08,
-    "expense_ratio": 1.61,
-    "manager": {
-      "name": "Kaivalya Nadkarni",
-      "tenure_years": 1.9,
-      "funds_managed": 11,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Kaivalya Nadkarni",
-        "tenure_years": 1.9,
-        "funds_managed": 11,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Abhishek Singh",
-        "tenure_years": 0.3,
-        "funds_managed": 4,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Flexi Cap",
-      "actual": "Value",
-      "r_squared": 0.91,
-      "match": "strict",
-      "basis": "Value"
-    },
-    "concentration": {
-      "top_10_pct": 21.7,
-      "num_stocks": 69,
-      "top_sector_pct": 10.2,
-      "top_sectors": [
-        {
-          "name": "Automobile",
-          "pct": 10.2
-        },
-        {
-          "name": "Energy",
-          "pct": 8.1
-        },
-        {
-          "name": "Technology",
-          "pct": 8.0
-        }
-      ]
-    },
-    "inception_date": "2020-12-11",
-    "nav": 24.32,
-    "returns": {
-      "1y": 5.1,
-      "3y": 15.6,
-      "5y": 12.5
-    },
-    "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.5,
-      "5y": 11.3
-    },
-    "rolling_consistency_3y_pct": 100,
-    "max_drawdown_5y_pct": -16.5,
-    "recovery_months": 5,
-    "nav_history_3y": [
-      15.15,
-      16.5,
-      17.5,
-      18.05,
-      18.55,
-      18.76,
-      18.89,
-      19.22,
-      20.09,
-      21.29,
-      21.87,
-      22.28,
-      21.2,
-      21.4,
-      21.32,
-      20.43,
-      20.02,
-      20.67,
-      20.81,
-      21.73,
-      22.3,
-      22.12,
-      22.1,
-      22.82,
-      23.53,
-      23.61,
-      23.96,
-      24.16,
-      24.06,
-      22.42,
-      24.01,
-      24.27,
-      24.47,
-      25.1,
-      24.92,
-      24.32
     ]
   },
   {
@@ -1800,234 +1674,6 @@
     ]
   },
   {
-    "id": "118989",
-    "name": "HDFC Mid-Cap Opportunities Fund",
-    "amc": "HDFC",
-    "category": "Mid Cap",
-    "scheme_url": "https://groww.in/mutual-funds/hdfc-mid-cap-opportunities-fund-direct-growth",
-    "aum_cr": 105142.69,
-    "expense_ratio": 0.74,
-    "manager": {
-      "name": "Chirag Setalvad",
-      "tenure_years": 13.7,
-      "funds_managed": 3,
-      "changed_last_12mo": true
-    },
-    "managers": [
-      {
-        "name": "Chirag Setalvad",
-        "tenure_years": 13.7,
-        "funds_managed": 3,
-        "changed_last_12mo": true
-      },
-      {
-        "name": "Dhruv Muchhal",
-        "tenure_years": 3.2,
-        "funds_managed": 46,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Mid Cap",
-      "actual": "Growth",
-      "r_squared": 0.86,
-      "match": "strict",
-      "basis": "Growth"
-    },
-    "concentration": {
-      "top_10_pct": 34.0,
-      "num_stocks": 77,
-      "top_sector_pct": 24.4,
-      "top_sectors": [
-        {
-          "name": "Financial",
-          "pct": 24.4
-        },
-        {
-          "name": "Healthcare",
-          "pct": 14.7
-        },
-        {
-          "name": "Automobile",
-          "pct": 9.7
-        }
-      ]
-    },
-    "inception_date": "2013-01-01",
-    "nav": 231.41,
-    "returns": {
-      "1y": 6.0,
-      "3y": 17.2,
-      "5y": 18.9
-    },
-    "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
-    },
-    "rolling_consistency_3y_pct": 70,
-    "max_drawdown_5y_pct": -17.0,
-    "recovery_months": 2,
-    "nav_history_3y": [
-      140.04,
-      151.3,
-      161.48,
-      168.97,
-      171.37,
-      171.26,
-      178.67,
-      183.22,
-      196.37,
-      208.75,
-      207.47,
-      213.17,
-      204.58,
-      205.51,
-      209.08,
-      195.31,
-      178.63,
-      190.72,
-      195.45,
-      206.9,
-      216.47,
-      213.54,
-      209.34,
-      211.77,
-      221.52,
-      226.07,
-      224.75,
-      221.44,
-      223.96,
-      199.42,
-      217.72,
-      221.32,
-      226.76,
-      233.49,
-      237.52,
-      231.41
-    ]
-  },
-  {
-    "id": "133839",
-    "name": "PGIM India Flexi Cap Fund",
-    "amc": "PGIM India",
-    "category": "Flexi Cap",
-    "scheme_url": "https://groww.in/mutual-funds/pgim-india-flexi-cap-fund-direct-growth",
-    "aum_cr": 5897.97,
-    "expense_ratio": 0.84,
-    "manager": {
-      "name": "Anandha Padmanabhan Anjeneyan",
-      "tenure_years": 5.6,
-      "funds_managed": 13,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Anandha Padmanabhan Anjeneyan",
-        "tenure_years": 5.6,
-        "funds_managed": 13,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Vinay Paharia",
-        "tenure_years": 3.4,
-        "funds_managed": 10,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Puneet Pal",
-        "tenure_years": 3.4,
-        "funds_managed": 20,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Vivek Sharma",
-        "tenure_years": 2.4,
-        "funds_managed": 14,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Flexi Cap",
-      "actual": "Quality-Growth",
-      "r_squared": 0.8,
-      "match": "moderate",
-      "basis": "Quality"
-    },
-    "concentration": {
-      "top_10_pct": 31.2,
-      "num_stocks": 83,
-      "top_sector_pct": 25.6,
-      "top_sectors": [
-        {
-          "name": "Financial",
-          "pct": 25.6
-        },
-        {
-          "name": "Healthcare",
-          "pct": 10.2
-        },
-        {
-          "name": "Automobile",
-          "pct": 8.5
-        }
-      ]
-    },
-    "inception_date": "2015-03-09",
-    "nav": 43.62,
-    "returns": {
-      "1y": -0.3,
-      "3y": 10.3,
-      "5y": 8.4
-    },
-    "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.5,
-      "5y": 11.3
-    },
-    "rolling_consistency_3y_pct": 55,
-    "max_drawdown_5y_pct": -22.6,
-    "recovery_months": 12,
-    "nav_history_3y": [
-      30.92,
-      32.88,
-      34.83,
-      34.66,
-      35.46,
-      35.86,
-      36.94,
-      36.3,
-      39.45,
-      40.74,
-      41.79,
-      42.95,
-      40.4,
-      40.69,
-      40.78,
-      39.06,
-      36.16,
-      38.79,
-      40.11,
-      41.1,
-      42.93,
-      42.29,
-      41.96,
-      41.91,
-      43.65,
-      43.88,
-      43.28,
-      41.78,
-      41.95,
-      37.76,
-      41.41,
-      41.44,
-      42.58,
-      43.66,
-      44.58,
-      43.62
-    ]
-  },
-  {
     "id": "154215",
     "name": "Abakkus Small Cap Fund",
     "amc": "Abakkus",
@@ -2089,9 +1735,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -4.3,
@@ -2168,9 +1814,9 @@
       "5y": 14.1
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": 61,
     "max_drawdown_5y_pct": -26.2,
@@ -2282,11 +1928,11 @@
       "5y": 16.3
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
-    "rolling_consistency_3y_pct": 68,
+    "rolling_consistency_3y_pct": 64,
     "max_drawdown_5y_pct": -19.4,
     "recovery_months": 4,
     "nav_history_3y": [
@@ -2326,6 +1972,99 @@
       132.92,
       138.13,
       137.63
+    ]
+  },
+  {
+    "id": "153612",
+    "name": "Bajaj Finserv Small Cap Fund",
+    "amc": "Bajaj Finserv",
+    "category": "Small Cap",
+    "scheme_url": "https://groww.in/mutual-funds/bajaj-finserv-small-cap-fund-direct-growth",
+    "aum_cr": 2363.72,
+    "expense_ratio": 0.98,
+    "manager": {
+      "name": "Siddharth Chaudhary",
+      "tenure_years": 1.2,
+      "funds_managed": 19,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Siddharth Chaudhary",
+        "tenure_years": 1.2,
+        "funds_managed": 19,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Nimesh Chandan",
+        "tenure_years": 1.2,
+        "funds_managed": 13,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Sorbh Gupta",
+        "tenure_years": 1.2,
+        "funds_managed": 8,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 29.3,
+      "num_stocks": 79,
+      "top_sector_pct": 19.6,
+      "top_sectors": [
+        {
+          "name": "Capital Goods",
+          "pct": 19.6
+        },
+        {
+          "name": "Construction",
+          "pct": 14.7
+        },
+        {
+          "name": "Financial",
+          "pct": 12.5
+        }
+      ]
+    },
+    "inception_date": "2025-07-22",
+    "nav": 11.45,
+    "returns": {
+      "1y": 15.8,
+      "3y": null,
+      "5y": null
+    },
+    "category_avg_returns": {
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
+    },
+    "rolling_consistency_3y_pct": null,
+    "max_drawdown_5y_pct": -16.2,
+    "recovery_months": 1,
+    "nav_history_3y": [
+      9.82,
+      9.35,
+      9.47,
+      9.93,
+      9.67,
+      9.65,
+      9.21,
+      9.44,
+      8.49,
+      10.07,
+      10.18,
+      10.85,
+      10.91,
+      11.49,
+      11.45
     ]
   },
   {
@@ -2402,9 +2141,9 @@
       "5y": 19.6
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -24.3,
@@ -2446,6 +2185,114 @@
       55.84,
       57.48,
       57.41
+    ]
+  },
+  {
+    "id": "145678",
+    "name": "Bank of India Small Cap Fund",
+    "amc": "Bank of India",
+    "category": "Small Cap",
+    "scheme_url": "https://groww.in/mutual-funds/bank-of-india-small-cap-fund-direct-growth",
+    "aum_cr": 2819.49,
+    "expense_ratio": 0.72,
+    "manager": {
+      "name": "Nav Bhardwaj",
+      "tenure_years": 1.1,
+      "funds_managed": 2,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Nav Bhardwaj",
+        "tenure_years": 1.1,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Alok Singh",
+        "tenure_years": 1.9,
+        "funds_managed": 10,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.78,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 25.9,
+      "num_stocks": 82,
+      "top_sector_pct": 17.8,
+      "top_sectors": [
+        {
+          "name": "Capital Goods",
+          "pct": 17.8
+        },
+        {
+          "name": "Financial",
+          "pct": 13.5
+        },
+        {
+          "name": "Healthcare",
+          "pct": 11.0
+        }
+      ]
+    },
+    "inception_date": "2018-12-27",
+    "nav": 65.99,
+    "returns": {
+      "1y": 25.1,
+      "3y": 21.9,
+      "5y": 20.0
+    },
+    "category_avg_returns": {
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
+    },
+    "rolling_consistency_3y_pct": 100,
+    "max_drawdown_5y_pct": -27.1,
+    "recovery_months": 14,
+    "nav_history_3y": [
+      37.04,
+      40.48,
+      41.11,
+      42.7,
+      41.68,
+      41.68,
+      45.56,
+      45.63,
+      50.66,
+      53.07,
+      54.33,
+      55.85,
+      54.38,
+      54.92,
+      54.25,
+      48.68,
+      42.18,
+      46.35,
+      46.97,
+      51.18,
+      52.65,
+      52.59,
+      50.18,
+      50.83,
+      52.86,
+      51.62,
+      50.35,
+      47.54,
+      49.24,
+      45.5,
+      54.92,
+      57.84,
+      61.3,
+      62.49,
+      66.27,
+      65.99
     ]
   },
   {
@@ -2510,9 +2357,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -25.0,
@@ -2617,9 +2464,9 @@
       "5y": 15.2
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": 83,
     "max_drawdown_5y_pct": -23.6,
@@ -2719,9 +2566,9 @@
       "5y": 18.4
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": 71,
     "max_drawdown_5y_pct": -24.1,
@@ -2833,9 +2680,9 @@
       "5y": 17.2
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -22.9,
@@ -2947,11 +2794,11 @@
       "5y": 16.0
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
-    "rolling_consistency_3y_pct": 67,
+    "rolling_consistency_3y_pct": 65,
     "max_drawdown_5y_pct": -24.1,
     "recovery_months": 19,
     "nav_history_3y": [
@@ -3067,9 +2914,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -9.9,
@@ -3147,9 +2994,9 @@
       "5y": 14.9
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": 72,
     "max_drawdown_5y_pct": -22.6,
@@ -3255,9 +3102,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": 68,
     "max_drawdown_5y_pct": -27.2,
@@ -3363,9 +3210,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -16.9,
@@ -3446,9 +3293,9 @@
       "5y": 19.5
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": 98,
     "max_drawdown_5y_pct": -29.2,
@@ -3566,9 +3413,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -24.4,
@@ -3646,11 +3493,11 @@
       "5y": 13.1
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
-    "rolling_consistency_3y_pct": 65,
+    "rolling_consistency_3y_pct": 64,
     "max_drawdown_5y_pct": -24.7,
     "recovery_months": 19,
     "nav_history_3y": [
@@ -3748,9 +3595,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -27.0,
@@ -3862,9 +3709,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -26.0,
@@ -3970,9 +3817,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -15.1,
@@ -3998,6 +3845,136 @@
       12.52,
       13.06,
       13.07
+    ]
+  },
+  {
+    "id": "152237",
+    "name": "Motilal Oswal Small Cap Fund",
+    "amc": "Motilal Oswal",
+    "category": "Small Cap",
+    "scheme_url": "https://groww.in/mutual-funds/motilal-oswal-small-cap-fund-direct-growth",
+    "aum_cr": 7604.53,
+    "expense_ratio": 0.85,
+    "manager": {
+      "name": "Bhalchandra Shinde",
+      "tenure_years": 0.6,
+      "funds_managed": 8,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Bhalchandra Shinde",
+        "tenure_years": 0.6,
+        "funds_managed": 8,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Rakesh Shetty",
+        "tenure_years": 2.7,
+        "funds_managed": 56,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Swapnil P Mayekar",
+        "tenure_years": 0.8,
+        "funds_managed": 49,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Ajay Khandelwal",
+        "tenure_years": 2.7,
+        "funds_managed": 14,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Varun Sharma",
+        "tenure_years": 0.2,
+        "funds_managed": 15,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Ankit Agarwal",
+        "tenure_years": 0.1,
+        "funds_managed": 12,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Quality-Growth",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Quality"
+    },
+    "concentration": {
+      "top_10_pct": 32.2,
+      "num_stocks": 54,
+      "top_sector_pct": 13.9,
+      "top_sectors": [
+        {
+          "name": "Capital Goods",
+          "pct": 13.9
+        },
+        {
+          "name": "Healthcare",
+          "pct": 13.3
+        },
+        {
+          "name": "Financial",
+          "pct": 12.9
+        }
+      ]
+    },
+    "inception_date": "2023-12-29",
+    "nav": 17.65,
+    "returns": {
+      "1y": 21.1,
+      "3y": null,
+      "5y": null
+    },
+    "category_avg_returns": {
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
+    },
+    "rolling_consistency_3y_pct": null,
+    "max_drawdown_5y_pct": -23.7,
+    "recovery_months": 14,
+    "nav_history_3y": [
+      10.09,
+      10.37,
+      10.5,
+      10.46,
+      11.29,
+      11.24,
+      12.26,
+      12.96,
+      13.6,
+      14.03,
+      13.93,
+      14.5,
+      14.94,
+      13.43,
+      11.83,
+      12.68,
+      12.71,
+      14.04,
+      14.5,
+      14.19,
+      13.84,
+      14.07,
+      14.81,
+      14.63,
+      14.33,
+      13.53,
+      13.84,
+      12.56,
+      14.8,
+      15.39,
+      16.55,
+      17.05,
+      17.79,
+      17.65
     ]
   },
   {
@@ -4074,11 +4051,11 @@
       "5y": 14.2
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
-    "rolling_consistency_3y_pct": 44,
+    "rolling_consistency_3y_pct": 39,
     "max_drawdown_5y_pct": -24.6,
     "recovery_months": 13,
     "nav_history_3y": [
@@ -4182,9 +4159,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -18.2,
@@ -4283,9 +4260,9 @@
       "5y": 17.2
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": 65,
     "max_drawdown_5y_pct": -23.8,
@@ -4391,9 +4368,9 @@
       "5y": 15.7
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": 83,
     "max_drawdown_5y_pct": -30.9,
@@ -4435,6 +4412,187 @@
       43.44,
       44.73,
       45.38
+    ]
+  },
+  {
+    "id": "154269",
+    "name": "The Wealth Company Small Cap Fund",
+    "amc": "The Wealth Co",
+    "category": "Small Cap",
+    "scheme_url": "https://groww.in/mutual-funds/the-wealth-company-small-cap-fund-direct-growth",
+    "aum_cr": 105.85,
+    "expense_ratio": 2.26,
+    "manager": {
+      "name": "Aparna Shanker",
+      "tenure_years": 0.5,
+      "funds_managed": 8,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Aparna Shanker",
+        "tenure_years": 0.5,
+        "funds_managed": 8,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Chinmay Sathe",
+        "tenure_years": 0.2,
+        "funds_managed": 6,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.0,
+      "match": "moderate",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 24.9,
+      "num_stocks": 53,
+      "top_sector_pct": 18.7,
+      "top_sectors": [
+        {
+          "name": "Capital Goods",
+          "pct": 18.7
+        },
+        {
+          "name": "Financial",
+          "pct": 15.6
+        },
+        {
+          "name": "Healthcare",
+          "pct": 13.4
+        }
+      ]
+    },
+    "inception_date": "2026-03-30",
+    "nav": 11.88,
+    "returns": {
+      "1y": null,
+      "3y": null,
+      "5y": null
+    },
+    "category_avg_returns": {
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
+    },
+    "rolling_consistency_3y_pct": null,
+    "max_drawdown_5y_pct": -5.3,
+    "recovery_months": 1,
+    "nav_history_3y": [
+      9.87,
+      10.82,
+      10.93,
+      11.34,
+      11.45,
+      11.99,
+      11.88
+    ]
+  },
+  {
+    "id": "148618",
+    "name": "UTI Small Cap Fund",
+    "amc": "UTI",
+    "category": "Small Cap",
+    "scheme_url": "https://groww.in/mutual-funds/uti-small-cap-fund-direct-growth",
+    "aum_cr": 5263.02,
+    "expense_ratio": 0.87,
+    "manager": {
+      "name": "Nitin Jain",
+      "tenure_years": 1.9,
+      "funds_managed": 2,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Nitin Jain",
+        "tenure_years": 1.9,
+        "funds_managed": 2,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Small Cap",
+      "actual": "Blend",
+      "r_squared": 0.86,
+      "match": "strict",
+      "basis": "Blend"
+    },
+    "concentration": {
+      "top_10_pct": 21.6,
+      "num_stocks": 103,
+      "top_sector_pct": 14.9,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 14.9
+        },
+        {
+          "name": "Services",
+          "pct": 14.8
+        },
+        {
+          "name": "Healthcare",
+          "pct": 13.7
+        }
+      ]
+    },
+    "inception_date": "2020-12-23",
+    "nav": 29.97,
+    "returns": {
+      "1y": 4.7,
+      "3y": 14.1,
+      "5y": 15.4
+    },
+    "category_avg_returns": {
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
+    },
+    "rolling_consistency_3y_pct": 86,
+    "max_drawdown_5y_pct": -22.3,
+    "recovery_months": 16,
+    "nav_history_3y": [
+      19.62,
+      21.38,
+      22.26,
+      22.92,
+      22.29,
+      21.59,
+      23.18,
+      23.17,
+      25.89,
+      27.69,
+      28.04,
+      28.6,
+      27.8,
+      28.33,
+      28.59,
+      26.22,
+      22.96,
+      24.66,
+      25.1,
+      26.84,
+      28.61,
+      28.09,
+      27.36,
+      27.18,
+      28.52,
+      27.98,
+      27.39,
+      26.26,
+      26.19,
+      23.9,
+      27.76,
+      28.18,
+      29.39,
+      29.53,
+      30.44,
+      29.97
     ]
   },
   {
@@ -4543,114 +4701,6 @@
     ]
   },
   {
-    "id": "152584",
-    "name": "Trust MF Flexi Cap Fund",
-    "amc": "Trust MF",
-    "category": "Flexi Cap",
-    "scheme_url": "https://groww.in/mutual-funds/trustmf-flexi-cap-fund-direct-growth",
-    "aum_cr": 1000.75,
-    "expense_ratio": 1.83,
-    "manager": {
-      "name": "Aakash Manghani",
-      "tenure_years": 2.4,
-      "funds_managed": 5,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Aakash Manghani",
-        "tenure_years": 2.4,
-        "funds_managed": 5,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Mihir Vora",
-        "tenure_years": 2.4,
-        "funds_managed": 6,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Saurabh Kataria",
-        "tenure_years": 0.4,
-        "funds_managed": 5,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Flexi Cap",
-      "actual": "Blend",
-      "r_squared": 0.0,
-      "match": "moderate",
-      "basis": "Blend"
-    },
-    "concentration": {
-      "top_10_pct": 34.7,
-      "num_stocks": 63,
-      "top_sector_pct": 25.0,
-      "top_sectors": [
-        {
-          "name": "Financial",
-          "pct": 25.0
-        },
-        {
-          "name": "Capital Goods",
-          "pct": 10.4
-        },
-        {
-          "name": "Healthcare",
-          "pct": 8.2
-        }
-      ]
-    },
-    "inception_date": "2024-04-29",
-    "nav": 12.77,
-    "returns": {
-      "1y": 7.0,
-      "3y": null,
-      "5y": null
-    },
-    "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.5,
-      "5y": 11.3
-    },
-    "rolling_consistency_3y_pct": null,
-    "max_drawdown_5y_pct": -18.9,
-    "recovery_months": 16,
-    "nav_history_3y": [
-      10.02,
-      10.28,
-      11.0,
-      11.3,
-      11.71,
-      11.96,
-      11.67,
-      11.89,
-      12.19,
-      11.18,
-      10.21,
-      10.85,
-      10.91,
-      11.5,
-      11.88,
-      11.46,
-      11.39,
-      11.45,
-      11.89,
-      12.07,
-      11.89,
-      11.61,
-      11.63,
-      10.47,
-      11.49,
-      11.72,
-      12.12,
-      12.45,
-      13.03,
-      12.77
-    ]
-  },
-  {
     "id": "152939",
     "name": "Trust MF Small Cap Fund",
     "amc": "Trust MF",
@@ -4718,9 +4768,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 11.2,
-      "3y": 16.4,
-      "5y": 16.5
+      "1y": 12.0,
+      "3y": 16.6,
+      "5y": 16.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -24.0,
@@ -4819,9 +4869,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.5,
-      "5y": 11.3
+      "1y": 1.8,
+      "3y": 14.4,
+      "5y": 15.0
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -13.2,
@@ -4913,9 +4963,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.5,
-      "5y": 11.3
+      "1y": 1.8,
+      "3y": 14.4,
+      "5y": 15.0
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -9.2,
@@ -4985,9 +5035,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.5,
-      "5y": 11.3
+      "1y": 1.8,
+      "3y": 14.4,
+      "5y": 15.0
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -14.3,
@@ -5069,9 +5119,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.5,
-      "5y": 11.3
+      "1y": 1.8,
+      "3y": 14.4,
+      "5y": 15.0
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -16.1,
@@ -5153,9 +5203,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.5,
-      "5y": 11.3
+      "1y": 1.8,
+      "3y": 14.4,
+      "5y": 15.0
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -10.7,
@@ -5171,120 +5221,6 @@
       11.12,
       11.48,
       11.15
-    ]
-  },
-  {
-    "id": "120505",
-    "name": "Axis Midcap Fund",
-    "amc": "Axis",
-    "category": "Mid Cap",
-    "scheme_url": "https://groww.in/mutual-funds/axis-midcap-fund-direct-growth",
-    "aum_cr": 34403.73,
-    "expense_ratio": 0.82,
-    "manager": {
-      "name": "Krishnaa Narayan",
-      "tenure_years": 2.5,
-      "funds_managed": 26,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Krishnaa Narayan",
-        "tenure_years": 2.5,
-        "funds_managed": 26,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Nitin Arora",
-        "tenure_years": 3.1,
-        "funds_managed": 4,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Shreyash Devalkar",
-        "tenure_years": 9.8,
-        "funds_managed": 6,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Mid Cap",
-      "actual": "Growth",
-      "r_squared": 0.85,
-      "match": "strict",
-      "basis": "Mid Cap universe"
-    },
-    "concentration": {
-      "top_10_pct": 25.6,
-      "num_stocks": 89,
-      "top_sector_pct": 14.9,
-      "top_sectors": [
-        {
-          "name": "Services",
-          "pct": 14.9
-        },
-        {
-          "name": "Capital Goods",
-          "pct": 13.5
-        },
-        {
-          "name": "Financial",
-          "pct": 11.5
-        }
-      ]
-    },
-    "inception_date": "2013-01-02",
-    "nav": 143.49,
-    "returns": {
-      "1y": 6.2,
-      "3y": 16.6,
-      "5y": 13.1
-    },
-    "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
-    },
-    "rolling_consistency_3y_pct": 67,
-    "max_drawdown_5y_pct": -20.3,
-    "recovery_months": 12,
-    "nav_history_3y": [
-      87.04,
-      93.45,
-      98.51,
-      98.9,
-      102.38,
-      104.26,
-      109.56,
-      114.63,
-      124.86,
-      128.68,
-      131.09,
-      134.59,
-      126.34,
-      127.42,
-      129.43,
-      118.94,
-      109.2,
-      117.35,
-      120.34,
-      127.74,
-      134.23,
-      131.26,
-      129.68,
-      129.93,
-      133.76,
-      134.18,
-      132.07,
-      128.71,
-      133.22,
-      120.14,
-      134.02,
-      136.27,
-      139.86,
-      142.02,
-      145.91,
-      143.49
     ]
   },
   {
@@ -5349,9 +5285,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -18.6,
@@ -5469,9 +5405,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -22.7,
@@ -5577,9 +5513,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -21.2,
@@ -5621,6 +5557,209 @@
       19.2,
       19.84,
       19.39
+    ]
+  },
+  {
+    "id": "119071",
+    "name": "DSP Midcap Fund",
+    "amc": "DSP",
+    "category": "Mid Cap",
+    "scheme_url": "https://www.dspim.com/nfo/factsheets",
+    "aum_cr": 0,
+    "expense_ratio": 0,
+    "manager": {
+      "name": "Unknown",
+      "tenure_years": 0.0,
+      "funds_managed": 1,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Unknown",
+        "tenure_years": 0.0,
+        "funds_managed": 1,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 0,
+      "num_stocks": 0,
+      "top_sector_pct": 0,
+      "top_sectors": []
+    },
+    "inception_date": "2013-01-02",
+    "nav": 173.5,
+    "returns": {
+      "1y": 3.3,
+      "3y": 14.2,
+      "5y": 11.6
+    },
+    "category_avg_returns": {
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
+    },
+    "rolling_consistency_3y_pct": 58,
+    "max_drawdown_5y_pct": -22.5,
+    "recovery_months": 13,
+    "nav_history_3y": [
+      111.81,
+      123.63,
+      131.22,
+      130.31,
+      129.63,
+      127.72,
+      137.61,
+      143.37,
+      156.12,
+      164.98,
+      166.66,
+      169.01,
+      159.51,
+      161.18,
+      162.18,
+      149.34,
+      133.64,
+      144.78,
+      148.64,
+      157.97,
+      165.34,
+      163.59,
+      161.07,
+      162.21,
+      166.16,
+      168.45,
+      166.52,
+      162.22,
+      167.49,
+      148.88,
+      165.24,
+      167.16,
+      171.24,
+      174.0,
+      178.56,
+      173.5
+    ]
+  },
+  {
+    "id": "140228",
+    "name": "Edelweiss Mid Cap Fund",
+    "amc": "Edelweiss",
+    "category": "Mid Cap",
+    "scheme_url": "https://groww.in/mutual-funds/edelweiss-mid-and-small-cap-fund-direct-growth",
+    "aum_cr": 18693.49,
+    "expense_ratio": 0.72,
+    "manager": {
+      "name": "Trideep Bhattacharya",
+      "tenure_years": 4.9,
+      "funds_managed": 11,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Trideep Bhattacharya",
+        "tenure_years": 4.9,
+        "funds_managed": 11,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Dhruv Bhatia",
+        "tenure_years": 1.9,
+        "funds_managed": 3,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Mehul Dalmia",
+        "tenure_years": 0.1,
+        "funds_managed": 4,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 22.2,
+      "num_stocks": 89,
+      "top_sector_pct": 23.2,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 23.2
+        },
+        {
+          "name": "Capital Goods",
+          "pct": 12.4
+        },
+        {
+          "name": "Services",
+          "pct": 11.1
+        }
+      ]
+    },
+    "inception_date": "2016-11-28",
+    "nav": 128.11,
+    "returns": {
+      "1y": 6.5,
+      "3y": 20.9,
+      "5y": 18.5
+    },
+    "category_avg_returns": {
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
+    },
+    "rolling_consistency_3y_pct": 77,
+    "max_drawdown_5y_pct": -20.1,
+    "recovery_months": 4,
+    "nav_history_3y": [
+      70.77,
+      77.99,
+      82.93,
+      86.61,
+      87.97,
+      87.67,
+      93.3,
+      96.51,
+      106.81,
+      111.02,
+      114.99,
+      117.5,
+      112.88,
+      114.99,
+      116.78,
+      107.04,
+      96.29,
+      104.49,
+      108.26,
+      114.03,
+      121.0,
+      116.25,
+      115.25,
+      115.66,
+      120.98,
+      122.59,
+      122.77,
+      119.95,
+      121.08,
+      108.43,
+      121.41,
+      124.46,
+      126.61,
+      128.53,
+      131.88,
+      128.11
     ]
   },
   {
@@ -5691,9 +5830,9 @@
       "5y": 13.7
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
     "rolling_consistency_3y_pct": 61,
     "max_drawdown_5y_pct": -23.9,
@@ -5799,11 +5938,11 @@
       "5y": 17.7
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
-    "rolling_consistency_3y_pct": 65,
+    "rolling_consistency_3y_pct": 62,
     "max_drawdown_5y_pct": -21.3,
     "recovery_months": 3,
     "nav_history_3y": [
@@ -5901,11 +6040,11 @@
       "5y": 19.7
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
-    "rolling_consistency_3y_pct": 70,
+    "rolling_consistency_3y_pct": 68,
     "max_drawdown_5y_pct": -20.1,
     "recovery_months": 3,
     "nav_history_3y": [
@@ -6009,9 +6148,9 @@
       "5y": 16.7
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -22.7,
@@ -6053,6 +6192,126 @@
       25.66,
       26.51,
       25.83
+    ]
+  },
+  {
+    "id": "150815",
+    "name": "JM Midcap Fund",
+    "amc": "JM Financial",
+    "category": "Mid Cap",
+    "scheme_url": "https://groww.in/mutual-funds/jm-midcap-fund-direct-growth",
+    "aum_cr": 1295.14,
+    "expense_ratio": 0.97,
+    "manager": {
+      "name": "Ruchi Fozdar",
+      "tenure_years": 1.9,
+      "funds_managed": 17,
+      "changed_last_12mo": false
+    },
+    "managers": [
+      {
+        "name": "Ruchi Fozdar",
+        "tenure_years": 1.9,
+        "funds_managed": 17,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Satish Ramanathan",
+        "tenure_years": 3.8,
+        "funds_managed": 9,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Deepak Gupta",
+        "tenure_years": 1.4,
+        "funds_managed": 11,
+        "changed_last_12mo": false
+      },
+      {
+        "name": "Asit Bhandarkar",
+        "tenure_years": 1.9,
+        "funds_managed": 11,
+        "changed_last_12mo": false
+      }
+    ],
+    "style": {
+      "declared": "Mid Cap",
+      "actual": "Growth",
+      "r_squared": 0.85,
+      "match": "strict",
+      "basis": "Mid Cap universe"
+    },
+    "concentration": {
+      "top_10_pct": 30.2,
+      "num_stocks": 63,
+      "top_sector_pct": 18.1,
+      "top_sectors": [
+        {
+          "name": "Financial",
+          "pct": 18.1
+        },
+        {
+          "name": "Healthcare",
+          "pct": 13.5
+        },
+        {
+          "name": "Automobile",
+          "pct": 12.7
+        }
+      ]
+    },
+    "inception_date": "2022-11-25",
+    "nav": 22.78,
+    "returns": {
+      "1y": 9.3,
+      "3y": 19.4,
+      "5y": null
+    },
+    "category_avg_returns": {
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
+    },
+    "rolling_consistency_3y_pct": 100,
+    "max_drawdown_5y_pct": -22.5,
+    "recovery_months": 16,
+    "nav_history_3y": [
+      12.87,
+      14.26,
+      14.74,
+      15.76,
+      15.72,
+      15.75,
+      17.65,
+      18.45,
+      19.81,
+      20.78,
+      20.86,
+      21.29,
+      20.26,
+      19.99,
+      20.31,
+      18.59,
+      16.73,
+      18.04,
+      18.52,
+      19.54,
+      20.27,
+      20.05,
+      19.78,
+      19.92,
+      20.66,
+      20.6,
+      20.07,
+      19.06,
+      19.6,
+      17.72,
+      20.14,
+      21.23,
+      22.08,
+      22.19,
+      23.13,
+      22.78
     ]
   },
   {
@@ -6098,9 +6357,9 @@
       "5y": 16.6
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
     "rolling_consistency_3y_pct": 70,
     "max_drawdown_5y_pct": -20.9,
@@ -6142,108 +6401,6 @@
       170.68,
       174.06,
       169.71
-    ]
-  },
-  {
-    "id": "152002",
-    "name": "LIC MF Mid Cap Fund",
-    "amc": "LIC MF",
-    "category": "Mid Cap",
-    "scheme_url": "https://groww.in/mutual-funds/lic-mf-midcap-fund-direct-growth",
-    "aum_cr": 375.9,
-    "expense_ratio": 1.78,
-    "manager": {
-      "name": "Manoj Bajpai",
-      "tenure_years": 0.2,
-      "funds_managed": 3,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Manoj Bajpai",
-        "tenure_years": 0.2,
-        "funds_managed": 3,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Mid Cap",
-      "actual": "Growth",
-      "r_squared": 0.85,
-      "match": "strict",
-      "basis": "Mid Cap universe"
-    },
-    "concentration": {
-      "top_10_pct": 22.5,
-      "num_stocks": 65,
-      "top_sector_pct": 16.0,
-      "top_sectors": [
-        {
-          "name": "Capital Goods",
-          "pct": 16.0
-        },
-        {
-          "name": "Financial",
-          "pct": 15.2
-        },
-        {
-          "name": "Services",
-          "pct": 14.4
-        }
-      ]
-    },
-    "inception_date": "2023-07-31",
-    "nav": 35.0,
-    "returns": {
-      "1y": 5.1,
-      "3y": 16.3,
-      "5y": null
-    },
-    "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
-    },
-    "rolling_consistency_3y_pct": 75,
-    "max_drawdown_5y_pct": -21.5,
-    "recovery_months": 16,
-    "nav_history_3y": [
-      21.7,
-      23.98,
-      25.22,
-      25.49,
-      25.83,
-      25.78,
-      27.79,
-      29.05,
-      32.03,
-      33.52,
-      34.03,
-      34.46,
-      32.27,
-      32.38,
-      32.87,
-      30.58,
-      27.32,
-      29.44,
-      29.71,
-      32.11,
-      33.42,
-      32.55,
-      31.56,
-      31.88,
-      33.1,
-      33.21,
-      32.82,
-      31.35,
-      31.9,
-      28.27,
-      32.32,
-      33.19,
-      34.11,
-      34.52,
-      35.86,
-      35.0
     ]
   },
   {
@@ -6314,11 +6471,11 @@
       "5y": 18.0
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
-    "rolling_consistency_3y_pct": 95,
+    "rolling_consistency_3y_pct": 93,
     "max_drawdown_5y_pct": -20.9,
     "recovery_months": 14,
     "nav_history_3y": [
@@ -6416,9 +6573,9 @@
       "5y": 15.5
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
     "rolling_consistency_3y_pct": 92,
     "max_drawdown_5y_pct": -22.5,
@@ -6530,11 +6687,11 @@
       "5y": 17.9
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
-    "rolling_consistency_3y_pct": 65,
+    "rolling_consistency_3y_pct": 64,
     "max_drawdown_5y_pct": -19.9,
     "recovery_months": 8,
     "nav_history_3y": [
@@ -6650,11 +6807,11 @@
       "5y": 10.8
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
-    "rolling_consistency_3y_pct": 47,
+    "rolling_consistency_3y_pct": 45,
     "max_drawdown_5y_pct": -19.5,
     "recovery_months": 3,
     "nav_history_3y": [
@@ -6758,9 +6915,9 @@
       "5y": 13.6
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
     "rolling_consistency_3y_pct": 61,
     "max_drawdown_5y_pct": -17.9,
@@ -6860,9 +7017,9 @@
       "5y": 15.0
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
     "rolling_consistency_3y_pct": 67,
     "max_drawdown_5y_pct": -21.2,
@@ -6968,9 +7125,9 @@
       "5y": 15.5
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
     "rolling_consistency_3y_pct": 93,
     "max_drawdown_5y_pct": -21.3,
@@ -7070,11 +7227,11 @@
       "5y": 11.8
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
-    "rolling_consistency_3y_pct": 62,
+    "rolling_consistency_3y_pct": 59,
     "max_drawdown_5y_pct": -22.7,
     "recovery_months": 17,
     "nav_history_3y": [
@@ -7196,9 +7353,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -19.3,
@@ -7334,11 +7491,11 @@
       "5y": 15.9
     },
     "category_avg_returns": {
-      "1y": 6.2,
-      "3y": 16.9,
-      "5y": 16.0
+      "1y": 6.7,
+      "3y": 17.1,
+      "5y": 15.6
     },
-    "rolling_consistency_3y_pct": 45,
+    "rolling_consistency_3y_pct": 43,
     "max_drawdown_5y_pct": -26.0,
     "recovery_months": 19,
     "nav_history_3y": [
