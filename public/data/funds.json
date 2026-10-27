@@ -84,18 +84,18 @@
       ]
     },
     "inception_date": "2013-05-28",
-    "nav": 88.97,
+    "nav": 89.3,
     "returns": {
-      "1y": -6.7,
-      "3y": 12.3,
-      "5y": 10.5
+      "1y": -6.2,
+      "3y": 12.7,
+      "5y": 10.8
     },
     "category_avg_returns": {
-      "1y": -4.2,
-      "3y": 13.4,
-      "5y": 10.9
+      "1y": -3.7,
+      "3y": 14.2,
+      "5y": 12.0
     },
-    "rolling_consistency_3y_pct": 83,
+    "rolling_consistency_3y_pct": 76,
     "max_drawdown_5y_pct": -17.7,
     "recovery_months": 10,
     "nav_history_3y": [
@@ -134,7 +134,7 @@
       92.05,
       90.78,
       88.84,
-      88.97
+      89.3
     ]
   },
   {
@@ -199,11 +199,11 @@
       "5y": 14.3
     },
     "category_avg_returns": {
-      "1y": -4.2,
-      "3y": 13.4,
-      "5y": 10.9
+      "1y": -3.7,
+      "3y": 14.2,
+      "5y": 12.0
     },
-    "rolling_consistency_3y_pct": 64,
+    "rolling_consistency_3y_pct": 61,
     "max_drawdown_5y_pct": -13.3,
     "recovery_months": 4,
     "nav_history_3y": [
@@ -301,11 +301,11 @@
       "5y": 6.1
     },
     "category_avg_returns": {
-      "1y": -7.7,
-      "3y": 9.2,
-      "5y": 7.3
+      "1y": -8.5,
+      "3y": 8.4,
+      "5y": 6.1
     },
-    "rolling_consistency_3y_pct": 90,
+    "rolling_consistency_3y_pct": 93,
     "max_drawdown_5y_pct": -16.4,
     "recovery_months": 5,
     "nav_history_3y": [
@@ -415,11 +415,11 @@
       "5y": 16.6
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
-    "rolling_consistency_3y_pct": 84,
+    "rolling_consistency_3y_pct": 79,
     "max_drawdown_5y_pct": -24.2,
     "recovery_months": 16,
     "nav_history_3y": [
@@ -546,18 +546,18 @@
       ]
     },
     "inception_date": "2013-01-07",
-    "nav": 295.26,
+    "nav": 297.71,
     "returns": {
-      "1y": 3.8,
-      "3y": 16.4,
+      "1y": 4.9,
+      "3y": 16.2,
       "5y": 16.5
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
-    "rolling_consistency_3y_pct": 54,
+    "rolling_consistency_3y_pct": 52,
     "max_drawdown_5y_pct": -25.2,
     "recovery_months": 5,
     "nav_history_3y": [
@@ -596,7 +596,7 @@
       308.96,
       319.49,
       315.92,
-      295.26
+      297.71
     ]
   },
   {
@@ -654,18 +654,18 @@
       ]
     },
     "inception_date": "2013-11-18",
-    "nav": 195.3,
+    "nav": 198.75,
     "returns": {
-      "1y": -1.6,
-      "3y": 9.9,
-      "5y": 11.5
+      "1y": -0.5,
+      "3y": 10.5,
+      "5y": 11.7
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
-    "rolling_consistency_3y_pct": 82,
+    "rolling_consistency_3y_pct": 80,
     "max_drawdown_5y_pct": -22.4,
     "recovery_months": 18,
     "nav_history_3y": [
@@ -704,7 +704,7 @@
       204.79,
       217.62,
       208.52,
-      195.3
+      198.75
     ]
   },
   {
@@ -787,11 +787,11 @@
       "5y": 18.3
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
-    "rolling_consistency_3y_pct": 63,
+    "rolling_consistency_3y_pct": 62,
     "max_drawdown_5y_pct": -28.9,
     "recovery_months": 7,
     "nav_history_3y": [
@@ -906,18 +906,18 @@
       ]
     },
     "inception_date": "2013-01-02",
-    "nav": 84.58,
+    "nav": 84.98,
     "returns": {
-      "1y": -1.2,
-      "3y": 10.1,
-      "5y": 9.4
+      "1y": -1.1,
+      "3y": 10.2,
+      "5y": 9.5
     },
     "category_avg_returns": {
-      "1y": -5.2,
-      "3y": 8.1,
-      "5y": 8.0
+      "1y": -1.1,
+      "3y": 10.2,
+      "5y": 9.5
     },
-    "rolling_consistency_3y_pct": 94,
+    "rolling_consistency_3y_pct": 87,
     "max_drawdown_5y_pct": -8.2,
     "recovery_months": 3,
     "nav_history_3y": [
@@ -956,7 +956,7 @@
       88.94,
       89.73,
       85.68,
-      84.58
+      84.98
     ]
   },
   {
@@ -1020,14 +1020,14 @@
       ]
     },
     "inception_date": "2013-01-02",
-    "nav": 160.25,
+    "nav": 160.23,
     "returns": {
-      "1y": -10.9,
+      "1y": -11.7,
       "3y": 7.1,
       "5y": 5.5
     },
     "category_avg_returns": {
-      "1y": -10.9,
+      "1y": -11.7,
       "3y": 7.1,
       "5y": 5.5
     },
@@ -1070,7 +1070,7 @@
       171.54,
       169.55,
       159.29,
-      160.25
+      160.23
     ]
   },
   {
@@ -1129,8 +1129,8 @@
       "5y": 8.8
     },
     "category_avg_returns": {
-      "1y": -6.8,
-      "3y": 10.7,
+      "1y": -6.7,
+      "3y": 10.9,
       "5y": 6.7
     },
     "rolling_consistency_3y_pct": 92,
@@ -1230,18 +1230,18 @@
       ]
     },
     "inception_date": "2013-01-02",
-    "nav": 104.42,
+    "nav": 105.36,
     "returns": {
-      "1y": -6.5,
-      "3y": 10.0,
-      "5y": 4.5
+      "1y": -6.2,
+      "3y": 10.3,
+      "5y": 4.6
     },
     "category_avg_returns": {
-      "1y": -6.8,
-      "3y": 10.7,
+      "1y": -6.7,
+      "3y": 10.9,
       "5y": 6.7
     },
-    "rolling_consistency_3y_pct": 82,
+    "rolling_consistency_3y_pct": 81,
     "max_drawdown_5y_pct": -26.5,
     "recovery_months": 18,
     "nav_history_3y": [
@@ -1280,7 +1280,7 @@
       111.57,
       112.93,
       105.55,
-      104.42
+      105.36
     ]
   },
   {
@@ -1356,18 +1356,18 @@
       ]
     },
     "inception_date": "2022-08-03",
-    "nav": 18.01,
+    "nav": 18.17,
     "returns": {
-      "1y": -3.4,
-      "3y": 13.6,
+      "1y": -3.2,
+      "3y": 14.0,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": -4.2,
-      "3y": 13.4,
-      "5y": 10.9
+      "1y": -3.7,
+      "3y": 14.2,
+      "5y": 12.0
     },
-    "rolling_consistency_3y_pct": 96,
+    "rolling_consistency_3y_pct": 88,
     "max_drawdown_5y_pct": -15.6,
     "recovery_months": 4,
     "nav_history_3y": [
@@ -1406,7 +1406,7 @@
       19.15,
       19.51,
       18.39,
-      18.01
+      18.17
     ]
   },
   {
@@ -1465,9 +1465,9 @@
       "5y": 10.8
     },
     "category_avg_returns": {
-      "1y": -4.2,
-      "3y": 13.4,
-      "5y": 10.9
+      "1y": -3.7,
+      "3y": 14.2,
+      "5y": 12.0
     },
     "rolling_consistency_3y_pct": 85,
     "max_drawdown_5y_pct": -18.6,
@@ -1566,16 +1566,16 @@
       ]
     },
     "inception_date": "2013-01-02",
-    "nav": 1484.73,
+    "nav": 1501.79,
     "returns": {
-      "1y": -4.6,
-      "3y": 15.8,
-      "5y": 14.4
+      "1y": -4.5,
+      "3y": 16.2,
+      "5y": 14.7
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
     "rolling_consistency_3y_pct": 66,
     "max_drawdown_5y_pct": -20.7,
@@ -1616,7 +1616,7 @@
       1662.35,
       1684.44,
       1560.37,
-      1484.73
+      1501.79
     ]
   },
   {
@@ -1674,16 +1674,16 @@
       ]
     },
     "inception_date": "2020-12-11",
-    "nav": 23.58,
+    "nav": 23.49,
     "returns": {
-      "1y": 1.4,
-      "3y": 15.8,
-      "5y": 12.0
+      "1y": 0.7,
+      "3y": 15.6,
+      "5y": 11.9
     },
     "category_avg_returns": {
-      "1y": -4.2,
-      "3y": 13.4,
-      "5y": 10.9
+      "1y": -3.7,
+      "3y": 14.2,
+      "5y": 12.0
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -16.5,
@@ -1724,115 +1724,7 @@
       25.1,
       24.92,
       23.81,
-      23.58
-    ]
-  },
-  {
-    "id": "118617",
-    "name": "Edelweiss Large Cap Fund",
-    "amc": "Edelweiss",
-    "category": "Large Cap",
-    "scheme_url": "https://groww.in/mutual-funds/edelweiss-large-cap-fund-direct-growth",
-    "aum_cr": 1434.03,
-    "expense_ratio": 1.0,
-    "manager": {
-      "name": "Bharat Lahoti",
-      "tenure_years": 9.4,
-      "funds_managed": 28,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Bharat Lahoti",
-        "tenure_years": 9.4,
-        "funds_managed": 28,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Bhavesh Jain",
-        "tenure_years": 5.0,
-        "funds_managed": 32,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Large Cap",
-      "actual": "Blend",
-      "r_squared": 0.68,
-      "match": "moderate",
-      "basis": "Blend"
-    },
-    "concentration": {
-      "top_10_pct": 42.0,
-      "num_stocks": 75,
-      "top_sector_pct": 31.0,
-      "top_sectors": [
-        {
-          "name": "Financial",
-          "pct": 31.0
-        },
-        {
-          "name": "Energy",
-          "pct": 10.3
-        },
-        {
-          "name": "Automobile",
-          "pct": 8.9
-        }
-      ]
-    },
-    "inception_date": "2013-01-08",
-    "nav": 92.46,
-    "returns": {
-      "1y": -6.8,
-      "3y": 9.9,
-      "5y": 8.6
-    },
-    "category_avg_returns": {
-      "1y": -7.7,
-      "3y": 9.2,
-      "5y": 7.3
-    },
-    "rolling_consistency_3y_pct": 91,
-    "max_drawdown_5y_pct": -17.1,
-    "recovery_months": 20,
-    "nav_history_3y": [
-      74.03,
-      79.4,
-      80.26,
-      82.32,
-      83.91,
-      86.29,
-      86.6,
-      92.4,
-      96.51,
-      98.31,
-      100.34,
-      94.06,
-      93.37,
-      92.43,
-      90.43,
-      84.29,
-      90.17,
-      93.0,
-      95.05,
-      98.16,
-      94.96,
-      94.02,
-      95.31,
-      99.13,
-      100.69,
-      100.62,
-      98.23,
-      99.29,
-      87.82,
-      94.31,
-      93.64,
-      95.29,
-      98.17,
-      98.26,
-      93.06,
-      92.46
+      23.49
     ]
   },
   {
@@ -1890,16 +1782,16 @@
       ]
     },
     "inception_date": "2015-12-29",
-    "nav": 49.14,
+    "nav": 49.31,
     "returns": {
-      "1y": -10.3,
-      "3y": 7.0,
-      "5y": 3.4
+      "1y": -11.2,
+      "3y": 7.1,
+      "5y": 3.3
     },
     "category_avg_returns": {
-      "1y": -10.3,
-      "3y": 7.0,
-      "5y": 3.4
+      "1y": -11.2,
+      "3y": 7.1,
+      "5y": 3.3
     },
     "rolling_consistency_3y_pct": 95,
     "max_drawdown_5y_pct": -33.3,
@@ -1940,109 +1832,7 @@
       49.5,
       50.37,
       45.57,
-      49.14
-    ]
-  },
-  {
-    "id": "119062",
-    "name": "HDFC Hybrid Equity Fund",
-    "amc": "HDFC",
-    "category": "Hybrid",
-    "scheme_url": "https://groww.in/mutual-funds/hdfc-balanced-fund-direct-growth",
-    "aum_cr": 20080.76,
-    "expense_ratio": 0.86,
-    "manager": {
-      "name": "Chirag Setalvad",
-      "tenure_years": 0.3,
-      "funds_managed": 1,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Chirag Setalvad",
-        "tenure_years": 0.3,
-        "funds_managed": 1,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Hybrid",
-      "actual": "Value",
-      "r_squared": 0.76,
-      "match": "moderate",
-      "basis": "Value"
-    },
-    "concentration": {
-      "top_10_pct": 30.2,
-      "num_stocks": 66,
-      "top_sector_pct": 24.7,
-      "top_sectors": [
-        {
-          "name": "Financial",
-          "pct": 24.7
-        },
-        {
-          "name": "Technology",
-          "pct": 6.5
-        },
-        {
-          "name": "Energy",
-          "pct": 5.7
-        }
-      ]
-    },
-    "inception_date": "2013-01-01",
-    "nav": 118.49,
-    "returns": {
-      "1y": -9.2,
-      "3y": 6.1,
-      "5y": 6.5
-    },
-    "category_avg_returns": {
-      "1y": -5.2,
-      "3y": 8.1,
-      "5y": 8.0
-    },
-    "rolling_consistency_3y_pct": 75,
-    "max_drawdown_5y_pct": -12.6,
-    "recovery_months": 7,
-    "nav_history_3y": [
-      102.61,
-      108.34,
-      109.91,
-      111.21,
-      111.93,
-      114.6,
-      115.69,
-      121.14,
-      124.52,
-      125.28,
-      126.62,
-      123.18,
-      124.06,
-      123.15,
-      120.53,
-      114.54,
-      120.74,
-      124.26,
-      127.86,
-      130.32,
-      128.8,
-      126.18,
-      127.2,
-      130.86,
-      131.59,
-      131.28,
-      128.01,
-      128.45,
-      115.33,
-      121.38,
-      119.92,
-      123.29,
-      125.31,
-      125.26,
-      119.97,
-      118.49
+      49.31
     ]
   },
   {
@@ -2100,18 +1890,18 @@
       ]
     },
     "inception_date": "2013-01-01",
-    "nav": 213.42,
+    "nav": 216.12,
     "returns": {
-      "1y": -3.2,
-      "3y": 15.3,
-      "5y": 16.5
+      "1y": -2.5,
+      "3y": 15.7,
+      "5y": 16.6
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
-    "rolling_consistency_3y_pct": 75,
+    "rolling_consistency_3y_pct": 73,
     "max_drawdown_5y_pct": -16.8,
     "recovery_months": 4,
     "nav_history_3y": [
@@ -2150,127 +1940,7 @@
       233.49,
       237.52,
       220.58,
-      213.42
-    ]
-  },
-  {
-    "id": "133839",
-    "name": "PGIM India Flexi Cap Fund",
-    "amc": "PGIM India",
-    "category": "Flexi Cap",
-    "scheme_url": "https://groww.in/mutual-funds/pgim-india-flexi-cap-fund-direct-growth",
-    "aum_cr": 5963.36,
-    "expense_ratio": 0.85,
-    "manager": {
-      "name": "Anandha Padmanabhan Anjeneyan",
-      "tenure_years": 5.7,
-      "funds_managed": 13,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Anandha Padmanabhan Anjeneyan",
-        "tenure_years": 5.7,
-        "funds_managed": 13,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Vinay Paharia",
-        "tenure_years": 3.5,
-        "funds_managed": 10,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Puneet Pal",
-        "tenure_years": 3.5,
-        "funds_managed": 20,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Vivek Sharma",
-        "tenure_years": 2.5,
-        "funds_managed": 14,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Flexi Cap",
-      "actual": "Quality-Growth",
-      "r_squared": 0.8,
-      "match": "moderate",
-      "basis": "Quality"
-    },
-    "concentration": {
-      "top_10_pct": 31.2,
-      "num_stocks": 83,
-      "top_sector_pct": 25.6,
-      "top_sectors": [
-        {
-          "name": "Financial",
-          "pct": 25.6
-        },
-        {
-          "name": "Healthcare",
-          "pct": 10.2
-        },
-        {
-          "name": "Automobile",
-          "pct": 8.5
-        }
-      ]
-    },
-    "inception_date": "2015-03-09",
-    "nav": 41.15,
-    "returns": {
-      "1y": -5.9,
-      "3y": 10.0,
-      "5y": 6.7
-    },
-    "category_avg_returns": {
-      "1y": -4.2,
-      "3y": 13.4,
-      "5y": 10.9
-    },
-    "rolling_consistency_3y_pct": 56,
-    "max_drawdown_5y_pct": -22.6,
-    "recovery_months": 12,
-    "nav_history_3y": [
-      32.88,
-      34.83,
-      34.66,
-      35.46,
-      35.86,
-      36.94,
-      36.3,
-      39.45,
-      40.74,
-      41.79,
-      42.95,
-      40.4,
-      40.69,
-      40.78,
-      39.06,
-      36.16,
-      38.79,
-      40.11,
-      41.1,
-      42.93,
-      42.29,
-      41.96,
-      41.91,
-      43.65,
-      43.88,
-      43.28,
-      41.78,
-      41.95,
-      37.76,
-      41.41,
-      41.44,
-      42.58,
-      43.66,
-      44.58,
-      42.24,
-      41.15
+      216.12
     ]
   },
   {
@@ -2335,9 +2005,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -10.9,
@@ -2351,114 +2021,6 @@
       12.68,
       12.36,
       11.43
-    ]
-  },
-  {
-    "id": "119556",
-    "name": "Aditya Birla Sun Life Small Cap Fund",
-    "amc": "ABSL",
-    "category": "Small Cap",
-    "scheme_url": "https://groww.in/mutual-funds/birla-sun-life-small-midcap-fund-direct-growth",
-    "aum_cr": 6226.47,
-    "expense_ratio": 1.07,
-    "manager": {
-      "name": "Abhinav Khandelwal",
-      "tenure_years": 1.9,
-      "funds_managed": 2,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Abhinav Khandelwal",
-        "tenure_years": 1.9,
-        "funds_managed": 2,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Dhaval Joshi",
-        "tenure_years": 3.9,
-        "funds_managed": 6,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Small Cap",
-      "actual": "Growth",
-      "r_squared": 0.88,
-      "match": "strict",
-      "basis": "Growth"
-    },
-    "concentration": {
-      "top_10_pct": 23.4,
-      "num_stocks": 88,
-      "top_sector_pct": 17.6,
-      "top_sectors": [
-        {
-          "name": "Financial",
-          "pct": 17.6
-        },
-        {
-          "name": "Healthcare",
-          "pct": 12.6
-        },
-        {
-          "name": "Consumer Staples",
-          "pct": 11.6
-        }
-      ]
-    },
-    "inception_date": "2013-01-07",
-    "nav": 105.25,
-    "returns": {
-      "1y": 6.5,
-      "3y": 13.2,
-      "5y": 11.5
-    },
-    "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
-    },
-    "rolling_consistency_3y_pct": 73,
-    "max_drawdown_5y_pct": -26.2,
-    "recovery_months": 15,
-    "nav_history_3y": [
-      77.97,
-      81.01,
-      84.29,
-      82.65,
-      81.09,
-      88.25,
-      88.64,
-      97.33,
-      101.96,
-      101.11,
-      105.04,
-      100.83,
-      100.32,
-      99.44,
-      89.2,
-      78.83,
-      85.68,
-      87.7,
-      95.23,
-      99.66,
-      97.31,
-      93.56,
-      94.65,
-      99.76,
-      98.54,
-      96.65,
-      93.89,
-      96.02,
-      87.17,
-      101.68,
-      104.54,
-      109.21,
-      110.85,
-      116.73,
-      113.1,
-      105.25
     ]
   },
   {
@@ -2522,18 +2084,18 @@
       ]
     },
     "inception_date": "2013-12-05",
-    "nav": 124.67,
+    "nav": 125.48,
     "returns": {
-      "1y": 0.5,
+      "1y": 1.1,
       "3y": 12.9,
-      "5y": 13.9
-    },
-    "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
       "5y": 14.0
     },
-    "rolling_consistency_3y_pct": 80,
+    "category_avg_returns": {
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
+    },
+    "rolling_consistency_3y_pct": 77,
     "max_drawdown_5y_pct": -19.4,
     "recovery_months": 4,
     "nav_history_3y": [
@@ -2572,7 +2134,7 @@
       132.92,
       138.13,
       133.91,
-      124.67
+      125.48
     ]
   },
   {
@@ -2636,16 +2198,16 @@
       ]
     },
     "inception_date": "2025-07-22",
-    "nav": 10.51,
+    "nav": 10.74,
     "returns": {
-      "1y": 7.7,
+      "1y": 9.0,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -16.2,
@@ -2666,7 +2228,7 @@
       10.91,
       11.49,
       11.28,
-      10.51
+      10.74
     ]
   },
   {
@@ -2736,16 +2298,16 @@
       ]
     },
     "inception_date": "2020-02-26",
-    "nav": 53.46,
+    "nav": 53.57,
     "returns": {
-      "1y": 2.3,
+      "1y": 2.5,
       "3y": 22.1,
       "5y": 18.0
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -23.3,
@@ -2786,7 +2348,7 @@
       55.84,
       57.48,
       56.68,
-      53.46
+      53.57
     ]
   },
   {
@@ -2844,16 +2406,16 @@
       ]
     },
     "inception_date": "2018-12-27",
-    "nav": 61.18,
+    "nav": 62.46,
     "returns": {
-      "1y": 17.1,
-      "3y": 18.4,
-      "5y": 18.0
+      "1y": 18.9,
+      "3y": 19.2,
+      "5y": 18.4
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -27.1,
@@ -2894,7 +2456,7 @@
       62.49,
       66.27,
       66.52,
-      61.18
+      62.46
     ]
   },
   {
@@ -2959,9 +2521,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -25.0,
@@ -3067,9 +2629,9 @@
       "5y": 11.9
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": 94,
     "max_drawdown_5y_pct": -23.6,
@@ -3111,108 +2673,6 @@
       46.69,
       44.48,
       41.35
-    ]
-  },
-  {
-    "id": "119212",
-    "name": "DSP Small Cap Fund",
-    "amc": "DSP",
-    "category": "Small Cap",
-    "scheme_url": "https://groww.in/mutual-funds/dsp-blackrock-micro-cap-fund-direct-growth",
-    "aum_cr": 21658.64,
-    "expense_ratio": 0.81,
-    "manager": {
-      "name": "Vinit Sambre",
-      "tenure_years": 13.7,
-      "funds_managed": 3,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Vinit Sambre",
-        "tenure_years": 13.7,
-        "funds_managed": 3,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Small Cap",
-      "actual": "Quality",
-      "r_squared": 0.86,
-      "match": "strict",
-      "basis": "Quality"
-    },
-    "concentration": {
-      "top_10_pct": 29.3,
-      "num_stocks": 81,
-      "top_sector_pct": 14.0,
-      "top_sectors": [
-        {
-          "name": "Chemicals",
-          "pct": 14.0
-        },
-        {
-          "name": "Automobile",
-          "pct": 12.9
-        },
-        {
-          "name": "Capital Goods",
-          "pct": 12.7
-        }
-      ]
-    },
-    "inception_date": "2013-01-02",
-    "nav": 236.03,
-    "returns": {
-      "1y": 10.5,
-      "3y": 15.5,
-      "5y": 15.6
-    },
-    "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
-    },
-    "rolling_consistency_3y_pct": 72,
-    "max_drawdown_5y_pct": -24.1,
-    "recovery_months": 14,
-    "nav_history_3y": [
-      168.05,
-      173.64,
-      178.71,
-      177.43,
-      169.88,
-      184.25,
-      181.01,
-      200.75,
-      212.91,
-      219.94,
-      222.35,
-      215.09,
-      216.42,
-      220.02,
-      197.28,
-      174.25,
-      186.74,
-      185.92,
-      212.19,
-      221.94,
-      219.49,
-      213.75,
-      211.52,
-      215.87,
-      217.41,
-      215.81,
-      205.24,
-      215.03,
-      193.48,
-      224.0,
-      228.04,
-      241.56,
-      244.48,
-      260.08,
-      254.4,
-      236.03
     ]
   },
   {
@@ -3276,18 +2736,18 @@
       ]
     },
     "inception_date": "2019-02-14",
-    "nav": 48.86,
+    "nav": 49.81,
     "returns": {
-      "1y": -0.1,
-      "3y": 12.9,
-      "5y": 14.6
+      "1y": 1.1,
+      "3y": 13.6,
+      "5y": 15.0
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
-    "rolling_consistency_3y_pct": 100,
+    "rolling_consistency_3y_pct": 98,
     "max_drawdown_5y_pct": -22.9,
     "recovery_months": 16,
     "nav_history_3y": [
@@ -3326,7 +2786,7 @@
       52.69,
       54.98,
       51.99,
-      48.86
+      49.81
     ]
   },
   {
@@ -3390,18 +2850,18 @@
       ]
     },
     "inception_date": "2013-01-01",
-    "nav": 184.78,
+    "nav": 187.54,
     "returns": {
-      "1y": -4.6,
-      "3y": 9.8,
-      "5y": 13.2
+      "1y": -3.8,
+      "3y": 10.3,
+      "5y": 13.4
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
-    "rolling_consistency_3y_pct": 75,
+    "rolling_consistency_3y_pct": 70,
     "max_drawdown_5y_pct": -24.1,
     "recovery_months": 20,
     "nav_history_3y": [
@@ -3440,7 +2900,7 @@
       201.61,
       205.42,
       198.68,
-      184.78
+      187.54
     ]
   },
   {
@@ -3510,16 +2970,16 @@
       ]
     },
     "inception_date": "2026-02-02",
-    "nav": 11.94,
+    "nav": 12.18,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -10.8,
@@ -3533,115 +2993,7 @@
       12.12,
       13.01,
       12.95,
-      11.94
-    ]
-  },
-  {
-    "id": "130503",
-    "name": "HDFC Small Cap Fund",
-    "amc": "HDFC",
-    "category": "Small Cap",
-    "scheme_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
-    "aum_cr": 41890.86,
-    "expense_ratio": 0.78,
-    "manager": {
-      "name": "Dhruv Muchhal",
-      "tenure_years": 3.3,
-      "funds_managed": 42,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Dhruv Muchhal",
-        "tenure_years": 3.3,
-        "funds_managed": 42,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Chirag Setalvad",
-        "tenure_years": 12.3,
-        "funds_managed": 6,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Small Cap",
-      "actual": "Blend",
-      "r_squared": 0.87,
-      "match": "strict",
-      "basis": "Blend"
-    },
-    "concentration": {
-      "top_10_pct": 26.7,
-      "num_stocks": 84,
-      "top_sector_pct": 17.5,
-      "top_sectors": [
-        {
-          "name": "Services",
-          "pct": 17.5
-        },
-        {
-          "name": "Financial",
-          "pct": 12.7
-        },
-        {
-          "name": "Healthcare",
-          "pct": 11.8
-        }
-      ]
-    },
-    "inception_date": "2014-06-30",
-    "nav": 148.5,
-    "returns": {
-      "1y": -8.4,
-      "3y": 8.8,
-      "5y": 12.9
-    },
-    "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
-    },
-    "rolling_consistency_3y_pct": 75,
-    "max_drawdown_5y_pct": -22.6,
-    "recovery_months": 7,
-    "nav_history_3y": [
-      124.18,
-      129.59,
-      136.91,
-      135.56,
-      132.27,
-      141.73,
-      138.63,
-      149.31,
-      157.16,
-      160.22,
-      160.25,
-      157.92,
-      158.28,
-      157.5,
-      144.04,
-      128.96,
-      137.57,
-      139.53,
-      153.3,
-      159.89,
-      160.71,
-      158.5,
-      159.07,
-      163.99,
-      160.65,
-      157.89,
-      152.91,
-      153.0,
-      135.38,
-      150.67,
-      151.91,
-      156.83,
-      160.75,
-      160.95,
-      156.27,
-      148.5
+      12.18
     ]
   },
   {
@@ -3706,11 +3058,11 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
-    "rolling_consistency_3y_pct": 95,
+    "rolling_consistency_3y_pct": 86,
     "max_drawdown_5y_pct": -27.2,
     "recovery_months": 18,
     "nav_history_3y": [
@@ -3807,16 +3159,16 @@
       ]
     },
     "inception_date": "2025-11-28",
-    "nav": 10.69,
+    "nav": 10.93,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -16.9,
@@ -3833,7 +3185,7 @@
       11.12,
       11.75,
       11.47,
-      10.69
+      10.93
     ]
   },
   {
@@ -3898,9 +3250,9 @@
       "5y": 16.3
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -29.2,
@@ -4011,16 +3363,16 @@
       ]
     },
     "inception_date": "2024-06-24",
-    "nav": 10.86,
+    "nav": 11.19,
     "returns": {
-      "1y": 4.0,
+      "1y": 6.3,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -24.4,
@@ -4054,7 +3406,7 @@
       11.62,
       12.13,
       11.85,
-      10.86
+      11.19
     ]
   },
   {
@@ -4099,9 +3451,9 @@
       "5y": 10.4
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": 72,
     "max_drawdown_5y_pct": -24.7,
@@ -4207,9 +3559,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -27.0,
@@ -4314,16 +3666,16 @@
       ]
     },
     "inception_date": "2022-12-14",
-    "nav": 21.93,
+    "nav": 22.53,
     "returns": {
-      "1y": 5.9,
-      "3y": 17.4,
+      "1y": 7.7,
+      "3y": 18.4,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -26.0,
@@ -4364,7 +3716,7 @@
       22.85,
       24.25,
       23.46,
-      21.93
+      22.53
     ]
   },
   {
@@ -4422,16 +3774,16 @@
       ]
     },
     "inception_date": "2025-02-03",
-    "nav": 11.89,
+    "nav": 12.09,
     "returns": {
-      "1y": 0.3,
+      "1y": 1.3,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -15.1,
@@ -4457,7 +3809,7 @@
       12.52,
       13.06,
       12.7,
-      11.89
+      12.09
     ]
   },
   {
@@ -4539,16 +3891,16 @@
       ]
     },
     "inception_date": "2023-12-29",
-    "nav": 16.21,
+    "nav": 16.54,
     "returns": {
-      "1y": 9.8,
+      "1y": 11.5,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -23.7,
@@ -4588,127 +3940,7 @@
       17.05,
       17.79,
       17.34,
-      16.21
-    ]
-  },
-  {
-    "id": "149019",
-    "name": "PGIM India Small Cap Fund",
-    "amc": "PGIM India",
-    "category": "Small Cap",
-    "scheme_url": "https://groww.in/mutual-funds/pgim-india-small-cap-fund-direct-growth",
-    "aum_cr": 1793.79,
-    "expense_ratio": 0.94,
-    "manager": {
-      "name": "Puneet Pal",
-      "tenure_years": 3.5,
-      "funds_managed": 20,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Puneet Pal",
-        "tenure_years": 3.5,
-        "funds_managed": 20,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Vinay Paharia",
-        "tenure_years": 3.5,
-        "funds_managed": 10,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Vivek Sharma",
-        "tenure_years": 2.5,
-        "funds_managed": 14,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Utsav Mehta",
-        "tenure_years": 2.5,
-        "funds_managed": 8,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Small Cap",
-      "actual": "Quality-Growth",
-      "r_squared": 0.81,
-      "match": "moderate",
-      "basis": "Quality"
-    },
-    "concentration": {
-      "top_10_pct": 24.9,
-      "num_stocks": 65,
-      "top_sector_pct": 14.6,
-      "top_sectors": [
-        {
-          "name": "Healthcare",
-          "pct": 14.6
-        },
-        {
-          "name": "Services",
-          "pct": 14.5
-        },
-        {
-          "name": "Financial",
-          "pct": 12.4
-        }
-      ]
-    },
-    "inception_date": "2021-08-02",
-    "nav": 18.3,
-    "returns": {
-      "1y": 1.9,
-      "3y": 13.6,
-      "5y": 10.8
-    },
-    "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
-    },
-    "rolling_consistency_3y_pct": 86,
-    "max_drawdown_5y_pct": -24.6,
-    "recovery_months": 13,
-    "nav_history_3y": [
-      13.58,
-      14.02,
-      14.12,
-      14.2,
-      13.84,
-      14.94,
-      14.62,
-      16.06,
-      16.59,
-      17.18,
-      17.59,
-      17.21,
-      17.2,
-      17.04,
-      15.62,
-      14.12,
-      15.16,
-      15.41,
-      16.47,
-      17.31,
-      17.52,
-      17.14,
-      17.17,
-      17.9,
-      17.56,
-      17.21,
-      16.48,
-      16.68,
-      15.35,
-      17.52,
-      17.91,
-      18.89,
-      19.19,
-      20.49,
-      19.8,
-      18.3
+      16.54
     ]
   },
   {
@@ -4766,16 +3998,16 @@
       ]
     },
     "inception_date": "2023-11-03",
-    "nav": 12.93,
+    "nav": 13.09,
     "returns": {
-      "1y": -0.6,
+      "1y": 0.2,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -18.2,
@@ -4816,217 +4048,7 @@
       14.02,
       14.31,
       13.92,
-      12.93
-    ]
-  },
-  {
-    "id": "119589",
-    "name": "Sundaram Small Cap Fund",
-    "amc": "Sundaram",
-    "category": "Small Cap",
-    "scheme_url": "https://groww.in/mutual-funds/sundaram-smile-fund-direct-growth",
-    "aum_cr": 4155.35,
-    "expense_ratio": 0.98,
-    "manager": {
-      "name": "Rohit Seksaria",
-      "tenure_years": 3.9,
-      "funds_managed": 19,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Rohit Seksaria",
-        "tenure_years": 3.9,
-        "funds_managed": 19,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Small Cap",
-      "actual": "Growth",
-      "r_squared": 0.83,
-      "match": "strict",
-      "basis": "Growth"
-    },
-    "concentration": {
-      "top_10_pct": 28.8,
-      "num_stocks": 69,
-      "top_sector_pct": 19.9,
-      "top_sectors": [
-        {
-          "name": "Financial",
-          "pct": 19.9
-        },
-        {
-          "name": "Capital Goods",
-          "pct": 14.0
-        },
-        {
-          "name": "Healthcare",
-          "pct": 10.8
-        }
-      ]
-    },
-    "inception_date": "2013-01-02",
-    "nav": 302.67,
-    "returns": {
-      "1y": 3.0,
-      "3y": 13.8,
-      "5y": 14.0
-    },
-    "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
-    },
-    "rolling_consistency_3y_pct": 73,
-    "max_drawdown_5y_pct": -23.8,
-    "recovery_months": 14,
-    "nav_history_3y": [
-      225.44,
-      236.37,
-      242.73,
-      242.63,
-      237.59,
-      253.35,
-      251.56,
-      271.79,
-      280.63,
-      289.33,
-      297.48,
-      288.32,
-      286.16,
-      284.61,
-      265.18,
-      231.09,
-      247.48,
-      256.29,
-      278.2,
-      289.44,
-      286.44,
-      277.1,
-      282.4,
-      296.15,
-      292.49,
-      288.81,
-      279.38,
-      280.75,
-      252.59,
-      299.88,
-      308.58,
-      320.02,
-      320.91,
-      335.64,
-      327.42,
-      302.67
-    ]
-  },
-  {
-    "id": "145206",
-    "name": "Tata Small Cap Fund",
-    "amc": "Tata",
-    "category": "Small Cap",
-    "scheme_url": "https://groww.in/mutual-funds/tata-small-cap-fund-direct-growth",
-    "aum_cr": 13093.88,
-    "expense_ratio": 0.51,
-    "manager": {
-      "name": "Chandraprakash Padiyar",
-      "tenure_years": 8.0,
-      "funds_managed": 2,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Chandraprakash Padiyar",
-        "tenure_years": 8.0,
-        "funds_managed": 2,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Jeetendra Khatri",
-        "tenure_years": 3.0,
-        "funds_managed": 1,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Small Cap",
-      "actual": "Quality-Growth",
-      "r_squared": 0.84,
-      "match": "strict",
-      "basis": "Quality"
-    },
-    "concentration": {
-      "top_10_pct": 34.1,
-      "num_stocks": 62,
-      "top_sector_pct": 15.7,
-      "top_sectors": [
-        {
-          "name": "Metals & Mining",
-          "pct": 15.7
-        },
-        {
-          "name": "Services",
-          "pct": 13.6
-        },
-        {
-          "name": "Chemicals",
-          "pct": 12.6
-        }
-      ]
-    },
-    "inception_date": "2018-11-13",
-    "nav": 40.84,
-    "returns": {
-      "1y": -7.6,
-      "3y": 9.1,
-      "5y": 12.6
-    },
-    "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
-    },
-    "rolling_consistency_3y_pct": 89,
-    "max_drawdown_5y_pct": -30.9,
-    "recovery_months": 7,
-    "nav_history_3y": [
-      33.78,
-      35.07,
-      36.26,
-      36.53,
-      35.77,
-      39.41,
-      39.42,
-      43.06,
-      45.54,
-      46.96,
-      48.41,
-      48.31,
-      47.57,
-      46.83,
-      41.59,
-      37.62,
-      40.56,
-      40.25,
-      43.99,
-      45.61,
-      46.03,
-      44.34,
-      44.4,
-      44.33,
-      42.38,
-      41.55,
-      39.26,
-      38.75,
-      34.3,
-      39.54,
-      40.28,
-      42.97,
-      43.44,
-      44.73,
-      44.92,
-      40.84
+      13.09
     ]
   },
   {
@@ -5084,16 +4106,16 @@
       ]
     },
     "inception_date": "2026-03-30",
-    "nav": 10.8,
+    "nav": 11.01,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -11.1,
@@ -5106,7 +4128,7 @@
       11.45,
       11.99,
       11.71,
-      10.8
+      11.01
     ]
   },
   {
@@ -5158,18 +4180,18 @@
       ]
     },
     "inception_date": "2020-12-23",
-    "nav": 27.31,
+    "nav": 27.91,
     "returns": {
-      "1y": -3.1,
-      "3y": 11.5,
-      "5y": 12.8
+      "1y": -2.1,
+      "3y": 12.3,
+      "5y": 13.2
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
-    "rolling_consistency_3y_pct": 98,
+    "rolling_consistency_3y_pct": 95,
     "max_drawdown_5y_pct": -22.3,
     "recovery_months": 16,
     "nav_history_3y": [
@@ -5208,7 +4230,7 @@
       29.53,
       30.44,
       29.03,
-      27.31
+      27.91
     ]
   },
   {
@@ -5246,16 +4268,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2014-06-17",
-    "nav": 61.36,
+    "nav": 63.13,
     "returns": {
-      "1y": 10.7,
-      "3y": 14.0,
-      "5y": 15.4
+      "1y": 13.2,
+      "3y": 15.1,
+      "5y": 16.0
     },
     "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
+      "1y": 3.8,
+      "3y": 14.5,
+      "5y": 14.7
     },
     "rolling_consistency_3y_pct": 61,
     "max_drawdown_5y_pct": -26.2,
@@ -5296,7 +4318,7 @@
       64.13,
       68.2,
       66.25,
-      61.36
+      63.13
     ]
   },
   {
@@ -5354,14 +4376,14 @@
       ]
     },
     "inception_date": "2024-01-25",
-    "nav": 12.84,
+    "nav": 12.96,
     "returns": {
-      "1y": 5.0,
+      "1y": 5.5,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": 5.0,
+      "1y": 5.5,
       "3y": null,
       "5y": null
     },
@@ -5402,7 +4424,7 @@
       13.78,
       14.14,
       13.7,
-      12.84
+      12.96
     ]
   },
   {
@@ -5466,16 +4488,16 @@
       ]
     },
     "inception_date": "2024-04-29",
-    "nav": 12.09,
+    "nav": 12.26,
     "returns": {
-      "1y": 1.4,
+      "1y": 2.1,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": -4.2,
-      "3y": 13.4,
-      "5y": 10.9
+      "1y": -3.7,
+      "3y": 14.2,
+      "5y": 12.0
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -18.9,
@@ -5511,109 +4533,7 @@
       12.45,
       13.03,
       12.46,
-      12.09
-    ]
-  },
-  {
-    "id": "152939",
-    "name": "Trust MF Small Cap Fund",
-    "amc": "Trust MF",
-    "category": "Small Cap",
-    "scheme_url": "https://groww.in/mutual-funds/trustmf-small-cap-fund-direct-growth",
-    "aum_cr": 3438.9,
-    "expense_ratio": 1.54,
-    "manager": {
-      "name": "Aakash Manghani",
-      "tenure_years": 2.0,
-      "funds_managed": 5,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Aakash Manghani",
-        "tenure_years": 2.0,
-        "funds_managed": 5,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Mihir Vora",
-        "tenure_years": 2.0,
-        "funds_managed": 6,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Saurabh Kataria",
-        "tenure_years": 0.4,
-        "funds_managed": 5,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Small Cap",
-      "actual": "Growth",
-      "r_squared": 0.0,
-      "match": "moderate",
-      "basis": "Growth"
-    },
-    "concentration": {
-      "top_10_pct": 23.5,
-      "num_stocks": 68,
-      "top_sector_pct": 17.5,
-      "top_sectors": [
-        {
-          "name": "Financial",
-          "pct": 17.5
-        },
-        {
-          "name": "Capital Goods",
-          "pct": 14.5
-        },
-        {
-          "name": "Healthcare",
-          "pct": 13.9
-        }
-      ]
-    },
-    "inception_date": "2024-11-05",
-    "nav": 13.01,
-    "returns": {
-      "1y": 18.3,
-      "3y": null,
-      "5y": null
-    },
-    "category_avg_returns": {
-      "1y": 3.0,
-      "3y": 13.6,
-      "5y": 14.0
-    },
-    "rolling_consistency_3y_pct": null,
-    "max_drawdown_5y_pct": -24.0,
-    "recovery_months": 8,
-    "nav_history_3y": [
-      10.35,
-      10.79,
-      9.62,
-      8.44,
-      9.37,
-      9.21,
-      10.1,
-      10.48,
-      10.41,
-      10.32,
-      10.4,
-      11.13,
-      11.12,
-      10.91,
-      10.5,
-      10.75,
-      9.93,
-      11.63,
-      12.3,
-      13.08,
-      13.19,
-      14.06,
-      13.78,
-      13.01
+      12.26
     ]
   },
   {
@@ -5677,16 +4597,16 @@
       ]
     },
     "inception_date": "2025-06-09",
-    "nav": 10.39,
+    "nav": 10.51,
     "returns": {
-      "1y": 0.3,
+      "1y": 1.1,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": -4.2,
-      "3y": 13.4,
-      "5y": 10.9
+      "1y": -3.7,
+      "3y": 14.2,
+      "5y": 12.0
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -13.2,
@@ -5708,7 +4628,7 @@
       10.63,
       10.85,
       10.61,
-      10.39
+      10.51
     ]
   },
   {
@@ -5772,16 +4692,16 @@
       ]
     },
     "inception_date": "2025-08-06",
-    "nav": 9.7,
+    "nav": 9.92,
     "returns": {
-      "1y": -4.0,
+      "1y": -2.4,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": -4.2,
-      "3y": 13.4,
-      "5y": 10.9
+      "1y": -3.7,
+      "3y": 14.2,
+      "5y": 12.0
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -10.1,
@@ -5801,7 +4721,7 @@
       10.21,
       10.64,
       10.16,
-      9.7
+      9.92
     ]
   },
   {
@@ -5845,16 +4765,16 @@
       "top_sector_pct": 0.0
     },
     "inception_date": "2025-10-17",
-    "nav": 9.31,
+    "nav": 9.38,
     "returns": {
-      "1y": -8.0,
+      "1y": -8.1,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": -4.2,
-      "3y": 13.4,
-      "5y": 10.9
+      "1y": -3.7,
+      "3y": 14.2,
+      "5y": 12.0
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -14.3,
@@ -5872,7 +4792,7 @@
       10.05,
       10.12,
       9.6,
-      9.31
+      9.38
     ]
   },
   {
@@ -5930,16 +4850,16 @@
       ]
     },
     "inception_date": "2025-10-17",
-    "nav": 9.15,
+    "nav": 9.25,
     "returns": {
-      "1y": -8.5,
+      "1y": -7.9,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": -4.2,
-      "3y": 13.4,
-      "5y": 10.9
+      "1y": -3.7,
+      "3y": 14.2,
+      "5y": 12.0
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -16.1,
@@ -5957,7 +4877,7 @@
       10.15,
       10.35,
       9.66,
-      9.15
+      9.25
     ]
   },
   {
@@ -6015,16 +4935,16 @@
       ]
     },
     "inception_date": "2025-12-30",
-    "nav": 10.34,
+    "nav": 10.4,
     "returns": {
       "1y": null,
       "3y": null,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": -4.2,
-      "3y": 13.4,
-      "5y": 10.9
+      "1y": -3.7,
+      "3y": 14.2,
+      "5y": 12.0
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -10.7,
@@ -6040,7 +4960,7 @@
       11.12,
       11.48,
       10.87,
-      10.34
+      10.4
     ]
   },
   {
@@ -6111,11 +5031,11 @@
       "5y": 11.3
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
-    "rolling_consistency_3y_pct": 78,
+    "rolling_consistency_3y_pct": 75,
     "max_drawdown_5y_pct": -20.0,
     "recovery_months": 12,
     "nav_history_3y": [
@@ -6212,18 +5132,18 @@
       ]
     },
     "inception_date": "2022-03-14",
-    "nav": 122.36,
+    "nav": 124.26,
     "returns": {
-      "1y": 0.2,
-      "3y": 14.7,
+      "1y": 0.8,
+      "3y": 15.2,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
-    "rolling_consistency_3y_pct": 100,
+    "rolling_consistency_3y_pct": 97,
     "max_drawdown_5y_pct": -18.6,
     "recovery_months": 9,
     "nav_history_3y": [
@@ -6262,7 +5182,7 @@
       134.79,
       137.57,
       128.49,
-      122.36
+      124.26
     ]
   },
   {
@@ -6332,16 +5252,16 @@
       ]
     },
     "inception_date": "2022-08-19",
-    "nav": 18.91,
+    "nav": 19.23,
     "returns": {
-      "1y": 1.3,
-      "3y": 16.4,
+      "1y": 2.2,
+      "3y": 17.0,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -22.7,
@@ -6382,7 +5302,7 @@
       19.89,
       20.93,
       19.79,
-      18.91
+      19.23
     ]
   },
   {
@@ -6440,18 +5360,18 @@
       ]
     },
     "inception_date": "2022-12-06",
-    "nav": 17.76,
+    "nav": 17.97,
     "returns": {
-      "1y": -2.9,
-      "3y": 14.9,
+      "1y": -2.4,
+      "3y": 15.3,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
-    "rolling_consistency_3y_pct": 100,
+    "rolling_consistency_3y_pct": 95,
     "max_drawdown_5y_pct": -21.2,
     "recovery_months": 6,
     "nav_history_3y": [
@@ -6490,96 +5410,7 @@
       19.2,
       19.84,
       18.72,
-      17.76
-    ]
-  },
-  {
-    "id": "119071",
-    "name": "DSP Midcap Fund",
-    "amc": "DSP",
-    "category": "Mid Cap",
-    "scheme_url": "https://www.dspim.com/nfo/factsheets",
-    "aum_cr": 0,
-    "expense_ratio": 0,
-    "manager": {
-      "name": "Unknown",
-      "tenure_years": 0.0,
-      "funds_managed": 1,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Unknown",
-        "tenure_years": 0.0,
-        "funds_managed": 1,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Mid Cap",
-      "actual": "Growth",
-      "r_squared": 0.85,
-      "match": "strict",
-      "basis": "Mid Cap universe"
-    },
-    "concentration": {
-      "top_10_pct": 0,
-      "num_stocks": 0,
-      "top_sector_pct": 0,
-      "top_sectors": []
-    },
-    "inception_date": "2013-01-02",
-    "nav": 158.05,
-    "returns": {
-      "1y": -4.5,
-      "3y": 12.1,
-      "5y": 9.6
-    },
-    "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
-    },
-    "rolling_consistency_3y_pct": 70,
-    "max_drawdown_5y_pct": -21.5,
-    "recovery_months": 13,
-    "nav_history_3y": [
-      123.63,
-      131.22,
-      130.31,
-      129.63,
-      127.72,
-      137.61,
-      143.37,
-      156.12,
-      164.98,
-      166.66,
-      169.01,
-      159.51,
-      161.18,
-      162.18,
-      149.34,
-      133.64,
-      144.78,
-      148.64,
-      157.97,
-      165.34,
-      163.59,
-      161.07,
-      162.21,
-      166.16,
-      168.45,
-      166.52,
-      162.22,
-      167.49,
-      148.88,
-      165.24,
-      167.16,
-      171.24,
-      174.0,
-      178.56,
-      165.52,
-      158.05
+      17.97
     ]
   },
   {
@@ -6650,9 +5481,9 @@
       "5y": 15.6
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
     "rolling_consistency_3y_pct": 78,
     "max_drawdown_5y_pct": -20.1,
@@ -6757,18 +5588,18 @@
       ]
     },
     "inception_date": "2013-01-01",
-    "nav": 2887.17,
+    "nav": 2911.91,
     "returns": {
-      "1y": -7.6,
-      "3y": 13.2,
-      "5y": 10.9
+      "1y": -7.7,
+      "3y": 13.5,
+      "5y": 11.2
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
-    "rolling_consistency_3y_pct": 70,
+    "rolling_consistency_3y_pct": 64,
     "max_drawdown_5y_pct": -22.7,
     "recovery_months": 11,
     "nav_history_3y": [
@@ -6807,7 +5638,7 @@
       3207.04,
       3252.71,
       3035.06,
-      2887.17
+      2911.91
     ]
   },
   {
@@ -6866,9 +5697,9 @@
       "5y": null
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
     "rolling_consistency_3y_pct": null,
     "max_drawdown_5y_pct": -24.5,
@@ -6946,18 +5777,18 @@
       ]
     },
     "inception_date": "2013-01-02",
-    "nav": 344.53,
+    "nav": 352.1,
     "returns": {
-      "1y": 0.2,
-      "3y": 18.5,
-      "5y": 14.0
+      "1y": 1.4,
+      "3y": 19.4,
+      "5y": 14.5
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
-    "rolling_consistency_3y_pct": 70,
+    "rolling_consistency_3y_pct": 69,
     "max_drawdown_5y_pct": -21.3,
     "recovery_months": 3,
     "nav_history_3y": [
@@ -6996,7 +5827,7 @@
       382.26,
       399.05,
       370.6,
-      344.53
+      352.1
     ]
   },
   {
@@ -7055,11 +5886,11 @@
       "5y": 16.4
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
-    "rolling_consistency_3y_pct": 76,
+    "rolling_consistency_3y_pct": 72,
     "max_drawdown_5y_pct": -20.1,
     "recovery_months": 3,
     "nav_history_3y": [
@@ -7163,9 +5994,9 @@
       "5y": 13.1
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -22.7,
@@ -7276,16 +6107,16 @@
       ]
     },
     "inception_date": "2022-11-25",
-    "nav": 20.41,
+    "nav": 20.83,
     "returns": {
-      "1y": -1.1,
-      "3y": 16.7,
+      "1y": 0.2,
+      "3y": 17.5,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -22.5,
@@ -7326,7 +6157,7 @@
       22.19,
       23.13,
       21.9,
-      20.41
+      20.83
     ]
   },
   {
@@ -7365,18 +6196,18 @@
       "top_sectors": []
     },
     "inception_date": "2013-01-03",
-    "nav": 150.91,
+    "nav": 152.53,
     "returns": {
-      "1y": -6.1,
-      "3y": 13.9,
-      "5y": 13.8
+      "1y": -5.1,
+      "3y": 14.4,
+      "5y": 13.9
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
-    "rolling_consistency_3y_pct": 79,
+    "rolling_consistency_3y_pct": 75,
     "max_drawdown_5y_pct": -20.9,
     "recovery_months": 5,
     "nav_history_3y": [
@@ -7415,7 +6246,7 @@
       170.68,
       174.06,
       160.99,
-      150.91
+      152.53
     ]
   },
   {
@@ -7467,18 +6298,18 @@
       ]
     },
     "inception_date": "2023-07-31",
-    "nav": 31.5,
+    "nav": 31.81,
     "returns": {
-      "1y": -4.6,
-      "3y": 13.3,
+      "1y": -4.0,
+      "3y": 13.6,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
-    "rolling_consistency_3y_pct": 86,
+    "rolling_consistency_3y_pct": 71,
     "max_drawdown_5y_pct": -21.5,
     "recovery_months": 16,
     "nav_history_3y": [
@@ -7517,7 +6348,7 @@
       34.52,
       35.86,
       33.58,
-      31.5
+      31.81
     ]
   },
   {
@@ -7581,18 +6412,18 @@
       ]
     },
     "inception_date": "2018-02-06",
-    "nav": 37.15,
+    "nav": 37.59,
     "returns": {
-      "1y": -2.1,
-      "3y": 14.9,
-      "5y": 14.5
+      "1y": -1.5,
+      "3y": 15.3,
+      "5y": 14.8
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
-    "rolling_consistency_3y_pct": 95,
+    "rolling_consistency_3y_pct": 93,
     "max_drawdown_5y_pct": -20.9,
     "recovery_months": 14,
     "nav_history_3y": [
@@ -7631,7 +6462,7 @@
       41.87,
       42.71,
       39.28,
-      37.15
+      37.59
     ]
   },
   {
@@ -7690,11 +6521,11 @@
       "5y": 12.6
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
-    "rolling_consistency_3y_pct": 98,
+    "rolling_consistency_3y_pct": 96,
     "max_drawdown_5y_pct": -22.5,
     "recovery_months": 7,
     "nav_history_3y": [
@@ -7797,16 +6628,16 @@
       ]
     },
     "inception_date": "2013-01-02",
-    "nav": 4560.4,
+    "nav": 4605.87,
     "returns": {
-      "1y": -2.0,
-      "3y": 16.1,
-      "5y": 15.5
+      "1y": -1.6,
+      "3y": 16.4,
+      "5y": 15.7
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
     "rolling_consistency_3y_pct": 69,
     "max_drawdown_5y_pct": -19.9,
@@ -7847,127 +6678,7 @@
       4987.09,
       5052.76,
       4772.23,
-      4560.4
-    ]
-  },
-  {
-    "id": "125307",
-    "name": "PGIM India Midcap Fund",
-    "amc": "PGIM India",
-    "category": "Mid Cap",
-    "scheme_url": "https://groww.in/mutual-funds/pgim-india-midcap-fund-direct-growth",
-    "aum_cr": 11217.67,
-    "expense_ratio": 0.74,
-    "manager": {
-      "name": "Vinay Paharia",
-      "tenure_years": 3.5,
-      "funds_managed": 10,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Vinay Paharia",
-        "tenure_years": 3.5,
-        "funds_managed": 10,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Vivek Sharma",
-        "tenure_years": 2.5,
-        "funds_managed": 14,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Utsav Mehta",
-        "tenure_years": 2.9,
-        "funds_managed": 8,
-        "changed_last_12mo": false
-      },
-      {
-        "name": "Puneet Pal",
-        "tenure_years": 4.2,
-        "funds_managed": 20,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Mid Cap",
-      "actual": "Growth",
-      "r_squared": 0.85,
-      "match": "strict",
-      "basis": "Mid Cap universe"
-    },
-    "concentration": {
-      "top_10_pct": 22.3,
-      "num_stocks": 103,
-      "top_sector_pct": 20.2,
-      "top_sectors": [
-        {
-          "name": "Financial",
-          "pct": 20.2
-        },
-        {
-          "name": "Services",
-          "pct": 14.0
-        },
-        {
-          "name": "Healthcare",
-          "pct": 11.1
-        }
-      ]
-    },
-    "inception_date": "2013-12-05",
-    "nav": 71.65,
-    "returns": {
-      "1y": -6.1,
-      "3y": 10.3,
-      "5y": 8.7
-    },
-    "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
-    },
-    "rolling_consistency_3y_pct": 55,
-    "max_drawdown_5y_pct": -19.5,
-    "recovery_months": 3,
-    "nav_history_3y": [
-      57.74,
-      60.0,
-      60.21,
-      61.11,
-      61.33,
-      63.73,
-      64.31,
-      70.9,
-      72.89,
-      74.15,
-      76.31,
-      71.41,
-      72.17,
-      73.49,
-      68.13,
-      62.47,
-      67.06,
-      69.02,
-      72.29,
-      76.56,
-      75.4,
-      74.84,
-      74.23,
-      76.05,
-      75.84,
-      74.42,
-      71.59,
-      73.06,
-      65.34,
-      72.93,
-      74.16,
-      75.78,
-      77.23,
-      79.02,
-      74.77,
-      71.65
+      4605.87
     ]
   },
   {
@@ -8025,18 +6736,18 @@
       ]
     },
     "inception_date": "2013-01-02",
-    "nav": 248.14,
+    "nav": 249.86,
     "returns": {
       "1y": -4.3,
-      "3y": 8.6,
-      "5y": 11.0
+      "3y": 8.9,
+      "5y": 11.1
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
-    "rolling_consistency_3y_pct": 67,
+    "rolling_consistency_3y_pct": 63,
     "max_drawdown_5y_pct": -17.9,
     "recovery_months": 20,
     "nav_history_3y": [
@@ -8075,109 +6786,7 @@
       274.46,
       276.45,
       261.73,
-      248.14
-    ]
-  },
-  {
-    "id": "119178",
-    "name": "Tata Mid Cap Growth Fund",
-    "amc": "Tata",
-    "category": "Mid Cap",
-    "scheme_url": "https://groww.in/mutual-funds/tata-mid-cap-growth-fund-direct-growth",
-    "aum_cr": 6240.29,
-    "expense_ratio": 0.86,
-    "manager": {
-      "name": "Satish Chandra Mishra",
-      "tenure_years": 5.6,
-      "funds_managed": 3,
-      "changed_last_12mo": false
-    },
-    "managers": [
-      {
-        "name": "Satish Chandra Mishra",
-        "tenure_years": 5.6,
-        "funds_managed": 3,
-        "changed_last_12mo": false
-      }
-    ],
-    "style": {
-      "declared": "Mid Cap",
-      "actual": "Growth",
-      "r_squared": 0.85,
-      "match": "strict",
-      "basis": "Mid Cap universe"
-    },
-    "concentration": {
-      "top_10_pct": 27.8,
-      "num_stocks": 62,
-      "top_sector_pct": 20.2,
-      "top_sectors": [
-        {
-          "name": "Financial",
-          "pct": 20.2
-        },
-        {
-          "name": "Healthcare",
-          "pct": 11.3
-        },
-        {
-          "name": "Services",
-          "pct": 9.7
-        }
-      ]
-    },
-    "inception_date": "2013-01-02",
-    "nav": 485.97,
-    "returns": {
-      "1y": -2.3,
-      "3y": 13.0,
-      "5y": 12.5
-    },
-    "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
-    },
-    "rolling_consistency_3y_pct": 72,
-    "max_drawdown_5y_pct": -21.2,
-    "recovery_months": 10,
-    "nav_history_3y": [
-      368.54,
-      387.72,
-      403.4,
-      405.96,
-      408.16,
-      436.49,
-      452.09,
-      486.13,
-      509.96,
-      506.8,
-      514.17,
-      485.3,
-      483.95,
-      481.45,
-      454.9,
-      408.11,
-      441.06,
-      453.17,
-      470.06,
-      494.18,
-      488.9,
-      479.46,
-      484.23,
-      504.7,
-      513.63,
-      515.8,
-      498.37,
-      508.01,
-      455.08,
-      505.39,
-      512.93,
-      520.43,
-      532.2,
-      543.76,
-      507.26,
-      485.97
+      249.86
     ]
   },
   {
@@ -8242,11 +6851,11 @@
       "5y": 13.2
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
-    "rolling_consistency_3y_pct": 100,
+    "rolling_consistency_3y_pct": 98,
     "max_drawdown_5y_pct": -21.3,
     "recovery_months": 8,
     "nav_history_3y": [
@@ -8337,16 +6946,16 @@
       ]
     },
     "inception_date": "2013-01-02",
-    "nav": 323.88,
+    "nav": 327.62,
     "returns": {
-      "1y": -4.8,
-      "3y": 10.1,
-      "5y": 9.9
+      "1y": -4.4,
+      "3y": 10.5,
+      "5y": 10.1
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
     "rolling_consistency_3y_pct": 63,
     "max_drawdown_5y_pct": -22.7,
@@ -8387,7 +6996,7 @@
       351.28,
       363.3,
       338.17,
-      323.88
+      327.62
     ]
   },
   {
@@ -8463,16 +7072,16 @@
       ]
     },
     "inception_date": "2022-09-08",
-    "nav": 21.63,
+    "nav": 21.93,
     "returns": {
-      "1y": 3.2,
-      "3y": 19.8,
+      "1y": 3.7,
+      "3y": 20.3,
       "5y": null
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
     "rolling_consistency_3y_pct": 100,
     "max_drawdown_5y_pct": -19.3,
@@ -8513,7 +7122,7 @@
       23.13,
       23.93,
       22.46,
-      21.63
+      21.93
     ]
   },
   {
@@ -8601,18 +7210,18 @@
       ]
     },
     "inception_date": "2013-01-07",
-    "nav": 231.22,
+    "nav": 234.7,
     "returns": {
-      "1y": -3.1,
-      "3y": 9.6,
-      "5y": 13.2
+      "1y": -2.7,
+      "3y": 10.1,
+      "5y": 13.4
     },
     "category_avg_returns": {
-      "1y": -2.8,
-      "3y": 14.8,
-      "5y": 13.2
+      "1y": -2.2,
+      "3y": 15.5,
+      "5y": 13.9
     },
-    "rolling_consistency_3y_pct": 49,
+    "rolling_consistency_3y_pct": 48,
     "max_drawdown_5y_pct": -26.0,
     "recovery_months": 20,
     "nav_history_3y": [
@@ -8651,7 +7260,7 @@
       252.21,
       252.96,
       241.59,
-      231.22
+      234.7
     ]
   }
 ]
